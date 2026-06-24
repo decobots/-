@@ -76,6 +76,18 @@ function relatedHtml(t) {
     '<div class="related-chips">' + chips + "</div></div>";
 }
 
+// Origin & etymology — the meaning of the character and the earliest /
+// authoritative descriptions (You Lan, Taiyin Daquanji, Yuguzhai Qinpu).
+function etymologyHtml(t) {
+  if (!t.etymology) return "";
+  var src = t.etymology_source
+    ? ' <a class="etym-src" href="' + escapeHtml(t.etymology_source) +
+      '" target="_blank" rel="noopener">source →</a>'
+    : "";
+  return '<div class="etymology"><span class="etym-label">Origin · 釋名</span>' +
+    escapeHtml(t.etymology) + src + "</div>";
+}
+
 // The poetic gesture-image (手勢圖 woodblock) folded onto the card.
 function poeticHtml(t) {
   var g = store.gestureByTech[t.id];
@@ -133,6 +145,7 @@ export function card(t) {
 
   html += mediaHtml(t);
   html += relatedHtml(t);
+  html += etymologyHtml(t);
   html += poeticHtml(t);
   if (t.notes) html += '  <p class="card-notes">' + escapeHtml(t.notes) + "</p>";
   html += '  <div class="card-sources">' + sourceLinks(t.source_url) + "</div>";

@@ -34,7 +34,7 @@
       "hand": "right",
       "description": "Pinches, wheels, locks, sweeps and rolls built from the eight basic strokes across one or more strings.",
       "indexSource": "https://peiyouqin.com/notation2.html",
-      "count": 31
+      "count": 32
     },
     {
       "id": "left-basic",
@@ -54,7 +54,7 @@
       "hand": "left",
       "description": "Variations of the two basic vibratos: longer, finer, calmer, faster, immediate, or accented.",
       "indexSource": "https://peiyouqin.com/notation3b.html",
-      "count": 11
+      "count": 16
     },
     {
       "id": "slide-strike",
@@ -74,7 +74,7 @@
       "hand": "left",
       "description": "Pull-offs, hammer-ons, pushes and advance/return slides where the left hand itself produces the note with no right-hand pluck.",
       "indexSource": "https://silkqin.com/02qnpu/05tydq/ty5d.htm",
-      "count": 14
+      "count": 15
     },
     {
       "id": "tone-position",
@@ -103,7 +103,9 @@
       ],
       "notes": null,
       "photo": "assets/photos/A1_dazhi.jpg",
-      "glyph_image": "assets/glyphs/peiyou/dazhiN.jpg"
+      "glyph_image": "assets/glyphs/peiyou/dazhiN.jpg",
+      "etymology": "The thumb — the “chief finger” (after Mencius); the first finger of the hand.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
     },
     {
       "id": "A2",
@@ -120,7 +122,9 @@
       ],
       "notes": null,
       "photo": "assets/photos/A2_shizhi.jpg",
-      "glyph_image": "assets/glyphs/peiyou/shizhiN.jpg"
+      "glyph_image": "assets/glyphs/peiyou/shizhiN.jpg",
+      "etymology": "The index finger; per the Zuo-chuan, an allusion to Zi-gong’s twitching “eating finger” that foretold a feast.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
     },
     {
       "id": "A3",
@@ -137,7 +141,9 @@
       ],
       "notes": null,
       "photo": "assets/photos/A3_zhongzhi.jpg",
-      "glyph_image": "assets/glyphs/peiyou/zhongzhiN.jpg"
+      "glyph_image": "assets/glyphs/peiyou/zhongzhiN.jpg",
+      "etymology": "The third or “leading” finger of the hand.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
     },
     {
       "id": "A4",
@@ -154,7 +160,9 @@
       ],
       "notes": null,
       "photo": "assets/photos/A4_mingzhi.jpg",
-      "glyph_image": "assets/glyphs/peiyou/mingzhiN.jpg"
+      "glyph_image": "assets/glyphs/peiyou/mingzhiN.jpg",
+      "etymology": "The ring finger; its name comes from Mencius’s “no-name finger” (wú-míng zhǐ), the nameless finger.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
     },
     {
       "id": "A5",
@@ -171,7 +179,9 @@
       ],
       "notes": "Written with a kneel mark.",
       "photo": "assets/photos/A5_gui.jpg",
-      "glyph_image": "assets/glyphs/peiyou/guiN.jpg"
+      "glyph_image": "assets/glyphs/peiyou/guiN.jpg",
+      "etymology": "A posture in which both joints of the ring finger bend so the last digit “kneels” down onto the string.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
     },
     {
       "id": "B1",
@@ -234,7 +244,9 @@
             "dir": "down"
           }
         ]
-      }
+      },
+      "etymology": "Index finger sounding inward, using half fingernail and half flesh — strike heavy, enter light.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm"
     },
     {
       "id": "B2",
@@ -282,7 +294,9 @@
             "dir": "up"
           }
         ]
-      }
+      },
+      "etymology": "Index finger outward; the finger hangs and falls to produce a strong, clear tone.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm"
     },
     {
       "id": "B3",
@@ -345,7 +359,9 @@
             "dir": "down"
           }
         ]
-      }
+      },
+      "etymology": "Middle finger inward, striking straight (not brushing); the last joint must fall past and under the thumbnail.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v47/v47.htm"
     },
     {
       "id": "B4",
@@ -393,7 +409,9 @@
             "dir": "up"
           }
         ]
-      }
+      },
+      "etymology": "Middle finger outward (like tiāo); not too deep, or the tone is blocked.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm"
     },
     {
       "id": "B5",
@@ -441,7 +459,9 @@
             "dir": "down"
           }
         ]
-      }
+      },
+      "etymology": "Ring finger inward, mostly on strings 1–2; despite literally meaning “to strike,” dǎ is not played with force.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm"
     },
     {
       "id": "B6",
@@ -489,7 +509,9 @@
             "dir": "up"
           }
         ]
-      }
+      },
+      "etymology": "Ring finger outward (like tī, but without the thumb beneath); mostly used within gǔn and lún.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm"
     },
     {
       "id": "B7",
@@ -537,7 +559,9 @@
             "dir": "up"
           }
         ]
-      }
+      },
+      "etymology": "Thumb inward, toward the body; rarely used. Yan Tianchi and Xu Qingshan historically reversed the senses of bò and tuō.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm"
     },
     {
       "id": "B8",
@@ -585,7 +609,9 @@
             "dir": "down"
           }
         ]
-      }
+      },
+      "etymology": "Thumb outward, toward the bridge; etymology “to pull,” used when the reach is too far for the index or middle fingers.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm"
     },
     {
       "id": "B9",
@@ -644,7 +670,9 @@
             "dir": "down"
           }
         ]
-      }
+      },
+      "etymology": "Literally “to pinch”: two strings sounded at once with gōu+tiāo. Earliest (You Lan, Tang): the ring finger and thumb in unison.",
+      "etymology_source": "https://silkqin.com/02qnpu/01yl/wusilan.htm"
     },
     {
       "id": "B10",
@@ -711,7 +739,9 @@
             "dir": "up"
           }
         ]
-      }
+      },
+      "etymology": "Three successive sounds on a string with zhāi, tī, tiāo in sequence; the bending knuckles line up close together.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm"
     },
     {
       "id": "B12",
@@ -749,7 +779,9 @@
             "dir": "up"
           }
         ]
-      }
+      },
+      "etymology": "Two sounds using only zhāi and tī — the lún method with the index finger left out.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v47/v47.htm"
     },
     {
       "id": "B13",
@@ -781,7 +813,9 @@
           "relation": "component-of",
           "label": "component of"
         }
-      ]
+      ],
+      "etymology": "Earliest (You Lan, Tang): the suǒ appears as 三鎖, the index finger rapidly making three connected sounds.",
+      "etymology_source": "https://silkqin.com/02qnpu/01yl/wusilan.htm"
     },
     {
       "id": "B14",
@@ -815,7 +849,9 @@
           "relation": "builds-on",
           "label": "builds on"
         }
-      ]
+      ],
+      "etymology": "Cháng-suǒ (長銷): seven (or nine) sounds — mǒ, tiāo, mǒ, gōu, then a bèi-suǒ added.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm"
     },
     {
       "id": "B15",
@@ -853,7 +889,9 @@
           "relation": "compare",
           "label": "compare"
         }
-      ]
+      ],
+      "etymology": "Three strings sounded together (one sound each) with dǎ, gōu, mǒ; used with harmonics — attested as early as the You Lan.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm"
     },
     {
       "id": "B16",
@@ -876,7 +914,9 @@
           "relation": "compare",
           "label": "compare"
         }
-      ]
+      ],
+      "etymology": "Two strings sounded together with gōu and mǒ; also called lōu-yuán (摟圓), used only with harmonics.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm"
     },
     {
       "id": "B17",
@@ -898,7 +938,9 @@
           "relation": "component-of",
           "label": "component of"
         }
-      ]
+      ],
+      "etymology": "In the You Lan, juān runs the index finger quickly inward across the strings — a rapid double inward stroke; the earliest attestation.",
+      "etymology_source": "https://silkqin.com/02qnpu/01yl/wusilan.htm"
     },
     {
       "id": "B18",
@@ -955,7 +997,9 @@
           "relation": "same-motion",
           "label": "same motion"
         }
-      ]
+      ],
+      "etymology": "First of the bō-là (潑刺) pair: three joined fingers sweep down-left across the strings, likened to a fish slapping its tail.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm"
     },
     {
       "id": "B20",
@@ -990,7 +1034,9 @@
           "relation": "same-motion",
           "label": "same motion"
         }
-      ]
+      ],
+      "etymology": "Second of the bō-là pair: three fingers brush up-right, “like the tearing of silk.”",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm"
     },
     {
       "id": "B21",
@@ -1029,7 +1075,9 @@
           "relation": "component-of",
           "label": "component of"
         }
-      ]
+      ],
+      "etymology": "Etymology “to roll”: continuous rolling with the ring finger doing zhāi from string 7 toward 1; also called lín (臨), often with harmonics.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm"
     },
     {
       "id": "B22",
@@ -1063,7 +1111,9 @@
           "relation": "same-motion",
           "label": "same motion"
         }
-      ]
+      ],
+      "etymology": "Fú (沸): continuous mǒ swept across the strings — smooth and flowing, never explosive; the complement of gǔn, together 滾拂.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm"
     },
     {
       "id": "C1",
@@ -1125,7 +1175,9 @@
           "relation": "compare",
           "label": "compare"
         }
-      ]
+      ],
+      "etymology": "Vibrato: after the note, the finger oscillates nimbly about 4–5 times before returning — yín gives the note a “living pulse.”",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
     },
     {
       "id": "C2",
@@ -1193,7 +1245,9 @@
           "relation": "builds-on",
           "label": "builds on"
         }
-      ]
+      ],
+      "etymology": "A wider, slower vibrato exceeding the position by ~2–3 fēn; larger than yín, lending the note an ancient strength.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
     },
     {
       "id": "C3",
@@ -1234,7 +1288,9 @@
           "relation": "compare",
           "label": "compare"
         }
-      ]
+      ],
+      "etymology": "Ascending glissando: from just below the position, the slanted finger presses and slides up into the sounding spot.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
     },
     {
       "id": "C4",
@@ -1275,7 +1331,9 @@
           "relation": "compare",
           "label": "compare"
         }
-      ]
+      ],
+      "etymology": "Descending glissando: from just above the position, the slanted finger presses and slides down into the sounding spot.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
     },
     {
       "id": "C5",
@@ -1325,7 +1383,9 @@
           "relation": "component-of",
           "label": "component of"
         }
-      ]
+      ],
+      "etymology": "Any move toward the bridge (“to go up”): after playing, the finger slides up one position for a new sound.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
     },
     {
       "id": "C6",
@@ -1375,7 +1435,9 @@
           "relation": "component-of",
           "label": "component of"
         }
-      ]
+      ],
+      "etymology": "Any move toward the nut (“to go down”): after playing, the finger slides down one position for a new sound.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
     },
     {
       "id": "D1",
@@ -1391,7 +1453,9 @@
         "https://peiyouqin.com/notation3b.html"
       ],
       "notes": "Variation of 吟 yín.",
-      "glyph_image": "assets/glyphs/peiyou/changyinN.jpg"
+      "glyph_image": "assets/glyphs/peiyou/changyinN.jpg",
+      "etymology": "An extended yín — a vibrato sustained for a long time.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
     },
     {
       "id": "D2",
@@ -1407,7 +1471,9 @@
         "https://peiyouqin.com/notation3b.html"
       ],
       "notes": "Variation of 吟 yín.",
-      "glyph_image": "assets/glyphs/peiyou/xiyinN.jpg"
+      "glyph_image": "assets/glyphs/peiyou/xiyinN.jpg",
+      "etymology": "A subtle yín, its oscillation fine and minute.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
     },
     {
       "id": "D3",
@@ -1422,7 +1488,9 @@
       "source_url": [
         "https://peiyouqin.com/notation3b.html"
       ],
-      "notes": "Variation of 吟 yín."
+      "notes": "Variation of 吟 yín.",
+      "etymology": "“Fixed” vibrato: a slight motion without leaving the position, “nailing” the surface to keep the sound alive.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
     },
     {
       "id": "D4",
@@ -1438,7 +1506,9 @@
         "https://peiyouqin.com/notation3b.html"
       ],
       "notes": "Variation of 吟 yín.",
-      "glyph_image": "assets/glyphs/peiyou/youyinN.jpg"
+      "glyph_image": "assets/glyphs/peiyou/youyinN.jpg",
+      "etymology": "“Roaming” vibrato: a chuò, then a descending retreat and a chuò back up — two sounds; also called dàng-yín.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
     },
     {
       "id": "D5",
@@ -1454,7 +1524,9 @@
         "https://peiyouqin.com/notation3b.html"
       ],
       "notes": "Variation of 吟 yín.",
-      "glyph_image": "assets/glyphs/peiyou/luozhiyinN.jpg"
+      "glyph_image": "assets/glyphs/peiyou/luozhiyinN.jpg",
+      "etymology": "“Fallen-finger” vibrato: the finger falls onto the string and immediately plays yín.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
     },
     {
       "id": "D6",
@@ -1502,7 +1574,9 @@
         "https://peiyouqin.com/notation3b.html"
       ],
       "notes": "Variation of 猱 náo.",
-      "glyph_image": "assets/glyphs/peiyou/jirouN.jpg"
+      "glyph_image": "assets/glyphs/peiyou/jirouN.jpg",
+      "etymology": "A náo played with urgency and speed.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
     },
     {
       "id": "D9",
@@ -1518,7 +1592,9 @@
         "https://peiyouqin.com/notation3b.html"
       ],
       "notes": "Variation of 猱 náo.",
-      "glyph_image": "assets/glyphs/peiyou/luozhirouN.jpg"
+      "glyph_image": "assets/glyphs/peiyou/luozhirouN.jpg",
+      "etymology": "“Fallen-finger” wide vibrato, performed like luò-zhǐ-yín.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
     },
     {
       "id": "D10",
@@ -1549,7 +1625,9 @@
       "source_url": [
         "https://peiyouqin.com/notation3b.html"
       ],
-      "notes": "Variation of 猱 náo."
+      "notes": "Variation of 猱 náo.",
+      "etymology": "Combines náo and zhuàng; the motion stays above the current position, never below it.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
     },
     {
       "id": "E1",
@@ -1585,7 +1663,9 @@
           "relation": "faster-slower",
           "label": "slower form of"
         }
-      ]
+      ],
+      "etymology": "“Flowing ascent”: while moving up with the final sound not yet finished, continue the sound and push off back down.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
     },
     {
       "id": "E2",
@@ -1621,7 +1701,9 @@
           "relation": "faster-slower",
           "label": "slower form of"
         }
-      ]
+      ],
+      "etymology": "Drag: at the end the ring finger slides up one position — a sound likened to a cicada crying from a tree.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
     },
     {
       "id": "E3",
@@ -1672,7 +1754,9 @@
           "relation": "compare",
           "label": "compare"
         }
-      ]
+      ],
+      "etymology": "“Knock”: at the pressed spot, quickly move up slightly then snap back for another note, played suddenly.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
     },
     {
       "id": "E4",
@@ -1742,7 +1826,9 @@
           "relation": "builds-on",
           "label": "builds on"
         }
-      ]
+      ],
+      "etymology": "“Empty knock”: a zhuàng made where the right hand has not plucked — the sound from the left-hand motion alone.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
     },
     {
       "id": "E6",
@@ -1813,7 +1899,9 @@
           "relation": "compare",
           "label": "compare"
         }
-      ]
+      ],
+      "etymology": "“Bump”: at the end of a chuò, smoothly add a bump back to the original pitch — method like zhuàng but quick, delicate and quiet.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
     },
     {
       "id": "E8",
@@ -1848,7 +1936,9 @@
           "relation": "component-of",
           "label": "component of"
         }
-      ]
+      ],
+      "etymology": "“Call-out”: on a downward move, go back up then quickly down again — like zhuàng reversed, giving two sounds.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
     },
     {
       "id": "E9",
@@ -1888,7 +1978,9 @@
           "relation": "builds-on",
           "label": "builds on"
         }
-      ]
+      ],
+      "etymology": "“Back-and-forth”: e.g. play at hui 9, slide up to hui 8 and play yín, then return — essentially a doubled jìn-fù.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
     },
     {
       "id": "E10",
@@ -1916,7 +2008,9 @@
           "id": "Rw7u4R0rqKc",
           "label": "Demonstration"
         }
-      ]
+      ],
+      "etymology": "“Divide-open”: on one string, play at the pressed spot, move up for a sound, return and play again — three sounds.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
     },
     {
       "id": "F1",
@@ -1962,7 +2056,9 @@
           "id": "91NcQJiXdAc",
           "label": "Demonstration"
         }
-      ]
+      ],
+      "etymology": "The left thumb and ring finger are placed on the string, then the thumb hooks upward to sound it (a left-hand pluck).",
+      "etymology_source": "https://silkqin.com/02qnpu/01yl/wusilan.htm"
     },
     {
       "id": "F2",
@@ -1989,7 +2085,9 @@
           "id": "KRDxHg4hf88",
           "label": "Demonstration"
         }
-      ]
+      ],
+      "etymology": "“Claw-pull”: the thumb pulls off at the playing position to sound the open string.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
     },
     {
       "id": "F3",
@@ -2034,7 +2132,9 @@
           "id": "ZPMhPFs2Z-g",
           "label": "Demonstration"
         }
-      ]
+      ],
+      "etymology": "“Lead-pull”: the ring finger takes the string and pulls off for one open-string sound.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
     },
     {
       "id": "F4",
@@ -2079,7 +2179,9 @@
           "id": "X-OL_Fa-N1k",
           "label": "Demonstration"
         }
-      ]
+      ],
+      "etymology": "“Cover”: a left finger presses a string to sound it without a right-hand pluck — thumb, middle or ring quickly striking the string onto the face.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
     },
     {
       "id": "F5",
@@ -2113,7 +2215,9 @@
           "id": "k5iXBiF5Udc",
           "label": "Demonstration"
         }
-      ]
+      ],
+      "etymology": "“Empty cover”: a yǎn made when the string has not been plucked first — the same motion as yǎn.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
     },
     {
       "id": "F6",
@@ -2147,7 +2251,9 @@
           "id": "MrxWPmYDVZM",
           "label": "Demonstration"
         }
-      ]
+      ],
+      "etymology": "“Push-out”: only the middle finger, only on string 1 — the last two digits straighten and push the string out, releasing it to sound.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
     },
     {
       "id": "F7",
@@ -2186,7 +2292,9 @@
           "id": "oWgvFBkxMmg",
           "label": "Demonstration"
         }
-      ]
+      ],
+      "etymology": "“Advance-return”: from the pressed spot ascend one position with a sound, then descend back with a sound — two sounds on one string.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
     },
     {
       "id": "F8",
@@ -2225,7 +2333,9 @@
           "id": "g8GPyDgU77A",
           "label": "Demonstration"
         }
-      ]
+      ],
+      "etymology": "“Withdraw-return”: from the pressed spot descend one position with a sound, then ascend back — two sounds on one string.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
     },
     {
       "id": "F9",
@@ -2253,7 +2363,9 @@
           "relation": "component-of",
           "label": "component of"
         }
-      ]
+      ],
+      "etymology": "“Advance”: to ascend one position with a sound after a note.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
     },
     {
       "id": "F10",
@@ -2281,7 +2393,9 @@
           "relation": "component-of",
           "label": "component of"
         }
-      ]
+      ],
+      "etymology": "“Withdraw”: to descend one position with a sound after a note.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
     },
     {
       "id": "F11",
@@ -2303,7 +2417,9 @@
           "relation": "component-of",
           "label": "component of"
         }
-      ]
+      ],
+      "etymology": "“Rise”: a pull-off element used in compounds such as dài-qǐ, tāo-qǐ and fàn-qǐ.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
     },
     {
       "id": "G1",
@@ -2318,7 +2434,9 @@
       "source_url": [
         "https://peiyouqin.com/notation3.html"
       ],
-      "notes": null
+      "notes": null,
+      "etymology": "Earliest (You Lan, Tang): the left hand does not press at all — the open, “scattered” string.",
+      "etymology_source": "https://silkqin.com/02qnpu/01yl/wusilan.htm"
     },
     {
       "id": "G2",
@@ -2334,7 +2452,9 @@
       "source_url": [
         "https://peiyouqin.com/notation3.html"
       ],
-      "notes": "泛起…泛止 bracket a harmonics section."
+      "notes": "泛起…泛止 bracket a harmonics section.",
+      "etymology": "Earliest (You Lan, Tang): a left finger lightly touches at a hui for a clear harmonic; any of the four can play one.",
+      "etymology_source": "https://silkqin.com/02qnpu/01yl/wusilan.htm"
     },
     {
       "id": "G3",
@@ -2349,7 +2469,9 @@
       "source_url": [
         "https://peiyouqin.com/notation3.html"
       ],
-      "notes": null
+      "notes": null,
+      "etymology": "“Press”: place the finger at the playing position and press the string down evenly — the general term for left-hand stopping.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
     },
     {
       "id": "G4",
@@ -2364,7 +2486,9 @@
       "source_url": [
         "https://peiyouqin.com/notation3.html"
       ],
-      "notes": null
+      "notes": null,
+      "etymology": "The hui are the harmonic/marker positions; thirteen standard hui, each space divided into ten fēn and each fēn into ten lí.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
     },
     {
       "id": "G5",
@@ -2551,7 +2675,9 @@
           "id": "3q83s-wcbMg",
           "label": "Demonstration"
         }
-      ]
+      ],
+      "etymology": "Bèi-suǒ (背銷): three sounds on one string with tī, mǒ, tiāo in sequence; also called shào-suǒ.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm"
     },
     {
       "id": "B28",
@@ -2580,7 +2706,9 @@
           "id": "73vplSbOtvE",
           "label": "Demonstration"
         }
-      ]
+      ],
+      "etymology": "Duǎn-suǒ (短銷): five sounds — mǒ and gōu, then a bèi-suǒ added.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm"
     },
     {
       "id": "B29",
@@ -2602,7 +2730,9 @@
           "id": "AvbfUiy4tLw",
           "label": "Demonstration"
         }
-      ]
+      ],
+      "etymology": "Two strings — one pressed, one open — sounded together using tī on both, so they read “as one.”",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm"
     },
     {
       "id": "B30",
@@ -2637,7 +2767,9 @@
             "dir": "up"
           }
         ]
-      }
+      },
+      "etymology": "Double-play, also called gǔ (鼓): two sounds on one or two strings using tī then tiāo.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm"
     },
     {
       "id": "B31",
@@ -2659,7 +2791,9 @@
           "id": "e2z60q6quYI",
           "label": "Demonstration"
         }
-      ]
+      ],
+      "etymology": "Bō-là / pō-cì (潑刺): pō (three joined fingers, down-left) then cì (reversed, up-right) — likened to a wandering fish slapping its tail.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm"
     },
     {
       "id": "B32",
@@ -2681,7 +2815,9 @@
           "id": "efMip9OgyzQ",
           "label": "Demonstration"
         }
-      ]
+      ],
+      "etymology": "An abrupt closing sound: the palm covers the strings between hui 4 and 5, a clipped sound like tearing silk; not used near hui 1.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm"
     },
     {
       "id": "B33",
@@ -2765,7 +2901,9 @@
             "dir": "up"
           }
         ]
-      }
+      },
+      "etymology": "Reversed cuō: where cuō uses gōu+tiāo, the reverse uses mǒ+tī — one sound from two strings.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm"
     },
     {
       "id": "B35",
@@ -2787,7 +2925,9 @@
           "id": "BvmGL2vaaFQ",
           "label": "Demonstration"
         }
-      ]
+      ],
+      "etymology": "Seven sounds on two strings alternating tiāo/gōu pairs; the art lies in the fast rhythm of the central four sounds.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm"
     },
     {
       "id": "B36",
@@ -2809,7 +2949,9 @@
           "id": "TYQb5grrbLk",
           "label": "Demonstration"
         }
-      ]
+      ],
+      "etymology": "Index finger connecting tiāo across several adjacent strings; also called dù (度).",
+      "etymology_source": "https://silkqin.com/02qnpu/05tydq/ty5c.htm"
     },
     {
       "id": "B37",
@@ -2838,7 +2980,9 @@
           "id": "84rCZPIMjxM",
           "label": "Demonstration"
         }
-      ]
+      ],
+      "etymology": "Gǔn-fú (滾沸): gǔn circles inside-out, then fú circles out and back inside — one continuous circular figure.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm"
     },
     {
       "id": "B38",
@@ -2887,7 +3031,9 @@
           "relation": "component-of",
           "label": "component of"
         }
-      ]
+      ],
+      "etymology": "Tāo-cuō-sān-shēng (搯撮三聲): eight sounds combining left-hand tāo with right-hand cuō (three tāo, two cuō), each tāo carrying an implicit hammer-on.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm"
     },
     {
       "id": "F12",
@@ -2916,7 +3062,9 @@
           "id": "3PMFboXB9Dg",
           "label": "Demonstration"
         }
-      ]
+      ],
+      "etymology": "“Response-harmonize”: after pressing and playing, the finger moves up or down so its sound responds to an open string played by the right hand.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
     },
     {
       "id": "F13",
@@ -2950,7 +3098,9 @@
           "id": "m3Wwin7IwvI",
           "label": "Demonstration"
         }
-      ]
+      ],
+      "etymology": "“Same-sound”: two strings sounded in different ways are aligned so closely they read as a single sound.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
     },
     {
       "id": "F14",
@@ -2966,6 +3116,155 @@
           "id": "F12",
           "relation": "compare",
           "label": "compare"
+        }
+      ],
+      "etymology": "“Release-harmonize”: the ring finger pulls off for a sound, then quickly presses a second string for the right hand, the two harmonizing as one.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
+    },
+    {
+      "id": "D12",
+      "category": "vibrato-variation",
+      "hand": "left",
+      "name_hanzi": "急吟",
+      "name_pinyin": "jí yín",
+      "jianzipu_glyph": "急吟",
+      "instruction_text": "A yín (vibrato) played with quickness and urgency.",
+      "etymology": "A yín played with quickness and urgency.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm",
+      "source_url": [
+        "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
+      ],
+      "related": [
+        {
+          "id": "C1",
+          "relation": "builds-on",
+          "label": "builds on"
+        }
+      ]
+    },
+    {
+      "id": "D13",
+      "category": "vibrato-variation",
+      "hand": "left",
+      "name_hanzi": "緩吟",
+      "name_pinyin": "huǎn yín",
+      "jianzipu_glyph": "緩吟",
+      "instruction_text": "A yín played slowly and moderately — the calm counterpart of jí yín.",
+      "etymology": "A yín played in a slow, moderate fashion.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm",
+      "source_url": [
+        "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
+      ],
+      "related": [
+        {
+          "id": "C1",
+          "relation": "builds-on",
+          "label": "builds on"
+        }
+      ]
+    },
+    {
+      "id": "D14",
+      "category": "vibrato-variation",
+      "hand": "left",
+      "name_hanzi": "雙吟",
+      "name_pinyin": "shuāng yín",
+      "jianzipu_glyph": "雙吟",
+      "instruction_text": "Double vibrato: on the same string, play twice, using yín each time.",
+      "etymology": "Double vibrato — play twice on the same string, with yín both times.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm",
+      "source_url": [
+        "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
+      ],
+      "related": [
+        {
+          "id": "C1",
+          "relation": "builds-on",
+          "label": "builds on"
+        }
+      ]
+    },
+    {
+      "id": "D15",
+      "category": "vibrato-variation",
+      "hand": "left",
+      "name_hanzi": "飛吟",
+      "name_pinyin": "fēi yín",
+      "jianzipu_glyph": "飛吟",
+      "instruction_text": "“Flying” vibrato: move up once and down twice (or up twice and down twice); read the tablature for the exact pattern.",
+      "etymology": "“Flying” vibrato — up once and down twice (or up twice, down twice).",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm",
+      "source_url": [
+        "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
+      ],
+      "related": [
+        {
+          "id": "C1",
+          "relation": "builds-on",
+          "label": "builds on"
+        }
+      ]
+    },
+    {
+      "id": "D16",
+      "category": "vibrato-variation",
+      "hand": "left",
+      "name_hanzi": "緩猱",
+      "name_pinyin": "huǎn náo",
+      "jianzipu_glyph": "緩猱",
+      "instruction_text": "A náo played in a large, broad, slow fashion.",
+      "etymology": "A náo played in a large, broad, slow fashion.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm",
+      "source_url": [
+        "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
+      ],
+      "related": [
+        {
+          "id": "C2",
+          "relation": "builds-on",
+          "label": "builds on"
+        }
+      ]
+    },
+    {
+      "id": "F15",
+      "category": "left-pluck",
+      "hand": "left",
+      "name_hanzi": "搯起",
+      "name_pinyin": "tāo qǐ",
+      "jianzipu_glyph": "搯起",
+      "instruction_text": "“Dig-pull”: the ring finger presses the string while the thumb, at a higher position, uses its nail to pull the string up and sound it.",
+      "etymology": "“Dig-pull” — ring finger presses, thumb pulls up with the nail to sound the string; comes in fundamental and separated-position types.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm",
+      "source_url": [
+        "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
+      ],
+      "related": [
+        {
+          "id": "F1",
+          "relation": "builds-on",
+          "label": "builds on"
+        }
+      ]
+    },
+    {
+      "id": "B40",
+      "category": "right-stroke-compound",
+      "hand": "right",
+      "name_hanzi": "索鈴",
+      "name_pinyin": "suǒ líng",
+      "jianzipu_glyph": "索鈴",
+      "instruction_text": "Multiple uninterrupted sounds made with tiāo on the pressed strings, ringing out “like a string of bells.”",
+      "etymology": "Multiple uninterrupted sounds using tiāo successively on the pressed strings; etymology “like a string of bells” — the gesture-image of shaking a rope of bells.",
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm",
+      "source_url": [
+        "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm"
+      ],
+      "related": [
+        {
+          "id": "B2",
+          "relation": "builds-on",
+          "label": "builds on"
         }
       ]
     }
