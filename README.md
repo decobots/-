@@ -58,8 +58,10 @@ section. **Tap a symbol to jump straight to its meaning** — built for looking 
 reading a score, where you only have the symbol, not the name.
 
 ### Videos
-Each technique links to its demonstration video on Pei-You Chang's site (the **▶ demo video**
-links); those pages embed a clip you click to play.
+22 techniques (the right-hand strokes) have a **YouTube demo that plays inline** — click
+**▶ Watch demo** and the player loads right inside the card (privacy-enhanced `youtube-nocookie`,
+no navigation away). The left-hand techniques link to their Pei-You Chang page, which embeds its
+own clip. Section F/G have no verified demo video. Video data comes from `guqingesturelibrary.json`.
 
 ## Categories (how techniques are separated)
 
