@@ -106,7 +106,8 @@ a:hover { text-decoration: underline; }
 .toggle input { accent-color: var(--accent); }
 
 /* ---------- Layout ---------- */
-.layout { display: flex; align-items: flex-start; }
+html, body { width: 100%; max-width: 100%; overflow-x: hidden; }
+.layout { display: flex; align-items: flex-start; width: 100%; }
 
 .sidebar {
   position: sticky;
@@ -152,7 +153,49 @@ a:hover { text-decoration: underline; }
 .sidebar-foot { font-size: .72rem; color: var(--ink-faint); padding: .75rem .7rem 0; border-top: 1px solid var(--line); margin-top: .75rem; }
 
 /* ---------- Content ---------- */
-.content { flex: 1 1 auto; padding: 1.5rem; min-width: 0; }
+.content { flex: 1 1 auto; padding: 1.5rem; min-width: 0; width: 100%; }
+
+/* ---------- Symbol index (quick lookup palette) ---------- */
+.symbol-index {
+  background: var(--bg-panel);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: .8rem 1rem;
+  margin-bottom: 1.5rem;
+}
+.si-head { font-size: .9rem; color: var(--ink-soft); margin-bottom: .6rem; }
+.si-head span { color: var(--ink-faint); font-size: .82rem; }
+.si-group { display: flex; align-items: flex-start; gap: .6rem; padding: .35rem 0; border-top: 1px solid var(--line); }
+.si-group:first-of-type { border-top: none; }
+.si-cat {
+  flex: 0 0 1.6rem;
+  font-size: .8rem; font-weight: 700;
+  color: var(--bg); background: var(--accent);
+  border-radius: 5px; text-align: center;
+  padding: .15rem 0; margin-top: .15rem;
+}
+.si-chips { display: flex; flex-wrap: wrap; gap: .35rem; }
+.si-chip {
+  min-width: 2.4rem; height: 2.4rem;
+  display: inline-flex; align-items: center; justify-content: center;
+  background: var(--bg-card);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: var(--ink);
+  cursor: pointer;
+  padding: 0 .35rem;
+  transition: border-color .12s, background .12s, transform .08s;
+}
+.si-chip:hover { border-color: var(--accent); background: var(--bg-card-hover); transform: translateY(-1px); }
+.si-glyph.jzp { font-family: var(--jzp); font-size: 1.7rem; line-height: 1; color: var(--accent); }
+.si-glyph.cjk { font-family: var(--cjk); font-size: 1.25rem; line-height: 1; color: var(--accent); }
+
+/* highlight a card when jumped to from the index */
+@keyframes flashCard {
+  0% { box-shadow: 0 0 0 2px var(--accent), var(--shadow); border-color: var(--accent); }
+  100% { box-shadow: var(--shadow); border-color: var(--line); }
+}
+.card.flash { animation: flashCard 1.6s ease-out; }
 
 .cat-block { margin-bottom: 2.5rem; scroll-margin-top: 90px; }
 .cat-head { margin-bottom: 1rem; padding-bottom: .6rem; border-bottom: 1px solid var(--line); }
@@ -204,6 +247,19 @@ a:hover { text-decoration: underline; }
 }
 .glyph-box.multi { font-size: 1.35rem; padding: 4px; text-align: center; }
 .glyph-box.is-jzp { font-family: var(--jzp); font-size: 2.6rem; }
+.glyph-box .jzp { font-family: var(--jzp); }
+.glyph-box .cjk { font-family: var(--cjk); }
+/* real jianzipu glyph image on a parchment tile (black strokes read on dark UI) */
+.glyph-box.is-img { background: #efe6d2; border-color: #c9b896; padding: 6px; }
+.glyph-img { width: 100%; height: 100%; object-fit: contain; display: block; }
+.si-chip .glyph-img { width: 1.8rem; height: 1.8rem; }
+.si-chip.has-img { background: #efe6d2; border-color: #c9b896; }
+.si-chip.has-img:hover { background: #f6efdf; }
+.gesture-glyph.is-img {
+  background: #efe6d2; border: 1px solid #c9b896; border-radius: 8px;
+  width: 96px; height: 96px; margin: 0 auto; padding: 8px;
+}
+.gesture-glyph.is-img .glyph-img { width: 100%; height: 100%; }
 .glyph-box .jzp-cap {
   position: absolute;
   bottom: 2px; right: 4px;
@@ -250,6 +306,14 @@ a:hover { text-decoration: underline; }
 .card-sources { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: auto; padding-top: .4rem; border-top: 1px solid var(--line); }
 .card-sources a { font-size: .76rem; display: inline-flex; align-items: center; gap: .25rem; }
 .src-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--accent); display: inline-block; }
+.src-link.is-video {
+  color: var(--rust);
+  font-weight: 600;
+  border: 1px solid #5a3a30;
+  border-radius: 6px;
+  padding: .12rem .45rem;
+}
+.src-link.is-video:hover { background: #2a1f1b; text-decoration: none; }
 
 /* ---------- Resources ---------- */
 .resources { margin-top: 1rem; scroll-margin-top: 90px; }

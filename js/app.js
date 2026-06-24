@@ -5,20 +5,33 @@
   var DATA = null;       // techniques.json
   var RESOURCES = null;  // resources.json
   var GESTURES = null;   // gestures.json
-  var state = { cat: "all", query: "", poeticOnly: false, composedGlyphs: true };
+  var state = { cat: "all", query: "" };
 
   var el = {
     results: document.getElementById("results"),
     resources: document.getElementById("resources"),
     navCategories: document.getElementById("navCategories"),
     search: document.getElementById("search"),
-    poeticOnly: document.getElementById("poeticOnly"),
-    composedGlyphs: document.getElementById("composedGlyphs"),
+    symbolIndex: document.getElementById("symbolIndex"),
     gallery: document.getElementById("gallery"),
     composer: document.getElementById("composer"),
     empty: document.getElementById("empty"),
     sidebar: document.getElementById("sidebar")
   };
+
+  // The score symbol for a technique, best representation first:
+  //  1. a real jianzipu glyph image (self-hosted SVG) where we have one,
+  //  2. the font-composed tablature glyph,
+  //  3. the reduced jianzipu character.
+  function symbolHtml(t, extraClass) {
+    var cls = extraClass || "";
+    if (t.image) {
+      return '<img class="glyph-img ' + cls + '" src="' + escapeHtml(t.image) +
+        '" alt="' + escapeHtml(t.name_hanzi) + ' jianzipu glyph" loading="lazy" />';
+    }
+    if (t.font_input) return '<span class="jzp ' + cls + '">' + escapeHtml(t.font_input) + "</span>";
+    return '<span class="cjk ' + cls + '">' + escapeHtml(t.jianzipu_glyph || t.name_hanzi) + "</span>";
+  }
 
   // ---------- helpers ----------
   function escapeHtml(s) {
@@ -49,7 +62,6 @@
 
   // ---------- filtering ----------
   function matches(t) {
-    if (state.poeticOnly && !t.poetic_image && !t.poetic_verse) return false;
     if (state.cat !== "all" && t.category !== state.cat) return false;
     var q = normalize(state.query);
     if (!q) return true;
@@ -71,42 +83,31 @@
 
   function sourceLinks(urls) {
     return (urls || []).map(function (u) {
-      return '<a href="' + escapeHtml(u) + '" target="_blank" rel="noopener">' +
-        '<span class="src-dot"></span>' + escapeHtml(hostOf(u)) + "</a>";
+      var host = hostOf(u);
+      // Pei-You Chang's per-technique pages embed a demonstration video.
+      var isVideo = host.indexOf("peiyouqin.com") !== -1;
+      var label = isVideo ? "▶ demo video" : (host.indexOf("silkqin.com") !== -1 ? "silkqin reference" : host);
+      var cls = isVideo ? "src-link is-video" : "src-link";
+      return '<a class="' + cls + '" href="' + escapeHtml(u) + '" target="_blank" rel="noopener">' +
+        (isVideo ? "" : '<span class="src-dot"></span>') + escapeHtml(label) + "</a>";
     }).join("");
   }
 
   function card(t) {
-    var glyph = t.jianzipu_glyph || t.name_hanzi;
-    var useComposed = state.composedGlyphs && t.font_input;
-    var boxClass, boxContent, boxTitle;
-    if (useComposed) {
-      boxClass = " is-jzp";
-      // the ligature font composes the command string into a stacked tablature glyph;
-      // a small caption keeps the plain reduced character visible.
-      boxContent = '<span class="jzp">' + escapeHtml(t.font_input) + "</span>" +
-        '<span class="jzp-cap">' + escapeHtml(glyph) + "</span>";
-      boxTitle = "composed jianzipu glyph (font input: " + t.font_input + ")";
-    } else {
-      boxClass = glyph && glyph.replace(/\s/g, "").length > 1 ? " multi" : "";
-      boxContent = escapeHtml(glyph);
-      boxTitle = "reduced jianzipu form";
-    }
+    var multi = (t.jianzipu_glyph || "").replace(/\s/g, "").length > 1 && !t.font_input;
     var html = "";
     html += '<article class="card" id="t-' + t.id + '">';
     html += '  <div class="card-top">';
-    html += '    <div class="glyph-box' + boxClass + '" title="' + escapeHtml(boxTitle) + '">' + boxContent + "</div>";
+    var boxCls = t.image ? "is-img" : (t.font_input ? "is-jzp" : (multi ? "multi" : ""));
+    html += '    <div class="glyph-box ' + boxCls + '" title="jianzipu score symbol">' + symbolHtml(t) + "</div>";
     html += '    <div>';
     html += '      <div class="card-id">' + escapeHtml(t.id) + "</div>";
-    html += '      <div class="card-name">' + escapeHtml(t.name_hanzi) + "</div>";
     html += '      <div class="card-pinyin">' + escapeHtml(t.name_pinyin) + "</div>";
     html += "    </div>";
     html += "  </div>";
 
     html += '  <div class="card-meta">';
     html += handTag(t.hand);
-    html += '<span class="tag reduced">reduced&nbsp;<b>' + escapeHtml(glyph) + "</b></span>";
-    if (t.font_input) html += '<span class="tag" style="color:var(--accent);border-color:var(--accent-soft)" title="font input: ' + escapeHtml(t.font_input) + '">composed&nbsp;✓</span>';
     if (t.direction) html += '<span class="tag dir">' + escapeHtml(t.direction) + "</span>";
     html += "  </div>";
 
@@ -257,12 +258,9 @@
 
     html += '<div class="gallery-grid">';
     g.gestures.forEach(function (ges) {
-      var t = byId[ges.technique_id] || {};
-      var glyph = t.font_input
-        ? '<div class="gesture-glyph jzp">' + escapeHtml(t.font_input) + "</div>"
-        : '<div class="gesture-glyph" style="font-family:var(--cjk)">' + escapeHtml(t.jianzipu_glyph || ges.name_hanzi) + "</div>";
+      var t = byId[ges.technique_id] || { name_hanzi: ges.name_hanzi };
       html += '<div class="gesture-card">';
-      html += glyph;
+      html += '<div class="gesture-glyph' + (t.image ? " is-img" : "") + '">' + symbolHtml(t) + "</div>";
       html += '<div class="gesture-name">' + escapeHtml(ges.name_hanzi) +
         " <small>" + escapeHtml(ges.name_pinyin) + "</small></div>";
       if (ges.verse_hanzi) {
@@ -339,18 +337,57 @@
     });
   }
 
+  // ---------- symbol index (quick lookup palette) ----------
+  function buildSymbolIndex() {
+    var html = '<div class="si-head">';
+    html += '<strong>Quick symbol index</strong> <span>— tap a symbol to jump to its meaning</span>';
+    html += "</div>";
+    DATA.categories.forEach(function (cat) {
+      var items = DATA.techniques.filter(function (t) { return t.category === cat.id; });
+      if (!items.length) return;
+      html += '<div class="si-group">';
+      html += '<span class="si-cat" title="' + escapeHtml(cat.title) + '">' + escapeHtml(cat.section) + "</span>";
+      html += '<div class="si-chips">';
+      items.forEach(function (t) {
+        var tip = t.name_hanzi + " · " + t.name_pinyin;
+        html += '<button class="si-chip' + (t.image ? " has-img" : "") + '" data-id="' + t.id +
+          '" title="' + escapeHtml(tip) + '" aria-label="' + escapeHtml(tip) + '">' +
+          symbolHtml(t, "si-glyph") + "</button>";
+      });
+      html += "</div></div>";
+    });
+    el.symbolIndex.innerHTML = html;
+
+    el.symbolIndex.addEventListener("click", function (e) {
+      var chip = e.target.closest(".si-chip");
+      if (!chip) return;
+      jumpToTechnique(chip.getAttribute("data-id"));
+    });
+  }
+
+  function jumpToTechnique(id) {
+    // make sure the target is visible (clear any category filter / search)
+    if (state.cat !== "all" || state.query) {
+      state.cat = "all";
+      state.query = "";
+      el.search.value = "";
+      render();
+    }
+    var node = document.getElementById("t-" + id);
+    if (!node) return;
+    node.scrollIntoView({ behavior: "smooth", block: "center" });
+    node.classList.remove("flash");
+    // restart the highlight animation
+    void node.offsetWidth;
+    node.classList.add("flash");
+  }
+
   // ---------- events ----------
   function bindControls() {
     var debounce;
     el.search.addEventListener("input", function () {
       clearTimeout(debounce);
       debounce = setTimeout(function () { state.query = el.search.value; render(); }, 120);
-    });
-    el.poeticOnly.addEventListener("change", function () {
-      state.poeticOnly = el.poeticOnly.checked; render();
-    });
-    el.composedGlyphs.addEventListener("change", function () {
-      state.composedGlyphs = el.composedGlyphs.checked; render();
     });
   }
 
@@ -368,6 +405,7 @@
       RESOURCES = results[1];
       GESTURES = results[2];
       buildNav();
+      buildSymbolIndex();
       buildGallery();
       buildComposer();
       buildResources();
