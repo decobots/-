@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Poetic Hand-Gesture Images · 手勢圖 shǒushì tú",
-    "intro": "Classical handbooks pair each finger technique with a poetic nature-image and a four-character verse introduced by \"興曰 Xìng yuē\" (the Book of Songs metaphor device). The Ming-dynasty Taiyin Daquanji (太音大全集) set has 33 woodblock illustrations — 17 right-hand, then 16 left-hand. Each gesture below shows the original woodblock print, the poetic image it depicts, and the tablature stroke(s) it teaches.",
+    "intro": "Classical handbooks pair finger techniques with a poetic nature-image and a four-character verse introduced by \"興曰 Xìng yuē\" (the Book of Songs metaphor device). These are the woodblock 手勢圖 (shǒushì tú) of the Ming-dynasty Taiyin Daquanji (太音大全集, 1413). Each technique card below shows its gesture-image inline where one survives in the set.",
     "fullSetSource": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
     "historySource": "https://silkqin.com/09hist/qscb/qscb06c6.htm",
     "imageRightsNote": "Woodblock prints reproduced from John Thompson's silkqin.com (Taiyin Daquanji, 1413). The prints are historical artworks; the photographic reproductions are Thompson's. Included here for a personal non-commercial reference page with attribution — see assets/photos/README.txt. English image-titles paraphrase Thompson's translations; follow the source link for full verses.",
@@ -19,7 +19,8 @@
       "finger": "Thumb",
       "photo": "assets/photos/gestures/hand01.jpg",
       "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
-      "stroke": "擘・托"
+      "stroke": "擘・托",
+      "technique_id": "B7"
     },
     {
       "num": 2,
@@ -37,7 +38,8 @@
       "finger": "Forefinger",
       "photo": "assets/photos/gestures/hand03.jpg",
       "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
-      "stroke": "抹"
+      "stroke": "抹",
+      "technique_id": "B1"
     },
     {
       "num": 4,
@@ -46,7 +48,8 @@
       "finger": "Forefinger, middle finger and ring finger",
       "photo": "assets/photos/gestures/hand04.jpg",
       "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
-      "stroke": "鎖"
+      "stroke": "鎖",
+      "technique_id": "B13"
     },
     {
       "num": 5,
@@ -57,7 +60,8 @@
       "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
       "stroke": "勾",
       "verse_hanzi": "孤鶩顧群",
-      "verse_pinyin": "gū wù gù qún"
+      "verse_pinyin": "gū wù gù qún",
+      "technique_id": "B3"
     },
     {
       "num": 6,
@@ -66,7 +70,8 @@
       "finger": "Thumb and middle finger",
       "photo": "assets/photos/gestures/hand06.jpg",
       "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
-      "stroke": "撮"
+      "stroke": "撮",
+      "technique_id": "B9"
     },
     {
       "num": 7,
@@ -84,7 +89,8 @@
       "finger": "Forefinger, middle finger and ring finger",
       "photo": "assets/photos/gestures/hand08.jpg",
       "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
-      "stroke": "輪"
+      "stroke": "輪",
+      "technique_id": "B11"
     },
     {
       "num": 9,
@@ -93,7 +99,8 @@
       "finger": "Ring finger, middle finger and forefinger",
       "photo": "assets/photos/gestures/hand09.jpg",
       "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
-      "stroke": "鈴"
+      "stroke": "鈴",
+      "technique_id": "B14"
     },
     {
       "num": 10,
@@ -102,7 +109,8 @@
       "finger": "Forefinger and middle finger",
       "photo": "assets/photos/gestures/hand10.jpg",
       "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
-      "stroke": "蠲"
+      "stroke": "蠲",
+      "technique_id": "B17"
     },
     {
       "num": 11,
@@ -111,7 +119,8 @@
       "finger": "Forefinger and middle finger",
       "photo": "assets/photos/gestures/hand11.jpg",
       "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
-      "stroke": "扶"
+      "stroke": "扶",
+      "technique_id": "B15"
     },
     {
       "num": 12,
@@ -128,7 +137,8 @@
       "title": "A fish shaking its tail as it swims",
       "finger": "Forefinger and middle finger",
       "photo": "assets/photos/gestures/hand13.jpg",
-      "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm"
+      "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
+      "technique_id": "B19"
     },
     {
       "num": 14,
@@ -145,7 +155,8 @@
       "finger": "Forefinger and ring finger",
       "photo": "assets/photos/gestures/hand15.jpg",
       "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
-      "stroke": "打・挑"
+      "stroke": "打・挑",
+      "technique_id": "B5"
     },
     {
       "num": 16,
@@ -171,7 +182,8 @@
       "finger": "Thumb",
       "photo": "assets/photos/gestures/hand18.jpg",
       "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
-      "stroke": "按"
+      "stroke": "按",
+      "technique_id": "G3"
     },
     {
       "num": 19,
@@ -182,7 +194,8 @@
       "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
       "stroke": "猱",
       "verse_hanzi": "號猿升木",
-      "verse_pinyin": "háo yuán shēng mù"
+      "verse_pinyin": "háo yuán shēng mù",
+      "technique_id": "C2"
     },
     {
       "num": 20,
@@ -191,7 +204,8 @@
       "finger": "Thumb",
       "photo": "assets/photos/gestures/hand20.jpg",
       "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
-      "stroke": "罨"
+      "stroke": "罨",
+      "technique_id": "F4"
     },
     {
       "num": 21,
@@ -200,7 +214,8 @@
       "finger": "Thumb",
       "photo": "assets/photos/gestures/hand21.jpg",
       "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
-      "stroke": "罨"
+      "stroke": "罨",
+      "technique_id": "F5"
     },
     {
       "num": 22,
@@ -208,7 +223,8 @@
       "title": "A beautiful oriole in a fragrant woods",
       "finger": "Forefinger",
       "photo": "assets/photos/gestures/hand22.jpg",
-      "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm"
+      "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
+      "technique_id": "C3"
     },
     {
       "num": 23,
@@ -217,7 +233,8 @@
       "finger": "Middle finger",
       "photo": "assets/photos/gestures/hand23.jpg",
       "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
-      "stroke": "推"
+      "stroke": "推",
+      "technique_id": "F6"
     },
     {
       "num": 24,
@@ -234,7 +251,8 @@
       "finger": "Ring finger",
       "photo": "assets/photos/gestures/hand25.jpg",
       "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
-      "stroke": "跪"
+      "stroke": "跪",
+      "technique_id": "A5"
     },
     {
       "num": 26,
@@ -253,7 +271,8 @@
       "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
       "stroke": "吟",
       "verse_hanzi": "寒蟬吟秋",
-      "verse_pinyin": "hán chán yín qiū"
+      "verse_pinyin": "hán chán yín qiū",
+      "technique_id": "C1"
     },
     {
       "num": 28,
@@ -262,7 +281,8 @@
       "finger": "Thumb, middle finger or ring finger",
       "photo": "assets/photos/gestures/hand28.jpg",
       "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
-      "stroke": "游吟"
+      "stroke": "游吟",
+      "technique_id": "D4"
     },
     {
       "num": 29,
@@ -280,7 +300,8 @@
       "finger": "Thumb, middle finger or ring finger",
       "photo": "assets/photos/gestures/hand30.jpg",
       "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
-      "stroke": "泛"
+      "stroke": "泛",
+      "technique_id": "G2"
     },
     {
       "num": 31,
@@ -297,7 +318,8 @@
       "finger": "Thumb, middle finger or ring finger",
       "photo": "assets/photos/gestures/hand32.jpg",
       "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
-      "stroke": "引・注"
+      "stroke": "引・注",
+      "technique_id": "C4"
     },
     {
       "num": 33,
