@@ -395,6 +395,16 @@ html, body { width: 100%; max-width: 100%; overflow-x: hidden; }
 .mv-down { color: var(--jade); }   /* ↓ pluck — toward the body / inward */
 .mv-up { color: var(--rust); }     /* ↑ strum — away from the body / outward */
 .mv-join { color: var(--ink-faint); }
+/* hand badge — which hand the movement belongs to */
+.mv-hand {
+  font-size: .6rem; font-weight: 700; letter-spacing: .5px;
+  padding: .05rem .3rem; border-radius: 4px; align-self: center;
+}
+.mv-hand-R { color: var(--rust); border: 1px solid #5a3a30; }
+.mv-hand-L { color: var(--jade); border: 1px solid #3c5247; }
+/* left-hand steps: arrows mean slide direction (↑ toward bridge, ↓ toward nut), ∿ vibrato */
+.mv-step-l .mv-arrow { color: var(--accent); font-size: 1.05rem; line-height: 1; }
+.mv-vib { color: var(--accent); }
 
 /* ---------- Full-screen image viewer ---------- */
 .lightbox {
