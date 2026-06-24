@@ -367,6 +367,22 @@ html, body { width: 100%; max-width: 100%; overflow-x: hidden; }
 .rel-chip .rel-name { font-family: var(--cjk); }
 .rel-chip .rel-name i { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; color: var(--accent); font-style: italic; font-size: .72rem; }
 
+/* ---------- Origin & etymology note ---------- */
+.etymology {
+  font-size: .82rem;
+  color: var(--ink-soft);
+  background: #1b1714;
+  border-left: 3px solid #3c5247;
+  border-radius: 0 7px 7px 0;
+  padding: .45rem .7rem;
+  line-height: 1.45;
+}
+.etym-label {
+  font-size: .66rem; text-transform: uppercase; letter-spacing: 1px;
+  color: var(--jade); display: block; margin-bottom: .15rem;
+}
+.etym-src { font-size: .72rem; white-space: nowrap; }
+
 /* ---------- Hand-movement notation (finger + pluck/strum arrow) ---------- */
 .movement { display: flex; align-items: center; gap: .3rem; flex-wrap: wrap; }
 .mv-step {
