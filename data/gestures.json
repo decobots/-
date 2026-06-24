@@ -9,59 +9,73 @@
       "rightHand": 17,
       "leftHand": 16,
       "total": 33
-    }
+    },
+    "versesSource": "Original verses: Li Meiyan (李美燕) transcription of Taiyin Daquanji; English & strokes cross-checked with silkqin.com (John Thompson)."
   },
   "gestures": [
     {
       "num": 1,
       "hand": "right",
-      "title": "A crane dancing as a result of being startled by a breeze",
+      "title": "A crane dancing, startled by a breeze",
       "finger": "Thumb",
       "photo": "assets/photos/gestures/hand01.jpg",
       "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
-      "stroke": "擘・托",
-      "technique_id": "B7"
+      "stroke": "擘、托",
+      "technique_id": "B7",
+      "verse_hanzi": "萬竅怒號，有鶴在梁，竦體孤立，將翱將翔，忽一鳴而驚人，聲淒厲以彌長。",
+      "verse_pinyin": "wàn qiào nù hào, yǒu hè zài liáng, sǒng tǐ gū lì, jiāng áo jiāng xiáng, hū yī míng ér jīng rén, shēng qī lì yǐ mí zhǎng",
+      "verse_en": "From the myriad cavities comes a furious howling; a crane stands on the ridge-beam, holding itself erect and alone, about to take wing and soar. Suddenly it gives a startling cry, shrill and long-drawn-out."
     },
     {
       "num": 2,
       "hand": "right",
-      "title": "A visiting wild goose grasping a rush plant",
+      "title": "A visiting wild goose holding a reed",
       "finger": "Thumb and forefinger",
       "photo": "assets/photos/gestures/hand02.jpg",
       "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
-      "stroke": "捻"
+      "stroke": "捻",
+      "verse_hanzi": "涼風倐至，鴻鴈來賓，啣蘆南鄉，將以依仁，免度關而委去，遞哀音而動人。",
+      "verse_pinyin": "liáng fēng shū zhì, hóng yàn lái bīn, xián lú nán xiāng, jiāng yǐ yī rén, miǎn dù guān ér wěi qù, dì āi yīn ér dòng rén",
+      "verse_en": "Cool autumn winds suddenly arrive and the wild goose comes as a guest; holding a reed it heads south, seeming to rely on benevolence. Passing the frontier it departs, sending out a plaintive cry that moves the listener."
     },
     {
       "num": 3,
       "hand": "right",
-      "title": "Cranes call out in the shade",
+      "title": "Cranes calling in the shade",
       "finger": "Forefinger",
       "photo": "assets/photos/gestures/hand03.jpg",
       "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
-      "stroke": "抹",
-      "technique_id": "B1"
+      "stroke": "抹、歷、拂、度、擂",
+      "technique_id": "B1",
+      "verse_hanzi": "鶴鳴九臯，聲聞于野，清音落落，自合韶雅，惟飛指以取象，覺曲高而和寡。",
+      "verse_pinyin": "hè míng jiǔ gāo, shēng wén yú yě, qīng yīn luò luò, zì hé sháo yǎ, wéi fēi zhǐ yǐ qǔ xiàng, jué qū gāo ér hé guǎ",
+      "verse_en": "The crane cries in the deep marsh and its voice is heard across the wilds; the clear notes ring out, naturally matching elegant music. The flying fingers take this as their image — the tune is lofty and few can harmonize with it."
     },
     {
       "num": 4,
       "hand": "right",
-      "title": "The crane-like wild jungle fowl calling and dancing",
+      "title": "Crane-fowl calling and dancing",
       "finger": "Forefinger, middle finger and ring finger",
       "photo": "assets/photos/gestures/hand04.jpg",
       "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
-      "stroke": "鎖",
-      "technique_id": "B13"
+      "stroke": "鎖、反鎖、短鎖、長鎖、換指鎖",
+      "technique_id": "B13",
+      "verse_hanzi": "沙僻人靜，游鵾自如，鳴則延頸，舞則翼舒，欲和合於聲韻，審步趨之疾徐。",
+      "verse_pinyin": "shā pì rén jìng, yóu kūn zì rú, míng zé yán jǐng, wǔ zé yì shū, yù hé hé yú shēng yùn, shěn bù qū zhī jí xú",
+      "verse_en": "In the lonely desert, all at peace, the kun-fowl roams at ease; when it calls it stretches its neck, when it dances it spreads its wings. The sounds should blend in harmony, their pace judged evenly fast and slow."
     },
     {
       "num": 5,
       "hand": "right",
-      "title": "A lone duck turning his head towards the flock",
+      "title": "A lone duck turning to look back at the flock",
       "finger": "Middle finger",
       "photo": "assets/photos/gestures/hand05.jpg",
       "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
-      "stroke": "勾",
-      "verse_hanzi": "孤鶩顧群",
-      "verse_pinyin": "gū wù gù qún",
-      "technique_id": "B3"
+      "stroke": "勾、踢、勾踢、袞",
+      "verse_hanzi": "孤鶩念群，飛鳴遠度，堪伶片影，弋人何慕，興落霞以齊飛，復徘徊而下顧。",
+      "verse_pinyin": "gū wù niàn qún, fēi míng yuǎn dù, kān líng piàn yǐng, yì rén hé mù, xìng luò xiá yǐ qí fēi, fù pái huái ér xià gù",
+      "technique_id": "B3",
+      "verse_en": "The lone duck longs for the flock, flying and crying as it crosses far; one pities its solitary silhouette — how the fowler admires it. It rises with the sunset glow flying as one, then circles back to gaze below."
     },
     {
       "num": 6,
@@ -70,120 +84,162 @@
       "finger": "Thumb and middle finger",
       "photo": "assets/photos/gestures/hand06.jpg",
       "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
-      "stroke": "撮",
-      "technique_id": "B9"
+      "stroke": "齊撮、齪捉",
+      "technique_id": "B9",
+      "verse_hanzi": "靈物為龍兮非池可容，頭角崢嶸兮變化無窮，位正五九兮時當泰通，攀拏而上兮滃然雲從。",
+      "verse_pinyin": "líng wù wèi lóng xī fēi chí kě róng, tóu jiǎo zhēng róng xī biàn huà wú qióng, wèi zhèng wǔ jiǔ xī shí dāng tài tōng, pān ná ér shàng xī wēng rán yún cóng",
+      "verse_en": "The dragon is a divine creature that no pond can contain; its head and horns tower up, its transformations endless. Rightly placed, when the time is auspicious it climbs upward, and clouds rise billowing to follow it."
     },
     {
       "num": 7,
       "hand": "right",
-      "title": "A praying mantis grabbing a cicada",
+      "title": "A praying mantis seizing a cicada",
       "finger": "Forefinger and ring finger",
       "photo": "assets/photos/gestures/hand07.jpg",
       "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
-      "stroke": "撮"
+      "stroke": "齊撮、反撮",
+      "verse_hanzi": "蟬性孤潔，長吟自樂，螳螂怒臂，一前一却，謂齊撮而復反，取其狀之相若。",
+      "verse_pinyin": "chán xìng gū jié, zhǎng yín zì lè, táng láng nù bì, yī qián yī què, wèi qí cuō ér fù fǎn, qǔ qí zhuàng zhī xiāng ruò",
+      "verse_en": "The cicada is solitary and pure, taking joy in its long humming; the mantis raises its arms in anger, one stepping forward, the other back. Pinching together then reversing imitates the likeness of their postures."
     },
     {
       "num": 8,
       "hand": "right",
-      "title": "A crab walking",
+      "title": "A crab walking sideways",
       "finger": "Forefinger, middle finger and ring finger",
       "photo": "assets/photos/gestures/hand08.jpg",
       "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
-      "stroke": "輪",
-      "technique_id": "B11"
+      "stroke": "輪、倒輪",
+      "technique_id": "B11",
+      "verse_hanzi": "蠏合離象，賦性側行，內柔外剛，螯舉目瞠，觀其連翩之勢，似夫輪歷之聲。",
+      "verse_pinyin": "xiè hé lí xiàng, fù xìng cè xíng, nèi róu wài gāng, áo jǔ mù chēng, guān qí lián piān zhī shì, shì fū lún lì zhī shēng",
+      "verse_en": "Crabs seem to join then part; by nature they move sideways, soft within and hard without, claws raised and eyes glaring. Watch their continuous scuttling motion — it resembles the sound of the revolving (lun) stroke."
     },
     {
       "num": 9,
       "hand": "right",
-      "title": "A shaking a chain and ringing its bells",
+      "title": "Shaking a rope of bells until they ring",
       "finger": "Ring finger, middle finger and forefinger",
       "photo": "assets/photos/gestures/hand09.jpg",
       "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
-      "stroke": "鈴",
-      "technique_id": "B14"
+      "stroke": "索鈴",
+      "technique_id": "B14",
+      "verse_hanzi": "眾鈴骨索，引手一振，鏘鏘和鳴，翕然成韻，惟取象以揮絃，自悠揚而遠聞。",
+      "verse_pinyin": "zhòng líng gǔ suǒ, yǐn shǒu yī zhèn, qiāng qiāng hé míng, xī rán chéng yùn, wéi qǔ xiàng yǐ huī xián, zì yōu yáng ér yuǎn wén",
+      "verse_en": "A cluster of bells strung on a rope: draw in the hand and give a shake, and they ring out qiang-qiang in harmony, blending into a melody. Taking this as the image for sweeping the strings, the sound floats far and wide."
     },
     {
       "num": 10,
       "hand": "right",
-      "title": "Water from a spring cascading in a deep valley",
+      "title": "Spring water cascading in a deep valley",
       "finger": "Forefinger and middle finger",
       "photo": "assets/photos/gestures/hand10.jpg",
       "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
-      "stroke": "蠲",
-      "technique_id": "B17"
+      "stroke": "蠲、疊蠲、連蠲",
+      "technique_id": "B17",
+      "verse_hanzi": "空谷深幽，寒泉迸流，涓涓觸石，濺濺鳴球，因夫聲而取喻，謂疊指以俱投。",
+      "verse_pinyin": "kōng gǔ shēn yōu, hán quán bèng liú, juān juān chù shí, jiàn jiàn míng qiú, yīn fū shēng ér qǔ yù, wèi dié zhǐ yǐ jù tóu",
+      "verse_en": "The empty valley is deep and still; the cold spring bursts forth and flows, trickling against the rocks, splashing like ringing jade. Taking the sound as a figure, the layered fingers are cast down together."
     },
     {
       "num": 11,
       "hand": "right",
-      "title": "Wind sending of light clouds",
+      "title": "Wind sending off light clouds",
       "finger": "Forefinger and middle finger",
       "photo": "assets/photos/gestures/hand11.jpg",
       "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
-      "stroke": "扶",
-      "technique_id": "B15"
+      "stroke": "半扶、全扶",
+      "technique_id": "B15",
+      "verse_hanzi": "冉冉溶溶，聚氣以成，油然而起，勢逐風輕，喻度指之如雲，不欲重而有聲。",
+      "verse_pinyin": "rǎn rǎn róng róng, jù qì yǐ chéng, yóu rán ér qǐ, shì zhú fēng qīng, yù dù zhǐ zhī rú yún, bù yù zhòng ér yǒu shēng",
+      "verse_en": "Drifting and dissolving, vapor gathers to take form, rising gently and following the lightest breeze. The crossing fingers are likened to clouds — light, not heavy, yet making sound."
     },
     {
       "num": 12,
       "hand": "right",
-      "title": "The male and female phoenixes calling together",
+      "title": "Male and female phoenixes calling together",
       "finger": "Forefinger and middle finger",
       "photo": "assets/photos/gestures/hand12.jpg",
       "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
-      "stroke": "摟"
+      "stroke": "圓摟、爰摟",
+      "verse_hanzi": "鳳翔高崗，鸞遊層崖，同類和鳴，嗈嗈喈喈，摟二絃而併作，象其音之克諧。",
+      "verse_pinyin": "fèng xiáng gāo gǎng, luán yóu céng yá, tóng lèi hé míng, yōng yōng jiē jiē, lǒu èr xián ér bìng zuò, xiàng qí yīn zhī kè xié",
+      "verse_en": "The phoenix soars over high ridges, the luan-phoenix roams the layered cliffs; of like kind they cry together, yong-yong jie-jie. Embracing two strings sounded as one images the harmony of their voices."
     },
     {
       "num": 13,
       "hand": "right",
-      "title": "A fish shaking its tail as it swims",
+      "title": "A swimming fish flicking its tail",
       "finger": "Forefinger and middle finger",
       "photo": "assets/photos/gestures/hand13.jpg",
       "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
-      "technique_id": "B19"
+      "technique_id": "B19",
+      "stroke": "撥剌",
+      "verse_hanzi": "雷雨作鮮，揚濤奮沫，魚將變化，掉尾撥剌，爰比興以取象，駢兩指以飄瞥。",
+      "verse_pinyin": "léi yǔ zuò xiān, yáng tāo fèn mò, yú jiāng biàn huà, diào wěi bō lá, yuán bǐ xìng yǐ qǔ xiàng, pián liǎng zhǐ yǐ piāo piē",
+      "verse_en": "Thunder and rain freshen the air, waves surge and foam is stirred; a fish, about to transform, flicks its tail with a splash. Taking this as the figure, two joined fingers dart swiftly across."
     },
     {
       "num": 14,
       "hand": "right",
-      "title": "The shangyang bird, tapping and dancing",
+      "title": "A shangyang bird tapping and dancing",
       "finger": "Ring finger",
       "photo": "assets/photos/gestures/hand14.jpg",
-      "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm"
+      "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
+      "stroke": "打、摘、打摘",
+      "verse_hanzi": "有鳥獨足，霶而知雨，天欲滂沱，奮翼鼓舞，屈名指以臨絃，象參差而翼舉。",
+      "verse_pinyin": "yǒu niǎo dú zú, pāng ér zhī yǔ, tiān yù pāng tuó, fèn yì gǔ wǔ, qū míng zhǐ yǐ lín xián, xiàng cān chà ér yì jǔ",
+      "verse_en": "There is a one-footed bird that can foretell rain; when the sky is about to pour, it rouses its wings and dances. The ring finger is bent down to the string, imaging the uneven lifting of its wings."
     },
     {
       "num": 15,
       "hand": "right",
-      "title": "A supernatural tortoise coming out of the water",
+      "title": "A supernatural tortoise emerging from the water",
       "finger": "Forefinger and ring finger",
       "photo": "assets/photos/gestures/hand15.jpg",
       "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
-      "stroke": "打・挑",
-      "technique_id": "B5"
+      "stroke": "打、挑、打圓",
+      "technique_id": "B5",
+      "verse_hanzi": "負書出圖，履一載九，欲聳其肩，必昂其首，爰比興於挑打，信昔賢之不苟。",
+      "verse_pinyin": "fù shū chū tú, lǚ yī zài jiǔ, yù sǒng qí jiān, bì áng qí shǒu, yuán bǐ xìng yú tiāo dǎ, xìn xī xián zhī bù gǒu",
+      "verse_en": "Bearing the writing it brings forth the diagram, treading one yet carrying nine; about to hunch its shoulders, it must raise up its head. Comparing this to tiao and da, truly the ancient sages were not careless."
     },
     {
       "num": 16,
       "hand": "right",
-      "title": "A sea dragon intoning",
+      "title": "A sea-dragon intoning",
       "finger": "Forefinger and middle finger",
       "photo": "assets/photos/gestures/hand16.jpg",
-      "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm"
+      "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
+      "stroke": "小閒勾、大閒勾",
+      "verse_hanzi": "龍居窟宅，靜夜長吟，如金如玉，最好其音，胡取喻於神物，蓋默契於琴心。",
+      "verse_pinyin": "lóng jū kū zhái, jìng yè zhǎng yín, rú jīn rú yù, zuì hǎo qí yīn, hú qǔ yù yú shén wù, gài mò qì yú qín xīn",
+      "verse_en": "The dragon dwells in its cavern; on a still night it gives a long cry, like gold, like jade — the finest of sounds. Why take a divine creature as the figure? Because it accords silently with the heart of the qin."
     },
     {
       "num": 17,
       "hand": "right",
-      "title": "A hungry raven pecking at the snow",
+      "title": "A hungry bird pecking at the snow",
       "finger": "Forefinger, middle finger and ring finger",
       "photo": "assets/photos/gestures/hand17.jpg",
       "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
-      "stroke": "彈"
+      "stroke": "單彈、雙彈、三彈",
+      "verse_hanzi": "爰集爰止，莫黑匪鳥，飢而啄雪，其味不濡，爰借喻於清彈，欲其勢之虛徐。",
+      "verse_pinyin": "yuán jí yuán zhǐ, mò hēi fěi niǎo, jī ér zhuó xuě, qí wèi bù rú, yuán jiè yù yú qīng dàn, yù qí shì zhī xū xú",
+      "verse_en": "Birds gather and settle; nothing is blacker than the crow. Hungry, they peck at the snow, though its flavor gives no moisture. Borrowing this as a figure for the clear flicking stroke, one wants its movement light and unhurried."
     },
     {
       "num": 18,
       "hand": "left",
-      "title": "The supernatural phoenix grasping a letter in its mouth",
+      "title": "A divine phoenix bearing a letter in its beak",
       "finger": "Thumb",
       "photo": "assets/photos/gestures/hand18.jpg",
       "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
       "stroke": "按",
-      "technique_id": "G3"
+      "technique_id": "G3",
+      "verse_hanzi": "鳳兮鳳兮，感德而至，啣書來儀，表時嘉瑞，謂拇按而實覆，取大味而相類。",
+      "verse_pinyin": "fèng xī fèng xī, gǎn dé ér zhì, xián shū lái yí, biǎo shí jiā ruì, wèi mǔ àn ér shí fù, qǔ dà wèi ér xiāng lèi",
+      "verse_en": "Phoenix, oh phoenix — sensing virtue it arrives, carrying a letter in its beak, a sign of the auspicious times. The thumb presses down firmly and fully, taking the rich resonance as its likeness."
     },
     {
       "num": 19,
@@ -192,39 +248,50 @@
       "finger": "Thumb",
       "photo": "assets/photos/gestures/hand19.jpg",
       "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
-      "stroke": "猱",
-      "verse_hanzi": "號猿升木",
-      "verse_pinyin": "háo yuán shēng mù",
-      "technique_id": "C2"
+      "stroke": "猱、微猱、細猱、敦、畜猱",
+      "verse_hanzi": "瞻彼號猿兮，升于喬木，欲上不上兮，其勢逐逐，重按指於分寸兮，欲去來之神速。",
+      "verse_pinyin": "zhān bǐ hào yuán xī, shēng yú qiáo mù, yù shàng bù shàng xī, qí shì zhú zhú, zhòng àn zhǐ yú fēn cùn xī, yù qù lái zhī shén sù",
+      "technique_id": "C2",
+      "verse_en": "Behold the howling gibbon climbing the tall tree; it wants to ascend yet cannot, advancing little by little. Press the finger firmly within a small span — what matters is the swiftness of going and returning."
     },
     {
       "num": 20,
       "hand": "left",
-      "title": "An echo from an empty valley",
+      "title": "An echo carried from an empty valley",
       "finger": "Thumb",
       "photo": "assets/photos/gestures/hand20.jpg",
       "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
       "stroke": "罨",
-      "technique_id": "F4"
+      "technique_id": "F4",
+      "verse_hanzi": "長嘯一聲兮，振動林麓，隨聲響答兮，在彼空谷，喻名按而拇罨兮，欲其音之相續。",
+      "verse_pinyin": "zhǎng xiào yī shēng xī, zhèn dòng lín lù, suí shēng xiǎng dá xī, zài bǐ kōng gǔ, yù míng àn ér mǔ yǎn xī, yù qí yīn zhī xiāng xù",
+      "verse_en": "A long whistling cry sets the woods and foothills trembling; whatever sound is made, an echo answers back there in the empty valley. Imaging the ring finger pressing and the thumb striking (yan), one wants the sound to continue unbroken."
     },
     {
       "num": 21,
       "hand": "left",
-      "title": "A solitary bird pecking on a tree",
+      "title": "A solitary bird pecking at a tree",
       "finger": "Thumb",
       "photo": "assets/photos/gestures/hand21.jpg",
       "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
-      "stroke": "罨",
-      "technique_id": "F5"
+      "stroke": "虛罨、虛點",
+      "technique_id": "F5",
+      "verse_hanzi": "幽鳥避人兮，遶樹而鳴，尋蠹剝啄兮，其音丁丁，因取喻於虛罨兮，故戛然而有聲。",
+      "verse_pinyin": "yōu niǎo bì rén xī, rào shù ér míng, xún dù bō zhuó xī, qí yīn dīng dīng, yīn qǔ yù yú xū yǎn xī, gù jiá rán ér yǒu shēng",
+      "verse_en": "The solitary bird shuns people, circling the tree as it cries; seeking grubs it strips the bark with its pecking, its sound knock-knock. Taking this as a figure for the empty-yan stroke, it rings out clearly with sound."
     },
     {
       "num": 22,
       "hand": "left",
-      "title": "A beautiful oriole in a fragrant woods",
+      "title": "A lovely oriole in a fragrant wood",
       "finger": "Forefinger",
       "photo": "assets/photos/gestures/hand22.jpg",
       "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
-      "technique_id": "C3"
+      "technique_id": "C3",
+      "stroke": "按、兠",
+      "verse_hanzi": "相彼嬌鸎兮，遷于芳林，飛鳴求友兮，睍睆其音，謂按指之雍容兮，有如軟話之春禽。",
+      "verse_pinyin": "xiāng bǐ jiāo yīng xī, qiān yú fāng lín, fēi míng qiú yǒu xī, xiàn huàn qí yīn, wèi àn zhǐ zhī yōng róng xī, yǒu rú ruǎn huà zhī chūn qín",
+      "verse_en": "Behold the lovely oriole, moved into a fragrant wood; flying and crying it seeks companions, its voice sweet and clear. The pressing finger should be gracious and unhurried, like the soft chatter of a spring bird."
     },
     {
       "num": 23,
@@ -233,101 +300,136 @@
       "finger": "Middle finger",
       "photo": "assets/photos/gestures/hand23.jpg",
       "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
-      "stroke": "推",
-      "technique_id": "F6"
+      "stroke": "按、推起、推出",
+      "technique_id": "F6",
+      "verse_hanzi": "時哉野雉兮，飛于朝日，登木以鳴兮，音清清而不疾，因夫取意以喻兮，故匪文之可述。",
+      "verse_pinyin": "shí zāi yě zhì xī, fēi yú zhāo rì, dēng mù yǐ míng xī, yīn qīng qīng ér bù jí, yīn fū qǔ yì yǐ yù xī, gù fěi wén zhī kě shù",
+      "verse_en": "What a fine time — the wild pheasant flies in the morning sun, climbing a tree to cry out, its sound clear and unhurried. Taking the idea as the figure, it is something words cannot fully describe."
     },
     {
       "num": 24,
       "hand": "left",
-      "title": "A phoenix combing its feathers",
+      "title": "A perching phoenix combing its plumage",
       "finger": "Ring finger",
       "photo": "assets/photos/gestures/hand24.jpg",
-      "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm"
+      "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
+      "stroke": "按",
+      "verse_hanzi": "有鳳栖梧兮，不飛不鳴，意將冲天兮，載拂其翎，名側按而姆屈，因其勢而命名。",
+      "verse_pinyin": "yǒu fèng qī wú xī, bù fēi bù míng, yì jiāng chōng tiān xī, zài fú qí líng, míng cè àn ér mǔ qū, yīn qí shì ér mìng míng",
+      "verse_en": "A phoenix perches in the wutong tree, neither flying nor calling; intending to soar to the heavens, it preens its plumage. The ring finger presses sideways and the thumb bends — the gesture gives it its name."
     },
     {
       "num": 25,
       "hand": "left",
-      "title": "The spotted leopard embracing its prey",
+      "title": "A spotted leopard clutching its prey",
       "finger": "Ring finger",
       "photo": "assets/photos/gestures/hand25.jpg",
       "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
       "stroke": "跪",
-      "technique_id": "A5"
+      "technique_id": "A5",
+      "verse_hanzi": "有豹待變兮，隱于南山，抱物而食兮，孰窺其斑，狀其形而取象，蓋在乎作勢之間。",
+      "verse_pinyin": "yǒu bào dài biàn xī, yǐn yú nán shān, bào wù ér shí xī, shú kuī qí bān, zhuàng qí xíng ér qǔ xiàng, gài zài hū zuò shì zhī jiān",
+      "verse_en": "A leopard, awaiting its change, lurks in the southern mountains; clutching its prey to eat, who can glimpse its spots? Picturing its form gives the image — it lies in the moment of making the gesture."
     },
     {
       "num": 26,
       "hand": "left",
-      "title": "A pigeon crying out to predict rain",
+      "title": "A pigeon calling to summon rain",
       "finger": "Thumb and ring finger",
       "photo": "assets/photos/gestures/hand26.jpg",
-      "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm"
+      "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
+      "stroke": "對按",
+      "verse_hanzi": "天欲陰雨兮，維鳩知之，昂首長鳴兮，尚求其雌，爰取象於對按兮，以其音之唱隨。",
+      "verse_pinyin": "tiān yù yīn yǔ xī, wéi jiū zhī zhī, áng shǒu zhǎng míng xī, shàng qiú qí cí, yuán qǔ xiàng yú duì àn xī, yǐ qí yīn zhī chàng suí",
+      "verse_en": "The sky is about to cloud and rain, and only the pigeon knows it; lifting its head it cries long, still seeking its mate. Taking this as the figure for the paired-press, its notes call and answer one another."
     },
     {
       "num": 27,
       "hand": "left",
-      "title": "A cicada singing in the autumn",
+      "title": "A cold cicada singing in autumn",
       "finger": "Thumb, middle finger or ring finger",
       "photo": "assets/photos/gestures/hand27.jpg",
       "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
-      "stroke": "吟",
-      "verse_hanzi": "寒蟬吟秋",
-      "verse_pinyin": "hán chán yín qiū",
-      "technique_id": "C1"
+      "stroke": "吟、細吟",
+      "verse_hanzi": "翼而鳴者，惟蟬知時，秋高氣肅，長吟愈悲，審夫聲而聚喻，當即意以求之。",
+      "verse_pinyin": "yì ér míng zhě, wéi chán zhī shí, qiū gāo qì sù, zhǎng yín yù bēi, shěn fū shēng ér jù yù, dāng jí yì yǐ qiú zhī",
+      "technique_id": "C1",
+      "verse_en": "That which sings with its wings — only the cicada knows the season; in deep autumn, the air austere, its long humming grows ever more mournful. Studying the sound to gather the figure, one should grasp it through the intent."
     },
     {
       "num": 28,
       "hand": "left",
-      "title": "Fallen leaves following the flow of water",
+      "title": "Fallen blossoms drifting with the water",
       "finger": "Thumb, middle finger or ring finger",
       "photo": "assets/photos/gestures/hand28.jpg",
       "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
-      "stroke": "游吟",
-      "technique_id": "D4"
+      "stroke": "遊吟",
+      "technique_id": "D4",
+      "verse_hanzi": "落花隨水兮，順流而去，逆浪所激兮，欲住不住，因其勢以取喻兮，能求意而自悟。",
+      "verse_pinyin": "luò huā suí shuǐ xī, shùn liú ér qù, nì làng suǒ jī xī, yù zhù bú zhù, yīn qí shì yǐ qǔ yù xī, néng qiú yì ér zì wù",
+      "verse_en": "Fallen blossoms follow the water, going along with the current; stirred by the countering waves they would stop yet cannot. Taking this gesture as a figure, one can seek the meaning and grasp it for oneself."
     },
     {
       "num": 29,
       "hand": "left",
-      "title": "A raven carrying a cicada as it flies",
+      "title": "A flying bird carrying off a cicada",
       "finger": "Thumb, middle finger or ring finger",
       "photo": "assets/photos/gestures/hand29.jpg",
       "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
-      "stroke": "走吟"
+      "stroke": "走吟",
+      "verse_hanzi": "蟬入鳥口兮，鳥飛蟬咽，自西徂東兮，其聲漸滅，通諸理以造妙兮，難以言而詳說。",
+      "verse_pinyin": "chán rù niǎo kǒu xī, niǎo fēi chán yàn, zì xī cú dōng xī, qí shēng jiàn miè, tōng zhū lǐ yǐ zào miào xī, nán yǐ yán ér xiáng shuō",
+      "verse_en": "The cicada is in the bird's beak; as the bird flies the cicada is swallowed. Heading from west to east, its sound gradually dies away. Mastering the principle to reach the subtle — it is hard to set out fully in words."
     },
     {
       "num": 30,
       "hand": "left",
-      "title": "A white butterfly wafted onto a flower",
+      "title": "A white butterfly floating over a flower",
       "finger": "Thumb, middle finger or ring finger",
       "photo": "assets/photos/gestures/hand30.jpg",
       "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
-      "stroke": "泛",
-      "technique_id": "G2"
+      "stroke": "泛、泛起、泛止",
+      "technique_id": "G2",
+      "verse_hanzi": "粉蝶浮花兮，翅輕花柔，欲去不去兮，似留不留，取夫意以為泛，猶指兩之輕浮。",
+      "verse_pinyin": "fěn dié fú huā xī, chì qīng huā róu, yù qù bù qù xī, shì liú bù liú, qǔ fū yì yǐ wèi fàn, yóu zhǐ liǎng zhī qīng fú",
+      "verse_en": "A pale butterfly floats over a flower, its wings light, the blossom soft; it would leave yet does not, seems to stay yet does not. Taking this idea for the harmonics, like two fingers lightly hovering."
     },
     {
       "num": 31,
       "hand": "left",
-      "title": "Dragonflies flitting on water",
+      "title": "Dragonflies skimming the water",
       "finger": "Forefinger, thumb or ring finger",
       "photo": "assets/photos/gestures/hand31.jpg",
-      "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm"
+      "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
+      "stroke": "互泛",
+      "verse_hanzi": "無數蜻蜓兮，在水之湄，款款而飛兮，點破漣漪，猶對徽而互泛，類物象之如斯。",
+      "verse_pinyin": "wú shù qīng tíng xī, zài shuǐ zhī méi, kuǎn kuǎn ér fēi xī, diǎn pò lián yī, yóu duì huī ér hù fàn, lèi wù xiàng zhī rú sī",
+      "verse_en": "Countless dragonflies hover at the water's edge, flying slowly, dotting and breaking the ripples. Like fingers at the studs sounding alternating harmonics — the image of things is just so."
     },
     {
       "num": 32,
       "hand": "left",
-      "title": "A cicada calling as it passes a branch",
+      "title": "A cicada singing as it passes a branch",
       "finger": "Thumb, middle finger or ring finger",
       "photo": "assets/photos/gestures/hand32.jpg",
       "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
-      "stroke": "引・注",
-      "technique_id": "C4"
+      "stroke": "引、注",
+      "technique_id": "C4",
+      "verse_hanzi": "維蟬高潔兮，委蛻含靈，隱彼深林兮，趨時而鳴，忽慄驚而引去，曳不斷之餘音。",
+      "verse_pinyin": "wéi chán gāo jié xī, wěi tuì hán líng, yǐn bǐ shēn lín xī, qū shí ér míng, hū lì jīng ér yǐn qù, yè bù duàn zhī yú yīn",
+      "verse_en": "The cicada, lofty and pure, has just cast off its shell, holding its spirit; hidden in the deep wood, it cries when the season comes. Suddenly startled it draws away, trailing an unbroken lingering sound."
     },
     {
       "num": 33,
       "hand": "left",
-      "title": "A swallow grabbing a flying insect",
+      "title": "A swallow chasing a flying insect",
       "finger": "Thumb, middle finger and ring finger",
       "photo": "assets/photos/gestures/hand33.jpg",
-      "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm"
+      "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
+      "stroke": "抑",
+      "verse_hanzi": "燕燕于飛兮，差池其羽，逐彼飛虫兮，乍來忽去，抑上抑下兮，取夫勢而為喻。",
+      "verse_pinyin": "yàn yàn yú fēi xī, chā chí qí yǔ, zhú bǐ fēi chóng xī, zhà lái hū qù, yì shàng yì xià xī, qǔ fū shì ér wèi yù",
+      "verse_en": "Swallows in flight, their feathers spread unevenly, chase the flying insects, coming in a flash and gone in an instant. Pressing now up, now down, the gesture is taken as the figure."
     }
   ]
 }

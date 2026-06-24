@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Guqin Finger-Technique (Hand-Gesture) Reference",
-    "description": "A categorized reference of guqin (古琴) finger techniques as written in jianzipu (减字谱) reduced-character tablature. Each entry gives the full character (lookup key), pinyin, the reduced form used in tablature, a plain-language instruction, the traditional poetic gesture-image where one exists, and source links.",
-    "version": "1.0.0",
-    "note": "Instruction text is paraphrased/summarized for reference purposes. Original demonstration videos and images (Pei-You Chang) and gesture-image scans/translations (John Thompson, silkqin.com) must be sourced and cleared separately — see resources.json licensing."
+    "description": "A categorized, cross-linked reference of guqin (古琴) finger techniques in jianzipu (减字谱) tablature. Each card is self-contained: the full character, pinyin, the handdrawn reduced glyph, a plain-language instruction, demonstration photo/video where available, the related techniques to compare, and the traditional poetic gesture-image where one exists.",
+    "version": "2.0.0",
+    "note": "Explanations synthesized from Pei-You Chang (peiyouqin.com), John Thompson (silkqin.com) and Chinese-language qin sources. Demonstration photos and handdrawn notation glyphs reproduced from peiyouqin.com; gesture woodblocks from silkqin.com. See assets/photos/README.txt and resources.json for attribution."
   },
   "categories": [
     {
@@ -13,7 +13,8 @@
       "subtitle": "左手指法 — which finger presses",
       "hand": "left",
       "description": "Abbreviated finger-name components that appear in the upper-left of a jianzipu glyph to tell the left hand which finger presses. Building blocks rather than strokes.",
-      "indexSource": "https://peiyouqin.com/notation3.html"
+      "indexSource": "https://peiyouqin.com/notation3.html",
+      "count": 5
     },
     {
       "id": "right-stroke-basic",
@@ -22,7 +23,8 @@
       "subtitle": "八法 — the eight basic plucks",
       "hand": "right",
       "description": "The core plucking vocabulary. Each of the four fingers and the thumb plucks either inward (toward the player) or outward (away).",
-      "indexSource": "https://peiyouqin.com/notation2.html"
+      "indexSource": "https://peiyouqin.com/notation2.html",
+      "count": 8
     },
     {
       "id": "right-stroke-compound",
@@ -31,7 +33,8 @@
       "subtitle": "Multi-string & rapid figures",
       "hand": "right",
       "description": "Pinches, wheels, locks, sweeps and rolls built from the eight basic strokes across one or more strings.",
-      "indexSource": "https://peiyouqin.com/notation2.html"
+      "indexSource": "https://peiyouqin.com/notation2.html",
+      "count": 31
     },
     {
       "id": "left-basic",
@@ -40,7 +43,8 @@
       "subtitle": "The fundamentals — in nearly every piece",
       "hand": "left",
       "description": "Pei-You Chang organizes the left hand around six fundamentals: two vibratos and four slides. Highest-priority entries.",
-      "indexSource": "https://peiyouqin.com/notation3b.html"
+      "indexSource": "https://peiyouqin.com/notation3b.html",
+      "count": 6
     },
     {
       "id": "vibrato-variation",
@@ -49,7 +53,8 @@
       "subtitle": "Sub-types of 吟 yín and 猱 náo",
       "hand": "left",
       "description": "Variations of the two basic vibratos: longer, finer, calmer, faster, immediate, or accented.",
-      "indexSource": "https://peiyouqin.com/notation3b.html"
+      "indexSource": "https://peiyouqin.com/notation3b.html",
+      "count": 11
     },
     {
       "id": "slide-strike",
@@ -58,7 +63,8 @@
       "subtitle": "Advanced left-hand motion",
       "hand": "left",
       "description": "Slow slides, springy strikes-against, and back-and-forth ornaments performed by the left hand.",
-      "indexSource": "https://peiyouqin.com/notation3c.html"
+      "indexSource": "https://peiyouqin.com/notation3c.html",
+      "count": 10
     },
     {
       "id": "left-pluck",
@@ -67,7 +73,8 @@
       "subtitle": "The left hand makes the sound",
       "hand": "left",
       "description": "Pull-offs, hammer-ons, pushes and advance/return slides where the left hand itself produces the note with no right-hand pluck.",
-      "indexSource": "https://silkqin.com/02qnpu/05tydq/ty5d.htm"
+      "indexSource": "https://silkqin.com/02qnpu/05tydq/ty5d.htm",
+      "count": 14
     },
     {
       "id": "tone-position",
@@ -76,7 +83,8 @@
       "subtitle": "Context glyphs",
       "hand": "either",
       "description": "Glyphs that classify the sound (open / harmonic / stopped) or specify the hui position and string number. Included so a jianzipu reader is complete.",
-      "indexSource": "https://peiyouqin.com/notation3.html"
+      "indexSource": "https://peiyouqin.com/notation3.html",
+      "count": 5
     }
   ],
   "techniques": [
@@ -94,7 +102,8 @@
         "https://peiyouqin.com/dazhi.html"
       ],
       "notes": null,
-      "photo": "assets/photos/A1_dazhi.jpg"
+      "photo": "assets/photos/A1_dazhi.jpg",
+      "glyph_image": "assets/glyphs/peiyou/dazhiN.jpg"
     },
     {
       "id": "A2",
@@ -109,8 +118,9 @@
       "source_url": [
         "https://peiyouqin.com/shizhi.html"
       ],
-      "notes": "Reduced from 人.",
-      "photo": "assets/photos/A2_shizhi.jpg"
+      "notes": null,
+      "photo": "assets/photos/A2_shizhi.jpg",
+      "glyph_image": "assets/glyphs/peiyou/shizhiN.jpg"
     },
     {
       "id": "A3",
@@ -126,7 +136,8 @@
         "https://peiyouqin.com/zhongzhi.html"
       ],
       "notes": null,
-      "photo": "assets/photos/A3_zhongzhi.jpg"
+      "photo": "assets/photos/A3_zhongzhi.jpg",
+      "glyph_image": "assets/glyphs/peiyou/zhongzhiN.jpg"
     },
     {
       "id": "A4",
@@ -142,7 +153,8 @@
         "https://peiyouqin.com/mingzhi.html"
       ],
       "notes": null,
-      "photo": "assets/photos/A4_mingzhi.jpg"
+      "photo": "assets/photos/A4_mingzhi.jpg",
+      "glyph_image": "assets/glyphs/peiyou/mingzhiN.jpg"
     },
     {
       "id": "A5",
@@ -158,7 +170,8 @@
         "https://peiyouqin.com/gui.html"
       ],
       "notes": "Written with a kneel mark.",
-      "photo": "assets/photos/A5_gui.jpg"
+      "photo": "assets/photos/A5_gui.jpg",
+      "glyph_image": "assets/glyphs/peiyou/guiN.jpg"
     },
     {
       "id": "B1",
@@ -169,7 +182,7 @@
       "jianzipu_glyph": "木",
       "image": "assets/glyphs/lg_mo.svg",
       "font_input": "\\m",
-      "instruction_text": "Index finger plucks one string inward (toward the player).",
+      "instruction_text": "Using your index finger to pluck the string.",
       "direction": "inward",
       "poetic_image": null,
       "poetic_verse": null,
@@ -181,7 +194,38 @@
       "video_url": "https://www.youtube.com/watch?v=h-z7seIfFJw",
       "video_kind": "youtube",
       "video_id": "h-z7seIfFJw",
-      "video_shared": false
+      "video_shared": false,
+      "glyph_image": "assets/glyphs/peiyou/moN.jpg",
+      "photo": "assets/photos/peiyou/mo.jpg",
+      "media": [
+        {
+          "type": "youtube",
+          "id": "h-z7seIfFJw",
+          "label": "Demonstration"
+        }
+      ],
+      "related": [
+        {
+          "id": "B15",
+          "relation": "builds-on",
+          "label": "builds on"
+        },
+        {
+          "id": "B2",
+          "relation": "opposite",
+          "label": "opposite"
+        },
+        {
+          "id": "B3",
+          "relation": "compare",
+          "label": "compare"
+        },
+        {
+          "id": "B23",
+          "relation": "builds-on",
+          "label": "builds on"
+        }
+      ]
     },
     {
       "id": "B2",
@@ -192,7 +236,7 @@
       "jianzipu_glyph": "㇂",
       "image": "assets/glyphs/lg_tiao.svg",
       "font_input": "\\t",
-      "instruction_text": "Index finger plucks one string outward (away from the player).",
+      "instruction_text": "Using your index finger to strum the string. When playing, slightly bend the index finger and put your index finger tip against your thumb nail tip to strum the string. When using Muǒ and Tiaǒ, be sure your elbow is hanging flat and do not against your wrist on the instrument.",
       "direction": "outward",
       "poetic_image": null,
       "poetic_verse": null,
@@ -204,7 +248,23 @@
       "video_url": "https://www.youtube.com/watch?v=KZ1ubM_WTfY",
       "video_kind": "youtube",
       "video_id": "KZ1ubM_WTfY",
-      "video_shared": false
+      "video_shared": false,
+      "glyph_image": "assets/glyphs/peiyou/tiaoN.jpg",
+      "photo": "assets/photos/peiyou/tiao.jpg",
+      "media": [
+        {
+          "type": "youtube",
+          "id": "KZ1ubM_WTfY",
+          "label": "Demonstration"
+        }
+      ],
+      "related": [
+        {
+          "id": "B1",
+          "relation": "opposite",
+          "label": "opposite"
+        }
+      ]
     },
     {
       "id": "B3",
@@ -215,7 +275,7 @@
       "jianzipu_glyph": "勹",
       "image": "assets/glyphs/lg_gou.svg",
       "font_input": "\\g",
-      "instruction_text": "Middle finger plucks inward.",
+      "instruction_text": "Using your middle finger to pluck the string. Slightly bend the middle finger, and put more strength on the finger tip. After pluck the string, stay your middle finger on the next string and not move away yet.",
       "direction": "inward",
       "poetic_image": "Lone duck looks back at the flock (孤鶩顧群)",
       "poetic_verse": "孤鶩顧群",
@@ -227,7 +287,38 @@
       "video_url": "https://www.youtube.com/watch?v=PF1yYBzTxvk",
       "video_kind": "youtube",
       "video_id": "PF1yYBzTxvk",
-      "video_shared": true
+      "video_shared": true,
+      "glyph_image": "assets/glyphs/peiyou/gouN.jpg",
+      "photo": "assets/photos/peiyou/gou.jpg",
+      "media": [
+        {
+          "type": "youtube",
+          "id": "PF1yYBzTxvk",
+          "label": "Demonstration · the 8 basic strokes"
+        }
+      ],
+      "related": [
+        {
+          "id": "B15",
+          "relation": "builds-on",
+          "label": "builds on"
+        },
+        {
+          "id": "B4",
+          "relation": "opposite",
+          "label": "opposite"
+        },
+        {
+          "id": "B1",
+          "relation": "compare",
+          "label": "compare"
+        },
+        {
+          "id": "B24",
+          "relation": "builds-on",
+          "label": "builds on"
+        }
+      ]
     },
     {
       "id": "B4",
@@ -238,7 +329,7 @@
       "jianzipu_glyph": "𠂆",
       "image": "assets/glyphs/lg_ti.svg",
       "font_input": "\\i",
-      "instruction_text": "Middle finger plucks outward.",
+      "instruction_text": "Using your middle finger to strum the string. Gou and Ti are a little bit stronger than Muǒ and Tiaǒ. Also keep your elbow hanging flat.",
       "direction": "outward",
       "poetic_image": null,
       "poetic_verse": null,
@@ -250,7 +341,23 @@
       "video_url": "https://www.youtube.com/watch?v=JuOsfWK9qlo",
       "video_kind": "youtube",
       "video_id": "JuOsfWK9qlo",
-      "video_shared": false
+      "video_shared": false,
+      "glyph_image": "assets/glyphs/peiyou/tiN.jpg",
+      "photo": "assets/photos/peiyou/ti.jpg",
+      "media": [
+        {
+          "type": "youtube",
+          "id": "JuOsfWK9qlo",
+          "label": "Demonstration"
+        }
+      ],
+      "related": [
+        {
+          "id": "B3",
+          "relation": "opposite",
+          "label": "opposite"
+        }
+      ]
     },
     {
       "id": "B5",
@@ -261,7 +368,7 @@
       "jianzipu_glyph": "丁",
       "image": "assets/glyphs/lg_da.svg",
       "font_input": "\\d",
-      "instruction_text": "Ring finger plucks inward.",
+      "instruction_text": "Using your ring finger to pluck the string.",
       "direction": "inward",
       "poetic_image": null,
       "poetic_verse": null,
@@ -273,7 +380,23 @@
       "video_url": "https://www.youtube.com/watch?v=PF1yYBzTxvk",
       "video_kind": "youtube",
       "video_id": "PF1yYBzTxvk",
-      "video_shared": true
+      "video_shared": true,
+      "glyph_image": "assets/glyphs/peiyou/daN.jpg",
+      "photo": "assets/photos/peiyou/da.jpg",
+      "media": [
+        {
+          "type": "youtube",
+          "id": "PF1yYBzTxvk",
+          "label": "Demonstration · the 8 basic strokes"
+        }
+      ],
+      "related": [
+        {
+          "id": "B6",
+          "relation": "opposite",
+          "label": "opposite"
+        }
+      ]
     },
     {
       "id": "B6",
@@ -284,7 +407,7 @@
       "jianzipu_glyph": "啇",
       "image": "assets/glyphs/lg_zhai.svg",
       "font_input": "\\z",
-      "instruction_text": "Ring finger plucks outward.",
+      "instruction_text": "Using your ring finger to strum the string. The ring finger has less power, therefore it has to practice more to get strength. Dă and Zhai are lighter than Muǒ, Tiaǒ, Gou and Ti. Main Menu / 1 / 2 / 3 / Copyright ©2001-2013 Judy (Pei-You) Chang",
       "direction": "outward",
       "poetic_image": null,
       "poetic_verse": null,
@@ -296,7 +419,23 @@
       "video_url": "https://www.youtube.com/watch?v=PF1yYBzTxvk",
       "video_kind": "youtube",
       "video_id": "PF1yYBzTxvk",
-      "video_shared": true
+      "video_shared": true,
+      "glyph_image": "assets/glyphs/peiyou/zhaiN.jpg",
+      "photo": "assets/photos/peiyou/zhai.jpg",
+      "media": [
+        {
+          "type": "youtube",
+          "id": "PF1yYBzTxvk",
+          "label": "Demonstration · the 8 basic strokes"
+        }
+      ],
+      "related": [
+        {
+          "id": "B5",
+          "relation": "opposite",
+          "label": "opposite"
+        }
+      ]
     },
     {
       "id": "B7",
@@ -319,7 +458,23 @@
       "video_url": "https://www.youtube.com/watch?v=PF1yYBzTxvk",
       "video_kind": "youtube",
       "video_id": "PF1yYBzTxvk",
-      "video_shared": true
+      "video_shared": true,
+      "glyph_image": "assets/glyphs/peiyou/boN.jpg",
+      "photo": "assets/photos/peiyou/bo.jpg",
+      "media": [
+        {
+          "type": "youtube",
+          "id": "PF1yYBzTxvk",
+          "label": "Demonstration · the 8 basic strokes"
+        }
+      ],
+      "related": [
+        {
+          "id": "B8",
+          "relation": "opposite",
+          "label": "opposite"
+        }
+      ]
     },
     {
       "id": "B8",
@@ -330,7 +485,7 @@
       "jianzipu_glyph": "乇",
       "image": "assets/glyphs/lg_tuo.svg",
       "font_input": "\\u",
-      "instruction_text": "Thumb plucks outward.",
+      "instruction_text": "Using your thumb to pluck the string. Bò and Tuo are used more often on the 6th and the 7th strings.",
       "direction": "outward",
       "poetic_image": null,
       "poetic_verse": null,
@@ -342,7 +497,23 @@
       "video_url": "https://www.youtube.com/watch?v=T8P-ZmNKKZE",
       "video_kind": "youtube",
       "video_id": "T8P-ZmNKKZE",
-      "video_shared": false
+      "video_shared": false,
+      "glyph_image": "assets/glyphs/peiyou/tuoN.jpg",
+      "photo": "assets/photos/peiyou/tuo.jpg",
+      "media": [
+        {
+          "type": "youtube",
+          "id": "T8P-ZmNKKZE",
+          "label": "Demonstration"
+        }
+      ],
+      "related": [
+        {
+          "id": "B7",
+          "relation": "opposite",
+          "label": "opposite"
+        }
+      ]
     },
     {
       "id": "B9",
@@ -353,7 +524,7 @@
       "jianzipu_glyph": "撮",
       "image": "assets/glyphs/xl_cuo.svg",
       "font_input": "||",
-      "instruction_text": "\"Pinch\" — two strings plucked simultaneously (e.g. thumb + middle), producing an interval/chord.",
+      "instruction_text": "Using the index finger to strum (Tiaǒ) and the middle finger to pluck (Gou) two strings together. The strength must be the same.",
       "poetic_image": null,
       "poetic_verse": null,
       "source_url": [
@@ -363,7 +534,33 @@
       "video_url": "https://www.youtube.com/watch?v=PF1yYBzTxvk",
       "video_kind": "youtube",
       "video_id": "PF1yYBzTxvk",
-      "video_shared": true
+      "video_shared": true,
+      "glyph_image": "assets/glyphs/peiyou/zuoN.jpg",
+      "photo": "assets/photos/peiyou/cuo.jpg",
+      "media": [
+        {
+          "type": "youtube",
+          "id": "PF1yYBzTxvk",
+          "label": "Demonstration · the 8 basic strokes"
+        }
+      ],
+      "related": [
+        {
+          "id": "B38",
+          "relation": "component-of",
+          "label": "component of"
+        },
+        {
+          "id": "B33",
+          "relation": "component-of",
+          "label": "component of"
+        },
+        {
+          "id": "B34",
+          "relation": "opposite",
+          "label": "opposite"
+        }
+      ]
     },
     {
       "id": "B10",
@@ -382,7 +579,14 @@
       "video_url": "https://www.youtube.com/watch?v=PF1yYBzTxvk",
       "video_kind": "youtube",
       "video_id": "PF1yYBzTxvk",
-      "video_shared": true
+      "video_shared": true,
+      "media": [
+        {
+          "type": "youtube",
+          "id": "PF1yYBzTxvk",
+          "label": "Demonstration · the 8 basic strokes"
+        }
+      ]
     },
     {
       "id": "B11",
@@ -392,7 +596,7 @@
       "category": "right-stroke-compound",
       "jianzipu_glyph": "輪",
       "image": "assets/glyphs/lg_lun.svg",
-      "instruction_text": "\"Wheel\" — 摘 then 剔 then 挑 in rapid succession on one string (ring, middle, index outward).",
+      "instruction_text": "On the same string, use the ring finger, middle finger and index finger to do Zhai, Ti, Tiaǒ 3 continuing sound. When playing this technique, bend the 3 fingers slightly, then strum the string gradually. Try to make it strong and clear.",
       "poetic_image": null,
       "poetic_verse": null,
       "source_url": [
@@ -402,7 +606,23 @@
       "video_url": "https://www.youtube.com/watch?v=PF1yYBzTxvk",
       "video_kind": "youtube",
       "video_id": "PF1yYBzTxvk",
-      "video_shared": true
+      "video_shared": true,
+      "glyph_image": "assets/glyphs/peiyou/lunN.jpg",
+      "photo": "assets/photos/peiyou/lun1.jpg",
+      "media": [
+        {
+          "type": "youtube",
+          "id": "PF1yYBzTxvk",
+          "label": "Demonstration · the 8 basic strokes"
+        }
+      ],
+      "related": [
+        {
+          "id": "B12",
+          "relation": "component-of",
+          "label": "component of"
+        }
+      ]
     },
     {
       "id": "B12",
@@ -412,7 +632,7 @@
       "category": "right-stroke-compound",
       "jianzipu_glyph": "半輪",
       "image": "assets/glyphs/lg_banlun.svg",
-      "instruction_text": "\"Half wheel\" — two of the three wheel strokes.",
+      "instruction_text": "Same technique as Luń but one sound less than Luń. On the same string, use either Zhai Ti or Ti Tiaǒ. Notation: (or 口一)",
       "poetic_image": null,
       "poetic_verse": null,
       "source_url": [
@@ -422,7 +642,23 @@
       "video_url": "https://www.youtube.com/watch?v=PF1yYBzTxvk",
       "video_kind": "youtube",
       "video_id": "PF1yYBzTxvk",
-      "video_shared": true
+      "video_shared": true,
+      "glyph_image": "assets/glyphs/peiyou/banlunN.jpg",
+      "photo": "assets/photos/peiyou/banlun.jpg",
+      "media": [
+        {
+          "type": "youtube",
+          "id": "PF1yYBzTxvk",
+          "label": "Demonstration · the 8 basic strokes"
+        }
+      ],
+      "related": [
+        {
+          "id": "B11",
+          "relation": "builds-on",
+          "label": "builds on"
+        }
+      ]
     },
     {
       "id": "B13",
@@ -441,7 +677,31 @@
       "video_url": "https://www.youtube.com/watch?v=PF1yYBzTxvk",
       "video_kind": "youtube",
       "video_id": "PF1yYBzTxvk",
-      "video_shared": true
+      "video_shared": true,
+      "media": [
+        {
+          "type": "youtube",
+          "id": "PF1yYBzTxvk",
+          "label": "Demonstration · the 8 basic strokes"
+        }
+      ],
+      "related": [
+        {
+          "id": "B14",
+          "relation": "component-of",
+          "label": "component of"
+        },
+        {
+          "id": "B28",
+          "relation": "component-of",
+          "label": "component of"
+        },
+        {
+          "id": "B27",
+          "relation": "component-of",
+          "label": "component of"
+        }
+      ]
     },
     {
       "id": "B14",
@@ -450,7 +710,7 @@
       "hand": "right",
       "category": "right-stroke-compound",
       "jianzipu_glyph": "長鎖",
-      "instruction_text": "\"Long lock\" — extended form of suo with more strokes.",
+      "instruction_text": "On the same string, do the Muǒ Tiaǒ, Muǒ Gou 4 sound first then follow with the Tì Muǒ Tiaǒ 3 continuing sound.",
       "poetic_image": null,
       "poetic_verse": null,
       "source_url": [
@@ -460,7 +720,23 @@
       "video_url": "https://www.youtube.com/watch?v=PF1yYBzTxvk",
       "video_kind": "youtube",
       "video_id": "PF1yYBzTxvk",
-      "video_shared": true
+      "video_shared": true,
+      "glyph_image": "assets/glyphs/peiyou/changsuoN.jpg",
+      "photo": "assets/photos/peiyou/changsuo1.jpg",
+      "media": [
+        {
+          "type": "youtube",
+          "id": "PF1yYBzTxvk",
+          "label": "Demonstration · the 8 basic strokes"
+        }
+      ],
+      "related": [
+        {
+          "id": "B13",
+          "relation": "builds-on",
+          "label": "builds on"
+        }
+      ]
     },
     {
       "id": "B15",
@@ -470,7 +746,7 @@
       "category": "right-stroke-compound",
       "jianzipu_glyph": "全扶",
       "font_input": "\\fu",
-      "instruction_text": "\"Full support\" — a sweeping linked pluck across adjacent strings.",
+      "instruction_text": "Quán fú (full fú) is a four-note connected figure: the index finger does mǒ across two adjacent strings in one motion, then immediately the middle finger does gōu across the same two strings, while the ring finger lightly stops the residual sound of the first string. The result is four soft, connected sounds that flow as one gesture.",
       "poetic_image": null,
       "poetic_verse": null,
       "source_url": [
@@ -480,7 +756,36 @@
       "video_url": "https://www.youtube.com/watch?v=PF1yYBzTxvk",
       "video_kind": "youtube",
       "video_id": "PF1yYBzTxvk",
-      "video_shared": true
+      "video_shared": true,
+      "media": [
+        {
+          "type": "youtube",
+          "id": "PF1yYBzTxvk",
+          "label": "Demonstration · the 8 basic strokes"
+        }
+      ],
+      "related": [
+        {
+          "id": "B16",
+          "relation": "compare",
+          "label": "compare"
+        },
+        {
+          "id": "B1",
+          "relation": "component-of",
+          "label": "component of"
+        },
+        {
+          "id": "B3",
+          "relation": "component-of",
+          "label": "component of"
+        },
+        {
+          "id": "B25",
+          "relation": "compare",
+          "label": "compare"
+        }
+      ]
     },
     {
       "id": "B16",
@@ -490,7 +795,7 @@
       "category": "right-stroke-compound",
       "jianzipu_glyph": "半扶",
       "font_input": "\\fu",
-      "instruction_text": "\"Half support\" — shorter form of quanfu.",
+      "instruction_text": "Bàn fú (half fú) is the abbreviated form of quán fú: the index finger does mǒ on the two strings and the middle finger does gōu on the lower of the two strings, producing fewer (typically two) connected soft sounds rather than the full four. It is the lighter, shorter partner of quán fú.",
       "poetic_image": null,
       "poetic_verse": null,
       "source_url": [
@@ -500,7 +805,21 @@
       "video_url": "https://www.youtube.com/watch?v=PF1yYBzTxvk",
       "video_kind": "youtube",
       "video_id": "PF1yYBzTxvk",
-      "video_shared": true
+      "video_shared": true,
+      "media": [
+        {
+          "type": "youtube",
+          "id": "PF1yYBzTxvk",
+          "label": "Demonstration · the 8 basic strokes"
+        }
+      ],
+      "related": [
+        {
+          "id": "B15",
+          "relation": "compare",
+          "label": "compare"
+        }
+      ]
     },
     {
       "id": "B17",
@@ -519,7 +838,21 @@
       "video_url": "https://www.youtube.com/watch?v=PF1yYBzTxvk",
       "video_kind": "youtube",
       "video_id": "PF1yYBzTxvk",
-      "video_shared": true
+      "video_shared": true,
+      "media": [
+        {
+          "type": "youtube",
+          "id": "PF1yYBzTxvk",
+          "label": "Demonstration · the 8 basic strokes"
+        }
+      ],
+      "related": [
+        {
+          "id": "B18",
+          "relation": "component-of",
+          "label": "component of"
+        }
+      ]
     },
     {
       "id": "B18",
@@ -538,7 +871,21 @@
       "video_url": "https://www.youtube.com/watch?v=PF1yYBzTxvk",
       "video_kind": "youtube",
       "video_id": "PF1yYBzTxvk",
-      "video_shared": true
+      "video_shared": true,
+      "media": [
+        {
+          "type": "youtube",
+          "id": "PF1yYBzTxvk",
+          "label": "Demonstration · the 8 basic strokes"
+        }
+      ],
+      "related": [
+        {
+          "id": "B17",
+          "relation": "builds-on",
+          "label": "builds on"
+        }
+      ]
     },
     {
       "id": "B19",
@@ -548,7 +895,7 @@
       "category": "right-stroke-compound",
       "jianzipu_glyph": "撥",
       "image": "assets/glyphs/xl_bo.svg",
-      "instruction_text": "\"Sweep/brush\" — fingers sweep several strings inward together.",
+      "instruction_text": "Bō and là are an inseparable pair (撥剌). Bō: the index, middle and ring fingers are cupped together and sweep INWARD across several strings; là sweeps back OUTWARD. In practice bō is played lighter and là follows heavier, giving a strong two-stroke flourish.",
       "poetic_image": null,
       "poetic_verse": null,
       "source_url": [
@@ -558,7 +905,23 @@
       "video_url": "https://www.youtube.com/watch?v=PF1yYBzTxvk",
       "video_kind": "youtube",
       "video_id": "PF1yYBzTxvk",
-      "video_shared": true
+      "video_shared": true,
+      "glyph_image": "assets/glyphs/peiyou/baN.jpg",
+      "photo": "assets/photos/peiyou/bo12.jpg",
+      "media": [
+        {
+          "type": "youtube",
+          "id": "PF1yYBzTxvk",
+          "label": "Demonstration · the 8 basic strokes"
+        }
+      ],
+      "related": [
+        {
+          "id": "B20",
+          "relation": "same-motion",
+          "label": "same motion"
+        }
+      ]
     },
     {
       "id": "B20",
@@ -568,7 +931,7 @@
       "category": "right-stroke-compound",
       "jianzipu_glyph": "剌",
       "image": "assets/glyphs/xl_la.svg",
-      "instruction_text": "Sweep several strings outward (often paired with bo as 撥剌 bō là).",
+      "instruction_text": "Là is the outward sweep of the cupped index/middle/ring fingers across several strings; it is the partner stroke to bō (inward sweep). The combined gesture 撥剌 is normally played bō-soft then là-strong as a single accented event.",
       "poetic_image": null,
       "poetic_verse": null,
       "source_url": [
@@ -578,7 +941,23 @@
       "video_url": "https://www.youtube.com/watch?v=PF1yYBzTxvk",
       "video_kind": "youtube",
       "video_id": "PF1yYBzTxvk",
-      "video_shared": true
+      "video_shared": true,
+      "glyph_image": "assets/glyphs/peiyou/ciN.jpg",
+      "photo": "assets/photos/peiyou/la.jpg",
+      "media": [
+        {
+          "type": "youtube",
+          "id": "PF1yYBzTxvk",
+          "label": "Demonstration · the 8 basic strokes"
+        }
+      ],
+      "related": [
+        {
+          "id": "B19",
+          "relation": "same-motion",
+          "label": "same motion"
+        }
+      ]
     },
     {
       "id": "B21",
@@ -587,7 +966,7 @@
       "hand": "right",
       "category": "right-stroke-compound",
       "jianzipu_glyph": "滾",
-      "instruction_text": "\"Roll out\" — fast continuous outward sweep across many strings (low to high).",
+      "instruction_text": "Gǔn and fú form the pair 滾拂. Gǔn: the ring finger sweeps OUTWARD from a high string down toward string 1; fú: the index finger sweeps INWARD from string 1 up toward string 7. Played together they make a continuous circular wash of sound.",
       "poetic_image": null,
       "poetic_verse": null,
       "source_url": [
@@ -597,7 +976,28 @@
       "video_url": "https://www.youtube.com/watch?v=PF1yYBzTxvk",
       "video_kind": "youtube",
       "video_id": "PF1yYBzTxvk",
-      "video_shared": true
+      "video_shared": true,
+      "glyph_image": "assets/glyphs/peiyou/guenN.jpg",
+      "photo": "assets/photos/peiyou/guen.jpg",
+      "media": [
+        {
+          "type": "youtube",
+          "id": "PF1yYBzTxvk",
+          "label": "Demonstration · the 8 basic strokes"
+        }
+      ],
+      "related": [
+        {
+          "id": "B22",
+          "relation": "same-motion",
+          "label": "same motion"
+        },
+        {
+          "id": "B37",
+          "relation": "component-of",
+          "label": "component of"
+        }
+      ]
     },
     {
       "id": "B22",
@@ -606,7 +1006,7 @@
       "hand": "right",
       "category": "right-stroke-compound",
       "jianzipu_glyph": "拂",
-      "instruction_text": "\"Roll in\" — fast continuous inward sweep across many strings (high to low); often 滾拂 gǔn fú as a pair.",
+      "instruction_text": "Fú is the inward index-finger sweep (mǒ across many strings, low to high) that partners gǔn (outward ring-finger sweep, high to low). The combination 滾拂 runs left-inside to right-outside and back, like a circle, producing a flowing rolled texture.",
       "poetic_image": null,
       "poetic_verse": null,
       "source_url": [
@@ -616,7 +1016,23 @@
       "video_url": "https://www.youtube.com/watch?v=PF1yYBzTxvk",
       "video_kind": "youtube",
       "video_id": "PF1yYBzTxvk",
-      "video_shared": true
+      "video_shared": true,
+      "glyph_image": "assets/glyphs/peiyou/fuoN.jpg",
+      "photo": "assets/photos/peiyou/fuo1.jpg",
+      "media": [
+        {
+          "type": "youtube",
+          "id": "PF1yYBzTxvk",
+          "label": "Demonstration · the 8 basic strokes"
+        }
+      ],
+      "related": [
+        {
+          "id": "B21",
+          "relation": "same-motion",
+          "label": "same motion"
+        }
+      ]
     },
     {
       "id": "C1",
@@ -626,18 +1042,59 @@
       "category": "left-basic",
       "jianzipu_glyph": "㐅",
       "font_input": "\\yin",
-      "instruction_text": "Vibrato. After the right hand plucks, the pressing finger rocks down (left) and up 2–3 times back to the start, strong at first then fading. Swing ≤ 1/5 of the distance to the next hui.",
+      "instruction_text": "Yín is a vibrato made by oscillating the stopping finger around the note position after the pluck: it begins downward then returns up, repeated 2–3 times in a narrow, gentle wave that fades. It is the lighter, smaller-amplitude vibrato.",
       "poetic_image": "Likened to a cicada singing in autumn",
       "poetic_verse": null,
       "source_url": [
         "https://peiyouqin.com/yin.html",
         "https://peiyouqin.com/yinandnao.html"
       ],
-      "notes": "Reduced from 吟. See yin-vs-nao distinction: https://peiyouqin.com/yinandnao.html",
+      "notes": "See yin-vs-nao distinction: https://peiyouqin.com/yinandnao.html",
       "video_url": "https://www.youtube.com/watch?v=QXWqwvka0tY",
       "video_kind": "youtube",
       "video_id": "QXWqwvka0tY",
-      "video_shared": false
+      "video_shared": false,
+      "glyph_image": "assets/glyphs/peiyou/yinN.jpg",
+      "photo": "assets/photos/peiyou/yin1.jpg",
+      "media": [
+        {
+          "type": "youtube",
+          "id": "QXWqwvka0tY",
+          "label": "Demonstration"
+        },
+        {
+          "type": "image",
+          "src": "assets/photos/peiyou/yinandnao1.jpg",
+          "caption": "Yín vs Náo — early-source comparison (1/5), peiyouqin.com"
+        },
+        {
+          "type": "image",
+          "src": "assets/photos/peiyou/yinandnao2.jpg",
+          "caption": "Yín vs Náo — early-source comparison (2/5), peiyouqin.com"
+        },
+        {
+          "type": "image",
+          "src": "assets/photos/peiyou/yinandnao3.jpg",
+          "caption": "Yín vs Náo — early-source comparison (3/5), peiyouqin.com"
+        },
+        {
+          "type": "image",
+          "src": "assets/photos/peiyou/yinandnao4.jpg",
+          "caption": "Yín vs Náo — early-source comparison (4/5), peiyouqin.com"
+        },
+        {
+          "type": "image",
+          "src": "assets/photos/peiyou/yinandnao5.jpg",
+          "caption": "Yín vs Náo — early-source comparison (5/5), peiyouqin.com"
+        }
+      ],
+      "related": [
+        {
+          "id": "C2",
+          "relation": "compare",
+          "label": "compare"
+        }
+      ]
     },
     {
       "id": "C2",
@@ -647,18 +1104,65 @@
       "category": "left-basic",
       "jianzipu_glyph": "猱",
       "font_input": "\\nao",
-      "instruction_text": "Wider/slower vibrato. After the pluck, finger rocks up (right) and down 2–3 times back to start, strong then fading. Swing ≤ 1/4 of the distance to the next hui.",
+      "instruction_text": "Náo is the larger, more forceful vibrato: the stopping finger swings up then down through a WIDER arc than yín, repeated 2–3 times, strong at first and fading. Rule of thumb: yín oscillates around the note in a small wave (begins downward), náo in a broad, vigorous wave (begins upward).",
       "poetic_image": "Behold the howling ape, climbing the tall tree; wishing to go up yet not up, its momentum pressing on (瞻彼號猿，升於喬木。欲上不上，其勢逐逐)",
       "poetic_verse": "瞻彼號猿，升於喬木。欲上不上，其勢逐逐",
       "source_url": [
         "https://peiyouqin.com/rou.html",
-        "https://www.silkqin.com/02qnpu/05tydq/ty3.htm"
+        "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
+        "https://peiyouqin.com/yinandnao.html"
       ],
       "notes": "Some teachers pronounce/relate this to 揉 róu. Abbreviated form of 猱.",
       "video_url": "https://www.youtube.com/watch?v=12jguPWLpB0",
       "video_kind": "youtube",
       "video_id": "12jguPWLpB0",
-      "video_shared": false
+      "video_shared": false,
+      "glyph_image": "assets/glyphs/peiyou/rouN.jpg",
+      "photo": "assets/photos/peiyou/nao.jpg",
+      "media": [
+        {
+          "type": "youtube",
+          "id": "12jguPWLpB0",
+          "label": "Demonstration"
+        },
+        {
+          "type": "image",
+          "src": "assets/photos/peiyou/yinandnao1.jpg",
+          "caption": "Yín vs Náo — early-source comparison (1/5), peiyouqin.com"
+        },
+        {
+          "type": "image",
+          "src": "assets/photos/peiyou/yinandnao2.jpg",
+          "caption": "Yín vs Náo — early-source comparison (2/5), peiyouqin.com"
+        },
+        {
+          "type": "image",
+          "src": "assets/photos/peiyou/yinandnao3.jpg",
+          "caption": "Yín vs Náo — early-source comparison (3/5), peiyouqin.com"
+        },
+        {
+          "type": "image",
+          "src": "assets/photos/peiyou/yinandnao4.jpg",
+          "caption": "Yín vs Náo — early-source comparison (4/5), peiyouqin.com"
+        },
+        {
+          "type": "image",
+          "src": "assets/photos/peiyou/yinandnao5.jpg",
+          "caption": "Yín vs Náo — early-source comparison (5/5), peiyouqin.com"
+        }
+      ],
+      "related": [
+        {
+          "id": "C1",
+          "relation": "compare",
+          "label": "compare"
+        },
+        {
+          "id": "E8",
+          "relation": "builds-on",
+          "label": "builds on"
+        }
+      ]
     },
     {
       "id": "C3",
@@ -668,17 +1172,38 @@
       "category": "left-basic",
       "jianzipu_glyph": "卓",
       "image": "assets/glyphs/mod_chuo.svg",
-      "instruction_text": "Slide UP into the note: start ~5mm below (left of) the target hui and glide quickly up to it as the string sounds. The qin's signature ascending glissando.",
+      "instruction_text": "Chuò is an up-glide INTO the note: the finger starts roughly a hui below the target and slides up so the note arrives with a 'hidden head' (no separate attack). It pairs with zhù, the down-glide; both blend pitches smoothly, unlike 上/下 which sound two distinct pitches.",
       "poetic_image": null,
       "poetic_verse": null,
       "source_url": [
         "https://peiyouqin.com/chuo.html"
       ],
-      "notes": "Reduced from 卓.",
+      "notes": null,
       "video_url": "https://www.youtube.com/watch?v=04zKiZT8xhc",
       "video_kind": "youtube",
       "video_id": "04zKiZT8xhc",
-      "video_shared": false
+      "video_shared": false,
+      "glyph_image": "assets/glyphs/peiyou/chuoN.jpg",
+      "photo": "assets/photos/peiyou/chuo1.jpg",
+      "media": [
+        {
+          "type": "youtube",
+          "id": "04zKiZT8xhc",
+          "label": "Demonstration"
+        }
+      ],
+      "related": [
+        {
+          "id": "C4",
+          "relation": "opposite",
+          "label": "opposite"
+        },
+        {
+          "id": "C5",
+          "relation": "compare",
+          "label": "compare"
+        }
+      ]
     },
     {
       "id": "C4",
@@ -688,17 +1213,38 @@
       "category": "left-basic",
       "jianzipu_glyph": "主",
       "image": "assets/glyphs/mod_zhu.svg",
-      "instruction_text": "Slide DOWN into the note (opposite of chuo): start ~5mm above (right of) the target and glide quickly down to it.",
+      "instruction_text": "Zhù is a down-glide INTO the note: the finger starts about a hui above the target and slides down into it like flowing water, the note emerging without a separate attack. Chuò = slide up into note, zhù = slide down into note.",
       "poetic_image": null,
       "poetic_verse": null,
       "source_url": [
         "https://peiyouqin.com/zhu.html"
       ],
-      "notes": "Reduced from 主.",
+      "notes": null,
       "video_url": "https://www.youtube.com/watch?v=8LTEBn2s9z8",
       "video_kind": "youtube",
       "video_id": "8LTEBn2s9z8",
-      "video_shared": false
+      "video_shared": false,
+      "glyph_image": "assets/glyphs/peiyou/zhuN.jpg",
+      "photo": "assets/photos/peiyou/zhu1.jpg",
+      "media": [
+        {
+          "type": "youtube",
+          "id": "8LTEBn2s9z8",
+          "label": "Demonstration"
+        }
+      ],
+      "related": [
+        {
+          "id": "C3",
+          "relation": "opposite",
+          "label": "opposite"
+        },
+        {
+          "id": "C6",
+          "relation": "compare",
+          "label": "compare"
+        }
+      ]
     },
     {
       "id": "C5",
@@ -707,7 +1253,7 @@
       "hand": "left",
       "category": "left-basic",
       "jianzipu_glyph": "上",
-      "instruction_text": "Ascending slide AFTER the pluck: right hand plucks the pressed string, left hand glides up to the indicated hui. \"二上 èr shàng\" = up twice (only final destination is notated; player places the intermediate tone by ear, ~one whole step each).",
+      "instruction_text": "While the right hand plucks the string that the left hand has pressed down, the left hand glides up to the spot that is indicated. The pressing and moving of the left hand should be solid so that it will create a very clear sound. If there is one ascending after another ascending, the notation will be \"二上\" (Èr Shàng , up twice). In Guqin tableture, only the final destination of Èr Shàng is indicated. So the player has to listen to the tone and move his or her finger up to a proper position for the first ascending tone. Each ascending tone is approximately one whole step, for example, Do- Re- Mi, or Re-Mi-Sol, or Mi- Sol- La, or Sol-La-Do, or La-Do-Re.",
       "poetic_image": null,
       "poetic_verse": null,
       "source_url": [
@@ -717,7 +1263,38 @@
       "video_url": "https://www.youtube.com/watch?v=UYinIsznAC8",
       "video_kind": "youtube",
       "video_id": "UYinIsznAC8",
-      "video_shared": false
+      "video_shared": false,
+      "glyph_image": "assets/glyphs/peiyou/shangCN.jpg",
+      "photo": "assets/photos/peiyou/shang1.jpg",
+      "media": [
+        {
+          "type": "youtube",
+          "id": "UYinIsznAC8",
+          "label": "Demonstration"
+        }
+      ],
+      "related": [
+        {
+          "id": "E2",
+          "relation": "faster-slower",
+          "label": "slower form of"
+        },
+        {
+          "id": "C6",
+          "relation": "opposite",
+          "label": "opposite"
+        },
+        {
+          "id": "C3",
+          "relation": "compare",
+          "label": "compare"
+        },
+        {
+          "id": "E9",
+          "relation": "component-of",
+          "label": "component of"
+        }
+      ]
     },
     {
       "id": "C6",
@@ -726,7 +1303,7 @@
       "hand": "left",
       "category": "left-basic",
       "jianzipu_glyph": "下",
-      "instruction_text": "Descending slide after the pluck (opposite of shang). \"二下 èr xià\" = down twice; again only the final position is notated.",
+      "instruction_text": "opposite of \"Shàng.\" While the right hand plucks the string that the left hand has pressed down, the left hand glides down to the spot that it is indicated. If there is one descending after another descending, the notation will be \"二下\" (Èr Xià, down twice). Same as Èr Shàng that the tableture only indicate the final desitination. So the player has to listen to the tone and move his or her finger down to a proper position for the first descending tone. Each descending tone is approximately one whole step. For example, Do- La- Sol, or La- Sol- Mi, or Sol- Mi-Re, or Mi- Re- Do, or Re- Do- La. The Variations of Yín and Náo:",
       "poetic_image": null,
       "poetic_verse": null,
       "source_url": [
@@ -736,7 +1313,38 @@
       "video_url": "https://www.youtube.com/watch?v=dVj-wi4MlCY",
       "video_kind": "youtube",
       "video_id": "dVj-wi4MlCY",
-      "video_shared": false
+      "video_shared": false,
+      "glyph_image": "assets/glyphs/peiyou/xiaCN.jpg",
+      "photo": "assets/photos/peiyou/xia1.jpg",
+      "media": [
+        {
+          "type": "youtube",
+          "id": "dVj-wi4MlCY",
+          "label": "Demonstration"
+        }
+      ],
+      "related": [
+        {
+          "id": "E1",
+          "relation": "faster-slower",
+          "label": "slower form of"
+        },
+        {
+          "id": "C5",
+          "relation": "opposite",
+          "label": "opposite"
+        },
+        {
+          "id": "C4",
+          "relation": "compare",
+          "label": "compare"
+        },
+        {
+          "id": "E9",
+          "relation": "component-of",
+          "label": "component of"
+        }
+      ]
     },
     {
       "id": "D1",
@@ -745,13 +1353,14 @@
       "hand": "left",
       "category": "vibrato-variation",
       "jianzipu_glyph": "長吟",
-      "instruction_text": "Drawn-out vibrato; 7–12 oscillations (several times more than plain yin).",
+      "instruction_text": "A drawn-out vibrato movement. The frequency of up and down is several times more than Yín. The total number can be 7 to 12 times of the frequency.",
       "poetic_image": null,
       "poetic_verse": null,
       "source_url": [
         "https://peiyouqin.com/notation3b.html"
       ],
-      "notes": "Variation of 吟 yín."
+      "notes": "Variation of 吟 yín.",
+      "glyph_image": "assets/glyphs/peiyou/changyinN.jpg"
     },
     {
       "id": "D2",
@@ -760,13 +1369,14 @@
       "hand": "left",
       "category": "vibrato-variation",
       "jianzipu_glyph": "細吟",
-      "instruction_text": "Thin, delicate vibrato — smaller and finer than yin.",
+      "instruction_text": "A thin vibrato movement, more delicate than Yín.",
       "poetic_image": null,
       "poetic_verse": null,
       "source_url": [
         "https://peiyouqin.com/notation3b.html"
       ],
-      "notes": "Variation of 吟 yín."
+      "notes": "Variation of 吟 yín.",
+      "glyph_image": "assets/glyphs/peiyou/xiyinN.jpg"
     },
     {
       "id": "D3",
@@ -775,7 +1385,7 @@
       "hand": "left",
       "category": "vibrato-variation",
       "jianzipu_glyph": "定吟",
-      "instruction_text": "Calm vibrato — rock the string without the finger travelling along it.",
+      "instruction_text": "A calm vibrato. It is rocking the string back and force without moving the finger.",
       "poetic_image": null,
       "poetic_verse": null,
       "source_url": [
@@ -790,13 +1400,14 @@
       "hand": "left",
       "category": "vibrato-variation",
       "jianzipu_glyph": "游吟",
-      "instruction_text": "Swinging vibrato — similar to shuang zhuang but slower.",
+      "instruction_text": "Swinging vibrato. Similar to Shuang Zhùang (see Shuang Zhuang on next page) but slower.",
       "poetic_image": null,
       "poetic_verse": null,
       "source_url": [
         "https://peiyouqin.com/notation3b.html"
       ],
-      "notes": "Variation of 吟 yín."
+      "notes": "Variation of 吟 yín.",
+      "glyph_image": "assets/glyphs/peiyou/youyinN.jpg"
     },
     {
       "id": "D5",
@@ -805,13 +1416,14 @@
       "hand": "left",
       "category": "vibrato-variation",
       "jianzipu_glyph": "落指吟",
-      "instruction_text": "Immediate vibrato — begin yin the instant the finger presses and the string is played.",
+      "instruction_text": "Immediately vibrato. Do Yín as soon as the left hand presses the string and the right hand plays the string.",
       "poetic_image": null,
       "poetic_verse": null,
       "source_url": [
         "https://peiyouqin.com/notation3b.html"
       ],
-      "notes": "Variation of 吟 yín."
+      "notes": "Variation of 吟 yín.",
+      "glyph_image": "assets/glyphs/peiyou/luozhiyinN.jpg"
     },
     {
       "id": "D6",
@@ -826,7 +1438,8 @@
       "source_url": [
         "https://peiyouqin.com/notation3b.html"
       ],
-      "notes": "Variation of 吟 yín."
+      "notes": "Variation of 吟 yín.",
+      "glyph_image": "assets/glyphs/peiyou/lueiyinN.jpg"
     },
     {
       "id": "D7",
@@ -835,13 +1448,14 @@
       "hand": "left",
       "category": "vibrato-variation",
       "jianzipu_glyph": "長猱",
-      "instruction_text": "Long nao — same motion as nao but longer in duration.",
+      "instruction_text": "The movement is the same as Náo but the timing of the vibrato is longer. Same situation as Cháng Yín.",
       "poetic_image": null,
       "poetic_verse": null,
       "source_url": [
         "https://peiyouqin.com/notation3b.html"
       ],
-      "notes": "Variation of 猱 náo."
+      "notes": "Variation of 猱 náo.",
+      "glyph_image": "assets/glyphs/peiyou/changrouN.jpg"
     },
     {
       "id": "D8",
@@ -850,13 +1464,14 @@
       "hand": "left",
       "category": "vibrato-variation",
       "jianzipu_glyph": "急猱",
-      "instruction_text": "Fast nao — tight and rapid, but not rushed.",
+      "instruction_text": "A fast Náo. Feels tight and rapid but not in a hurry.",
       "poetic_image": null,
       "poetic_verse": null,
       "source_url": [
         "https://peiyouqin.com/notation3b.html"
       ],
-      "notes": "Variation of 猱 náo."
+      "notes": "Variation of 猱 náo.",
+      "glyph_image": "assets/glyphs/peiyou/jirouN.jpg"
     },
     {
       "id": "D9",
@@ -865,13 +1480,14 @@
       "hand": "left",
       "category": "vibrato-variation",
       "jianzipu_glyph": "落指猱",
-      "instruction_text": "Immediate nao — begin nao the instant the finger presses and plays.",
+      "instruction_text": "Same situation as Lùo Zhĭ Yín. Do Náo as soon as the left hand presses the string and the right hand plays the string.",
       "poetic_image": null,
       "poetic_verse": null,
       "source_url": [
         "https://peiyouqin.com/notation3b.html"
       ],
-      "notes": "Variation of 猱 náo."
+      "notes": "Variation of 猱 náo.",
+      "glyph_image": "assets/glyphs/peiyou/luozhirouN.jpg"
     },
     {
       "id": "D10",
@@ -880,13 +1496,14 @@
       "hand": "left",
       "category": "vibrato-variation",
       "jianzipu_glyph": "略猱",
-      "instruction_text": "Slight / brief nao.",
+      "instruction_text": "Slightly Náo. For a further study on distinguish the differences between Yín and Náo and a short film of the demo, please visit here. Main Menu / 1 / 2 / 3 / 4 / Copyright ©2001-2013 Judy (Pei-You) Chang",
       "poetic_image": null,
       "poetic_verse": null,
       "source_url": [
         "https://peiyouqin.com/notation3b.html"
       ],
-      "notes": "Variation of 猱 náo."
+      "notes": "Variation of 猱 náo.",
+      "glyph_image": "assets/glyphs/peiyou/lueirouN.jpg"
     },
     {
       "id": "D11",
@@ -910,7 +1527,7 @@
       "hand": "left",
       "category": "slide-strike",
       "jianzipu_glyph": "淌",
-      "instruction_text": "Same as 下 xià (descending slide) but slower — a slow descending sound.",
+      "instruction_text": "Tǎng is essentially a slow 下 (xià): after the note sounds, the left hand glides downward (lower pitch) but more slowly and gently than a normal xià, giving a relaxed descending portamento.",
       "poetic_image": null,
       "poetic_verse": null,
       "source_url": [
@@ -921,7 +1538,23 @@
       "video_kind": "youtube",
       "video_id": "oR6MjoR77PE",
       "video_shared": false,
-      "font_input": "\\tan"
+      "font_input": "\\tan",
+      "glyph_image": "assets/glyphs/peiyou/tangN.jpg",
+      "photo": "assets/photos/peiyou/tang.jpg",
+      "media": [
+        {
+          "type": "youtube",
+          "id": "oR6MjoR77PE",
+          "label": "Demonstration"
+        }
+      ],
+      "related": [
+        {
+          "id": "C6",
+          "relation": "faster-slower",
+          "label": "slower form of"
+        }
+      ]
     },
     {
       "id": "E2",
@@ -930,7 +1563,7 @@
       "hand": "left",
       "category": "slide-strike",
       "jianzipu_glyph": "拖",
-      "instruction_text": "Same as 上 shàng (ascending slide) but slower — a slow ascending sound.",
+      "instruction_text": "Tuō ('tuō shàng') is essentially a slow 上 (shàng): after the note sounds, the left hand glides upward (higher pitch) more slowly than a normal shàng, a leisurely ascending portamento. It is the up-glide counterpart of tǎng.",
       "poetic_image": null,
       "poetic_verse": null,
       "source_url": [
@@ -941,7 +1574,23 @@
       "video_kind": "youtube",
       "video_id": "FymNvR6Ld3s",
       "video_shared": false,
-      "font_input": "\\tuo"
+      "font_input": "\\tuo",
+      "glyph_image": "assets/glyphs/peiyou/tuoshangN.jpg",
+      "photo": "assets/photos/peiyou/tuoshang.jpg",
+      "media": [
+        {
+          "type": "youtube",
+          "id": "FymNvR6Ld3s",
+          "label": "Demonstration"
+        }
+      ],
+      "related": [
+        {
+          "id": "C5",
+          "relation": "faster-slower",
+          "label": "slower form of"
+        }
+      ]
     },
     {
       "id": "E3",
@@ -950,7 +1599,7 @@
       "hand": "left",
       "category": "slide-strike",
       "jianzipu_glyph": "撞",
-      "instruction_text": "\"Strike against.\" After the pluck, the left finger moves quickly up ~1/5–1/2 of the way to the next hui and snaps back to the indicated spot. Up is light+fast, return is strong+fast. Must be springy/elastic.",
+      "instruction_text": "Zhuàng (strike-against) is done AFTER the right hand has plucked: the stopping finger snaps very quickly up (rightward) by roughly 1/5 to 1/2 of a hui-position and snaps back to the original spot, giving a sharp accent ornament. The key contrast with dòu is timing — zhuàng happens after the pluck.",
       "poetic_image": null,
       "poetic_verse": null,
       "source_url": [
@@ -961,7 +1610,38 @@
       "video_kind": "youtube",
       "video_id": "U9XaHcO6_r4",
       "video_shared": false,
-      "font_input": "\\zhu"
+      "font_input": "\\zhu",
+      "glyph_image": "assets/glyphs/peiyou/zhuangN.jpg",
+      "photo": "assets/photos/peiyou/zhang1.jpg",
+      "media": [
+        {
+          "type": "youtube",
+          "id": "U9XaHcO6_r4",
+          "label": "Demonstration"
+        }
+      ],
+      "related": [
+        {
+          "id": "E4",
+          "relation": "component-of",
+          "label": "component of"
+        },
+        {
+          "id": "E5",
+          "relation": "component-of",
+          "label": "component of"
+        },
+        {
+          "id": "E6",
+          "relation": "opposite",
+          "label": "opposite"
+        },
+        {
+          "id": "E7",
+          "relation": "compare",
+          "label": "compare"
+        }
+      ]
     },
     {
       "id": "E4",
@@ -980,7 +1660,23 @@
       "video_url": "https://www.youtube.com/watch?v=NDessiMSJ_o",
       "video_kind": "youtube",
       "video_id": "NDessiMSJ_o",
-      "video_shared": false
+      "video_shared": false,
+      "glyph_image": "assets/glyphs/peiyou/shuangzhuangN.jpg",
+      "photo": "assets/photos/peiyou/shuangzhuang1.jpg",
+      "media": [
+        {
+          "type": "youtube",
+          "id": "NDessiMSJ_o",
+          "label": "Demonstration"
+        }
+      ],
+      "related": [
+        {
+          "id": "E3",
+          "relation": "builds-on",
+          "label": "builds on"
+        }
+      ]
     },
     {
       "id": "E5",
@@ -989,7 +1685,7 @@
       "hand": "left",
       "category": "slide-strike",
       "jianzipu_glyph": "虛撞",
-      "instruction_text": "\"Empty strike\" — a zhuang done after a non-plucked sound (e.g. after a shang/xia slide or a yin/nao), with no new right-hand pluck.",
+      "instruction_text": "“Xu” literally means “empty, unfilled,” therefore a “Xu Zhuàng “is to have a Zhuàng technique happen after a non- plucked sound. For example, the left hand may do a Zhuàng after an upward moving technique (Shàng or Jìng ), or a downward moving technique (Xià or Fù ) or a vibrato technique (Yín or Náo ) has been performed.",
       "poetic_image": null,
       "poetic_verse": null,
       "source_url": [
@@ -999,7 +1695,23 @@
       "video_url": "https://www.youtube.com/watch?v=5S9xRPRbN3o",
       "video_kind": "youtube",
       "video_id": "5S9xRPRbN3o",
-      "video_shared": false
+      "video_shared": false,
+      "glyph_image": "assets/glyphs/peiyou/xuzhuangN.jpg",
+      "photo": "assets/photos/peiyou/xuzhuang1.jpg",
+      "media": [
+        {
+          "type": "youtube",
+          "id": "5S9xRPRbN3o",
+          "label": "Demonstration"
+        }
+      ],
+      "related": [
+        {
+          "id": "E3",
+          "relation": "builds-on",
+          "label": "builds on"
+        }
+      ]
     },
     {
       "id": "E6",
@@ -1008,7 +1720,7 @@
       "hand": "left",
       "category": "slide-strike",
       "jianzipu_glyph": "反撞",
-      "instruction_text": "\"Reverse strike\" — like zhuang but the finger moves quickly DOWN ~1/5–1/2 to the next hui first, then snaps back.",
+      "instruction_text": "Same technique as \"Zhàng\" but moves the left hand very quickly down first (to the left) about 1/5 - 1/2 of to the next \"Hui\" position and moves back quickly to the spot indicated. It is like a faster motion of Tuì fù.",
       "poetic_image": null,
       "poetic_verse": null,
       "source_url": [
@@ -1018,7 +1730,23 @@
       "video_url": "https://www.youtube.com/watch?v=lZz6uLDUm2E",
       "video_kind": "youtube",
       "video_id": "lZz6uLDUm2E",
-      "video_shared": false
+      "video_shared": false,
+      "glyph_image": "assets/glyphs/peiyou/fanzhuangN.jpg",
+      "photo": "assets/photos/peiyou/fanzhuang1.jpg",
+      "media": [
+        {
+          "type": "youtube",
+          "id": "lZz6uLDUm2E",
+          "label": "Demonstration"
+        }
+      ],
+      "related": [
+        {
+          "id": "E3",
+          "relation": "opposite",
+          "label": "opposite"
+        }
+      ]
     },
     {
       "id": "E7",
@@ -1028,7 +1756,7 @@
       "category": "slide-strike",
       "jianzipu_glyph": "逗",
       "font_input": "\\dou",
-      "instruction_text": "While the right hand plucks, the left finger simultaneously moves up and back to the hui quickly. Like zhuang but done with the pluck, not after it.",
+      "instruction_text": "Dòu is almost identical in motion to zhuàng (a quick up-and-back of the stopping finger), but it is performed SIMULTANEOUSLY with the right-hand pluck rather than after it, so the ornament is fused into the attack of the note. Timing is the sole distinguishing feature from zhuàng.",
       "poetic_image": null,
       "poetic_verse": null,
       "source_url": [
@@ -1038,7 +1766,23 @@
       "video_url": "https://www.youtube.com/watch?v=_SwfwkeIP70",
       "video_kind": "youtube",
       "video_id": "_SwfwkeIP70",
-      "video_shared": false
+      "video_shared": false,
+      "glyph_image": "assets/glyphs/peiyou/douN.jpg",
+      "photo": "assets/photos/peiyou/do.jpg",
+      "media": [
+        {
+          "type": "youtube",
+          "id": "_SwfwkeIP70",
+          "label": "Demonstration"
+        }
+      ],
+      "related": [
+        {
+          "id": "E3",
+          "relation": "compare",
+          "label": "compare"
+        }
+      ]
     },
     {
       "id": "E8",
@@ -1047,7 +1791,7 @@
       "hand": "left",
       "category": "slide-strike",
       "jianzipu_glyph": "渙",
-      "instruction_text": "Slide down to the hui a little, do a slight nao (once or twice), then slide up a little above the hui. (From a Song-dynasty Qinshu Daquan definition.)",
+      "instruction_text": "宋成玉礀[琴書大全]: 注少許,略作猱, 而復引少許. Slides down over to the hui position a little bit, then slightly náo (once or twice), and then slides up to above the hui position a little bit.",
       "poetic_image": null,
       "poetic_verse": null,
       "source_url": [
@@ -1057,7 +1801,23 @@
       "video_url": "https://www.youtube.com/watch?v=ZGpyh2MUVEI",
       "video_kind": "youtube",
       "video_id": "ZGpyh2MUVEI",
-      "video_shared": false
+      "video_shared": false,
+      "glyph_image": "assets/glyphs/peiyou/huangN.jpg",
+      "photo": "assets/photos/peiyou/huan.jpg",
+      "media": [
+        {
+          "type": "youtube",
+          "id": "ZGpyh2MUVEI",
+          "label": "Demonstration"
+        }
+      ],
+      "related": [
+        {
+          "id": "C2",
+          "relation": "component-of",
+          "label": "component of"
+        }
+      ]
     },
     {
       "id": "E9",
@@ -1066,7 +1826,7 @@
       "hand": "left",
       "category": "slide-strike",
       "jianzipu_glyph": "往來",
-      "instruction_text": "\"Back and forth.\" After the pluck, slide down to the next sound-position left and back, repeated 2–3 times, producing 4 or 6 sounds total (e.g. 5,3,5,3,5,3).",
+      "instruction_text": "往來得聲自上而下三次(或兩次). When a finger of the left hand presses down a string and after the right hand has pulled the string, the left hand moves down to the next sound position to the left and then moves back to where it started; and repeats this movement twice or three times to produce a total of 4 or 6 sounds. (ex. 5,3,5,3,5,3).",
       "poetic_image": null,
       "poetic_verse": null,
       "source_url": [
@@ -1076,7 +1836,28 @@
       "video_url": "https://www.youtube.com/watch?v=CD23sBpHrRA",
       "video_kind": "youtube",
       "video_id": "CD23sBpHrRA",
-      "video_shared": false
+      "video_shared": false,
+      "glyph_image": "assets/glyphs/peiyou/wanlaiN.jpg",
+      "photo": "assets/photos/peiyou/wanglai.jpg",
+      "media": [
+        {
+          "type": "youtube",
+          "id": "CD23sBpHrRA",
+          "label": "Demonstration"
+        }
+      ],
+      "related": [
+        {
+          "id": "C5",
+          "relation": "builds-on",
+          "label": "builds on"
+        },
+        {
+          "id": "C6",
+          "relation": "builds-on",
+          "label": "builds on"
+        }
+      ]
     },
     {
       "id": "E10",
@@ -1085,7 +1866,7 @@
       "hand": "left",
       "category": "slide-strike",
       "jianzipu_glyph": "分開",
-      "instruction_text": "\"Separate.\" After the pluck, glide up to the next hui right; then on a second pluck glide back down (like a zhu). Destination often unspecified — slide one scale-step.",
+      "instruction_text": "When a finger of the left hand presses down a string and after the right hand has pulled the string, the left hand glides up to the next Hui position to the right; and then while the right hand pulls the string again, the left hand glides back to where it started, as the action of \"Zhù.\" Main Menu / 1 / 2 / 3 / 4 / Copyright ©2001-2013 Judy (Pei-You) Chang",
       "poetic_image": null,
       "poetic_verse": null,
       "source_url": [
@@ -1095,7 +1876,16 @@
       "video_url": "https://www.youtube.com/watch?v=Rw7u4R0rqKc",
       "video_kind": "youtube",
       "video_id": "Rw7u4R0rqKc",
-      "video_shared": false
+      "video_shared": false,
+      "glyph_image": "assets/glyphs/peiyou/fenkaiN.jpg",
+      "photo": "assets/photos/peiyou/fenkaiV.jpg",
+      "media": [
+        {
+          "type": "youtube",
+          "id": "Rw7u4R0rqKc",
+          "label": "Demonstration"
+        }
+      ]
     },
     {
       "id": "F1",
@@ -1106,13 +1896,32 @@
       "jianzipu_glyph": "掐起",
       "image": "assets/glyphs/lg_qiaqi.svg",
       "font_input": "\\qia",
-      "instruction_text": "Left thumb (or nail) plucks the string by pulling it, while the ring finger stops it — a left-hand-generated note with no right-hand pluck.",
+      "instruction_text": "Qiā qǐ is the thumb's version of dài qǐ: after the thumb stops a string and a finger presses the same string a position lower, the thumbnail plucks/lifts the string upward to sound an added note without the right hand. Pairs with 罨 in 掐撮三聲.",
       "poetic_image": null,
       "poetic_verse": null,
       "source_url": [
         "https://silkqin.com/02qnpu/05tydq/ty5d.htm"
       ],
-      "notes": "Common in beginner pieces (e.g. 古琴吟)."
+      "notes": "Common in beginner pieces (e.g. 古琴吟).",
+      "glyph_image": "assets/glyphs/peiyou/qiaqiN.jpg",
+      "photo": "assets/photos/peiyou/qiaqi.jpg",
+      "related": [
+        {
+          "id": "B39",
+          "relation": "builds-on",
+          "label": "builds on"
+        },
+        {
+          "id": "F3",
+          "relation": "same-motion",
+          "label": "same motion"
+        },
+        {
+          "id": "F4",
+          "relation": "opposite",
+          "label": "opposite"
+        }
+      ]
     },
     {
       "id": "F2",
@@ -1127,7 +1936,9 @@
       "source_url": [
         "https://silkqin.com/02qnpu/05tydq/ty5d.htm"
       ],
-      "notes": null
+      "notes": null,
+      "glyph_image": "assets/glyphs/peiyou/zhuaqiN.jpg",
+      "photo": "assets/photos/peiyou/zhuaqi.jpg"
     },
     {
       "id": "F3",
@@ -1137,13 +1948,32 @@
       "category": "left-pluck",
       "jianzipu_glyph": "帶起",
       "font_input": "\\dai",
-      "instruction_text": "\"Carry up\" — the stopping finger pulls/releases off the string to sound it (a left-hand pull-off).",
+      "instruction_text": "Dài qǐ: after the left ring finger has stopped and the string has sounded, the ring fingertip flicks/lifts the string as it leaves, producing an added open-string (sǎn) sound with no right-hand pluck. Contrast 掐起 (thumb) and 抓起 (thumb, lighter).",
       "poetic_image": null,
       "poetic_verse": null,
       "source_url": [
         "https://silkqin.com/02qnpu/05tydq/ty5d.htm"
       ],
-      "notes": null
+      "notes": null,
+      "glyph_image": "assets/glyphs/peiyou/daiqiN.jpg",
+      "photo": "assets/photos/peiyou/daiqi.jpg",
+      "related": [
+        {
+          "id": "F1",
+          "relation": "same-motion",
+          "label": "same motion"
+        },
+        {
+          "id": "F11",
+          "relation": "builds-on",
+          "label": "builds on"
+        },
+        {
+          "id": "F13",
+          "relation": "component-of",
+          "label": "component of"
+        }
+      ]
     },
     {
       "id": "F4",
@@ -1153,13 +1983,32 @@
       "category": "left-pluck",
       "jianzipu_glyph": "罨",
       "image": "assets/glyphs/lg_yan.svg",
-      "instruction_text": "\"Cover/hammer\" — a left finger strikes down onto the string at a hui to sound it (a hammer-on), no right-hand pluck.",
+      "instruction_text": "Yǎn: with NO right-hand pluck, a left-hand finger (commonly thumb, middle or ring) sharply taps/hammers the string onto the surface to produce a low, dull, dark note. It is the hammer-on counterpart to the pull-off techniques 掐起/帶起.",
       "poetic_image": null,
       "poetic_verse": null,
       "source_url": [
         "https://silkqin.com/02qnpu/05tydq/ty5d.htm"
       ],
-      "notes": null
+      "notes": null,
+      "glyph_image": "assets/glyphs/peiyou/yanN.jpg",
+      "photo": "assets/photos/peiyou/yan.jpg",
+      "related": [
+        {
+          "id": "B39",
+          "relation": "builds-on",
+          "label": "builds on"
+        },
+        {
+          "id": "F5",
+          "relation": "component-of",
+          "label": "component of"
+        },
+        {
+          "id": "F1",
+          "relation": "opposite",
+          "label": "opposite"
+        }
+      ]
     },
     {
       "id": "F5",
@@ -1168,13 +2017,22 @@
       "hand": "left",
       "category": "left-pluck",
       "jianzipu_glyph": "虛罨",
-      "instruction_text": "\"Empty hammer\" — a softer yan following an already-sounding note.",
+      "instruction_text": "This technique is mostly executed with the middle or ring finger and sometimes the thumb. Same technique as Yǎn but without pressing down any string before doing Yǎn.",
       "poetic_image": null,
       "poetic_verse": null,
       "source_url": [
         "https://silkqin.com/02qnpu/05tydq/ty5d.htm"
       ],
-      "notes": null
+      "notes": null,
+      "glyph_image": "assets/glyphs/peiyou/xuyanN.jpg",
+      "photo": "assets/photos/peiyou/xuyan.jpg",
+      "related": [
+        {
+          "id": "F4",
+          "relation": "builds-on",
+          "label": "builds on"
+        }
+      ]
     },
     {
       "id": "F6",
@@ -1183,13 +2041,22 @@
       "hand": "left",
       "category": "left-pluck",
       "jianzipu_glyph": "推出",
-      "instruction_text": "\"Push out.\" Left finger (often middle), tilted, gently pushes the string outward to sound it — gives a quiet, still feeling.",
+      "instruction_text": "This technique is particularly used on the 1st string for the middle finger of the left hand. After the middle finger presses a sting down, it makes the 1st string sound by pushing it outward.",
       "poetic_image": null,
       "poetic_verse": null,
       "source_url": [
         "https://silkqin.com/02qnpu/05tydq/ty5d.htm"
       ],
-      "notes": "Notated by the reduced glyph that reads 拙. Common in beginner pieces (e.g. 古琴吟)."
+      "notes": "Notated by the reduced glyph that reads 拙. Common in beginner pieces (e.g. 古琴吟).",
+      "glyph_image": "assets/glyphs/peiyou/tuichuN.jpg",
+      "photo": "assets/photos/peiyou/tueichu.jpg",
+      "related": [
+        {
+          "id": "F13",
+          "relation": "component-of",
+          "label": "component of"
+        }
+      ]
     },
     {
       "id": "F7",
@@ -1198,13 +2065,27 @@
       "hand": "left",
       "category": "left-pluck",
       "jianzipu_glyph": "進復",
-      "instruction_text": "\"Advance and return\" — slide up to a hui and back to the original.",
+      "instruction_text": "Jìn fù (advance-and-return): after the right hand plucks a stopped note, the left hand glides UP (rightward, higher pitch) to a target position then glides back to the start, producing three sounds (one plucked, two slid) — one solid and two soft.",
       "poetic_image": null,
       "poetic_verse": null,
       "source_url": [
         "https://silkqin.com/02qnpu/05tydq/ty5d.htm"
       ],
-      "notes": null
+      "notes": null,
+      "glyph_image": "assets/glyphs/peiyou/jingfuN.jpg",
+      "photo": "assets/photos/peiyou/jinfu.jpg",
+      "related": [
+        {
+          "id": "F8",
+          "relation": "opposite",
+          "label": "opposite"
+        },
+        {
+          "id": "F9",
+          "relation": "builds-on",
+          "label": "builds on"
+        }
+      ]
     },
     {
       "id": "F8",
@@ -1213,13 +2094,27 @@
       "hand": "left",
       "category": "left-pluck",
       "jianzipu_glyph": "退復",
-      "instruction_text": "\"Retreat and return\" — slide down to a hui and back to the original.",
+      "instruction_text": "Tuì fù (retreat-and-return) is the mirror of jìn fù: after the pluck the left hand glides DOWN (leftward, lower pitch) to the target then returns to the start. Same three-sound, one-solid-two-soft structure, opposite direction.",
       "poetic_image": null,
       "poetic_verse": null,
       "source_url": [
         "https://silkqin.com/02qnpu/05tydq/ty5d.htm"
       ],
-      "notes": null
+      "notes": null,
+      "glyph_image": "assets/glyphs/peiyou/tuifuN.jpg",
+      "photo": "assets/photos/peiyou/tuifu.jpg",
+      "related": [
+        {
+          "id": "F7",
+          "relation": "opposite",
+          "label": "opposite"
+        },
+        {
+          "id": "F10",
+          "relation": "builds-on",
+          "label": "builds on"
+        }
+      ]
     },
     {
       "id": "F9",
@@ -1235,7 +2130,19 @@
       "source_url": [
         "https://silkqin.com/02qnpu/05tydq/ty5d.htm"
       ],
-      "notes": null
+      "notes": null,
+      "related": [
+        {
+          "id": "F10",
+          "relation": "opposite",
+          "label": "opposite"
+        },
+        {
+          "id": "F7",
+          "relation": "component-of",
+          "label": "component of"
+        }
+      ]
     },
     {
       "id": "F10",
@@ -1251,7 +2158,19 @@
       "source_url": [
         "https://silkqin.com/02qnpu/05tydq/ty5d.htm"
       ],
-      "notes": null
+      "notes": null,
+      "related": [
+        {
+          "id": "F9",
+          "relation": "opposite",
+          "label": "opposite"
+        },
+        {
+          "id": "F8",
+          "relation": "component-of",
+          "label": "component of"
+        }
+      ]
     },
     {
       "id": "F11",
@@ -1266,7 +2185,14 @@
       "source_url": [
         "https://silkqin.com/02qnpu/05tydq/ty5d.htm"
       ],
-      "notes": null
+      "notes": null,
+      "related": [
+        {
+          "id": "F3",
+          "relation": "component-of",
+          "label": "component of"
+        }
+      ]
     },
     {
       "id": "G1",
@@ -1343,6 +2269,363 @@
         "https://peiyouqin.com/notation3.html"
       ],
       "notes": null
+    },
+    {
+      "id": "B23",
+      "category": "right-stroke-compound",
+      "hand": "right",
+      "name_hanzi": "抹挑",
+      "name_pinyin": "mǒ tiāo",
+      "jianzipu_glyph": "抹挑",
+      "instruction_text": "The combination of Muǒ and Tiaǒ, the index finger plucks the string first then strums.",
+      "source_url": [],
+      "glyph_image": "assets/glyphs/peiyou/motiaoN.jpg",
+      "photo": "assets/photos/peiyou/motiao.jpg",
+      "related": [
+        {
+          "id": "B1",
+          "relation": "component-of",
+          "label": "component of"
+        }
+      ]
+    },
+    {
+      "id": "B24",
+      "category": "right-stroke-compound",
+      "hand": "right",
+      "name_hanzi": "勾剔",
+      "name_pinyin": "gōu tī",
+      "jianzipu_glyph": "勾剔",
+      "instruction_text": "The combination of Gou and Ti, the middle finger plucks the string first then strums.",
+      "source_url": [],
+      "glyph_image": "assets/glyphs/peiyou/goutiN.jpg",
+      "photo": "assets/photos/peiyou/gouti.jpg",
+      "related": [
+        {
+          "id": "B3",
+          "relation": "component-of",
+          "label": "component of"
+        }
+      ]
+    },
+    {
+      "id": "B25",
+      "category": "right-stroke-compound",
+      "hand": "right",
+      "name_hanzi": "抹勾",
+      "name_pinyin": "mǒ gōu",
+      "jianzipu_glyph": "抹勾",
+      "instruction_text": "The combination of Muǒ and Gou, on the same string, do Muǒ first then Gou, it creates 2 gradually continuing sounds.",
+      "source_url": [],
+      "glyph_image": "assets/glyphs/peiyou/mogouN.jpg",
+      "photo": "assets/photos/peiyou/mogou.jpg",
+      "related": [
+        {
+          "id": "B15",
+          "relation": "compare",
+          "label": "compare"
+        },
+        {
+          "id": "B26",
+          "relation": "faster-slower",
+          "label": "slower form of"
+        }
+      ]
+    },
+    {
+      "id": "B26",
+      "category": "right-stroke-compound",
+      "hand": "right",
+      "name_hanzi": "疊蠲",
+      "name_pinyin": "dié juān",
+      "jianzipu_glyph": "疊蠲",
+      "instruction_text": "Same as Muǒ Gou but faster.",
+      "source_url": [],
+      "glyph_image": "assets/glyphs/peiyou/deijuanN.jpg",
+      "photo": "assets/photos/peiyou/diejuan1.jpg",
+      "related": [
+        {
+          "id": "B25",
+          "relation": "faster-slower",
+          "label": "slower form of"
+        }
+      ]
+    },
+    {
+      "id": "B27",
+      "category": "right-stroke-compound",
+      "hand": "right",
+      "name_hanzi": "背鎖",
+      "name_pinyin": "bèi suǒ",
+      "jianzipu_glyph": "背鎖",
+      "instruction_text": "On the same string, use Ti Muǒ Tiaǒ to play a fast continuing 3 sounds. Use the tip of the nails, don't put them too deep into the string.",
+      "source_url": [],
+      "glyph_image": "assets/glyphs/peiyou/beisuoN.jpg",
+      "photo": "assets/photos/peiyou/beisuo1.jpg",
+      "related": [
+        {
+          "id": "B13",
+          "relation": "builds-on",
+          "label": "builds on"
+        }
+      ]
+    },
+    {
+      "id": "B28",
+      "category": "right-stroke-compound",
+      "hand": "right",
+      "name_hanzi": "短鎖",
+      "name_pinyin": "duǎn suǒ",
+      "jianzipu_glyph": "短鎖",
+      "instruction_text": "On the same string, do Muǒ Gou first, a slowly and gradually continuing sound, then following with Ti Muǒ Tiaǒ, a faster continuing sound.",
+      "source_url": [],
+      "glyph_image": "assets/glyphs/peiyou/duansuoN.jpg",
+      "photo": "assets/photos/peiyou/duansuo1.jpg",
+      "related": [
+        {
+          "id": "B13",
+          "relation": "builds-on",
+          "label": "builds on"
+        }
+      ]
+    },
+    {
+      "id": "B29",
+      "category": "right-stroke-compound",
+      "hand": "right",
+      "name_hanzi": "如一",
+      "name_pinyin": "rú yī",
+      "jianzipu_glyph": "如一",
+      "instruction_text": "Rú Yi literally means \"as one.\" When there are 2 strings that can be created an Àn Yin and a Săn Yin with the same sound at one time, use the middle finger or index finger (usually use the middle finger) to strum the 2 strings together.",
+      "source_url": [],
+      "glyph_image": "assets/glyphs/peiyou/ruyiN.jpg",
+      "photo": "assets/photos/peiyou/ruyiv.jpg"
+    },
+    {
+      "id": "B30",
+      "category": "right-stroke-compound",
+      "hand": "right",
+      "name_hanzi": "雙彈",
+      "name_pinyin": "shuāng tán",
+      "jianzipu_glyph": "雙彈",
+      "instruction_text": "Same as Rú Yi but play twice. Before strumming the string, position the index and middle finger above the thumb, do Ti then Tiaǒ. Some tablature will indicate a \"Shuang Tán\" follow by a \"Rú Yi,\" which reminds the player that making the two previous sound as one sound. Main Menu / 1 / 2 / 3 / Copyright ©2001-2013 Judy (Pei-You) Chang",
+      "source_url": [],
+      "glyph_image": "assets/glyphs/peiyou/shungtanN.jpg",
+      "photo": "assets/photos/peiyou/shuangtan.jpg"
+    },
+    {
+      "id": "B31",
+      "category": "right-stroke-compound",
+      "hand": "right",
+      "name_hanzi": "撥剌",
+      "name_pinyin": "bō là",
+      "jianzipu_glyph": "撥剌",
+      "instruction_text": "Do Bo first with lighter strength then Lá later with strong strength.",
+      "source_url": [],
+      "glyph_image": "assets/glyphs/peiyou/baciN.jpg",
+      "photo": "assets/photos/peiyou/bola.jpg"
+    },
+    {
+      "id": "B32",
+      "category": "right-stroke-compound",
+      "hand": "right",
+      "name_hanzi": "伏",
+      "name_pinyin": "fú",
+      "jianzipu_glyph": "伏",
+      "instruction_text": "After doing Lá or Bo Lá , flatten together of the index, middle and ring finger and place them on the strings to stop the sound.",
+      "source_url": [],
+      "glyph_image": "assets/glyphs/peiyou/fuN.jpg",
+      "photo": "assets/photos/peiyou/fu1.jpg"
+    },
+    {
+      "id": "B33",
+      "category": "right-stroke-compound",
+      "hand": "right",
+      "name_hanzi": "大撮",
+      "name_pinyin": "dà cuō",
+      "jianzipu_glyph": "大撮",
+      "instruction_text": "Using the thumb and middle finger (Tuo, Gou) to pluck two strings(either the 1st and 6th or the 2nd and 7th) at the same time.The strength must be the same.",
+      "source_url": [],
+      "glyph_image": "assets/glyphs/peiyou/dazuoN.jpg",
+      "photo": "assets/photos/peiyou/dacuo.jpg",
+      "related": [
+        {
+          "id": "B9",
+          "relation": "builds-on",
+          "label": "builds on"
+        }
+      ]
+    },
+    {
+      "id": "B34",
+      "category": "right-stroke-compound",
+      "hand": "right",
+      "name_hanzi": "反撮",
+      "name_pinyin": "fǎn cuō",
+      "jianzipu_glyph": "反撮",
+      "instruction_text": "The opposite of Cuo, usually used after Cuo. Using the thumb and middle finger (Bò, Ti) or the index and middle finger (Muǒ, Ti) to strum and pluck two strings together.",
+      "source_url": [],
+      "glyph_image": "assets/glyphs/peiyou/fanzuoN.jpg",
+      "photo": "assets/photos/peiyou/fancuo.jpg",
+      "related": [
+        {
+          "id": "B9",
+          "relation": "opposite",
+          "label": "opposite"
+        }
+      ]
+    },
+    {
+      "id": "B35",
+      "category": "right-stroke-compound",
+      "hand": "right",
+      "name_hanzi": "打圓",
+      "name_pinyin": "dǎ yuán",
+      "jianzipu_glyph": "打圓",
+      "instruction_text": "Use Dă, Tiăo or Gou, Tiăo back and forth on 2 strings and consisting of six notes. First Dă, then Tiăo, a slight pause, then rapidly repeat the same movement twice. Fingers must be flexible to create continuous sound.",
+      "source_url": [],
+      "glyph_image": "assets/glyphs/peiyou/dayuanN.jpg",
+      "photo": "assets/photos/peiyou/dayuan1.jpg"
+    },
+    {
+      "id": "B36",
+      "category": "right-stroke-compound",
+      "hand": "right",
+      "name_hanzi": "歷",
+      "name_pinyin": "lì",
+      "jianzipu_glyph": "歷",
+      "instruction_text": "The index finger lightly and rapidly strums out 2 or 3 strings in succession.",
+      "source_url": [],
+      "glyph_image": "assets/glyphs/peiyou/liN.jpg",
+      "photo": "assets/photos/peiyou/li76.jpg"
+    },
+    {
+      "id": "B37",
+      "category": "right-stroke-compound",
+      "hand": "right",
+      "name_hanzi": "滾拂",
+      "name_pinyin": "gǔn fú",
+      "jianzipu_glyph": "滾拂",
+      "instruction_text": "The combination of Guěn and Fú. Started from the left inside to the right outside and back to the left inside, like a circle. Main Menu / 1 / 2 / 3 / Copyright ©2001-2018 Judy (Pei-You) Chang",
+      "source_url": [],
+      "glyph_image": "assets/glyphs/peiyou/guenfuN.jpg",
+      "photo": "assets/photos/peiyou/guenfu1.jpg",
+      "related": [
+        {
+          "id": "B21",
+          "relation": "builds-on",
+          "label": "builds on"
+        }
+      ]
+    },
+    {
+      "id": "B38",
+      "category": "right-stroke-compound",
+      "hand": "either",
+      "name_hanzi": "撮三聲",
+      "name_pinyin": "cuō sān shēng",
+      "jianzipu_glyph": "撮三聲",
+      "instruction_text": "A standard three-cuō cadential figure: two strings are pinched (cuō) together, alternated with a hammer-on/pull-off ornament, then repeated to make three pinched sounds. Common at phrase endings.",
+      "source_url": [],
+      "related": [
+        {
+          "id": "B9",
+          "relation": "builds-on",
+          "label": "builds on"
+        },
+        {
+          "id": "B39",
+          "relation": "component-of",
+          "label": "component of"
+        }
+      ]
+    },
+    {
+      "id": "B39",
+      "category": "right-stroke-compound",
+      "hand": "either",
+      "name_hanzi": "掐撮三聲",
+      "name_pinyin": "qiā cuō sān shēng",
+      "jianzipu_glyph": "掐撮三聲",
+      "instruction_text": "A two-hand cadential cluster: the left thumb does 罨 then 掐起 while the right hand does cuō, repeated, yielding three pinched sounds. A signature ending gesture in many pieces.",
+      "source_url": [],
+      "related": [
+        {
+          "id": "B38",
+          "relation": "builds-on",
+          "label": "builds on"
+        },
+        {
+          "id": "F4",
+          "relation": "component-of",
+          "label": "component of"
+        },
+        {
+          "id": "F1",
+          "relation": "component-of",
+          "label": "component of"
+        }
+      ]
+    },
+    {
+      "id": "F12",
+      "category": "left-pluck",
+      "hand": "left",
+      "name_hanzi": "應合",
+      "name_pinyin": "yìng hé",
+      "jianzipu_glyph": "應合",
+      "instruction_text": "The left middle or ring finger presses down a string, and the right hand plucks it, the left hand stays on the same string and does not move away yet. While the right hand plucks another string, the left hand moves either up or down to the position where it has the same sound as the string that the right hand had played. Eventually making both strings sound together (one is a solid sound, the other is a soft sound).",
+      "source_url": [],
+      "glyph_image": "assets/glyphs/peiyou/yingheN.jpg",
+      "photo": "assets/photos/peiyou/yinghe.jpg",
+      "related": [
+        {
+          "id": "F14",
+          "relation": "compare",
+          "label": "compare"
+        }
+      ]
+    },
+    {
+      "id": "F13",
+      "category": "left-pluck",
+      "hand": "left",
+      "name_hanzi": "同聲",
+      "name_pinyin": "tóng shēng",
+      "jianzipu_glyph": "同聲",
+      "instruction_text": "This technique is creating a kind of chord. The left hand plucks one string (can be the middle finger Tuīchū, or the ring finger Dàiqǐ or the thumb Zhuāqǐ), at the same time, the right hand plucks another string to make both strings sound together. Main Menu / 1 / 2 / 3 / 4 / Copyright ©2001-2013 Judy (Pei-You) Chang",
+      "source_url": [],
+      "glyph_image": "assets/glyphs/peiyou/tongshenN.jpg",
+      "photo": "assets/photos/peiyou/tongsheng.jpg",
+      "related": [
+        {
+          "id": "F6",
+          "relation": "builds-on",
+          "label": "builds on"
+        },
+        {
+          "id": "F3",
+          "relation": "builds-on",
+          "label": "builds on"
+        }
+      ]
+    },
+    {
+      "id": "F14",
+      "category": "left-pluck",
+      "hand": "left",
+      "name_hanzi": "放合",
+      "name_pinyin": "fàng hé",
+      "jianzipu_glyph": "放合",
+      "instruction_text": "Related to 應合 (yìng hé): after stopping and sounding a string, the left hand releases/slides to a new position so that a following right-hand stroke on another string meets it at a matching (usually unison or octave) pitch — the two notes joining together.",
+      "source_url": [],
+      "related": [
+        {
+          "id": "F12",
+          "relation": "compare",
+          "label": "compare"
+        }
+      ]
     }
   ]
 }

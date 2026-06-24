@@ -10,35 +10,39 @@ jianzipu (减字谱). Lives in repo `decobots/-`, deployed via GitHub Pages at
 `claude/guqin-technique-library-3hykuu` (all work merged to `main` via PRs #1–#5).
 
 ## Current state (all merged to main)
-- **70 techniques** in `data/techniques.json`, 8 categories (Sections A–G), full Section K
-  data model (id, name_hanzi, name_pinyin, hand, category, jianzipu_glyph, instruction_text,
-  poetic_image/verse, source_url, notes). Some entries also have: `font_input` (composer
-  glyph), `image` (local SVG), `video_url`/`video_kind`/`video_id`/`video_shared`.
-- **App**: `index.html` + `css/styles.css` + `js/app.js` (vanilla JS, no build). Loads
-  `data/techniques.json`, `data/resources.json`, `data/gestures.json` via fetch().
-- **Quick symbol index** at top: symbol-only chips, tap → scroll+highlight the card.
-- **Glyph display priority** (`symbolHtml()` in app.js): (1) local SVG `t.image`
-  on a parchment tile, (2) bundled Qin Jianzipu font via `t.font_input`, (3) reduced char.
-- **Bundled fonts** (`assets/fonts/`, SIL OFL, `OFL.txt`): `qinfont.woff2` (composes real
-  tablature glyphs via ligatures — see in-app "Jianzipu composer"), `noto-serif-sc-subset.woff2`.
-- **Glyph art** (`assets/glyphs/`, 18 SVGs, MIT, from neuralfirings/JianZiPu).
-- **Videos**: **38** techniques play **inline** via youtube-nocookie iframe (click-to-play,
-  no redirect, `video_kind:"youtube"` + `video_id`). The peiyouqin extraction is DONE —
-  no technique links out for video anymore (`video_kind:"page"` is gone).
-- **Demo photos** (`assets/photos/`): A1–A5 finger-designation hand photos from peiyouqin
-  (`t.photo`, shown inline on the card). Attribution in `assets/photos/README.txt`.
-- **Poetic gesture-images** (`data/gestures.json`): the full Taiyin Daquanji set — 33
-  woodblock prints (`assets/photos/gestures/hand01–33.jpg`, from silkqin.com / John Thompson).
-  There is NO separate gallery section: each gesture carries a `technique_id` and renders
-  **inline on its technique card** (woodblock + poetic title + verse) via `poeticHtml()`.
-  22 of the 33 map to a technique in our set; the other 11 illustrate strokes we don't
-  document (彈, 摟, 捻…) so they stay in the data but aren't shown.
-- **Glyph coverage note**: the bundled Qin font is a *notation composer*; it has single
-  glyphs only for documented strokes. Currently 18 SVG + 21 `font_input`; the remaining ~41
-  fall back to plain CJK because they are compound left-hand names (長吟, 進復, 雙撞…) or
-  finger-designation chars the font lacks. The only handdrawn source for the yín/náo-variation
-  series is peiyouqin's low-res woodblock notation (not used — user chose the font route).
-- Mobile: sidebar hidden < 820px (it was a huge stack). Cache-bust on assets is `?v=5`.
+- **90 techniques** in `data/techniques.json`, 8 categories (Sections A–G). Per-entry fields:
+  id, name_hanzi, name_pinyin, hand, category, jianzipu_glyph, instruction_text, source_url;
+  plus optional `glyph_image` (hand-drawn notation scan), `image` (SVG), `font_input` (composer
+  glyph), `photo` (demo hand-photo), `media[]` (any number of embeds), `related[]` (cross-links),
+  `video_*` (legacy, mirrored into media[]), poetic_image/verse, notes, direction.
+- **App is modular zero-build ES modules.** `index.html` loads `js/app.js` as
+  `<script type="module">`; `js/app.js` is the entry/boot, everything else lives in
+  `js/modules/`: `store.js` (state + loaded data + DOM handles + fetch), `util.js`,
+  `symbol.js` (glyph priority), `card.js` (card markup: instruction, photo, media, related,
+  poetic), `render.js` (filter + render + click-to-play + jump-to-related), `nav.js`,
+  `symbolindex.js`, `composer.js`, `resources.js`, `gestures.js`. Still no build step / deps.
+- **Self-contained, cross-linked cards.** Each card explains itself; `related[]` renders
+  clickable chips (compare / opposite / builds-on / same-motion / slower-form-of …) that scroll
+  to and flash the referenced card. `media[]` renders any number of embeds — YouTube
+  click-to-play iframes plus inline illustrations (e.g. the 5 yin-vs-nao distinction images on
+  吟/猱). The standalone gesture gallery is gone (folded onto cards earlier).
+- **Glyph display priority** (`symbol.js`): (1) crisp SVG `image`, (2) hand-drawn notation
+  scan `glyph_image` on a parchment tile (peiyouqin — covers ~71/90), (3) Qin font `font_input`,
+  (4) reduced char. So nearly every card now shows a hand-drawn glyph.
+- **Demo photos + hand-drawn notation glyphs** under `assets/photos/peiyou/` and
+  `assets/glyphs/peiyou/` (≈51 photos + ≈78 glyphs, from peiyouqin notation1–4 pages).
+  Gesture woodblocks `assets/photos/gestures/hand01–33.jpg` (silkqin). Attribution in
+  `assets/photos/README.txt`.
+- **Content** synthesized from peiyouqin.com (Pei-You Chang), silkqin.com (John Thompson) and
+  Chinese-language qin sources; clarified explanations for the trickier contrasts (吟/猱,
+  撞/逗, 進復/退復, 全扶/半扶, 撥剌, 滾拂…). New techniques added incl. 抹挑 勾剔 抹勾 疊蠲 背鎖 短鎖
+  如一 雙彈 撥剌 伏 大撮 反撮 打圓 歷 滾拂 撮三聲 掐撮三聲 應合 同聲 放合.
+- **Poetic gesture-images** (`data/gestures.json`): full 33-print Taiyin Daquanji set, each
+  with the original Chinese 興曰 verse (Li Meiyan transcription) + pinyin + English; 22 map to
+  a technique card and render inline.
+- **Bundled fonts** (`assets/fonts/`, SIL OFL): `qinfont.woff2` (in-app composer),
+  `noto-serif-sc-subset.woff2`. SVG glyph art in `assets/glyphs/` (neuralfirings, MIT).
+- Mobile: sidebar hidden < 820px. Cache-bust on assets is `?v=7`.
 - `.nojekyll` present for GitHub Pages.
 
 ## Conventions
@@ -46,7 +50,8 @@ jianzipu (减字谱). Lives in repo `decobots/-`, deployed via GitHub Pages at
   css/js, so phones don't serve stale assets.
 - Commit messages end with the Co-Authored-By / Claude-Session trailer.
 - Work on a dev branch, PR to `main`, merge. Don't push to `main` directly.
-- After CSS/JS edits, run `node --check js/app.js` and `python3 -m http.server` to smoke-test.
+- After JS edits, syntax-check the ES modules (`node --input-type=module --check < js/modules/x.js`)
+  and run `python3 -m http.server` to smoke-test (modules + fetch need http, not file://).
 
 ## The pending task (DONE — kept for history)
 The user wanted the **peiyouqin.com demonstration media inlined** to reduce redirects.
