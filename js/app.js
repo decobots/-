@@ -5,6 +5,7 @@
   var DATA = null;       // techniques.json
   var RESOURCES = null;  // resources.json
   var GESTURES = null;   // gestures.json
+  var GESTURE_BY_TECH = {}; // technique_id -> its poetic gesture-image
   var state = { cat: "all", query: "" };
 
   var el = {
@@ -13,7 +14,6 @@
     navCategories: document.getElementById("navCategories"),
     search: document.getElementById("search"),
     symbolIndex: document.getElementById("symbolIndex"),
-    gallery: document.getElementById("gallery"),
     composer: document.getElementById("composer"),
     empty: document.getElementById("empty"),
     sidebar: document.getElementById("sidebar")
@@ -106,6 +106,33 @@
     return "";
   }
 
+  // The poetic gesture-image for a card: prefer the Taiyin Daquanji woodblock
+  // (手勢圖) where one maps to this technique; otherwise fall back to any
+  // poetic image/verse text already on the technique.
+  function poeticHtml(t) {
+    var g = GESTURE_BY_TECH[t.id];
+    if (g) {
+      var html = '<div class="poetic poetic-gesture">';
+      html += '<img class="poetic-img" src="' + escapeHtml(g.photo) +
+        '" alt="' + escapeHtml(g.title) + ' — gesture woodblock" loading="lazy" />';
+      html += '<div class="poetic-body">';
+      html += '<span class="poetic-label">Poetic gesture · 手勢圖</span>';
+      html += '<div class="poetic-title">' + escapeHtml(g.title) + "</div>";
+      if (g.verse_hanzi) {
+        html += '<div class="poetic-verse">「' + escapeHtml(g.verse_hanzi) + "」" +
+          (g.verse_pinyin ? ' <i>' + escapeHtml(g.verse_pinyin) + "</i>" : "") + "</div>";
+      }
+      html += '<a href="' + escapeHtml(g.source) + '" target="_blank" rel="noopener">Woodblock &amp; full verse →</a>';
+      html += "</div></div>";
+      return html;
+    }
+    if (t.poetic_image || t.poetic_verse) {
+      return '<div class="poetic"><span class="poetic-label">Poetic gesture-image</span>' +
+        escapeHtml(t.poetic_image || t.poetic_verse) + "</div>";
+    }
+    return "";
+  }
+
   function card(t) {
     var multi = (t.jianzipu_glyph || "").replace(/\s/g, "").length > 1 && !t.font_input;
     var html = "";
@@ -132,10 +159,7 @@
         '<figcaption>Hand position · peiyouqin.com</figcaption></figure>';
     }
 
-    if (t.poetic_image || t.poetic_verse) {
-      html += '  <div class="poetic"><span class="poetic-label">Poetic gesture-image</span>' +
-        escapeHtml(t.poetic_image || t.poetic_verse) + "</div>";
-    }
+    html += poeticHtml(t);
     if (t.notes) html += '  <p class="card-notes">' + escapeHtml(t.notes) + "</p>";
 
     html += videoHtml(t);
@@ -284,38 +308,14 @@
     el.resources.innerHTML = html;
   }
 
-  // ---------- gesture gallery ----------
-  function buildGallery() {
+  // Index the Taiyin Daquanji gesture-images by the technique they illustrate,
+  // so each card can render its own poetic gesture inline (no separate section).
+  function indexGestures() {
+    GESTURE_BY_TECH = {};
     if (!GESTURES) return;
-    var g = GESTURES;
-    var html = "<h2>" + escapeHtml(g.meta.title) + "</h2>";
-    html += '<div class="res-panel"><p>' + escapeHtml(g.meta.intro) + "</p>";
-    html += '<p class="license-note">' + escapeHtml(g.meta.imageRightsNote) + " " +
-      'Full set (' + g.meta.counts.rightHand + " right-hand + " + g.meta.counts.leftHand +
-      ' left-hand) on <a href="' + escapeHtml(g.meta.fullSetSource) +
-      '" target="_blank" rel="noopener">silkqin.com</a>.</p></div>';
-
-    html += '<div class="gallery-grid">';
-    g.gestures.forEach(function (ges) {
-      var meta = "Hand " + ges.num + " · " + (ges.hand === "right" ? "right" : "left") + " hand";
-      if (ges.finger) meta += " · " + ges.finger;
-      html += '<figure class="gesture-card">';
-      html += '<img class="gesture-photo" src="' + escapeHtml(ges.photo) +
-        '" alt="' + escapeHtml(ges.title) + '" loading="lazy" />';
-      html += '<figcaption class="gesture-name">' + escapeHtml(ges.title) + "</figcaption>";
-      if (ges.stroke) {
-        html += '<div class="gesture-stroke">' + escapeHtml(ges.stroke) + "</div>";
-      }
-      if (ges.verse_hanzi) {
-        html += '<div class="gesture-verse">「' + escapeHtml(ges.verse_hanzi) + "」" +
-          (ges.verse_pinyin ? ' <small>' + escapeHtml(ges.verse_pinyin) + "</small>" : "") + "</div>";
-      }
-      html += '<div class="gesture-meta">' + escapeHtml(meta) + "</div>";
-      html += '<a href="' + escapeHtml(ges.source) + '" target="_blank" rel="noopener">Woodblock &amp; full verse →</a>';
-      html += "</figure>";
+    GESTURES.gestures.forEach(function (g) {
+      if (g.technique_id) GESTURE_BY_TECH[g.technique_id] = g;
     });
-    html += "</div>";
-    el.gallery.innerHTML = html;
   }
 
   // ---------- jianzipu composer ----------
@@ -447,9 +447,9 @@
       DATA = results[0];
       RESOURCES = results[1];
       GESTURES = results[2];
+      indexGestures();
       buildNav();
       buildSymbolIndex();
-      buildGallery();
       buildComposer();
       buildResources();
       bindControls();

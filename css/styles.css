@@ -257,11 +257,6 @@ html, body { width: 100%; max-width: 100%; overflow-x: hidden; }
 .si-chip .glyph-img { width: 1.8rem; height: 1.8rem; }
 .si-chip.has-img { background: #efe6d2; border-color: #c9b896; }
 .si-chip.has-img:hover { background: #f6efdf; }
-.gesture-glyph.is-img {
-  background: #efe6d2; border: 1px solid #c9b896; border-radius: 8px;
-  width: 96px; height: 96px; margin: 0 auto; padding: 8px;
-}
-.gesture-glyph.is-img .glyph-img { width: 100%; height: 100%; }
 .glyph-box .jzp-cap {
   position: absolute;
   bottom: 2px; right: 4px;
@@ -309,6 +304,22 @@ html, body { width: 100%; max-width: 100%; overflow-x: hidden; }
   padding: .5rem .7rem;
 }
 .poetic-label { font-size: .68rem; text-transform: uppercase; letter-spacing: 1px; color: var(--accent-soft); display: block; margin-bottom: .2rem; }
+
+/* poetic gesture-image (手勢圖 woodblock) folded onto the card */
+.poetic-gesture { display: flex; gap: .7rem; align-items: flex-start; }
+.poetic-img {
+  flex: 0 0 88px;
+  width: 88px;
+  aspect-ratio: 400 / 344;
+  object-fit: contain;
+  background: #f4ecd8;
+  border-radius: 6px;
+}
+.poetic-body { min-width: 0; }
+.poetic-title { color: var(--ink); font-size: .82rem; line-height: 1.3; margin-bottom: .15rem; }
+.poetic-verse { font-family: var(--cjk); color: var(--ink); font-size: .95rem; }
+.poetic-verse i { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; color: var(--ink-soft); font-size: .76rem; font-style: italic; }
+.poetic-gesture a { font-size: .74rem; display: inline-block; margin-top: .2rem; }
 
 .card-notes { font-size: .78rem; color: var(--ink-faint); font-style: italic; }
 
@@ -389,41 +400,6 @@ footer.foot { padding: 2rem 1.5rem; color: var(--ink-faint); font-size: .8rem; b
 .token-table th, .token-table td { text-align: left; padding: .35rem .5rem; border-bottom: 1px solid var(--line); }
 .token-table code { color: var(--accent); background: #1d1815; padding: .05rem .35rem; border-radius: 4px; }
 @media (min-width: 760px) { .composer { grid-template-columns: 1.1fr 1fr; } }
-
-/* ---------- Gesture gallery ---------- */
-.gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 1rem;
-}
-.gesture-card {
-  background: var(--bg-card);
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-  padding: 1rem;
-  text-align: center;
-  display: flex; flex-direction: column; gap: .5rem;
-  margin: 0;
-}
-.gesture-photo {
-  width: 100%;
-  aspect-ratio: 400 / 344;
-  object-fit: contain;
-  background: #f4ecd8;
-  border-radius: calc(var(--radius) - 2px);
-}
-.gesture-glyph {
-  font-family: var(--jzp);
-  font-size: 3.4rem;
-  color: var(--accent);
-  line-height: 1.1;
-}
-.gesture-name { font-size: .95rem; font-weight: 600; color: var(--ink); }
-.gesture-stroke { font-family: var(--cjk); font-size: 1.5rem; color: var(--accent); line-height: 1.1; }
-.gesture-verse { font-family: var(--cjk); color: var(--ink); font-size: 1rem; }
-.gesture-verse small { font-family: inherit; color: var(--ink-soft); font-style: italic; font-size: .8rem; }
-.gesture-meta { font-size: .76rem; color: var(--ink-soft); }
-.gesture-card a { font-size: .76rem; margin-top: auto; }
 
 /* Demonstration hand-position photo on a technique card */
 .card-photo { margin: .2rem 0 0; }

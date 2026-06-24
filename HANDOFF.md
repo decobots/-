@@ -27,9 +27,12 @@ jianzipu (减字谱). Lives in repo `decobots/-`, deployed via GitHub Pages at
   no technique links out for video anymore (`video_kind:"page"` is gone).
 - **Demo photos** (`assets/photos/`): A1–A5 finger-designation hand photos from peiyouqin
   (`t.photo`, shown inline on the card). Attribution in `assets/photos/README.txt`.
-- **Poetic gesture gallery** (`data/gestures.json`): the full Taiyin Daquanji set — 33
-  woodblock prints (`assets/photos/gestures/hand01–33.jpg`, from silkqin.com / John Thompson),
-  each with its poetic title, tablature stroke, hand/finger, and (where public-domain) verse.
+- **Poetic gesture-images** (`data/gestures.json`): the full Taiyin Daquanji set — 33
+  woodblock prints (`assets/photos/gestures/hand01–33.jpg`, from silkqin.com / John Thompson).
+  There is NO separate gallery section: each gesture carries a `technique_id` and renders
+  **inline on its technique card** (woodblock + poetic title + verse) via `poeticHtml()`.
+  22 of the 33 map to a technique in our set; the other 11 illustrate strokes we don't
+  document (彈, 摟, 捻…) so they stay in the data but aren't shown.
 - **Glyph coverage note**: the bundled Qin font is a *notation composer*; it has single
   glyphs only for documented strokes. Currently 18 SVG + 21 `font_input`; the remaining ~41
   fall back to plain CJK because they are compound left-hand names (長吟, 進復, 雙撞…) or
