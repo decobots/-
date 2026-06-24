@@ -65,8 +65,21 @@ export function bindResultsClicks() {
     if (!box) return;
     var id = box.getAttribute("data-yt");
     box.innerHTML = '<div class="video-frame"><iframe ' +
-      'src="https://www.youtube-nocookie.com/embed/' + encodeURIComponent(id) + '?autoplay=1&rel=0" ' +
-      'title="Technique demonstration" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" ' +
+      'src="https://www.youtube-nocookie.com/embed/' + encodeURIComponent(id) + '?autoplay=1&rel=0&playsinline=1" ' +
+      'title="Technique demonstration" frameborder="0" ' +
+      'allow="autoplay; fullscreen; encrypted-media; picture-in-picture" ' +
       'allowfullscreen loading="lazy"></iframe></div>';
+
+    // Go fullscreen immediately (still inside the click's user-gesture). The
+    // iframe keeps autoplaying inline if fullscreen is unavailable (e.g. iOS).
+    var frame = box.querySelector("iframe");
+    var req = frame.requestFullscreen || frame.webkitRequestFullscreen ||
+      frame.webkitEnterFullscreen || frame.mozRequestFullScreen || frame.msRequestFullscreen;
+    if (req) {
+      try {
+        var ret = req.call(frame);
+        if (ret && ret.catch) ret.catch(function () {});
+      } catch (err) { /* fall back to inline playback */ }
+    }
   });
 }
