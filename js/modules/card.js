@@ -108,8 +108,7 @@ export function card(t) {
 
   if (t.photo) {
     html += '  <figure class="card-photo"><img src="' + escapeHtml(t.photo) +
-      '" alt="' + escapeHtml(t.name_pinyin) + ' hand position" loading="lazy" />' +
-      '<figcaption>Hand position · peiyouqin.com</figcaption></figure>';
+      '" alt="' + escapeHtml(t.name_pinyin) + ' hand position" loading="lazy" /></figure>';
   }
 
   html += mediaHtml(t);
