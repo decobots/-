@@ -126,6 +126,12 @@
 
     html += '  <p class="card-instruction">' + escapeHtml(t.instruction_text) + "</p>";
 
+    if (t.photo) {
+      html += '  <figure class="card-photo"><img src="' + escapeHtml(t.photo) +
+        '" alt="' + escapeHtml(t.name_pinyin) + ' hand position" loading="lazy" />' +
+        '<figcaption>Hand position · peiyouqin.com</figcaption></figure>';
+    }
+
     if (t.poetic_image || t.poetic_verse) {
       html += '  <div class="poetic"><span class="poetic-label">Poetic gesture-image</span>' +
         escapeHtml(t.poetic_image || t.poetic_verse) + "</div>";
@@ -281,29 +287,32 @@
   // ---------- gesture gallery ----------
   function buildGallery() {
     if (!GESTURES) return;
-    var byId = {};
-    DATA.techniques.forEach(function (t) { byId[t.id] = t; });
     var g = GESTURES;
     var html = "<h2>" + escapeHtml(g.meta.title) + "</h2>";
     html += '<div class="res-panel"><p>' + escapeHtml(g.meta.intro) + "</p>";
     html += '<p class="license-note">' + escapeHtml(g.meta.imageRightsNote) + " " +
-      'View the full set (' + g.meta.counts.rightHand + " right-hand + " + g.meta.counts.leftHand +
-      ' left-hand): <a href="' + escapeHtml(g.meta.fullSetSource) + '" target="_blank" rel="noopener">silkqin.com</a>.</p></div>';
+      'Full set (' + g.meta.counts.rightHand + " right-hand + " + g.meta.counts.leftHand +
+      ' left-hand) on <a href="' + escapeHtml(g.meta.fullSetSource) +
+      '" target="_blank" rel="noopener">silkqin.com</a>.</p></div>';
 
     html += '<div class="gallery-grid">';
     g.gestures.forEach(function (ges) {
-      var t = byId[ges.technique_id] || { name_hanzi: ges.name_hanzi };
-      html += '<div class="gesture-card">';
-      html += '<div class="gesture-glyph' + (t.image ? " is-img" : "") + '">' + symbolHtml(t) + "</div>";
-      html += '<div class="gesture-name">' + escapeHtml(ges.name_hanzi) +
-        " <small>" + escapeHtml(ges.name_pinyin) + "</small></div>";
-      if (ges.verse_hanzi) {
-        html += '<div class="gesture-verse">「' + escapeHtml(ges.verse_hanzi) + "」</div>";
+      var meta = "Hand " + ges.num + " · " + (ges.hand === "right" ? "right" : "left") + " hand";
+      if (ges.finger) meta += " · " + ges.finger;
+      html += '<figure class="gesture-card">';
+      html += '<img class="gesture-photo" src="' + escapeHtml(ges.photo) +
+        '" alt="' + escapeHtml(ges.title) + '" loading="lazy" />';
+      html += '<figcaption class="gesture-name">' + escapeHtml(ges.title) + "</figcaption>";
+      if (ges.stroke) {
+        html += '<div class="gesture-stroke">' + escapeHtml(ges.stroke) + "</div>";
       }
-      html += '<div class="gesture-theme"><strong>' + escapeHtml(ges.image_title) + ".</strong> " +
-        escapeHtml(ges.theme) + "</div>";
-      html += '<a href="' + escapeHtml(ges.source) + '" target="_blank" rel="noopener">View woodblock &amp; translation →</a>';
-      html += "</div>";
+      if (ges.verse_hanzi) {
+        html += '<div class="gesture-verse">「' + escapeHtml(ges.verse_hanzi) + "」" +
+          (ges.verse_pinyin ? ' <small>' + escapeHtml(ges.verse_pinyin) + "</small>" : "") + "</div>";
+      }
+      html += '<div class="gesture-meta">' + escapeHtml(meta) + "</div>";
+      html += '<a href="' + escapeHtml(ges.source) + '" target="_blank" rel="noopener">Woodblock &amp; full verse →</a>';
+      html += "</figure>";
     });
     html += "</div>";
     el.gallery.innerHTML = html;
