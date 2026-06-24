@@ -225,7 +225,16 @@
           "relation": "builds-on",
           "label": "builds on"
         }
-      ]
+      ],
+      "movement": {
+        "mode": "seq",
+        "steps": [
+          {
+            "finger": 2,
+            "dir": "down"
+          }
+        ]
+      }
     },
     {
       "id": "B2",
@@ -264,7 +273,16 @@
           "relation": "opposite",
           "label": "opposite"
         }
-      ]
+      ],
+      "movement": {
+        "mode": "seq",
+        "steps": [
+          {
+            "finger": 2,
+            "dir": "up"
+          }
+        ]
+      }
     },
     {
       "id": "B3",
@@ -318,7 +336,16 @@
           "relation": "builds-on",
           "label": "builds on"
         }
-      ]
+      ],
+      "movement": {
+        "mode": "seq",
+        "steps": [
+          {
+            "finger": 3,
+            "dir": "down"
+          }
+        ]
+      }
     },
     {
       "id": "B4",
@@ -357,7 +384,16 @@
           "relation": "opposite",
           "label": "opposite"
         }
-      ]
+      ],
+      "movement": {
+        "mode": "seq",
+        "steps": [
+          {
+            "finger": 3,
+            "dir": "up"
+          }
+        ]
+      }
     },
     {
       "id": "B5",
@@ -396,7 +432,16 @@
           "relation": "opposite",
           "label": "opposite"
         }
-      ]
+      ],
+      "movement": {
+        "mode": "seq",
+        "steps": [
+          {
+            "finger": 4,
+            "dir": "down"
+          }
+        ]
+      }
     },
     {
       "id": "B6",
@@ -435,7 +480,16 @@
           "relation": "opposite",
           "label": "opposite"
         }
-      ]
+      ],
+      "movement": {
+        "mode": "seq",
+        "steps": [
+          {
+            "finger": 4,
+            "dir": "up"
+          }
+        ]
+      }
     },
     {
       "id": "B7",
@@ -474,7 +528,16 @@
           "relation": "opposite",
           "label": "opposite"
         }
-      ]
+      ],
+      "movement": {
+        "mode": "seq",
+        "steps": [
+          {
+            "finger": 1,
+            "dir": "up"
+          }
+        ]
+      }
     },
     {
       "id": "B8",
@@ -513,7 +576,16 @@
           "relation": "opposite",
           "label": "opposite"
         }
-      ]
+      ],
+      "movement": {
+        "mode": "seq",
+        "steps": [
+          {
+            "finger": 1,
+            "dir": "down"
+          }
+        ]
+      }
     },
     {
       "id": "B9",
@@ -559,7 +631,20 @@
           "relation": "opposite",
           "label": "opposite"
         }
-      ]
+      ],
+      "movement": {
+        "mode": "together",
+        "steps": [
+          {
+            "finger": 2,
+            "dir": "up"
+          },
+          {
+            "finger": 3,
+            "dir": "down"
+          }
+        ]
+      }
     },
     {
       "id": "B10",
@@ -609,7 +694,24 @@
           "relation": "component-of",
           "label": "component of"
         }
-      ]
+      ],
+      "movement": {
+        "mode": "seq",
+        "steps": [
+          {
+            "finger": 4,
+            "dir": "up"
+          },
+          {
+            "finger": 3,
+            "dir": "up"
+          },
+          {
+            "finger": 2,
+            "dir": "up"
+          }
+        ]
+      }
     },
     {
       "id": "B12",
@@ -634,7 +736,20 @@
           "relation": "builds-on",
           "label": "builds on"
         }
-      ]
+      ],
+      "movement": {
+        "mode": "seq",
+        "steps": [
+          {
+            "finger": 3,
+            "dir": "up"
+          },
+          {
+            "finger": 2,
+            "dir": "up"
+          }
+        ]
+      }
     },
     {
       "id": "B13",
@@ -2283,7 +2398,20 @@
           "relation": "component-of",
           "label": "component of"
         }
-      ]
+      ],
+      "movement": {
+        "mode": "seq",
+        "steps": [
+          {
+            "finger": 2,
+            "dir": "down"
+          },
+          {
+            "finger": 2,
+            "dir": "up"
+          }
+        ]
+      }
     },
     {
       "id": "B24",
@@ -2302,7 +2430,20 @@
           "relation": "component-of",
           "label": "component of"
         }
-      ]
+      ],
+      "movement": {
+        "mode": "seq",
+        "steps": [
+          {
+            "finger": 3,
+            "dir": "down"
+          },
+          {
+            "finger": 3,
+            "dir": "up"
+          }
+        ]
+      }
     },
     {
       "id": "B25",
@@ -2326,7 +2467,20 @@
           "relation": "faster-slower",
           "label": "slower form of"
         }
-      ]
+      ],
+      "movement": {
+        "mode": "seq",
+        "steps": [
+          {
+            "finger": 2,
+            "dir": "down"
+          },
+          {
+            "finger": 3,
+            "dir": "down"
+          }
+        ]
+      }
     },
     {
       "id": "B26",
@@ -2355,7 +2509,20 @@
           "id": "tC_-0HYtyBY",
           "label": "Demonstration"
         }
-      ]
+      ],
+      "movement": {
+        "mode": "seq",
+        "steps": [
+          {
+            "finger": 2,
+            "dir": "down"
+          },
+          {
+            "finger": 3,
+            "dir": "down"
+          }
+        ]
+      }
     },
     {
       "id": "B27",
@@ -2457,7 +2624,20 @@
           "id": "Qn-sJks7EmQ",
           "label": "Demonstration"
         }
-      ]
+      ],
+      "movement": {
+        "mode": "seq",
+        "steps": [
+          {
+            "finger": 2,
+            "dir": "up"
+          },
+          {
+            "finger": 3,
+            "dir": "up"
+          }
+        ]
+      }
     },
     {
       "id": "B31",
@@ -2530,7 +2710,20 @@
           "id": "pcB6wWJwE1s",
           "label": "Demonstration"
         }
-      ]
+      ],
+      "movement": {
+        "mode": "together",
+        "steps": [
+          {
+            "finger": 1,
+            "dir": "down"
+          },
+          {
+            "finger": 3,
+            "dir": "down"
+          }
+        ]
+      }
     },
     {
       "id": "B34",
@@ -2559,7 +2752,20 @@
           "id": "0dMgHFGZUEc",
           "label": "Demonstration"
         }
-      ]
+      ],
+      "movement": {
+        "mode": "together",
+        "steps": [
+          {
+            "finger": 1,
+            "dir": "up"
+          },
+          {
+            "finger": 3,
+            "dir": "up"
+          }
+        ]
+      }
     },
     {
       "id": "B35",

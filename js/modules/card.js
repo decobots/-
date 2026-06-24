@@ -30,13 +30,32 @@ function mediaHtml(t) {
       html += '<div class="video" data-yt="' + escapeHtml(m.id) + '">' +
         '<button class="video-btn" type="button">▶ ' + escapeHtml(m.label || "Watch demo") + "</button></div>";
     } else if (m.type === "image" && m.src) {
-      html += '<figure class="media-img"><img src="' + escapeHtml(m.src) +
+      html += '<figure class="media-img"><img class="zoomable" src="' + escapeHtml(m.src) +
         '" alt="' + escapeHtml(m.caption || "") + '" loading="lazy" />' +
         (m.caption ? '<figcaption>' + escapeHtml(m.caption) + "</figcaption>" : "") + "</figure>";
     }
   });
   html += "</div>";
   return html;
+}
+
+// Hand-movement notation: finger number (1 thumb … 4 ring) + arrow
+// (↓ pluck, toward the body / inward; ↑ strum, away from the body / outward).
+// Compound strokes list each step; "together" steps are joined with +.
+var FINGER_NAME = { 1: "thumb", 2: "index", 3: "middle", 4: "ring" };
+function movementHtml(t) {
+  var mv = t.movement;
+  if (!mv || !mv.steps || !mv.steps.length) return "";
+  var steps = mv.steps.map(function (s) {
+    var arrow = s.dir === "down" ? "↓" : "↑";
+    var act = s.dir === "down" ? "pluck (inward)" : "strum (outward)";
+    return '<span class="mv-step" title="' + escapeHtml(FINGER_NAME[s.finger]) +
+      " finger · " + act + '">' +
+      '<span class="mv-finger">' + s.finger + "</span>" +
+      '<span class="mv-arrow mv-' + s.dir + '">' + arrow + "</span></span>";
+  }).join(mv.mode === "together" ? '<span class="mv-join">+</span>' : "");
+  return '<div class="movement" title="hand movement — finger 1 thumb…4 ring; ' +
+    '↓ pluck, ↑ strum">' + steps + "</div>";
 }
 
 // Clickable chips to compare/contrast related techniques (keeps each card
@@ -62,7 +81,7 @@ function poeticHtml(t) {
   var g = store.gestureByTech[t.id];
   if (g) {
     var html = '<div class="poetic poetic-gesture">';
-    html += '<img class="poetic-img" src="' + escapeHtml(g.photo) +
+    html += '<img class="poetic-img zoomable" src="' + escapeHtml(g.photo) +
       '" alt="' + escapeHtml(g.title) + ' — gesture woodblock" loading="lazy" />';
     html += '<div class="poetic-body">';
     html += '<span class="poetic-label">Poetic gesture · 手勢圖</span>';
@@ -104,10 +123,11 @@ export function card(t) {
   html += "    </div>";
   html += "  </div>";
 
+  html += movementHtml(t);
   html += '  <p class="card-instruction">' + escapeHtml(t.instruction_text) + "</p>";
 
   if (t.photo) {
-    html += '  <figure class="card-photo"><img src="' + escapeHtml(t.photo) +
+    html += '  <figure class="card-photo"><img class="zoomable" src="' + escapeHtml(t.photo) +
       '" alt="' + escapeHtml(t.name_pinyin) + ' hand position" loading="lazy" /></figure>';
   }
 
