@@ -272,8 +272,17 @@ html, body { width: 100%; max-width: 100%; overflow-x: hidden; }
 .card-hanzi { font-family: var(--cjk); font-size: 1.5rem; line-height: 1.15; margin: .05rem 0; }
 .card-pinyin { font-size: .95rem; color: var(--accent); font-style: italic; }
 
-/* hand-drawn notation glyph (raster) sits on the same parchment tile as SVGs */
-.glyph-box .glyph-hand { image-rendering: auto; padding: 2px; }
+/* Hand-drawn notation glyphs are white-on-black scans. Invert them (→ black
+ * strokes on white) and multiply against the parchment tile so the white
+ * field becomes cream and the strokes read as dark ink — blending with the
+ * SVG glyphs and the rest of the UI. */
+.glyph-hand {
+  padding: 2px;
+  filter: invert(1);
+  mix-blend-mode: multiply;
+}
+/* contain the blend so it only mixes with the tile's own cream background */
+.glyph-box.is-img, .si-chip.has-img { isolation: isolate; }
 
 /* tag column pinned to the card's top-right corner */
 .card-meta {
