@@ -1,0 +1,114 @@
+{
+  "poeticGestures": {
+    "title": "Traditional Poetic Gesture-Images (手勢圖 shǒushì tú)",
+    "intro": "Classical handbooks pair each finger technique with a poetic nature image and a four-character verse introduced by \"興曰 Xìng yuē\". The Taiyin Daquanji set has 33 illustrations: 17 right-hand, then 16 left-hand. These examples are representative; the full set is on the source page.",
+    "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
+    "historyContext": "https://silkqin.com/09hist/qscb/qscb06c6.htm",
+    "examples": [
+      {
+        "technique": "挑 tiāo (index out)",
+        "image": "(per source)",
+        "verse_theme": "—"
+      },
+      {
+        "technique": "勾 gōu (middle in)",
+        "image": "Lone duck looks back at the flock (孤鶩顧群)",
+        "verse_theme": "longing / the solitary bird"
+      },
+      {
+        "technique": "猱 náo (wide vibrato)",
+        "image": "Behold the howling ape, climbing the tall tree; wishing to go up yet not up, its momentum pressing on (瞻彼號猿，升於喬木。欲上不上，其勢逐逐)",
+        "verse_theme": "the ape on the branch"
+      },
+      {
+        "technique": "吟 yín (vibrato)",
+        "image": "Likened to a cicada singing in autumn",
+        "verse_theme": "the autumn cicada"
+      }
+    ]
+  },
+  "glyphFontResources": [
+    {
+      "name": "Jianzipu font / encoding writeup (yijun.hu)",
+      "url": "https://yijun.hu/blog-misc/guqin/",
+      "note": "How reduced components compose into a glyph, with a font-building approach."
+    },
+    {
+      "name": "Adrakaris/guqin-jianzipu-font",
+      "url": "https://github.com/Adrakaris/guqin-jianzipu-font",
+      "note": "Noto Sans SC packed with ligatures for writing guqin score notation."
+    },
+    {
+      "name": "alephpi/jianzipu",
+      "url": "https://github.com/alephpi/jianzipu",
+      "note": "Jianzipu input, encoding and display solution (Python parser + OpenType font)."
+    },
+    {
+      "name": "neuralfirings/JianZiPu",
+      "url": "https://github.com/neuralfirings/JianZiPu",
+      "note": "A font for writing guqin music in jianzipu via glyph-layering ligatures."
+    },
+    {
+      "name": "wds-seu/guqinMM",
+      "url": "https://github.com/wds-seu/guqinMM",
+      "note": "Academic OCR + dataset (MIT-licensed code); jianzipu recognition models on a 五声琴谱-based dataset."
+    },
+    {
+      "name": "Guqin NLTabs (web notation tool)",
+      "url": "https://guqin.nyl.io/docs.html",
+      "note": "Renders jianzipu; docs enumerate the shorthand-to-jianzipu mapping."
+    },
+    {
+      "name": "Historical glyph images — Taiyin Daquanji Folio 5, right hand",
+      "url": "https://silkqin.com/02qnpu/05tydq/ty5c.htm",
+      "note": "Per-technique reduced-character glyph images (croppable)."
+    },
+    {
+      "name": "Historical glyph images — Taiyin Daquanji Folio 5, left hand",
+      "url": "https://silkqin.com/02qnpu/05tydq/ty5d.htm",
+      "note": "Per-technique reduced-character glyph images (croppable)."
+    }
+  ],
+  "sources": [
+    {
+      "group": "Primary English instruction + video (Pei-You / Judy Chang)",
+      "links": [
+        { "label": "Site root / index of all finger technique sections", "url": "https://www.peiyouqin.com/" },
+        { "label": "Left-hand finger designations (Section A)", "url": "https://peiyouqin.com/notation3.html" },
+        { "label": "Finger contact points", "url": "https://peiyouqin.com/fingerpoints.html" },
+        { "label": "Right-hand strokes index (Section B)", "url": "https://peiyouqin.com/notation2.html" },
+        { "label": "Left-hand six basics (C) + vibrato variations (D)", "url": "https://peiyouqin.com/notation3b.html" },
+        { "label": "Left-hand slides/strikes/ornaments (Section E)", "url": "https://peiyouqin.com/notation3c.html" },
+        { "label": "Yin vs Nao distinction + demo film", "url": "https://peiyouqin.com/yinandnao.html" }
+      ]
+    },
+    {
+      "group": "Historical / scholarly (silkqin.com — John Thompson)",
+      "links": [
+        { "label": "Finger-technique overview + nail/length notes", "url": "https://silkqin.com/07play/fngrng.htm" },
+        { "label": "Taiyin Daquanji Folio 5, right-hand techniques + glyph images", "url": "https://silkqin.com/02qnpu/05tydq/ty5c.htm" },
+        { "label": "Taiyin Daquanji Folio 5, left-hand techniques + glyph images", "url": "https://silkqin.com/02qnpu/05tydq/ty5d.htm" },
+        { "label": "Taiyin Daquanji right-hand specific steps", "url": "https://silkqin.com/02qnpu/05tydq/ty6a.htm" },
+        { "label": "Taiyin Daquanji left-hand list page", "url": "https://www.silkqin.com/02qnpu/05tydq/ty6f.htm" },
+        { "label": "33 poetic hand-gesture illustrations + verses (Section H)", "url": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm" },
+        { "label": "History/dating of the gesture-images", "url": "https://silkqin.com/09hist/qscb/qscb06c6.htm" },
+        { "label": "Left vs right hand ornamentation (historical development)", "url": "https://silkqin.com/08anal/leftright.htm" }
+      ]
+    },
+    {
+      "group": "Chinese-language quick reference (fingering charts)",
+      "links": [
+        { "label": "guoqinwang — 54 fingerings in one chart", "url": "https://www.guoqinwang.com/news/2797.html" },
+        { "label": "Zhihu — four-corner jianzipu decoding article", "url": "https://zhuanlan.zhihu.com/p/347991617" }
+      ]
+    }
+  ],
+  "licensing": [
+    "Pei-You (Judy) Chang (peiyouqin.com): instructions, images, and demonstration videos are her copyrighted work (© Judy (Pei-You) Chang). For an app, link to her pages or request licensing — do not redistribute her videos/images without permission.",
+    "John Thompson / silkqin.com: translations and photographic reproductions of the Taiyin Daquanji gesture-images are his work. The underlying woodblock images are historical (likely public domain), but his scans/translations are not — request permission or link out.",
+    "The technique instructions in this reference are paraphrased/summarized for spec purposes; the wording here may be used freely, but the original videos and images must be sourced and cleared as above.",
+    "The Chinese-language enthusiast pages (guoqinwang, Zhihu) are convenient references but of uncertain rights — treat as background, not shippable assets.",
+    "Bundled fonts (assets/fonts/): Qin Jianzipu (qinfont.woff2; jianzipu designs © Yijun Hu, based on Noto Sans SC; from Adrakaris/guqin-jianzipu-font) and a subset of Noto Serif SC are both under the SIL Open Font License 1.1 — see assets/fonts/OFL.txt. They may be redistributed with this software but not sold on their own."
+  ],
+  "coverageNote": "Sections A–G cover roughly 60 named techniques — the working vocabulary of modern practice. Historical handbooks document on the order of 1,000+ finger-technique glyphs (most obsolete). For completeness on historical tablature, expand from the silkqin Taiyin Daquanji folios and Zha Fuxi's reference Cunjian Guqin Zhifa Puzi Jilan. For a learner-facing product, A–G plus the poetic images is the right scope."
+}

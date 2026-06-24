@@ -1,0 +1,349 @@
+/* ---------- Bundled fonts (SIL OFL 1.1 — see assets/fonts/OFL.txt) ---------- */
+@font-face {
+  font-family: "Noto Serif SC Subset";
+  src: url("../assets/fonts/noto-serif-sc-subset.woff2") format("woff2");
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Qin Jianzipu";
+  src: url("../assets/fonts/qinfont.woff2") format("woff2");
+  font-display: swap;
+}
+
+:root {
+  --bg: #1a1614;
+  --bg-panel: #221d1a;
+  --bg-card: #2a2421;
+  --bg-card-hover: #322b27;
+  --ink: #ece3d8;
+  --ink-soft: #b8aca0;
+  --ink-faint: #8a7d70;
+  --accent: #c8a45c;       /* aged brass / silk gold */
+  --accent-soft: #8a6d3b;
+  --jade: #7fa691;
+  --rust: #b5654a;
+  --line: #3a322d;
+  --radius: 12px;
+  --shadow: 0 2px 8px rgba(0,0,0,.35);
+  --cjk: "Noto Serif SC Subset", "Noto Serif SC", "Songti SC", "SimSun", "STSong", "Source Han Serif SC", serif;
+  /* The Qin Jianzipu font composes true tablature glyphs via ligatures. */
+  --jzp: "Qin Jianzipu", monospace;
+}
+
+/* Composed jianzipu glyph: ligatures MUST stay on for the font to compose. */
+.jzp {
+  font-family: var(--jzp);
+  font-feature-settings: "liga" 1, "dlig" 1, "calt" 1;
+  -webkit-font-feature-settings: "liga" 1, "dlig" 1, "calt" 1;
+  font-variant-ligatures: common-ligatures discretionary-ligatures contextual;
+  white-space: nowrap;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* ---------- Top bar ---------- */
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  padding: 1rem 1.5rem;
+  background: linear-gradient(180deg, #241e1a, #1c1714);
+  border-bottom: 1px solid var(--line);
+}
+
+.brand { display: flex; align-items: center; gap: 0.9rem; }
+
+.brand-glyph {
+  font-family: var(--cjk);
+  font-size: 2.4rem;
+  line-height: 1;
+  color: var(--accent);
+  border: 2px solid var(--accent-soft);
+  border-radius: 10px;
+  padding: 0.25rem 0.5rem;
+  background: #1d1815;
+}
+
+.brand-text h1 { margin: 0; font-size: 1.15rem; font-weight: 650; letter-spacing: .2px; }
+.brand-sub { margin: .15rem 0 0; font-size: .82rem; color: var(--ink-faint); }
+
+.search-wrap { display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; }
+
+#search {
+  width: min(360px, 60vw);
+  padding: .6rem .9rem;
+  background: var(--bg-card);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--ink);
+  font-size: .92rem;
+  outline: none;
+}
+#search:focus { border-color: var(--accent-soft); }
+#search::placeholder { color: var(--ink-faint); }
+
+.toggle { display: flex; align-items: center; gap: .4rem; font-size: .82rem; color: var(--ink-soft); cursor: pointer; user-select: none; }
+.toggle input { accent-color: var(--accent); }
+
+/* ---------- Layout ---------- */
+.layout { display: flex; align-items: flex-start; }
+
+.sidebar {
+  position: sticky;
+  top: 73px;
+  flex: 0 0 248px;
+  max-height: calc(100vh - 73px);
+  overflow-y: auto;
+  padding: 1rem .75rem;
+  border-right: 1px solid var(--line);
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .5rem;
+  width: 100%;
+  text-align: left;
+  padding: .55rem .7rem;
+  margin-bottom: .2rem;
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 9px;
+  color: var(--ink-soft);
+  font-size: .9rem;
+  cursor: pointer;
+  transition: background .12s, color .12s;
+}
+.nav-item:hover { background: var(--bg-card); color: var(--ink); }
+.nav-item.is-active { background: var(--bg-card); color: var(--accent); border-color: var(--accent-soft); }
+.nav-link { color: var(--ink-soft); text-decoration: none; margin-top: .5rem; }
+.nav-label { display: flex; flex-direction: column; }
+.nav-section { font-size: .7rem; color: var(--ink-faint); letter-spacing: .5px; }
+.nav-count {
+  font-size: .72rem;
+  color: var(--ink-faint);
+  background: var(--bg);
+  border-radius: 999px;
+  padding: .05rem .45rem;
+  min-width: 1.4rem;
+  text-align: center;
+}
+.sidebar-foot { font-size: .72rem; color: var(--ink-faint); padding: .75rem .7rem 0; border-top: 1px solid var(--line); margin-top: .75rem; }
+
+/* ---------- Content ---------- */
+.content { flex: 1 1 auto; padding: 1.5rem; min-width: 0; }
+
+.cat-block { margin-bottom: 2.5rem; scroll-margin-top: 90px; }
+.cat-head { margin-bottom: 1rem; padding-bottom: .6rem; border-bottom: 1px solid var(--line); }
+.cat-head h2 { margin: 0; font-size: 1.3rem; display: flex; align-items: baseline; gap: .6rem; flex-wrap: wrap; }
+.cat-badge {
+  font-size: .7rem;
+  font-weight: 700;
+  color: var(--bg);
+  background: var(--accent);
+  border-radius: 5px;
+  padding: .1rem .4rem;
+}
+.cat-sub { color: var(--ink-soft); font-size: .92rem; }
+.cat-desc { margin: .5rem 0 0; color: var(--ink-faint); font-size: .86rem; max-width: 70ch; }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  gap: 1rem;
+}
+
+/* ---------- Card ---------- */
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1rem 1.1rem;
+  box-shadow: var(--shadow);
+  transition: background .12s, transform .12s, border-color .12s;
+  display: flex;
+  flex-direction: column;
+  gap: .65rem;
+}
+.card:hover { background: var(--bg-card-hover); border-color: var(--accent-soft); }
+
+.card-top { display: flex; align-items: flex-start; gap: .9rem; }
+
+.glyph-box {
+  flex: 0 0 auto;
+  width: 60px; height: 60px;
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--cjk);
+  font-size: 2.2rem;
+  line-height: 1;
+  color: var(--accent);
+  background: #1d1815;
+  border: 1px solid var(--accent-soft);
+  border-radius: 10px;
+}
+.glyph-box.multi { font-size: 1.35rem; padding: 4px; text-align: center; }
+.glyph-box.is-jzp { font-family: var(--jzp); font-size: 2.6rem; }
+.glyph-box .jzp-cap {
+  position: absolute;
+  bottom: 2px; right: 4px;
+  font-family: var(--cjk);
+  font-size: .62rem;
+  color: var(--ink-faint);
+  line-height: 1;
+}
+.glyph-box { position: relative; }
+
+.card-id { font-size: .7rem; color: var(--ink-faint); letter-spacing: .5px; }
+.card-name { font-family: var(--cjk); font-size: 1.5rem; line-height: 1.1; margin: .1rem 0; }
+.card-pinyin { font-size: .95rem; color: var(--accent); font-style: italic; }
+
+.card-meta { display: flex; flex-wrap: wrap; gap: .35rem; margin-top: .1rem; }
+.tag {
+  font-size: .68rem;
+  padding: .12rem .45rem;
+  border-radius: 5px;
+  border: 1px solid var(--line);
+  color: var(--ink-soft);
+}
+.tag.hand-left { color: var(--jade); border-color: #3c5247; }
+.tag.hand-right { color: var(--rust); border-color: #5a3a30; }
+.tag.hand-either { color: var(--accent); border-color: var(--accent-soft); }
+.tag.dir { color: var(--ink-soft); }
+.tag.reduced { color: var(--ink-soft); }
+.tag.reduced b { font-family: var(--cjk); color: var(--ink); font-weight: 600; }
+
+.card-instruction { font-size: .9rem; color: var(--ink); }
+
+.poetic {
+  font-size: .85rem;
+  color: var(--ink-soft);
+  background: #1f1a17;
+  border-left: 3px solid var(--accent-soft);
+  border-radius: 0 7px 7px 0;
+  padding: .5rem .7rem;
+}
+.poetic-label { font-size: .68rem; text-transform: uppercase; letter-spacing: 1px; color: var(--accent-soft); display: block; margin-bottom: .2rem; }
+
+.card-notes { font-size: .78rem; color: var(--ink-faint); font-style: italic; }
+
+.card-sources { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: auto; padding-top: .4rem; border-top: 1px solid var(--line); }
+.card-sources a { font-size: .76rem; display: inline-flex; align-items: center; gap: .25rem; }
+.src-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--accent); display: inline-block; }
+
+/* ---------- Resources ---------- */
+.resources { margin-top: 1rem; scroll-margin-top: 90px; }
+.resources h2 { font-size: 1.4rem; border-bottom: 1px solid var(--line); padding-bottom: .5rem; }
+.resources h3 { color: var(--accent); font-size: 1.05rem; margin: 1.6rem 0 .6rem; }
+.res-panel { background: var(--bg-panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 1rem 1.2rem; margin-bottom: 1rem; }
+.res-list { margin: 0; padding-left: 1.1rem; }
+.res-list li { margin: .35rem 0; font-size: .88rem; color: var(--ink-soft); }
+.gesture-table { width: 100%; border-collapse: collapse; font-size: .86rem; }
+.gesture-table th, .gesture-table td { text-align: left; padding: .5rem .6rem; border-bottom: 1px solid var(--line); vertical-align: top; }
+.gesture-table th { color: var(--ink-faint); font-weight: 600; }
+.gesture-table .g-tech { font-family: var(--cjk); white-space: nowrap; color: var(--ink); }
+.license-note { font-size: .82rem; color: var(--ink-faint); }
+.license-note li { margin: .4rem 0; }
+
+footer.foot { padding: 2rem 1.5rem; color: var(--ink-faint); font-size: .8rem; border-top: 1px solid var(--line); }
+
+.empty { padding: 3rem; text-align: center; color: var(--ink-faint); }
+
+/* ---------- Composer widget ---------- */
+.composer { display: grid; grid-template-columns: 1fr; gap: 1rem; }
+.composer-preview {
+  display: flex; align-items: center; justify-content: center;
+  min-height: 160px;
+  background: #1d1815;
+  border: 1px solid var(--accent-soft);
+  border-radius: var(--radius);
+  font-family: var(--jzp);
+  font-size: 5rem;
+  color: var(--ink);
+  padding: 1rem;
+}
+.composer-controls { display: flex; flex-direction: column; gap: .7rem; }
+.composer-controls input[type="text"] {
+  width: 100%;
+  padding: .65rem .8rem;
+  background: var(--bg-card);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: var(--ink);
+  font-family: ui-monospace, "SFMono-Regular", Menlo, monospace;
+  font-size: 1rem;
+}
+.preset-row { display: flex; flex-wrap: wrap; gap: .4rem; }
+.preset {
+  font-size: .78rem;
+  padding: .3rem .6rem;
+  background: var(--bg-card);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--ink-soft);
+  cursor: pointer;
+}
+.preset:hover { border-color: var(--accent-soft); color: var(--ink); }
+.token-table { width: 100%; border-collapse: collapse; font-size: .82rem; margin-top: .4rem; }
+.token-table th, .token-table td { text-align: left; padding: .35rem .5rem; border-bottom: 1px solid var(--line); }
+.token-table code { color: var(--accent); background: #1d1815; padding: .05rem .35rem; border-radius: 4px; }
+@media (min-width: 760px) { .composer { grid-template-columns: 1.1fr 1fr; } }
+
+/* ---------- Gesture gallery ---------- */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+}
+.gesture-card {
+  background: var(--bg-card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1rem;
+  text-align: center;
+  display: flex; flex-direction: column; gap: .5rem;
+}
+.gesture-glyph {
+  font-family: var(--jzp);
+  font-size: 3.4rem;
+  color: var(--accent);
+  line-height: 1.1;
+}
+.gesture-name { font-family: var(--cjk); font-size: 1.4rem; }
+.gesture-name small { color: var(--accent); font-style: italic; font-size: .9rem; }
+.gesture-verse { font-family: var(--cjk); color: var(--ink); font-size: 1rem; }
+.gesture-theme { font-size: .8rem; color: var(--ink-soft); }
+.gesture-card a { font-size: .76rem; margin-top: auto; }
+
+/* ---------- Responsive ---------- */
+@media (max-width: 820px) {
+  .layout { flex-direction: column; }
+  .sidebar {
+    position: static; flex-basis: auto; width: 100%;
+    max-height: none; border-right: none; border-bottom: 1px solid var(--line);
+    display: flex; flex-wrap: wrap; gap: .4rem;
+  }
+  .sidebar #navCategories { display: flex; flex-wrap: wrap; gap: .4rem; width: 100%; }
+  .nav-item { width: auto; }
+  .sidebar-foot { display: none; }
+}

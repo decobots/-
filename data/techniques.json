@@ -1,0 +1,1170 @@
+{
+  "meta": {
+    "title": "Guqin Finger-Technique (Hand-Gesture) Reference",
+    "description": "A categorized reference of guqin (古琴) finger techniques as written in jianzipu (减字谱) reduced-character tablature. Each entry gives the full character (lookup key), pinyin, the reduced form used in tablature, a plain-language instruction, the traditional poetic gesture-image where one exists, and source links.",
+    "version": "1.0.0",
+    "note": "Instruction text is paraphrased/summarized for reference purposes. Original demonstration videos and images (Pei-You Chang) and gesture-image scans/translations (John Thompson, silkqin.com) must be sourced and cleared separately — see resources.json licensing."
+  },
+  "categories": [
+    {
+      "id": "finger-designation",
+      "section": "A",
+      "title": "Finger & Hand Designations",
+      "subtitle": "左手指法 — which finger presses",
+      "hand": "left",
+      "description": "Abbreviated finger-name components that appear in the upper-left of a jianzipu glyph to tell the left hand which finger presses. Building blocks rather than strokes.",
+      "indexSource": "https://peiyouqin.com/notation3.html"
+    },
+    {
+      "id": "right-stroke-basic",
+      "section": "B",
+      "title": "Right-Hand Basic Strokes",
+      "subtitle": "八法 — the eight basic plucks",
+      "hand": "right",
+      "description": "The core plucking vocabulary. Each of the four fingers and the thumb plucks either inward (toward the player) or outward (away).",
+      "indexSource": "https://peiyouqin.com/notation2.html"
+    },
+    {
+      "id": "right-stroke-compound",
+      "section": "B",
+      "title": "Right-Hand Compound Strokes",
+      "subtitle": "Multi-string & rapid figures",
+      "hand": "right",
+      "description": "Pinches, wheels, locks, sweeps and rolls built from the eight basic strokes across one or more strings.",
+      "indexSource": "https://peiyouqin.com/notation2.html"
+    },
+    {
+      "id": "left-basic",
+      "section": "C",
+      "title": "Left-Hand Six Basics",
+      "subtitle": "The fundamentals — in nearly every piece",
+      "hand": "left",
+      "description": "Pei-You Chang organizes the left hand around six fundamentals: two vibratos and four slides. Highest-priority entries.",
+      "indexSource": "https://peiyouqin.com/notation3b.html"
+    },
+    {
+      "id": "vibrato-variation",
+      "section": "D",
+      "title": "Vibrato Variations",
+      "subtitle": "Sub-types of 吟 yín and 猱 náo",
+      "hand": "left",
+      "description": "Variations of the two basic vibratos: longer, finer, calmer, faster, immediate, or accented.",
+      "indexSource": "https://peiyouqin.com/notation3b.html"
+    },
+    {
+      "id": "slide-strike",
+      "section": "E",
+      "title": "Slides, Strikes & Ornaments",
+      "subtitle": "Advanced left-hand motion",
+      "hand": "left",
+      "description": "Slow slides, springy strikes-against, and back-and-forth ornaments performed by the left hand.",
+      "indexSource": "https://peiyouqin.com/notation3c.html"
+    },
+    {
+      "id": "left-pluck",
+      "section": "F",
+      "title": "Left-Hand Plucking & Percussive",
+      "subtitle": "The left hand makes the sound",
+      "hand": "left",
+      "description": "Pull-offs, hammer-ons, pushes and advance/return slides where the left hand itself produces the note with no right-hand pluck.",
+      "indexSource": "https://silkqin.com/02qnpu/05tydq/ty5d.htm"
+    },
+    {
+      "id": "tone-position",
+      "section": "G",
+      "title": "Tone-Type & Position Designations",
+      "subtitle": "Context glyphs",
+      "hand": "either",
+      "description": "Glyphs that classify the sound (open / harmonic / stopped) or specify the hui position and string number. Included so a jianzipu reader is complete.",
+      "indexSource": "https://peiyouqin.com/notation3.html"
+    }
+  ],
+  "techniques": [
+    {
+      "id": "A1",
+      "name_hanzi": "大指",
+      "name_pinyin": "dà zhǐ",
+      "hand": "left",
+      "category": "finger-designation",
+      "jianzipu_glyph": "大",
+      "instruction_text": "Thumb. Presses with the side of the thumb where nail meets skin, or the side of the knuckle.",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://peiyouqin.com/dazhi.html"
+      ],
+      "notes": null
+    },
+    {
+      "id": "A2",
+      "name_hanzi": "食指",
+      "name_pinyin": "shí zhǐ",
+      "hand": "left",
+      "category": "finger-designation",
+      "jianzipu_glyph": "亻",
+      "instruction_text": "Index finger. Used mostly for harmonics (light touch); sometimes with the thumb.",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://peiyouqin.com/shizhi.html"
+      ],
+      "notes": "Reduced from 人."
+    },
+    {
+      "id": "A3",
+      "name_hanzi": "中指",
+      "name_pinyin": "zhōng zhǐ",
+      "hand": "left",
+      "category": "finger-designation",
+      "jianzipu_glyph": "中",
+      "instruction_text": "Middle finger. Used more often on the 1st string.",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://peiyouqin.com/zhongzhi.html"
+      ],
+      "notes": null
+    },
+    {
+      "id": "A4",
+      "name_hanzi": "名指",
+      "name_pinyin": "míng zhǐ",
+      "hand": "left",
+      "category": "finger-designation",
+      "jianzipu_glyph": "夕",
+      "instruction_text": "Ring finger. Presses with the left side where nail meets skin — not the fingertip. Thumb should not rise.",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://peiyouqin.com/mingzhi.html"
+      ],
+      "notes": null
+    },
+    {
+      "id": "A5",
+      "name_hanzi": "跪指",
+      "name_pinyin": "guì zhǐ",
+      "hand": "left",
+      "category": "finger-designation",
+      "jianzipu_glyph": "足",
+      "instruction_text": "\"Kneeling\" ring finger — press with the back of the nail / back of the first knuckle, usually above the 5th hui.",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://peiyouqin.com/gui.html"
+      ],
+      "notes": "Written with a kneel mark."
+    },
+    {
+      "id": "B1",
+      "name_hanzi": "抹",
+      "name_pinyin": "mǒ",
+      "hand": "right",
+      "category": "right-stroke-basic",
+      "jianzipu_glyph": "木",
+      "font_input": "\\m",
+      "instruction_text": "Index finger plucks one string inward (toward the player).",
+      "direction": "inward",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://peiyouqin.com/notation2.html",
+        "https://silkqin.com/02qnpu/05tydq/ty5c.htm"
+      ],
+      "notes": null
+    },
+    {
+      "id": "B2",
+      "name_hanzi": "挑",
+      "name_pinyin": "tiāo",
+      "hand": "right",
+      "category": "right-stroke-basic",
+      "jianzipu_glyph": "㇂",
+      "font_input": "\\t",
+      "instruction_text": "Index finger plucks one string outward (away from the player).",
+      "direction": "outward",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://peiyouqin.com/notation2.html",
+        "https://silkqin.com/02qnpu/05tydq/ty5c.htm"
+      ],
+      "notes": "Reduced form also written 乚."
+    },
+    {
+      "id": "B3",
+      "name_hanzi": "勾",
+      "name_pinyin": "gōu",
+      "hand": "right",
+      "category": "right-stroke-basic",
+      "jianzipu_glyph": "勹",
+      "font_input": "\\g",
+      "instruction_text": "Middle finger plucks inward.",
+      "direction": "inward",
+      "poetic_image": "Lone duck looks back at the flock (孤鶩顧群)",
+      "poetic_verse": "孤鶩顧群",
+      "source_url": [
+        "https://peiyouqin.com/notation2.html",
+        "https://www.silkqin.com/02qnpu/05tydq/ty3.htm"
+      ],
+      "notes": null
+    },
+    {
+      "id": "B4",
+      "name_hanzi": "剔",
+      "name_pinyin": "tī",
+      "hand": "right",
+      "category": "right-stroke-basic",
+      "jianzipu_glyph": "𠂆",
+      "font_input": "\\i",
+      "instruction_text": "Middle finger plucks outward.",
+      "direction": "outward",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://peiyouqin.com/notation2.html",
+        "https://silkqin.com/02qnpu/05tydq/ty5c.htm"
+      ],
+      "notes": null
+    },
+    {
+      "id": "B5",
+      "name_hanzi": "打",
+      "name_pinyin": "dǎ",
+      "hand": "right",
+      "category": "right-stroke-basic",
+      "jianzipu_glyph": "丁",
+      "font_input": "\\d",
+      "instruction_text": "Ring finger plucks inward.",
+      "direction": "inward",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://peiyouqin.com/notation2.html",
+        "https://silkqin.com/02qnpu/05tydq/ty5c.htm"
+      ],
+      "notes": null
+    },
+    {
+      "id": "B6",
+      "name_hanzi": "摘",
+      "name_pinyin": "zhāi",
+      "hand": "right",
+      "category": "right-stroke-basic",
+      "jianzipu_glyph": "啇",
+      "font_input": "\\z",
+      "instruction_text": "Ring finger plucks outward.",
+      "direction": "outward",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://peiyouqin.com/notation2.html",
+        "https://silkqin.com/02qnpu/05tydq/ty5c.htm"
+      ],
+      "notes": "Abbreviated form of 摘."
+    },
+    {
+      "id": "B7",
+      "name_hanzi": "擘 / 劈",
+      "name_pinyin": "bò / pī",
+      "hand": "right",
+      "category": "right-stroke-basic",
+      "jianzipu_glyph": "擘",
+      "font_input": "\\b",
+      "instruction_text": "Thumb plucks inward.",
+      "direction": "inward",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://peiyouqin.com/notation2.html",
+        "https://www.silkqin.com/02qnpu/05tydq/ty3.htm"
+      ],
+      "notes": "Historic in/out confusion between 擘/劈 and 托 — see footnote 11 on https://www.silkqin.com/02qnpu/05tydq/ty3.htm. Inward is the modern reading."
+    },
+    {
+      "id": "B8",
+      "name_hanzi": "托",
+      "name_pinyin": "tuō",
+      "hand": "right",
+      "category": "right-stroke-basic",
+      "jianzipu_glyph": "乇",
+      "font_input": "\\u",
+      "instruction_text": "Thumb plucks outward.",
+      "direction": "outward",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://peiyouqin.com/notation2.html",
+        "https://silkqin.com/02qnpu/05tydq/ty5c.htm"
+      ],
+      "notes": "Outward is the modern reading; see historical in/out note on B7."
+    },
+    {
+      "id": "B9",
+      "name_hanzi": "撮",
+      "name_pinyin": "cuō",
+      "hand": "right",
+      "category": "right-stroke-compound",
+      "jianzipu_glyph": "撮",
+      "font_input": "||",
+      "instruction_text": "\"Pinch\" — two strings plucked simultaneously (e.g. thumb + middle), producing an interval/chord.",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://peiyouqin.com/notation2.html"
+      ],
+      "notes": null
+    },
+    {
+      "id": "B10",
+      "name_hanzi": "齱 / 齪",
+      "name_pinyin": "chuò",
+      "hand": "right",
+      "category": "right-stroke-compound",
+      "jianzipu_glyph": "齱",
+      "instruction_text": "Older term for a simultaneous two-string sound, now replaced by 撮 cuō.",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://silkqin.com/02qnpu/05tydq/ty5c.htm"
+      ],
+      "notes": "Historical; superseded by 撮."
+    },
+    {
+      "id": "B11",
+      "name_hanzi": "輪",
+      "name_pinyin": "lún",
+      "hand": "right",
+      "category": "right-stroke-compound",
+      "jianzipu_glyph": "輪",
+      "instruction_text": "\"Wheel\" — 摘 then 剔 then 挑 in rapid succession on one string (ring, middle, index outward).",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://peiyouqin.com/notation2.html"
+      ],
+      "notes": null
+    },
+    {
+      "id": "B12",
+      "name_hanzi": "半輪",
+      "name_pinyin": "bàn lún",
+      "hand": "right",
+      "category": "right-stroke-compound",
+      "jianzipu_glyph": "半輪",
+      "instruction_text": "\"Half wheel\" — two of the three wheel strokes.",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://peiyouqin.com/notation2.html"
+      ],
+      "notes": null
+    },
+    {
+      "id": "B13",
+      "name_hanzi": "鎖",
+      "name_pinyin": "suǒ",
+      "hand": "right",
+      "category": "right-stroke-compound",
+      "jianzipu_glyph": "鎖",
+      "instruction_text": "\"Lock\" — a rapid repeated cluster of strokes on one string.",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://peiyouqin.com/notation2.html"
+      ],
+      "notes": null
+    },
+    {
+      "id": "B14",
+      "name_hanzi": "長鎖",
+      "name_pinyin": "cháng suǒ",
+      "hand": "right",
+      "category": "right-stroke-compound",
+      "jianzipu_glyph": "長鎖",
+      "instruction_text": "\"Long lock\" — extended form of suo with more strokes.",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://peiyouqin.com/notation2.html"
+      ],
+      "notes": null
+    },
+    {
+      "id": "B15",
+      "name_hanzi": "全扶",
+      "name_pinyin": "quán fú",
+      "hand": "right",
+      "category": "right-stroke-compound",
+      "jianzipu_glyph": "全扶",
+      "font_input": "\\fu",
+      "instruction_text": "\"Full support\" — a sweeping linked pluck across adjacent strings.",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://silkqin.com/02qnpu/05tydq/ty5c.htm"
+      ],
+      "notes": null
+    },
+    {
+      "id": "B16",
+      "name_hanzi": "半扶",
+      "name_pinyin": "bàn fú",
+      "hand": "right",
+      "category": "right-stroke-compound",
+      "jianzipu_glyph": "半扶",
+      "font_input": "\\fu",
+      "instruction_text": "\"Half support\" — shorter form of quanfu.",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://silkqin.com/02qnpu/05tydq/ty5c.htm"
+      ],
+      "notes": null
+    },
+    {
+      "id": "B17",
+      "name_hanzi": "蠲",
+      "name_pinyin": "juān",
+      "hand": "right",
+      "category": "right-stroke-compound",
+      "jianzipu_glyph": "蠲",
+      "instruction_text": "A linked double-pluck (mo+gou feel) on adjacent strings; compare quanfu/banfu.",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://silkqin.com/02qnpu/05tydq/ty5c.htm"
+      ],
+      "notes": null
+    },
+    {
+      "id": "B18",
+      "name_hanzi": "連蠲",
+      "name_pinyin": "lián juān",
+      "hand": "right",
+      "category": "right-stroke-compound",
+      "jianzipu_glyph": "連蠲",
+      "instruction_text": "Successive/linked juan.",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://silkqin.com/02qnpu/05tydq/ty5c.htm"
+      ],
+      "notes": null
+    },
+    {
+      "id": "B19",
+      "name_hanzi": "撥",
+      "name_pinyin": "bō",
+      "hand": "right",
+      "category": "right-stroke-compound",
+      "jianzipu_glyph": "撥",
+      "instruction_text": "\"Sweep/brush\" — fingers sweep several strings inward together.",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://peiyouqin.com/notation2.html"
+      ],
+      "notes": "Often paired with 剌 as 撥剌 bō là."
+    },
+    {
+      "id": "B20",
+      "name_hanzi": "剌",
+      "name_pinyin": "là",
+      "hand": "right",
+      "category": "right-stroke-compound",
+      "jianzipu_glyph": "剌",
+      "instruction_text": "Sweep several strings outward (often paired with bo as 撥剌 bō là).",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://peiyouqin.com/notation2.html"
+      ],
+      "notes": null
+    },
+    {
+      "id": "B21",
+      "name_hanzi": "滾",
+      "name_pinyin": "gǔn",
+      "hand": "right",
+      "category": "right-stroke-compound",
+      "jianzipu_glyph": "滾",
+      "instruction_text": "\"Roll out\" — fast continuous outward sweep across many strings (low to high).",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://peiyouqin.com/notation2.html"
+      ],
+      "notes": "Often paired with 拂 as 滾拂 gǔn fú."
+    },
+    {
+      "id": "B22",
+      "name_hanzi": "拂",
+      "name_pinyin": "fú",
+      "hand": "right",
+      "category": "right-stroke-compound",
+      "jianzipu_glyph": "拂",
+      "instruction_text": "\"Roll in\" — fast continuous inward sweep across many strings (high to low); often 滾拂 gǔn fú as a pair.",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://peiyouqin.com/notation2.html"
+      ],
+      "notes": null
+    },
+    {
+      "id": "C1",
+      "name_hanzi": "吟",
+      "name_pinyin": "yín",
+      "hand": "left",
+      "category": "left-basic",
+      "jianzipu_glyph": "㐅",
+      "font_input": "\\yin",
+      "instruction_text": "Vibrato. After the right hand plucks, the pressing finger rocks down (left) and up 2–3 times back to the start, strong at first then fading. Swing ≤ 1/5 of the distance to the next hui.",
+      "poetic_image": "Likened to a cicada singing in autumn",
+      "poetic_verse": null,
+      "source_url": [
+        "https://peiyouqin.com/yin.html",
+        "https://peiyouqin.com/yinandnao.html"
+      ],
+      "notes": "Reduced from 吟. See yin-vs-nao distinction: https://peiyouqin.com/yinandnao.html"
+    },
+    {
+      "id": "C2",
+      "name_hanzi": "猱",
+      "name_pinyin": "náo",
+      "hand": "left",
+      "category": "left-basic",
+      "jianzipu_glyph": "猱",
+      "font_input": "\\nao",
+      "instruction_text": "Wider/slower vibrato. After the pluck, finger rocks up (right) and down 2–3 times back to start, strong then fading. Swing ≤ 1/4 of the distance to the next hui.",
+      "poetic_image": "Behold the howling ape, climbing the tall tree; wishing to go up yet not up, its momentum pressing on (瞻彼號猿，升於喬木。欲上不上，其勢逐逐)",
+      "poetic_verse": "瞻彼號猿，升於喬木。欲上不上，其勢逐逐",
+      "source_url": [
+        "https://peiyouqin.com/rou.html",
+        "https://www.silkqin.com/02qnpu/05tydq/ty3.htm"
+      ],
+      "notes": "Some teachers pronounce/relate this to 揉 róu. Abbreviated form of 猱."
+    },
+    {
+      "id": "C3",
+      "name_hanzi": "綽",
+      "name_pinyin": "chuò",
+      "hand": "left",
+      "category": "left-basic",
+      "jianzipu_glyph": "卓",
+      "instruction_text": "Slide UP into the note: start ~5mm below (left of) the target hui and glide quickly up to it as the string sounds. The qin's signature ascending glissando.",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://peiyouqin.com/chuo.html"
+      ],
+      "notes": "Reduced from 卓."
+    },
+    {
+      "id": "C4",
+      "name_hanzi": "注",
+      "name_pinyin": "zhù",
+      "hand": "left",
+      "category": "left-basic",
+      "jianzipu_glyph": "主",
+      "instruction_text": "Slide DOWN into the note (opposite of chuo): start ~5mm above (right of) the target and glide quickly down to it.",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://peiyouqin.com/zhu.html"
+      ],
+      "notes": "Reduced from 主."
+    },
+    {
+      "id": "C5",
+      "name_hanzi": "上",
+      "name_pinyin": "shàng",
+      "hand": "left",
+      "category": "left-basic",
+      "jianzipu_glyph": "上",
+      "instruction_text": "Ascending slide AFTER the pluck: right hand plucks the pressed string, left hand glides up to the indicated hui. \"二上 èr shàng\" = up twice (only final destination is notated; player places the intermediate tone by ear, ~one whole step each).",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://peiyouqin.com/shang.html"
+      ],
+      "notes": null
+    },
+    {
+      "id": "C6",
+      "name_hanzi": "下",
+      "name_pinyin": "xià",
+      "hand": "left",
+      "category": "left-basic",
+      "jianzipu_glyph": "下",
+      "instruction_text": "Descending slide after the pluck (opposite of shang). \"二下 èr xià\" = down twice; again only the final position is notated.",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://peiyouqin.com/xia.html"
+      ],
+      "notes": null
+    },
+    {
+      "id": "D1",
+      "name_hanzi": "長吟",
+      "name_pinyin": "cháng yín",
+      "hand": "left",
+      "category": "vibrato-variation",
+      "jianzipu_glyph": "長吟",
+      "instruction_text": "Drawn-out vibrato; 7–12 oscillations (several times more than plain yin).",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://peiyouqin.com/notation3b.html"
+      ],
+      "notes": "Variation of 吟 yín."
+    },
+    {
+      "id": "D2",
+      "name_hanzi": "細吟",
+      "name_pinyin": "xì yín",
+      "hand": "left",
+      "category": "vibrato-variation",
+      "jianzipu_glyph": "細吟",
+      "instruction_text": "Thin, delicate vibrato — smaller and finer than yin.",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://peiyouqin.com/notation3b.html"
+      ],
+      "notes": "Variation of 吟 yín."
+    },
+    {
+      "id": "D3",
+      "name_hanzi": "定吟",
+      "name_pinyin": "dìng yín",
+      "hand": "left",
+      "category": "vibrato-variation",
+      "jianzipu_glyph": "定吟",
+      "instruction_text": "Calm vibrato — rock the string without the finger travelling along it.",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://peiyouqin.com/notation3b.html"
+      ],
+      "notes": "Variation of 吟 yín."
+    },
+    {
+      "id": "D4",
+      "name_hanzi": "游吟",
+      "name_pinyin": "yóu yín",
+      "hand": "left",
+      "category": "vibrato-variation",
+      "jianzipu_glyph": "游吟",
+      "instruction_text": "Swinging vibrato — similar to shuang zhuang but slower.",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://peiyouqin.com/notation3b.html"
+      ],
+      "notes": "Variation of 吟 yín."
+    },
+    {
+      "id": "D5",
+      "name_hanzi": "落指吟",
+      "name_pinyin": "luò zhǐ yín",
+      "hand": "left",
+      "category": "vibrato-variation",
+      "jianzipu_glyph": "落指吟",
+      "instruction_text": "Immediate vibrato — begin yin the instant the finger presses and the string is played.",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://peiyouqin.com/notation3b.html"
+      ],
+      "notes": "Variation of 吟 yín."
+    },
+    {
+      "id": "D6",
+      "name_hanzi": "略吟",
+      "name_pinyin": "lüè yín",
+      "hand": "left",
+      "category": "vibrato-variation",
+      "jianzipu_glyph": "略吟",
+      "instruction_text": "Slight / brief yin.",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://peiyouqin.com/notation3b.html"
+      ],
+      "notes": "Variation of 吟 yín."
+    },
+    {
+      "id": "D7",
+      "name_hanzi": "長猱",
+      "name_pinyin": "cháng náo",
+      "hand": "left",
+      "category": "vibrato-variation",
+      "jianzipu_glyph": "長猱",
+      "instruction_text": "Long nao — same motion as nao but longer in duration.",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://peiyouqin.com/notation3b.html"
+      ],
+      "notes": "Variation of 猱 náo."
+    },
+    {
+      "id": "D8",
+      "name_hanzi": "急猱",
+      "name_pinyin": "jí náo",
+      "hand": "left",
+      "category": "vibrato-variation",
+      "jianzipu_glyph": "急猱",
+      "instruction_text": "Fast nao — tight and rapid, but not rushed.",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://peiyouqin.com/notation3b.html"
+      ],
+      "notes": "Variation of 猱 náo."
+    },
+    {
+      "id": "D9",
+      "name_hanzi": "落指猱",
+      "name_pinyin": "luò zhǐ náo",
+      "hand": "left",
+      "category": "vibrato-variation",
+      "jianzipu_glyph": "落指猱",
+      "instruction_text": "Immediate nao — begin nao the instant the finger presses and plays.",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://peiyouqin.com/notation3b.html"
+      ],
+      "notes": "Variation of 猱 náo."
+    },
+    {
+      "id": "D10",
+      "name_hanzi": "略猱",
+      "name_pinyin": "lüè náo",
+      "hand": "left",
+      "category": "vibrato-variation",
+      "jianzipu_glyph": "略猱",
+      "instruction_text": "Slight / brief nao.",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://peiyouqin.com/notation3b.html"
+      ],
+      "notes": "Variation of 猱 náo."
+    },
+    {
+      "id": "D11",
+      "name_hanzi": "撞猱",
+      "name_pinyin": "zhuàng náo",
+      "hand": "left",
+      "category": "vibrato-variation",
+      "jianzipu_glyph": "撞猱",
+      "instruction_text": "\"Strike-nao\" — a nao combined with a zhuang accent; common in early handbooks (e.g. Shen Qi Mi Pu).",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://peiyouqin.com/notation3b.html"
+      ],
+      "notes": "Variation of 猱 náo."
+    },
+    {
+      "id": "E1",
+      "name_hanzi": "淌",
+      "name_pinyin": "tǎng",
+      "hand": "left",
+      "category": "slide-strike",
+      "jianzipu_glyph": "淌",
+      "instruction_text": "Same as 下 xià (descending slide) but slower — a slow descending sound.",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://peiyouqin.com/tang.html"
+      ],
+      "notes": null
+    },
+    {
+      "id": "E2",
+      "name_hanzi": "拖",
+      "name_pinyin": "tuō",
+      "hand": "left",
+      "category": "slide-strike",
+      "jianzipu_glyph": "拖",
+      "instruction_text": "Same as 上 shàng (ascending slide) but slower — a slow ascending sound.",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://peiyouqin.com/tuoshang.html"
+      ],
+      "notes": "Also written 拖上 tuō shàng."
+    },
+    {
+      "id": "E3",
+      "name_hanzi": "撞",
+      "name_pinyin": "zhuàng",
+      "hand": "left",
+      "category": "slide-strike",
+      "jianzipu_glyph": "撞",
+      "instruction_text": "\"Strike against.\" After the pluck, the left finger moves quickly up ~1/5–1/2 of the way to the next hui and snaps back to the indicated spot. Up is light+fast, return is strong+fast. Must be springy/elastic.",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://peiyouqin.com/zhuang.html"
+      ],
+      "notes": null
+    },
+    {
+      "id": "E4",
+      "name_hanzi": "雙撞",
+      "name_pinyin": "shuāng zhuàng",
+      "hand": "left",
+      "category": "slide-strike",
+      "jianzipu_glyph": "雙撞",
+      "instruction_text": "\"Double strike against\" — perform zhuang twice.",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://peiyouqin.com/shuangzhuang.html"
+      ],
+      "notes": null
+    },
+    {
+      "id": "E5",
+      "name_hanzi": "虛撞",
+      "name_pinyin": "xū zhuàng",
+      "hand": "left",
+      "category": "slide-strike",
+      "jianzipu_glyph": "虛撞",
+      "instruction_text": "\"Empty strike\" — a zhuang done after a non-plucked sound (e.g. after a shang/xia slide or a yin/nao), with no new right-hand pluck.",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://peiyouqin.com/xuzhuang.html"
+      ],
+      "notes": null
+    },
+    {
+      "id": "E6",
+      "name_hanzi": "反撞",
+      "name_pinyin": "fǎn zhuàng",
+      "hand": "left",
+      "category": "slide-strike",
+      "jianzipu_glyph": "反撞",
+      "instruction_text": "\"Reverse strike\" — like zhuang but the finger moves quickly DOWN ~1/5–1/2 to the next hui first, then snaps back.",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://peiyouqin.com/fanzhuang.html"
+      ],
+      "notes": null
+    },
+    {
+      "id": "E7",
+      "name_hanzi": "逗",
+      "name_pinyin": "dòu",
+      "hand": "left",
+      "category": "slide-strike",
+      "jianzipu_glyph": "逗",
+      "font_input": "\\dou",
+      "instruction_text": "While the right hand plucks, the left finger simultaneously moves up and back to the hui quickly. Like zhuang but done with the pluck, not after it.",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://peiyouqin.com/dou.html"
+      ],
+      "notes": null
+    },
+    {
+      "id": "E8",
+      "name_hanzi": "渙",
+      "name_pinyin": "huàn",
+      "hand": "left",
+      "category": "slide-strike",
+      "jianzipu_glyph": "渙",
+      "instruction_text": "Slide down to the hui a little, do a slight nao (once or twice), then slide up a little above the hui. (From a Song-dynasty Qinshu Daquan definition.)",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://peiyouqin.com/huan.html"
+      ],
+      "notes": "Also written 喚 / 換."
+    },
+    {
+      "id": "E9",
+      "name_hanzi": "往來",
+      "name_pinyin": "wǎng lái",
+      "hand": "left",
+      "category": "slide-strike",
+      "jianzipu_glyph": "往來",
+      "instruction_text": "\"Back and forth.\" After the pluck, slide down to the next sound-position left and back, repeated 2–3 times, producing 4 or 6 sounds total (e.g. 5,3,5,3,5,3).",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://peiyouqin.com/wanglai.html"
+      ],
+      "notes": null
+    },
+    {
+      "id": "E10",
+      "name_hanzi": "分開",
+      "name_pinyin": "fēn kāi",
+      "hand": "left",
+      "category": "slide-strike",
+      "jianzipu_glyph": "分開",
+      "instruction_text": "\"Separate.\" After the pluck, glide up to the next hui right; then on a second pluck glide back down (like a zhu). Destination often unspecified — slide one scale-step.",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://peiyouqin.com/fenkai.html"
+      ],
+      "notes": null
+    },
+    {
+      "id": "F1",
+      "name_hanzi": "掐起",
+      "name_pinyin": "qiā qǐ",
+      "hand": "left",
+      "category": "left-pluck",
+      "jianzipu_glyph": "掐起",
+      "font_input": "\\qia",
+      "instruction_text": "Left thumb (or nail) plucks the string by pulling it, while the ring finger stops it — a left-hand-generated note with no right-hand pluck.",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://silkqin.com/02qnpu/05tydq/ty5d.htm"
+      ],
+      "notes": "Common in beginner pieces (e.g. 古琴吟)."
+    },
+    {
+      "id": "F2",
+      "name_hanzi": "爪起 / 抓起",
+      "name_pinyin": "zhuǎ qǐ",
+      "hand": "left",
+      "category": "left-pluck",
+      "jianzipu_glyph": "爪起",
+      "instruction_text": "\"Claw up\" — left finger plucks the string upward to sound it.",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://silkqin.com/02qnpu/05tydq/ty5d.htm"
+      ],
+      "notes": null
+    },
+    {
+      "id": "F3",
+      "name_hanzi": "帶起",
+      "name_pinyin": "dài qǐ",
+      "hand": "left",
+      "category": "left-pluck",
+      "jianzipu_glyph": "帶起",
+      "font_input": "\\dai",
+      "instruction_text": "\"Carry up\" — the stopping finger pulls/releases off the string to sound it (a left-hand pull-off).",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://silkqin.com/02qnpu/05tydq/ty5d.htm"
+      ],
+      "notes": null
+    },
+    {
+      "id": "F4",
+      "name_hanzi": "罨",
+      "name_pinyin": "yǎn",
+      "hand": "left",
+      "category": "left-pluck",
+      "jianzipu_glyph": "罨",
+      "instruction_text": "\"Cover/hammer\" — a left finger strikes down onto the string at a hui to sound it (a hammer-on), no right-hand pluck.",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://silkqin.com/02qnpu/05tydq/ty5d.htm"
+      ],
+      "notes": null
+    },
+    {
+      "id": "F5",
+      "name_hanzi": "虛罨",
+      "name_pinyin": "xū yǎn",
+      "hand": "left",
+      "category": "left-pluck",
+      "jianzipu_glyph": "虛罨",
+      "instruction_text": "\"Empty hammer\" — a softer yan following an already-sounding note.",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://silkqin.com/02qnpu/05tydq/ty5d.htm"
+      ],
+      "notes": null
+    },
+    {
+      "id": "F6",
+      "name_hanzi": "推出",
+      "name_pinyin": "tuī chū",
+      "hand": "left",
+      "category": "left-pluck",
+      "jianzipu_glyph": "推出",
+      "instruction_text": "\"Push out.\" Left finger (often middle), tilted, gently pushes the string outward to sound it — gives a quiet, still feeling.",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://silkqin.com/02qnpu/05tydq/ty5d.htm"
+      ],
+      "notes": "Notated by the reduced glyph that reads 拙. Common in beginner pieces (e.g. 古琴吟)."
+    },
+    {
+      "id": "F7",
+      "name_hanzi": "進復",
+      "name_pinyin": "jìn fù",
+      "hand": "left",
+      "category": "left-pluck",
+      "jianzipu_glyph": "進復",
+      "instruction_text": "\"Advance and return\" — slide up to a hui and back to the original.",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://silkqin.com/02qnpu/05tydq/ty5d.htm"
+      ],
+      "notes": null
+    },
+    {
+      "id": "F8",
+      "name_hanzi": "退復",
+      "name_pinyin": "tuì fù",
+      "hand": "left",
+      "category": "left-pluck",
+      "jianzipu_glyph": "退復",
+      "instruction_text": "\"Retreat and return\" — slide down to a hui and back to the original.",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://silkqin.com/02qnpu/05tydq/ty5d.htm"
+      ],
+      "notes": null
+    },
+    {
+      "id": "F9",
+      "name_hanzi": "進",
+      "name_pinyin": "jìn",
+      "hand": "left",
+      "category": "left-pluck",
+      "jianzipu_glyph": "進",
+      "font_input": "\\jin",
+      "instruction_text": "\"Advance\" — slide up one position (component of jinfu).",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://silkqin.com/02qnpu/05tydq/ty5d.htm"
+      ],
+      "notes": null
+    },
+    {
+      "id": "F10",
+      "name_hanzi": "退",
+      "name_pinyin": "tuì",
+      "hand": "left",
+      "category": "left-pluck",
+      "jianzipu_glyph": "退",
+      "font_input": "\\tui",
+      "instruction_text": "\"Retreat\" — slide down one position.",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://silkqin.com/02qnpu/05tydq/ty5d.htm"
+      ],
+      "notes": null
+    },
+    {
+      "id": "F11",
+      "name_hanzi": "起",
+      "name_pinyin": "qǐ",
+      "hand": "left",
+      "category": "left-pluck",
+      "jianzipu_glyph": "起",
+      "instruction_text": "\"Lift/rise\" — general term for left-hand-initiated sound; appears as a component in qiaqi, zhuaqi, daiqi.",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://silkqin.com/02qnpu/05tydq/ty5d.htm"
+      ],
+      "notes": null
+    },
+    {
+      "id": "G1",
+      "name_hanzi": "散",
+      "name_pinyin": "sǎn",
+      "hand": "either",
+      "category": "tone-position",
+      "jianzipu_glyph": "散",
+      "instruction_text": "Open-string tone (san yin). Left hand does not touch the string. Left-hand glyph component meaning \"open\".",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://peiyouqin.com/notation3.html"
+      ],
+      "notes": null
+    },
+    {
+      "id": "G2",
+      "name_hanzi": "泛",
+      "name_pinyin": "fàn",
+      "hand": "either",
+      "category": "tone-position",
+      "jianzipu_glyph": "泛",
+      "instruction_text": "Harmonic (fan yin). 泛起 fàn qǐ marks the start of a harmonics passage, 泛止 fàn zhǐ its end. Finger lightly touches the string over a hui.",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://peiyouqin.com/notation3.html"
+      ],
+      "notes": "泛起…泛止 bracket a harmonics section."
+    },
+    {
+      "id": "G3",
+      "name_hanzi": "按",
+      "name_pinyin": "àn",
+      "hand": "left",
+      "category": "tone-position",
+      "jianzipu_glyph": "按",
+      "instruction_text": "Stopped/pressed tone (an yin). Finger presses the string fully to the board.",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://peiyouqin.com/notation3.html"
+      ],
+      "notes": null
+    },
+    {
+      "id": "G4",
+      "name_hanzi": "徽",
+      "name_pinyin": "huī",
+      "hand": "left",
+      "category": "tone-position",
+      "jianzipu_glyph": "徽",
+      "instruction_text": "The 13 position markers. A number (一…十三) in the glyph's upper-right gives the hui; a sub-fraction (e.g. 七六 = between hui 7 and 6, or 9.5) refines it.",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://peiyouqin.com/notation3.html"
+      ],
+      "notes": null
+    },
+    {
+      "id": "G5",
+      "name_hanzi": "弦",
+      "name_pinyin": "xián",
+      "hand": "right",
+      "category": "tone-position",
+      "jianzipu_glyph": "弦",
+      "instruction_text": "String number, written as a Chinese numeral (一…七) in the glyph center, telling the right hand which string to pluck.",
+      "poetic_image": null,
+      "poetic_verse": null,
+      "source_url": [
+        "https://peiyouqin.com/notation3.html"
+      ],
+      "notes": null
+    }
+  ]
+}
