@@ -59,14 +59,15 @@ function movementHtml(t) {
         '<span class="mv-finger">' + s.finger + "</span>" +
         '<span class="' + cls + '">' + ARROW[s.dir] + "</span></span>";
     }
-    var t2 = s.dir === "up" ? "slide up (toward the bridge)"
-      : s.dir === "down" ? "slide down (toward the nut)" : "vibrato";
+    var t2 = s.dir === "up" ? "slide to higher pitch (rightward, toward the bridge)"
+      : s.dir === "down" ? "slide to lower pitch (leftward, toward the tail)" : "vibrato";
     return '<span class="mv-step mv-step-l" title="' + t2 + '">' +
       '<span class="' + cls + '">' + ARROW[s.dir] + "</span></span>";
   }).join(mv.mode === "together" ? '<span class="mv-join">+</span>' : "");
   var legend = isR
     ? "right hand — finger 1 thumb…4 ring; ↓ pluck (inward), ↑ strum (outward)"
-    : "left hand — ↑ slide toward the bridge, ↓ slide toward the nut, ∿ vibrato";
+    : "left hand — ↑ slide to higher pitch (rightward, toward the bridge), " +
+      "↓ slide to lower pitch (leftward, toward the tail), ∿ vibrato";
   return '<div class="movement" title="' + escapeHtml(legend) + '">' + badge + steps + "</div>";
 }
 
