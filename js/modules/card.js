@@ -43,19 +43,31 @@ function mediaHtml(t) {
 // (↓ pluck, toward the body / inward; ↑ strum, away from the body / outward).
 // Compound strokes list each step; "together" steps are joined with +.
 var FINGER_NAME = { 1: "thumb", 2: "index", 3: "middle", 4: "ring" };
+var ARROW = { down: "↓", up: "↑", vibrato: "∿" };
 function movementHtml(t) {
   var mv = t.movement;
   if (!mv || !mv.steps || !mv.steps.length) return "";
+  var hand = mv.hand || "R";
+  var isR = hand === "R";
+  var badge = '<span class="mv-hand mv-hand-' + hand + '" title="' +
+    (isR ? "right hand" : "left hand") + '">' + (isR ? "R" : "L") + "</span>";
   var steps = mv.steps.map(function (s) {
-    var arrow = s.dir === "down" ? "↓" : "↑";
-    var act = s.dir === "down" ? "pluck (inward)" : "strum (outward)";
-    return '<span class="mv-step" title="' + escapeHtml(FINGER_NAME[s.finger]) +
-      " finger · " + act + '">' +
-      '<span class="mv-finger">' + s.finger + "</span>" +
-      '<span class="mv-arrow mv-' + s.dir + '">' + arrow + "</span></span>";
+    var cls = "mv-arrow " + (s.dir === "vibrato" ? "mv-vib" : "mv-" + s.dir);
+    if (isR) {
+      var act = s.dir === "down" ? "pluck (inward)" : "strum (outward)";
+      return '<span class="mv-step" title="' + escapeHtml(FINGER_NAME[s.finger]) + " finger · " + act + '">' +
+        '<span class="mv-finger">' + s.finger + "</span>" +
+        '<span class="' + cls + '">' + ARROW[s.dir] + "</span></span>";
+    }
+    var t2 = s.dir === "up" ? "slide up (toward the bridge)"
+      : s.dir === "down" ? "slide down (toward the nut)" : "vibrato";
+    return '<span class="mv-step mv-step-l" title="' + t2 + '">' +
+      '<span class="' + cls + '">' + ARROW[s.dir] + "</span></span>";
   }).join(mv.mode === "together" ? '<span class="mv-join">+</span>' : "");
-  return '<div class="movement" title="hand movement — finger 1 thumb…4 ring; ' +
-    '↓ pluck, ↑ strum">' + steps + "</div>";
+  var legend = isR
+    ? "right hand — finger 1 thumb…4 ring; ↓ pluck (inward), ↑ strum (outward)"
+    : "left hand — ↑ slide toward the bridge, ↓ slide toward the nut, ∿ vibrato";
+  return '<div class="movement" title="' + escapeHtml(legend) + '">' + badge + steps + "</div>";
 }
 
 // Clickable chips to compare/contrast related techniques (keeps each card
