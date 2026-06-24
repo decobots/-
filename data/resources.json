@@ -73,33 +73,109 @@
     {
       "group": "Primary English instruction + video (Pei-You / Judy Chang)",
       "links": [
-        { "label": "Site root / index of all finger technique sections", "url": "https://www.peiyouqin.com/" },
-        { "label": "Left-hand finger designations (Section A)", "url": "https://peiyouqin.com/notation3.html" },
-        { "label": "Finger contact points", "url": "https://peiyouqin.com/fingerpoints.html" },
-        { "label": "Right-hand strokes index (Section B)", "url": "https://peiyouqin.com/notation2.html" },
-        { "label": "Left-hand six basics (C) + vibrato variations (D)", "url": "https://peiyouqin.com/notation3b.html" },
-        { "label": "Left-hand slides/strikes/ornaments (Section E)", "url": "https://peiyouqin.com/notation3c.html" },
-        { "label": "Yin vs Nao distinction + demo film", "url": "https://peiyouqin.com/yinandnao.html" }
+        {
+          "label": "Site root / index of all finger technique sections",
+          "url": "https://www.peiyouqin.com/"
+        },
+        {
+          "label": "Left-hand finger designations (Section A)",
+          "url": "https://peiyouqin.com/notation3.html"
+        },
+        {
+          "label": "Finger contact points",
+          "url": "https://peiyouqin.com/fingerpoints.html"
+        },
+        {
+          "label": "Right-hand strokes index (Section B)",
+          "url": "https://peiyouqin.com/notation2.html"
+        },
+        {
+          "label": "Left-hand six basics (C) + vibrato variations (D)",
+          "url": "https://peiyouqin.com/notation3b.html"
+        },
+        {
+          "label": "Left-hand slides/strikes/ornaments (Section E)",
+          "url": "https://peiyouqin.com/notation3c.html"
+        },
+        {
+          "label": "Yin vs Nao distinction + demo film",
+          "url": "https://peiyouqin.com/yinandnao.html"
+        }
       ]
     },
     {
       "group": "Historical / scholarly (silkqin.com — John Thompson)",
       "links": [
-        { "label": "Finger-technique overview + nail/length notes", "url": "https://silkqin.com/07play/fngrng.htm" },
-        { "label": "Taiyin Daquanji Folio 5, right-hand techniques + glyph images", "url": "https://silkqin.com/02qnpu/05tydq/ty5c.htm" },
-        { "label": "Taiyin Daquanji Folio 5, left-hand techniques + glyph images", "url": "https://silkqin.com/02qnpu/05tydq/ty5d.htm" },
-        { "label": "Taiyin Daquanji right-hand specific steps", "url": "https://silkqin.com/02qnpu/05tydq/ty6a.htm" },
-        { "label": "Taiyin Daquanji left-hand list page", "url": "https://www.silkqin.com/02qnpu/05tydq/ty6f.htm" },
-        { "label": "33 poetic hand-gesture illustrations + verses (Section H)", "url": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm" },
-        { "label": "History/dating of the gesture-images", "url": "https://silkqin.com/09hist/qscb/qscb06c6.htm" },
-        { "label": "Left vs right hand ornamentation (historical development)", "url": "https://silkqin.com/08anal/leftright.htm" }
+        {
+          "label": "Play Qin — master index of playing-technique references",
+          "url": "https://silkqin.com/07play.htm"
+        },
+        {
+          "label": "Finger-technique overview + nail/length notes",
+          "url": "https://silkqin.com/07play/fngrng.htm"
+        },
+        {
+          "label": "Taiyin Daquanji Folio 5, right-hand techniques + glyph images",
+          "url": "https://silkqin.com/02qnpu/05tydq/ty5c.htm"
+        },
+        {
+          "label": "Taiyin Daquanji Folio 5, left-hand techniques + glyph images",
+          "url": "https://silkqin.com/02qnpu/05tydq/ty5d.htm"
+        },
+        {
+          "label": "Taiyin Daquanji right-hand specific steps",
+          "url": "https://silkqin.com/02qnpu/05tydq/ty6a.htm"
+        },
+        {
+          "label": "Taiyin Daquanji left-hand list page",
+          "url": "https://www.silkqin.com/02qnpu/05tydq/ty6f.htm"
+        },
+        {
+          "label": "33 poetic hand-gesture illustrations + verses (Section H)",
+          "url": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm"
+        },
+        {
+          "label": "History/dating of the gesture-images",
+          "url": "https://silkqin.com/09hist/qscb/qscb06c6.htm"
+        },
+        {
+          "label": "Left vs right hand ornamentation (historical development)",
+          "url": "https://silkqin.com/08anal/leftright.htm"
+        }
+      ]
+    },
+    {
+      "group": "Yuguzhai Qinpu 與古齋琴譜 translation (Jim Binkley, Portland State Univ.)",
+      "links": [
+        {
+          "label": "Translation home / table of contents",
+          "url": "https://web.cecs.pdx.edu/~jrb/chin/index.html"
+        },
+        {
+          "label": "Vol. 4 Ch. 4 — Dictionary of Right-Hand Symbols",
+          "url": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm"
+        },
+        {
+          "label": "Vol. 4 Ch. 6 — Dictionary of Left-Hand Symbols",
+          "url": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
+        },
+        {
+          "label": "Vol. 4 Ch. 7 — Left & Right-Hand Fingering, Illustrated",
+          "url": "https://web.cecs.pdx.edu/~jrb/chin/v47/v47.htm"
+        }
       ]
     },
     {
       "group": "Chinese-language quick reference (fingering charts)",
       "links": [
-        { "label": "guoqinwang — 54 fingerings in one chart", "url": "https://www.guoqinwang.com/news/2797.html" },
-        { "label": "Zhihu — four-corner jianzipu decoding article", "url": "https://zhuanlan.zhihu.com/p/347991617" }
+        {
+          "label": "guoqinwang — 54 fingerings in one chart",
+          "url": "https://www.guoqinwang.com/news/2797.html"
+        },
+        {
+          "label": "Zhihu — four-corner jianzipu decoding article",
+          "url": "https://zhuanlan.zhihu.com/p/347991617"
+        }
       ]
     }
   ],
