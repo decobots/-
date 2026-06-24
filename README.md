@@ -31,19 +31,35 @@ js/app.js                               # rendering, nav, search, gallery, compo
 data/techniques.json                    # the technique dataset (Sections A–H)
 data/gestures.json                      # poetic hand-gesture (手勢圖) gallery data
 data/resources.json                     # glyph/font resources, sources, licensing
+assets/glyphs/*.svg                     # real jianzipu glyph images (MIT, self-hosted)
 assets/fonts/qinfont.woff2              # Qin Jianzipu — composes real tablature glyphs (OFL)
 assets/fonts/noto-serif-sc-subset.woff2 # subset CJK serif for the reduced forms (OFL)
 assets/fonts/OFL.txt                    # SIL Open Font License + copyright notices
 ```
 
-## Composed jianzipu glyphs (bundled font)
+## How each technique's symbol is shown
 
-Two OFL fonts are self-hosted in `assets/fonts/`:
+Every entry shows the jianzipu *score symbol*, picking the best available representation:
 
-- **Qin Jianzipu** (`qinfont.woff2`, from [Adrakaris/guqin-jianzipu-font](https://github.com/Adrakaris/guqin-jianzipu-font), designs by [Yijun Hu](https://yijun.hu)) renders *true composed* tablature glyphs via OpenType ligatures: you type a command string like `\g` (hook 勾), `/da` (thumb 大), `-z7` (hui 7), `\7` (string 7) and the font stacks them into one block. The **"Composed glyphs"** toggle in the header switches technique cards between the composed glyph and the plain reduced character, and the in-app **Jianzipu composer** lets you build any glyph live with a documented token table (extracted directly from the font's ligature tables).
-- **Noto Serif SC** (subset to the ~117 CJK characters this reference uses) guarantees the reduced-character forms render identically across platforms.
+1. **A real glyph image** — 18 techniques carry a self-hosted SVG drawn from
+   [neuralfirings/JianZiPu](https://github.com/neuralfirings/JianZiPu) (MIT), shown on a
+   parchment tile. Fully local, no external requests.
+2. **A font-composed glyph** — the bundled **Qin Jianzipu** font (`qinfont.woff2`, OFL, from
+   [Adrakaris/guqin-jianzipu-font](https://github.com/Adrakaris/guqin-jianzipu-font), designs by
+   [Yijun Hu](https://yijun.hu)) stacks a command string like `\g`/`/da`/`-z7`/`\7` into one
+   tablature block. The in-app **Jianzipu composer** builds any glyph live with a documented
+   token table (extracted from the font's ligature tables).
+3. **The reduced character** rendered with a bundled subset of **Noto Serif SC** (OFL, ~117
+   chars) for consistent display everywhere.
 
-18 techniques are mapped to a verified composed glyph (the eight basic strokes plus cuo, quanfu/banfu, yin, nao, dou, qiaqi, daiqi, jin, tui); the rest fall back to the reduced character. Mappings were derived by matching each ligature's output glyph name to the technique's pinyin, so they are correct by construction.
+### Quick symbol index
+A palette at the top of the page lists every technique as a symbol-only chip, grouped by
+section. **Tap a symbol to jump straight to its meaning** — built for looking something up while
+reading a score, where you only have the symbol, not the name.
+
+### Videos
+Each technique links to its demonstration video on Pei-You Chang's site (the **▶ demo video**
+links); those pages embed a clip you click to play.
 
 ## Categories (how techniques are separated)
 

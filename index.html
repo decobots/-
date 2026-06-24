@@ -19,14 +19,6 @@
     </div>
     <div class="search-wrap">
       <input id="search" type="search" placeholder="Search name, pinyin, instruction…" autocomplete="off" aria-label="Search techniques" />
-      <label class="toggle">
-        <input type="checkbox" id="composedGlyphs" checked />
-        <span>Composed glyphs</span>
-      </label>
-      <label class="toggle">
-        <input type="checkbox" id="poeticOnly" />
-        <span>Poetic only</span>
-      </label>
     </div>
   </header>
 
@@ -46,10 +38,11 @@
       <a class="nav-item nav-link" href="#resources">
         <span class="nav-label">Resources &amp; sources</span>
       </a>
-      <p class="sidebar-foot">Reduced glyphs shown are the tablature forms; full characters are the lookup keys.</p>
+      <p class="sidebar-foot">Tap a symbol in the index up top to jump to its meaning.</p>
     </nav>
 
     <main class="content" id="content">
+      <section id="symbolIndex" class="symbol-index"></section>
       <div id="results"></div>
       <section id="gallery" class="resources"></section>
       <section id="composer" class="resources"></section>
