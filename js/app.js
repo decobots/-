@@ -84,13 +84,26 @@
   function sourceLinks(urls) {
     return (urls || []).map(function (u) {
       var host = hostOf(u);
-      // Pei-You Chang's per-technique pages embed a demonstration video.
-      var isVideo = host.indexOf("peiyouqin.com") !== -1;
-      var label = isVideo ? "▶ demo video" : (host.indexOf("silkqin.com") !== -1 ? "silkqin reference" : host);
-      var cls = isVideo ? "src-link is-video" : "src-link";
-      return '<a class="' + cls + '" href="' + escapeHtml(u) + '" target="_blank" rel="noopener">' +
-        (isVideo ? "" : '<span class="src-dot"></span>') + escapeHtml(label) + "</a>";
+      var label = host.indexOf("silkqin.com") !== -1 ? "silkqin reference"
+        : host.indexOf("peiyouqin.com") !== -1 ? "peiyouqin" : host;
+      return '<a class="src-link" href="' + escapeHtml(u) + '" target="_blank" rel="noopener">' +
+        '<span class="src-dot"></span>' + escapeHtml(label) + "</a>";
     }).join("");
+  }
+
+  // A demo video: YouTube plays inline on the page (click to load — no redirect);
+  // a peiyouqin page (which embeds its own clip) opens in a new tab.
+  function videoHtml(t) {
+    if (t.video_kind === "youtube" && t.video_id) {
+      var label = "▶ Watch demo" + (t.video_shared ? " · the 8 basic strokes" : "");
+      return '<div class="video" data-yt="' + escapeHtml(t.video_id) + '">' +
+        '<button class="video-btn" type="button">' + escapeHtml(label) + "</button></div>";
+    }
+    if (t.video_kind === "page" && t.video_url) {
+      return '<div class="video"><a class="video-btn as-link" href="' + escapeHtml(t.video_url) +
+        '" target="_blank" rel="noopener">▶ Demo video (opens peiyouqin.com)</a></div>';
+    }
+    return "";
   }
 
   function card(t) {
@@ -119,6 +132,7 @@
     }
     if (t.notes) html += '  <p class="card-notes">' + escapeHtml(t.notes) + "</p>";
 
+    html += videoHtml(t);
     html += '  <div class="card-sources">' + sourceLinks(t.source_url) + "</div>";
     html += "</article>";
     return html;
@@ -151,10 +165,30 @@
 
     el.results.innerHTML = html;
     el.empty.hidden = visible.length !== 0;
+    bindVideoPlay();
 
     // update active nav
     Array.prototype.forEach.call(el.sidebar.querySelectorAll(".nav-item[data-cat]"), function (b) {
       b.classList.toggle("is-active", b.getAttribute("data-cat") === state.cat);
+    });
+  }
+
+  // Click-to-play: swap the button for an inline YouTube iframe (privacy-enhanced,
+  // no autoplay redirect — the video plays right inside the card).
+  var videoBound = false;
+  function bindVideoPlay() {
+    if (videoBound) return;
+    videoBound = true;
+    el.results.addEventListener("click", function (e) {
+      var btn = e.target.closest(".video-btn");
+      if (!btn || btn.classList.contains("as-link")) return;
+      var box = btn.closest(".video[data-yt]");
+      if (!box) return;
+      var id = box.getAttribute("data-yt");
+      box.innerHTML = '<div class="video-frame"><iframe ' +
+        'src="https://www.youtube-nocookie.com/embed/' + encodeURIComponent(id) + '?autoplay=1&rel=0" ' +
+        'title="Technique demonstration" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" ' +
+        'allowfullscreen loading="lazy"></iframe></div>';
     });
   }
 

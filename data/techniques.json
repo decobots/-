@@ -93,7 +93,9 @@
       "source_url": [
         "https://peiyouqin.com/dazhi.html"
       ],
-      "notes": null
+      "notes": null,
+      "video_url": "https://peiyouqin.com/dazhi.html",
+      "video_kind": "page"
     },
     {
       "id": "A2",
@@ -108,7 +110,9 @@
       "source_url": [
         "https://peiyouqin.com/shizhi.html"
       ],
-      "notes": "Reduced from 人."
+      "notes": "Reduced from 人.",
+      "video_url": "https://peiyouqin.com/shizhi.html",
+      "video_kind": "page"
     },
     {
       "id": "A3",
@@ -123,7 +127,9 @@
       "source_url": [
         "https://peiyouqin.com/zhongzhi.html"
       ],
-      "notes": null
+      "notes": null,
+      "video_url": "https://peiyouqin.com/zhongzhi.html",
+      "video_kind": "page"
     },
     {
       "id": "A4",
@@ -138,7 +144,9 @@
       "source_url": [
         "https://peiyouqin.com/mingzhi.html"
       ],
-      "notes": null
+      "notes": null,
+      "video_url": "https://peiyouqin.com/mingzhi.html",
+      "video_kind": "page"
     },
     {
       "id": "A5",
@@ -153,7 +161,9 @@
       "source_url": [
         "https://peiyouqin.com/gui.html"
       ],
-      "notes": "Written with a kneel mark."
+      "notes": "Written with a kneel mark.",
+      "video_url": "https://peiyouqin.com/gui.html",
+      "video_kind": "page"
     },
     {
       "id": "B1",
@@ -172,7 +182,11 @@
         "https://peiyouqin.com/notation2.html",
         "https://silkqin.com/02qnpu/05tydq/ty5c.htm"
       ],
-      "notes": null
+      "notes": null,
+      "video_url": "https://www.youtube.com/watch?v=h-z7seIfFJw",
+      "video_kind": "youtube",
+      "video_id": "h-z7seIfFJw",
+      "video_shared": false
     },
     {
       "id": "B2",
@@ -191,7 +205,11 @@
         "https://peiyouqin.com/notation2.html",
         "https://silkqin.com/02qnpu/05tydq/ty5c.htm"
       ],
-      "notes": "Reduced form also written 乚."
+      "notes": "Reduced form also written 乚.",
+      "video_url": "https://www.youtube.com/watch?v=KZ1ubM_WTfY",
+      "video_kind": "youtube",
+      "video_id": "KZ1ubM_WTfY",
+      "video_shared": false
     },
     {
       "id": "B3",
@@ -210,7 +228,11 @@
         "https://peiyouqin.com/notation2.html",
         "https://www.silkqin.com/02qnpu/05tydq/ty3.htm"
       ],
-      "notes": null
+      "notes": null,
+      "video_url": "https://www.youtube.com/watch?v=PF1yYBzTxvk",
+      "video_kind": "youtube",
+      "video_id": "PF1yYBzTxvk",
+      "video_shared": true
     },
     {
       "id": "B4",
@@ -229,7 +251,11 @@
         "https://peiyouqin.com/notation2.html",
         "https://silkqin.com/02qnpu/05tydq/ty5c.htm"
       ],
-      "notes": null
+      "notes": null,
+      "video_url": "https://www.youtube.com/watch?v=JuOsfWK9qlo",
+      "video_kind": "youtube",
+      "video_id": "JuOsfWK9qlo",
+      "video_shared": false
     },
     {
       "id": "B5",
@@ -248,7 +274,11 @@
         "https://peiyouqin.com/notation2.html",
         "https://silkqin.com/02qnpu/05tydq/ty5c.htm"
       ],
-      "notes": null
+      "notes": null,
+      "video_url": "https://www.youtube.com/watch?v=PF1yYBzTxvk",
+      "video_kind": "youtube",
+      "video_id": "PF1yYBzTxvk",
+      "video_shared": true
     },
     {
       "id": "B6",
@@ -267,7 +297,11 @@
         "https://peiyouqin.com/notation2.html",
         "https://silkqin.com/02qnpu/05tydq/ty5c.htm"
       ],
-      "notes": "Abbreviated form of 摘."
+      "notes": "Abbreviated form of 摘.",
+      "video_url": "https://www.youtube.com/watch?v=PF1yYBzTxvk",
+      "video_kind": "youtube",
+      "video_id": "PF1yYBzTxvk",
+      "video_shared": true
     },
     {
       "id": "B7",
@@ -286,7 +320,11 @@
         "https://peiyouqin.com/notation2.html",
         "https://www.silkqin.com/02qnpu/05tydq/ty3.htm"
       ],
-      "notes": "Historic in/out confusion between 擘/劈 and 托 — see footnote 11 on https://www.silkqin.com/02qnpu/05tydq/ty3.htm. Inward is the modern reading."
+      "notes": "Historic in/out confusion between 擘/劈 and 托 — see footnote 11 on https://www.silkqin.com/02qnpu/05tydq/ty3.htm. Inward is the modern reading.",
+      "video_url": "https://www.youtube.com/watch?v=PF1yYBzTxvk",
+      "video_kind": "youtube",
+      "video_id": "PF1yYBzTxvk",
+      "video_shared": true
     },
     {
       "id": "B8",
@@ -305,7 +343,11 @@
         "https://peiyouqin.com/notation2.html",
         "https://silkqin.com/02qnpu/05tydq/ty5c.htm"
       ],
-      "notes": "Outward is the modern reading; see historical in/out note on B7."
+      "notes": "Outward is the modern reading; see historical in/out note on B7.",
+      "video_url": "https://www.youtube.com/watch?v=T8P-ZmNKKZE",
+      "video_kind": "youtube",
+      "video_id": "T8P-ZmNKKZE",
+      "video_shared": false
     },
     {
       "id": "B9",
@@ -322,7 +364,11 @@
       "source_url": [
         "https://peiyouqin.com/notation2.html"
       ],
-      "notes": null
+      "notes": null,
+      "video_url": "https://www.youtube.com/watch?v=PF1yYBzTxvk",
+      "video_kind": "youtube",
+      "video_id": "PF1yYBzTxvk",
+      "video_shared": true
     },
     {
       "id": "B10",
@@ -337,7 +383,11 @@
       "source_url": [
         "https://silkqin.com/02qnpu/05tydq/ty5c.htm"
       ],
-      "notes": "Historical; superseded by 撮."
+      "notes": "Historical; superseded by 撮.",
+      "video_url": "https://www.youtube.com/watch?v=PF1yYBzTxvk",
+      "video_kind": "youtube",
+      "video_id": "PF1yYBzTxvk",
+      "video_shared": true
     },
     {
       "id": "B11",
@@ -353,7 +403,11 @@
       "source_url": [
         "https://peiyouqin.com/notation2.html"
       ],
-      "notes": null
+      "notes": null,
+      "video_url": "https://www.youtube.com/watch?v=PF1yYBzTxvk",
+      "video_kind": "youtube",
+      "video_id": "PF1yYBzTxvk",
+      "video_shared": true
     },
     {
       "id": "B12",
@@ -369,7 +423,11 @@
       "source_url": [
         "https://peiyouqin.com/notation2.html"
       ],
-      "notes": null
+      "notes": null,
+      "video_url": "https://www.youtube.com/watch?v=PF1yYBzTxvk",
+      "video_kind": "youtube",
+      "video_id": "PF1yYBzTxvk",
+      "video_shared": true
     },
     {
       "id": "B13",
@@ -384,7 +442,11 @@
       "source_url": [
         "https://peiyouqin.com/notation2.html"
       ],
-      "notes": null
+      "notes": null,
+      "video_url": "https://www.youtube.com/watch?v=PF1yYBzTxvk",
+      "video_kind": "youtube",
+      "video_id": "PF1yYBzTxvk",
+      "video_shared": true
     },
     {
       "id": "B14",
@@ -399,7 +461,11 @@
       "source_url": [
         "https://peiyouqin.com/notation2.html"
       ],
-      "notes": null
+      "notes": null,
+      "video_url": "https://www.youtube.com/watch?v=PF1yYBzTxvk",
+      "video_kind": "youtube",
+      "video_id": "PF1yYBzTxvk",
+      "video_shared": true
     },
     {
       "id": "B15",
@@ -415,7 +481,11 @@
       "source_url": [
         "https://silkqin.com/02qnpu/05tydq/ty5c.htm"
       ],
-      "notes": null
+      "notes": null,
+      "video_url": "https://www.youtube.com/watch?v=PF1yYBzTxvk",
+      "video_kind": "youtube",
+      "video_id": "PF1yYBzTxvk",
+      "video_shared": true
     },
     {
       "id": "B16",
@@ -431,7 +501,11 @@
       "source_url": [
         "https://silkqin.com/02qnpu/05tydq/ty5c.htm"
       ],
-      "notes": null
+      "notes": null,
+      "video_url": "https://www.youtube.com/watch?v=PF1yYBzTxvk",
+      "video_kind": "youtube",
+      "video_id": "PF1yYBzTxvk",
+      "video_shared": true
     },
     {
       "id": "B17",
@@ -446,7 +520,11 @@
       "source_url": [
         "https://silkqin.com/02qnpu/05tydq/ty5c.htm"
       ],
-      "notes": null
+      "notes": null,
+      "video_url": "https://www.youtube.com/watch?v=PF1yYBzTxvk",
+      "video_kind": "youtube",
+      "video_id": "PF1yYBzTxvk",
+      "video_shared": true
     },
     {
       "id": "B18",
@@ -461,7 +539,11 @@
       "source_url": [
         "https://silkqin.com/02qnpu/05tydq/ty5c.htm"
       ],
-      "notes": null
+      "notes": null,
+      "video_url": "https://www.youtube.com/watch?v=PF1yYBzTxvk",
+      "video_kind": "youtube",
+      "video_id": "PF1yYBzTxvk",
+      "video_shared": true
     },
     {
       "id": "B19",
@@ -477,7 +559,11 @@
       "source_url": [
         "https://peiyouqin.com/notation2.html"
       ],
-      "notes": "Often paired with 剌 as 撥剌 bō là."
+      "notes": "Often paired with 剌 as 撥剌 bō là.",
+      "video_url": "https://www.youtube.com/watch?v=PF1yYBzTxvk",
+      "video_kind": "youtube",
+      "video_id": "PF1yYBzTxvk",
+      "video_shared": true
     },
     {
       "id": "B20",
@@ -493,7 +579,11 @@
       "source_url": [
         "https://peiyouqin.com/notation2.html"
       ],
-      "notes": null
+      "notes": null,
+      "video_url": "https://www.youtube.com/watch?v=PF1yYBzTxvk",
+      "video_kind": "youtube",
+      "video_id": "PF1yYBzTxvk",
+      "video_shared": true
     },
     {
       "id": "B21",
@@ -508,7 +598,11 @@
       "source_url": [
         "https://peiyouqin.com/notation2.html"
       ],
-      "notes": "Often paired with 拂 as 滾拂 gǔn fú."
+      "notes": "Often paired with 拂 as 滾拂 gǔn fú.",
+      "video_url": "https://www.youtube.com/watch?v=PF1yYBzTxvk",
+      "video_kind": "youtube",
+      "video_id": "PF1yYBzTxvk",
+      "video_shared": true
     },
     {
       "id": "B22",
@@ -523,7 +617,11 @@
       "source_url": [
         "https://peiyouqin.com/notation2.html"
       ],
-      "notes": null
+      "notes": null,
+      "video_url": "https://www.youtube.com/watch?v=PF1yYBzTxvk",
+      "video_kind": "youtube",
+      "video_id": "PF1yYBzTxvk",
+      "video_shared": true
     },
     {
       "id": "C1",
@@ -540,7 +638,9 @@
         "https://peiyouqin.com/yin.html",
         "https://peiyouqin.com/yinandnao.html"
       ],
-      "notes": "Reduced from 吟. See yin-vs-nao distinction: https://peiyouqin.com/yinandnao.html"
+      "notes": "Reduced from 吟. See yin-vs-nao distinction: https://peiyouqin.com/yinandnao.html",
+      "video_url": "https://peiyouqin.com/yin.html",
+      "video_kind": "page"
     },
     {
       "id": "C2",
@@ -557,7 +657,9 @@
         "https://peiyouqin.com/rou.html",
         "https://www.silkqin.com/02qnpu/05tydq/ty3.htm"
       ],
-      "notes": "Some teachers pronounce/relate this to 揉 róu. Abbreviated form of 猱."
+      "notes": "Some teachers pronounce/relate this to 揉 róu. Abbreviated form of 猱.",
+      "video_url": "https://peiyouqin.com/rou.html",
+      "video_kind": "page"
     },
     {
       "id": "C3",
@@ -573,7 +675,9 @@
       "source_url": [
         "https://peiyouqin.com/chuo.html"
       ],
-      "notes": "Reduced from 卓."
+      "notes": "Reduced from 卓.",
+      "video_url": "https://peiyouqin.com/chuo.html",
+      "video_kind": "page"
     },
     {
       "id": "C4",
@@ -589,7 +693,9 @@
       "source_url": [
         "https://peiyouqin.com/zhu.html"
       ],
-      "notes": "Reduced from 主."
+      "notes": "Reduced from 主.",
+      "video_url": "https://peiyouqin.com/zhu.html",
+      "video_kind": "page"
     },
     {
       "id": "C5",
@@ -604,7 +710,9 @@
       "source_url": [
         "https://peiyouqin.com/shang.html"
       ],
-      "notes": null
+      "notes": null,
+      "video_url": "https://peiyouqin.com/shang.html",
+      "video_kind": "page"
     },
     {
       "id": "C6",
@@ -619,7 +727,9 @@
       "source_url": [
         "https://peiyouqin.com/xia.html"
       ],
-      "notes": null
+      "notes": null,
+      "video_url": "https://peiyouqin.com/xia.html",
+      "video_kind": "page"
     },
     {
       "id": "D1",
@@ -634,7 +744,9 @@
       "source_url": [
         "https://peiyouqin.com/notation3b.html"
       ],
-      "notes": "Variation of 吟 yín."
+      "notes": "Variation of 吟 yín.",
+      "video_url": "https://peiyouqin.com/notation3b.html",
+      "video_kind": "page"
     },
     {
       "id": "D2",
@@ -649,7 +761,9 @@
       "source_url": [
         "https://peiyouqin.com/notation3b.html"
       ],
-      "notes": "Variation of 吟 yín."
+      "notes": "Variation of 吟 yín.",
+      "video_url": "https://peiyouqin.com/notation3b.html",
+      "video_kind": "page"
     },
     {
       "id": "D3",
@@ -664,7 +778,9 @@
       "source_url": [
         "https://peiyouqin.com/notation3b.html"
       ],
-      "notes": "Variation of 吟 yín."
+      "notes": "Variation of 吟 yín.",
+      "video_url": "https://peiyouqin.com/notation3b.html",
+      "video_kind": "page"
     },
     {
       "id": "D4",
@@ -679,7 +795,9 @@
       "source_url": [
         "https://peiyouqin.com/notation3b.html"
       ],
-      "notes": "Variation of 吟 yín."
+      "notes": "Variation of 吟 yín.",
+      "video_url": "https://peiyouqin.com/notation3b.html",
+      "video_kind": "page"
     },
     {
       "id": "D5",
@@ -694,7 +812,9 @@
       "source_url": [
         "https://peiyouqin.com/notation3b.html"
       ],
-      "notes": "Variation of 吟 yín."
+      "notes": "Variation of 吟 yín.",
+      "video_url": "https://peiyouqin.com/notation3b.html",
+      "video_kind": "page"
     },
     {
       "id": "D6",
@@ -709,7 +829,9 @@
       "source_url": [
         "https://peiyouqin.com/notation3b.html"
       ],
-      "notes": "Variation of 吟 yín."
+      "notes": "Variation of 吟 yín.",
+      "video_url": "https://peiyouqin.com/notation3b.html",
+      "video_kind": "page"
     },
     {
       "id": "D7",
@@ -724,7 +846,9 @@
       "source_url": [
         "https://peiyouqin.com/notation3b.html"
       ],
-      "notes": "Variation of 猱 náo."
+      "notes": "Variation of 猱 náo.",
+      "video_url": "https://peiyouqin.com/notation3b.html",
+      "video_kind": "page"
     },
     {
       "id": "D8",
@@ -739,7 +863,9 @@
       "source_url": [
         "https://peiyouqin.com/notation3b.html"
       ],
-      "notes": "Variation of 猱 náo."
+      "notes": "Variation of 猱 náo.",
+      "video_url": "https://peiyouqin.com/notation3b.html",
+      "video_kind": "page"
     },
     {
       "id": "D9",
@@ -754,7 +880,9 @@
       "source_url": [
         "https://peiyouqin.com/notation3b.html"
       ],
-      "notes": "Variation of 猱 náo."
+      "notes": "Variation of 猱 náo.",
+      "video_url": "https://peiyouqin.com/notation3b.html",
+      "video_kind": "page"
     },
     {
       "id": "D10",
@@ -769,7 +897,9 @@
       "source_url": [
         "https://peiyouqin.com/notation3b.html"
       ],
-      "notes": "Variation of 猱 náo."
+      "notes": "Variation of 猱 náo.",
+      "video_url": "https://peiyouqin.com/notation3b.html",
+      "video_kind": "page"
     },
     {
       "id": "D11",
@@ -784,7 +914,9 @@
       "source_url": [
         "https://peiyouqin.com/notation3b.html"
       ],
-      "notes": "Variation of 猱 náo."
+      "notes": "Variation of 猱 náo.",
+      "video_url": "https://peiyouqin.com/notation3b.html",
+      "video_kind": "page"
     },
     {
       "id": "E1",
@@ -799,7 +931,9 @@
       "source_url": [
         "https://peiyouqin.com/tang.html"
       ],
-      "notes": null
+      "notes": null,
+      "video_url": "https://peiyouqin.com/tang.html",
+      "video_kind": "page"
     },
     {
       "id": "E2",
@@ -814,7 +948,9 @@
       "source_url": [
         "https://peiyouqin.com/tuoshang.html"
       ],
-      "notes": "Also written 拖上 tuō shàng."
+      "notes": "Also written 拖上 tuō shàng.",
+      "video_url": "https://peiyouqin.com/tuoshang.html",
+      "video_kind": "page"
     },
     {
       "id": "E3",
@@ -829,7 +965,9 @@
       "source_url": [
         "https://peiyouqin.com/zhuang.html"
       ],
-      "notes": null
+      "notes": null,
+      "video_url": "https://peiyouqin.com/zhuang.html",
+      "video_kind": "page"
     },
     {
       "id": "E4",
@@ -844,7 +982,9 @@
       "source_url": [
         "https://peiyouqin.com/shuangzhuang.html"
       ],
-      "notes": null
+      "notes": null,
+      "video_url": "https://peiyouqin.com/shuangzhuang.html",
+      "video_kind": "page"
     },
     {
       "id": "E5",
@@ -859,7 +999,9 @@
       "source_url": [
         "https://peiyouqin.com/xuzhuang.html"
       ],
-      "notes": null
+      "notes": null,
+      "video_url": "https://peiyouqin.com/xuzhuang.html",
+      "video_kind": "page"
     },
     {
       "id": "E6",
@@ -874,7 +1016,9 @@
       "source_url": [
         "https://peiyouqin.com/fanzhuang.html"
       ],
-      "notes": null
+      "notes": null,
+      "video_url": "https://peiyouqin.com/fanzhuang.html",
+      "video_kind": "page"
     },
     {
       "id": "E7",
@@ -890,7 +1034,9 @@
       "source_url": [
         "https://peiyouqin.com/dou.html"
       ],
-      "notes": null
+      "notes": null,
+      "video_url": "https://peiyouqin.com/dou.html",
+      "video_kind": "page"
     },
     {
       "id": "E8",
@@ -905,7 +1051,9 @@
       "source_url": [
         "https://peiyouqin.com/huan.html"
       ],
-      "notes": "Also written 喚 / 換."
+      "notes": "Also written 喚 / 換.",
+      "video_url": "https://peiyouqin.com/huan.html",
+      "video_kind": "page"
     },
     {
       "id": "E9",
@@ -920,7 +1068,9 @@
       "source_url": [
         "https://peiyouqin.com/wanglai.html"
       ],
-      "notes": null
+      "notes": null,
+      "video_url": "https://peiyouqin.com/wanglai.html",
+      "video_kind": "page"
     },
     {
       "id": "E10",
@@ -935,7 +1085,9 @@
       "source_url": [
         "https://peiyouqin.com/fenkai.html"
       ],
-      "notes": null
+      "notes": null,
+      "video_url": "https://peiyouqin.com/fenkai.html",
+      "video_kind": "page"
     },
     {
       "id": "F1",
