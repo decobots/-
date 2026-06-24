@@ -4,7 +4,8 @@
 
   var DATA = null;       // techniques.json
   var RESOURCES = null;  // resources.json
-  var state = { cat: "all", query: "", poeticOnly: false };
+  var GESTURES = null;   // gestures.json
+  var state = { cat: "all", query: "", poeticOnly: false, composedGlyphs: true };
 
   var el = {
     results: document.getElementById("results"),
@@ -12,6 +13,9 @@
     navCategories: document.getElementById("navCategories"),
     search: document.getElementById("search"),
     poeticOnly: document.getElementById("poeticOnly"),
+    composedGlyphs: document.getElementById("composedGlyphs"),
+    gallery: document.getElementById("gallery"),
+    composer: document.getElementById("composer"),
     empty: document.getElementById("empty"),
     sidebar: document.getElementById("sidebar")
   };
@@ -74,11 +78,24 @@
 
   function card(t) {
     var glyph = t.jianzipu_glyph || t.name_hanzi;
-    var multi = glyph && glyph.replace(/\s/g, "").length > 1 ? " multi" : "";
+    var useComposed = state.composedGlyphs && t.font_input;
+    var boxClass, boxContent, boxTitle;
+    if (useComposed) {
+      boxClass = " is-jzp";
+      // the ligature font composes the command string into a stacked tablature glyph;
+      // a small caption keeps the plain reduced character visible.
+      boxContent = '<span class="jzp">' + escapeHtml(t.font_input) + "</span>" +
+        '<span class="jzp-cap">' + escapeHtml(glyph) + "</span>";
+      boxTitle = "composed jianzipu glyph (font input: " + t.font_input + ")";
+    } else {
+      boxClass = glyph && glyph.replace(/\s/g, "").length > 1 ? " multi" : "";
+      boxContent = escapeHtml(glyph);
+      boxTitle = "reduced jianzipu form";
+    }
     var html = "";
     html += '<article class="card" id="t-' + t.id + '">';
     html += '  <div class="card-top">';
-    html += '    <div class="glyph-box' + multi + '" title="reduced jianzipu form">' + escapeHtml(glyph) + "</div>";
+    html += '    <div class="glyph-box' + boxClass + '" title="' + escapeHtml(boxTitle) + '">' + boxContent + "</div>";
     html += '    <div>';
     html += '      <div class="card-id">' + escapeHtml(t.id) + "</div>";
     html += '      <div class="card-name">' + escapeHtml(t.name_hanzi) + "</div>";
@@ -89,6 +106,7 @@
     html += '  <div class="card-meta">';
     html += handTag(t.hand);
     html += '<span class="tag reduced">reduced&nbsp;<b>' + escapeHtml(glyph) + "</b></span>";
+    if (t.font_input) html += '<span class="tag" style="color:var(--accent);border-color:var(--accent-soft)" title="font input: ' + escapeHtml(t.font_input) + '">composed&nbsp;✓</span>';
     if (t.direction) html += '<span class="tag dir">' + escapeHtml(t.direction) + "</span>";
     html += "  </div>";
 
@@ -225,6 +243,102 @@
     el.resources.innerHTML = html;
   }
 
+  // ---------- gesture gallery ----------
+  function buildGallery() {
+    if (!GESTURES) return;
+    var byId = {};
+    DATA.techniques.forEach(function (t) { byId[t.id] = t; });
+    var g = GESTURES;
+    var html = "<h2>" + escapeHtml(g.meta.title) + "</h2>";
+    html += '<div class="res-panel"><p>' + escapeHtml(g.meta.intro) + "</p>";
+    html += '<p class="license-note">' + escapeHtml(g.meta.imageRightsNote) + " " +
+      'View the full set (' + g.meta.counts.rightHand + " right-hand + " + g.meta.counts.leftHand +
+      ' left-hand): <a href="' + escapeHtml(g.meta.fullSetSource) + '" target="_blank" rel="noopener">silkqin.com</a>.</p></div>';
+
+    html += '<div class="gallery-grid">';
+    g.gestures.forEach(function (ges) {
+      var t = byId[ges.technique_id] || {};
+      var glyph = t.font_input
+        ? '<div class="gesture-glyph jzp">' + escapeHtml(t.font_input) + "</div>"
+        : '<div class="gesture-glyph" style="font-family:var(--cjk)">' + escapeHtml(t.jianzipu_glyph || ges.name_hanzi) + "</div>";
+      html += '<div class="gesture-card">';
+      html += glyph;
+      html += '<div class="gesture-name">' + escapeHtml(ges.name_hanzi) +
+        " <small>" + escapeHtml(ges.name_pinyin) + "</small></div>";
+      if (ges.verse_hanzi) {
+        html += '<div class="gesture-verse">「' + escapeHtml(ges.verse_hanzi) + "」</div>";
+      }
+      html += '<div class="gesture-theme"><strong>' + escapeHtml(ges.image_title) + ".</strong> " +
+        escapeHtml(ges.theme) + "</div>";
+      html += '<a href="' + escapeHtml(ges.source) + '" target="_blank" rel="noopener">View woodblock &amp; translation →</a>';
+      html += "</div>";
+    });
+    html += "</div>";
+    el.gallery.innerHTML = html;
+  }
+
+  // ---------- jianzipu composer ----------
+  var COMPOSER_PRESETS = [
+    { label: "勾 hook", input: "\\g" },
+    { label: "抹 mo", input: "\\m" },
+    { label: "挑 tiao", input: "\\t" },
+    { label: "撮 cuo", input: "||" },
+    { label: "吟 yin", input: "\\yin" },
+    { label: "猱 nao", input: "\\nao" },
+    { label: "Full note: 大 + hook, str 7, hui 7.6", input: "/da\\g\\7-z7-6" }
+  ];
+  var COMPOSER_TOKENS = [
+    ["Right-hand technique", "<code>\\m</code>抹 <code>\\t</code>挑 <code>\\g</code>勾 <code>\\i</code>剔 <code>\\d</code>打 <code>\\z</code>摘 <code>\\b</code>擘 <code>\\u</code>托 <code>||</code>撮"],
+    ["Left-hand technique", "<code>\\yin</code>吟 <code>\\nao</code>猱 <code>\\dou</code>逗 <code>\\dai</code>帶 <code>\\jin</code>進 <code>\\tui</code>退 <code>\\fu</code>扶 <code>\\qia</code>掐"],
+    ["Left finger (presses)", "<code>/da</code>大 <code>/sh</code>食 <code>/zh</code>中 <code>/mi</code>名"],
+    ["String number", "<code>\\1</code> … <code>\\7</code>"],
+    ["Hui position", "<code>-z1</code> … <code>-z13</code>"],
+    ["Hui tenths (fraction)", "<code>-1</code> … <code>-9</code>"]
+  ];
+
+  function renderComposerPreview(value) {
+    var node = document.getElementById("composerPreview");
+    if (node) node.textContent = value || "\\g";
+  }
+
+  function buildComposer() {
+    var html = "<h2>Jianzipu Composer</h2>";
+    html += '<div class="res-panel">';
+    html += "<p>The bundled <strong>Qin Jianzipu</strong> font (SIL OFL) composes a true stacked tablature glyph from a command string via OpenType ligatures. " +
+      "Type a sequence below — the base technique first, then finger / string / hui modifiers in any order, no spaces. " +
+      "(Requires a browser with ligatures enabled, which all modern browsers do by default.)</p>";
+    html += '<div class="composer">';
+    html += '  <div class="composer-preview"><span id="composerPreview" class="jzp">\\g</span></div>';
+    html += '  <div class="composer-controls">';
+    html += '    <input id="composerInput" type="text" value="/da\\g\\7-z7-6" spellcheck="false" autocomplete="off" aria-label="Jianzipu command string" />';
+    html += '    <div class="preset-row">';
+    COMPOSER_PRESETS.forEach(function (p, i) {
+      html += '<button class="preset" data-input="' + escapeHtml(p.input) + '">' + escapeHtml(p.label) + "</button>";
+    });
+    html += "    </div>";
+    html += '    <table class="token-table"><tbody>';
+    COMPOSER_TOKENS.forEach(function (row) {
+      html += "<tr><th>" + escapeHtml(row[0]) + "</th><td>" + row[1] + "</td></tr>";
+    });
+    html += "    </tbody></table>";
+    html += '    <p class="license-note">Token map extracted directly from qinfont 3.0.1 ligature tables. Syntax &amp; font: ' +
+      '<a href="https://github.com/Adrakaris/guqin-jianzipu-font" target="_blank" rel="noopener">Adrakaris/guqin-jianzipu-font</a> ' +
+      '(designs by <a href="https://yijun.hu/blog-misc/guqin/" target="_blank" rel="noopener">Yijun Hu</a>).</p>';
+    html += "  </div></div></div>";
+    el.composer.innerHTML = html;
+
+    var input = document.getElementById("composerInput");
+    renderComposerPreview(input.value);
+    input.addEventListener("input", function () { renderComposerPreview(input.value); });
+    el.composer.addEventListener("click", function (e) {
+      var btn = e.target.closest(".preset");
+      if (!btn) return;
+      input.value = btn.getAttribute("data-input");
+      renderComposerPreview(input.value);
+      input.focus();
+    });
+  }
+
   // ---------- events ----------
   function bindControls() {
     var debounce;
@@ -234,6 +348,9 @@
     });
     el.poeticOnly.addEventListener("change", function () {
       state.poeticOnly = el.poeticOnly.checked; render();
+    });
+    el.composedGlyphs.addEventListener("change", function () {
+      state.composedGlyphs = el.composedGlyphs.checked; render();
     });
   }
 
@@ -245,11 +362,14 @@
     });
   }
 
-  Promise.all([load("data/techniques.json"), load("data/resources.json")])
+  Promise.all([load("data/techniques.json"), load("data/resources.json"), load("data/gestures.json")])
     .then(function (results) {
       DATA = results[0];
       RESOURCES = results[1];
+      GESTURES = results[2];
       buildNav();
+      buildGallery();
+      buildComposer();
       buildResources();
       bindControls();
       render();

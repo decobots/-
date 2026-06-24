@@ -20,8 +20,12 @@
     <div class="search-wrap">
       <input id="search" type="search" placeholder="Search name, pinyin, instruction…" autocomplete="off" aria-label="Search techniques" />
       <label class="toggle">
+        <input type="checkbox" id="composedGlyphs" checked />
+        <span>Composed glyphs</span>
+      </label>
+      <label class="toggle">
         <input type="checkbox" id="poeticOnly" />
-        <span>Poetic gestures only</span>
+        <span>Poetic only</span>
       </label>
     </div>
   </header>
@@ -33,6 +37,12 @@
         <span class="nav-count" data-count="all"></span>
       </button>
       <div id="navCategories"></div>
+      <a class="nav-item nav-link" href="#gallery">
+        <span class="nav-label">Poetic gesture gallery</span>
+      </a>
+      <a class="nav-item nav-link" href="#composer">
+        <span class="nav-label">Jianzipu composer</span>
+      </a>
       <a class="nav-item nav-link" href="#resources">
         <span class="nav-label">Resources &amp; sources</span>
       </a>
@@ -41,6 +51,8 @@
 
     <main class="content" id="content">
       <div id="results"></div>
+      <section id="gallery" class="resources"></section>
+      <section id="composer" class="resources"></section>
       <section id="resources" class="resources"></section>
     </main>
   </div>

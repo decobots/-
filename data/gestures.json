@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "title": "Poetic Hand-Gesture Images · 手勢圖 shǒushì tú",
+    "intro": "The classical handbooks pair each finger technique with a poetic nature-image and a four-character verse introduced by \"興曰 Xìng yuē\" — the Book of Songs metaphor device. The Taiyin Daquanji set has 33 illustrations (17 right-hand, then 16 left-hand). Below, each gesture is shown with the composed jianzipu glyph from the bundled Qin font, the Chinese verse where it is in the public domain, a paraphrased theme, and a link to view the original woodblock and full translation on silkqin.com.",
+    "fullSetSource": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
+    "historySource": "https://silkqin.com/09hist/qscb/qscb06c6.htm",
+    "imageRightsNote": "The woodblock prints are historical (likely public-domain artworks), but the photographic reproductions and English translations on silkqin.com are John Thompson's work and are not copied here — follow the source link to view them.",
+    "counts": { "rightHand": 17, "leftHand": 16, "total": 33 }
+  },
+  "gestures": [
+    {
+      "technique_id": "B3",
+      "name_hanzi": "勾",
+      "name_pinyin": "gōu",
+      "image_title": "Lone duck looks back at the flock",
+      "verse_hanzi": "孤鶩顧群",
+      "verse_pinyin": "gū wù gù qún",
+      "theme": "Longing; the solitary bird turning back toward its companions — the middle finger drawing inward.",
+      "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm"
+    },
+    {
+      "technique_id": "C2",
+      "name_hanzi": "猱",
+      "name_pinyin": "náo",
+      "image_title": "The howling ape climbing the tall tree",
+      "verse_hanzi": "瞻彼號猿，升於喬木。欲上不上，其勢逐逐",
+      "verse_pinyin": "zhān bǐ háo yuán, shēng yú qiáo mù; yù shàng bù shàng, qí shì zhú zhú",
+      "theme": "Behold the howling ape climbing the tall tree; wishing to go up yet not up, its momentum pressing on — the wide, surging vibrato.",
+      "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm"
+    },
+    {
+      "technique_id": "C1",
+      "name_hanzi": "吟",
+      "name_pinyin": "yín",
+      "image_title": "The autumn cicada",
+      "verse_hanzi": null,
+      "verse_pinyin": null,
+      "theme": "Likened to a cicada singing in autumn — a fine, shimmering vibrato that swells then fades.",
+      "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm"
+    },
+    {
+      "technique_id": "B2",
+      "name_hanzi": "挑",
+      "name_pinyin": "tiāo",
+      "image_title": "Right-hand gesture (see source woodblock)",
+      "verse_hanzi": null,
+      "verse_pinyin": null,
+      "theme": "Index finger flicking outward — one of the seventeen right-hand gestures.",
+      "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm"
+    },
+    {
+      "technique_id": "B1",
+      "name_hanzi": "抹",
+      "name_pinyin": "mǒ",
+      "image_title": "Right-hand gesture (see source woodblock)",
+      "verse_hanzi": null,
+      "verse_pinyin": null,
+      "theme": "Index finger drawing inward — one of the seventeen right-hand gestures.",
+      "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm"
+    },
+    {
+      "technique_id": "B5",
+      "name_hanzi": "打",
+      "name_pinyin": "dǎ",
+      "image_title": "Right-hand gesture (see source woodblock)",
+      "verse_hanzi": null,
+      "verse_pinyin": null,
+      "theme": "Ring finger striking inward — one of the seventeen right-hand gestures.",
+      "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm"
+    },
+    {
+      "technique_id": "B9",
+      "name_hanzi": "撮",
+      "name_pinyin": "cuō",
+      "image_title": "Right-hand gesture (see source woodblock)",
+      "verse_hanzi": null,
+      "verse_pinyin": null,
+      "theme": "Two strings pinched together into one sound — one of the seventeen right-hand gestures.",
+      "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm"
+    },
+    {
+      "technique_id": "E7",
+      "name_hanzi": "逗",
+      "name_pinyin": "dòu",
+      "image_title": "Left-hand gesture (see source woodblock)",
+      "verse_hanzi": null,
+      "verse_pinyin": null,
+      "theme": "A quick up-and-back of the pressing finger, made with the pluck — one of the sixteen left-hand gestures.",
+      "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm"
+    }
+  ]
+}

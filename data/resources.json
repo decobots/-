@@ -107,7 +107,8 @@
     "Pei-You (Judy) Chang (peiyouqin.com): instructions, images, and demonstration videos are her copyrighted work (© Judy (Pei-You) Chang). For an app, link to her pages or request licensing — do not redistribute her videos/images without permission.",
     "John Thompson / silkqin.com: translations and photographic reproductions of the Taiyin Daquanji gesture-images are his work. The underlying woodblock images are historical (likely public domain), but his scans/translations are not — request permission or link out.",
     "The technique instructions in this reference are paraphrased/summarized for spec purposes; the wording here may be used freely, but the original videos and images must be sourced and cleared as above.",
-    "The Chinese-language enthusiast pages (guoqinwang, Zhihu) are convenient references but of uncertain rights — treat as background, not shippable assets."
+    "The Chinese-language enthusiast pages (guoqinwang, Zhihu) are convenient references but of uncertain rights — treat as background, not shippable assets.",
+    "Bundled fonts (assets/fonts/): Qin Jianzipu (qinfont.woff2; jianzipu designs © Yijun Hu, based on Noto Sans SC; from Adrakaris/guqin-jianzipu-font) and a subset of Noto Serif SC are both under the SIL Open Font License 1.1 — see assets/fonts/OFL.txt. They may be redistributed with this software but not sold on their own."
   ],
   "coverageNote": "Sections A–G cover roughly 60 named techniques — the working vocabulary of modern practice. Historical handbooks document on the order of 1,000+ finger-technique glyphs (most obsolete). For completeness on historical tablature, expand from the silkqin Taiyin Daquanji folios and Zha Fuxi's reference Cunjian Guqin Zhifa Puzi Jilan. For a learner-facing product, A–G plus the poetic images is the right scope."
 }
