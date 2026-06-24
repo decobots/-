@@ -225,7 +225,16 @@
           "relation": "builds-on",
           "label": "builds on"
         }
-      ]
+      ],
+      "movement": {
+        "mode": "seq",
+        "steps": [
+          {
+            "finger": 2,
+            "dir": "down"
+          }
+        ]
+      }
     },
     {
       "id": "B2",
@@ -264,7 +273,16 @@
           "relation": "opposite",
           "label": "opposite"
         }
-      ]
+      ],
+      "movement": {
+        "mode": "seq",
+        "steps": [
+          {
+            "finger": 2,
+            "dir": "up"
+          }
+        ]
+      }
     },
     {
       "id": "B3",
@@ -318,7 +336,16 @@
           "relation": "builds-on",
           "label": "builds on"
         }
-      ]
+      ],
+      "movement": {
+        "mode": "seq",
+        "steps": [
+          {
+            "finger": 3,
+            "dir": "down"
+          }
+        ]
+      }
     },
     {
       "id": "B4",
@@ -357,7 +384,16 @@
           "relation": "opposite",
           "label": "opposite"
         }
-      ]
+      ],
+      "movement": {
+        "mode": "seq",
+        "steps": [
+          {
+            "finger": 3,
+            "dir": "up"
+          }
+        ]
+      }
     },
     {
       "id": "B5",
@@ -396,7 +432,16 @@
           "relation": "opposite",
           "label": "opposite"
         }
-      ]
+      ],
+      "movement": {
+        "mode": "seq",
+        "steps": [
+          {
+            "finger": 4,
+            "dir": "down"
+          }
+        ]
+      }
     },
     {
       "id": "B6",
@@ -435,7 +480,16 @@
           "relation": "opposite",
           "label": "opposite"
         }
-      ]
+      ],
+      "movement": {
+        "mode": "seq",
+        "steps": [
+          {
+            "finger": 4,
+            "dir": "up"
+          }
+        ]
+      }
     },
     {
       "id": "B7",
@@ -474,7 +528,16 @@
           "relation": "opposite",
           "label": "opposite"
         }
-      ]
+      ],
+      "movement": {
+        "mode": "seq",
+        "steps": [
+          {
+            "finger": 1,
+            "dir": "up"
+          }
+        ]
+      }
     },
     {
       "id": "B8",
@@ -513,7 +576,16 @@
           "relation": "opposite",
           "label": "opposite"
         }
-      ]
+      ],
+      "movement": {
+        "mode": "seq",
+        "steps": [
+          {
+            "finger": 1,
+            "dir": "down"
+          }
+        ]
+      }
     },
     {
       "id": "B9",
@@ -531,17 +603,16 @@
         "https://peiyouqin.com/notation2.html"
       ],
       "notes": null,
-      "video_url": "https://www.youtube.com/watch?v=PF1yYBzTxvk",
+      "video_url": "https://www.youtube.com/watch?v=LDCild8wNsE",
       "video_kind": "youtube",
-      "video_id": "PF1yYBzTxvk",
-      "video_shared": true,
+      "video_id": "LDCild8wNsE",
+      "video_shared": false,
       "glyph_image": "assets/glyphs/peiyou/zuoN.jpg",
-      "photo": "assets/photos/peiyou/cuo.jpg",
       "media": [
         {
           "type": "youtube",
-          "id": "PF1yYBzTxvk",
-          "label": "Demonstration · the 8 basic strokes"
+          "id": "LDCild8wNsE",
+          "label": "Demonstration"
         }
       ],
       "related": [
@@ -560,7 +631,20 @@
           "relation": "opposite",
           "label": "opposite"
         }
-      ]
+      ],
+      "movement": {
+        "mode": "together",
+        "steps": [
+          {
+            "finger": 2,
+            "dir": "up"
+          },
+          {
+            "finger": 3,
+            "dir": "down"
+          }
+        ]
+      }
     },
     {
       "id": "B10",
@@ -575,18 +659,7 @@
       "source_url": [
         "https://silkqin.com/02qnpu/05tydq/ty5c.htm"
       ],
-      "notes": "Historical; superseded by 撮.",
-      "video_url": "https://www.youtube.com/watch?v=PF1yYBzTxvk",
-      "video_kind": "youtube",
-      "video_id": "PF1yYBzTxvk",
-      "video_shared": true,
-      "media": [
-        {
-          "type": "youtube",
-          "id": "PF1yYBzTxvk",
-          "label": "Demonstration · the 8 basic strokes"
-        }
-      ]
+      "notes": "Historical; superseded by 撮."
     },
     {
       "id": "B11",
@@ -603,17 +676,16 @@
         "https://peiyouqin.com/notation2.html"
       ],
       "notes": null,
-      "video_url": "https://www.youtube.com/watch?v=PF1yYBzTxvk",
+      "video_url": "https://www.youtube.com/watch?v=8abtVEgthRk",
       "video_kind": "youtube",
-      "video_id": "PF1yYBzTxvk",
-      "video_shared": true,
+      "video_id": "8abtVEgthRk",
+      "video_shared": false,
       "glyph_image": "assets/glyphs/peiyou/lunN.jpg",
-      "photo": "assets/photos/peiyou/lun1.jpg",
       "media": [
         {
           "type": "youtube",
-          "id": "PF1yYBzTxvk",
-          "label": "Demonstration · the 8 basic strokes"
+          "id": "8abtVEgthRk",
+          "label": "Demonstration"
         }
       ],
       "related": [
@@ -622,7 +694,24 @@
           "relation": "component-of",
           "label": "component of"
         }
-      ]
+      ],
+      "movement": {
+        "mode": "seq",
+        "steps": [
+          {
+            "finger": 4,
+            "dir": "up"
+          },
+          {
+            "finger": 3,
+            "dir": "up"
+          },
+          {
+            "finger": 2,
+            "dir": "up"
+          }
+        ]
+      }
     },
     {
       "id": "B12",
@@ -639,26 +728,28 @@
         "https://peiyouqin.com/notation2.html"
       ],
       "notes": null,
-      "video_url": "https://www.youtube.com/watch?v=PF1yYBzTxvk",
-      "video_kind": "youtube",
-      "video_id": "PF1yYBzTxvk",
-      "video_shared": true,
       "glyph_image": "assets/glyphs/peiyou/banlunN.jpg",
-      "photo": "assets/photos/peiyou/banlun.jpg",
-      "media": [
-        {
-          "type": "youtube",
-          "id": "PF1yYBzTxvk",
-          "label": "Demonstration · the 8 basic strokes"
-        }
-      ],
+      "photo": "assets/photos/peiyou/banlunbig.jpg",
       "related": [
         {
           "id": "B11",
           "relation": "builds-on",
           "label": "builds on"
         }
-      ]
+      ],
+      "movement": {
+        "mode": "seq",
+        "steps": [
+          {
+            "finger": 3,
+            "dir": "up"
+          },
+          {
+            "finger": 2,
+            "dir": "up"
+          }
+        ]
+      }
     },
     {
       "id": "B13",
@@ -674,17 +765,6 @@
         "https://peiyouqin.com/notation2.html"
       ],
       "notes": null,
-      "video_url": "https://www.youtube.com/watch?v=PF1yYBzTxvk",
-      "video_kind": "youtube",
-      "video_id": "PF1yYBzTxvk",
-      "video_shared": true,
-      "media": [
-        {
-          "type": "youtube",
-          "id": "PF1yYBzTxvk",
-          "label": "Demonstration · the 8 basic strokes"
-        }
-      ],
       "related": [
         {
           "id": "B14",
@@ -717,17 +797,16 @@
         "https://peiyouqin.com/notation2.html"
       ],
       "notes": null,
-      "video_url": "https://www.youtube.com/watch?v=PF1yYBzTxvk",
+      "video_url": "https://www.youtube.com/watch?v=Rv4iPF1jxnw",
       "video_kind": "youtube",
-      "video_id": "PF1yYBzTxvk",
-      "video_shared": true,
+      "video_id": "Rv4iPF1jxnw",
+      "video_shared": false,
       "glyph_image": "assets/glyphs/peiyou/changsuoN.jpg",
-      "photo": "assets/photos/peiyou/changsuo1.jpg",
       "media": [
         {
           "type": "youtube",
-          "id": "PF1yYBzTxvk",
-          "label": "Demonstration · the 8 basic strokes"
+          "id": "Rv4iPF1jxnw",
+          "label": "Demonstration"
         }
       ],
       "related": [
@@ -753,17 +832,6 @@
         "https://silkqin.com/02qnpu/05tydq/ty5c.htm"
       ],
       "notes": null,
-      "video_url": "https://www.youtube.com/watch?v=PF1yYBzTxvk",
-      "video_kind": "youtube",
-      "video_id": "PF1yYBzTxvk",
-      "video_shared": true,
-      "media": [
-        {
-          "type": "youtube",
-          "id": "PF1yYBzTxvk",
-          "label": "Demonstration · the 8 basic strokes"
-        }
-      ],
       "related": [
         {
           "id": "B16",
@@ -802,17 +870,6 @@
         "https://silkqin.com/02qnpu/05tydq/ty5c.htm"
       ],
       "notes": null,
-      "video_url": "https://www.youtube.com/watch?v=PF1yYBzTxvk",
-      "video_kind": "youtube",
-      "video_id": "PF1yYBzTxvk",
-      "video_shared": true,
-      "media": [
-        {
-          "type": "youtube",
-          "id": "PF1yYBzTxvk",
-          "label": "Demonstration · the 8 basic strokes"
-        }
-      ],
       "related": [
         {
           "id": "B15",
@@ -835,17 +892,6 @@
         "https://silkqin.com/02qnpu/05tydq/ty5c.htm"
       ],
       "notes": null,
-      "video_url": "https://www.youtube.com/watch?v=PF1yYBzTxvk",
-      "video_kind": "youtube",
-      "video_id": "PF1yYBzTxvk",
-      "video_shared": true,
-      "media": [
-        {
-          "type": "youtube",
-          "id": "PF1yYBzTxvk",
-          "label": "Demonstration · the 8 basic strokes"
-        }
-      ],
       "related": [
         {
           "id": "B18",
@@ -868,17 +914,6 @@
         "https://silkqin.com/02qnpu/05tydq/ty5c.htm"
       ],
       "notes": null,
-      "video_url": "https://www.youtube.com/watch?v=PF1yYBzTxvk",
-      "video_kind": "youtube",
-      "video_id": "PF1yYBzTxvk",
-      "video_shared": true,
-      "media": [
-        {
-          "type": "youtube",
-          "id": "PF1yYBzTxvk",
-          "label": "Demonstration · the 8 basic strokes"
-        }
-      ],
       "related": [
         {
           "id": "B17",
@@ -902,17 +937,16 @@
         "https://peiyouqin.com/notation2.html"
       ],
       "notes": "Often paired with 剌 as 撥剌 bō là.",
-      "video_url": "https://www.youtube.com/watch?v=PF1yYBzTxvk",
+      "video_url": "https://www.youtube.com/watch?v=MvXMMWOc-tk",
       "video_kind": "youtube",
-      "video_id": "PF1yYBzTxvk",
-      "video_shared": true,
+      "video_id": "MvXMMWOc-tk",
+      "video_shared": false,
       "glyph_image": "assets/glyphs/peiyou/baN.jpg",
-      "photo": "assets/photos/peiyou/bo12.jpg",
       "media": [
         {
           "type": "youtube",
-          "id": "PF1yYBzTxvk",
-          "label": "Demonstration · the 8 basic strokes"
+          "id": "MvXMMWOc-tk",
+          "label": "Demonstration"
         }
       ],
       "related": [
@@ -938,17 +972,16 @@
         "https://peiyouqin.com/notation2.html"
       ],
       "notes": null,
-      "video_url": "https://www.youtube.com/watch?v=PF1yYBzTxvk",
+      "video_url": "https://www.youtube.com/watch?v=RLvs3787qwI",
       "video_kind": "youtube",
-      "video_id": "PF1yYBzTxvk",
-      "video_shared": true,
+      "video_id": "RLvs3787qwI",
+      "video_shared": false,
       "glyph_image": "assets/glyphs/peiyou/ciN.jpg",
-      "photo": "assets/photos/peiyou/la.jpg",
       "media": [
         {
           "type": "youtube",
-          "id": "PF1yYBzTxvk",
-          "label": "Demonstration · the 8 basic strokes"
+          "id": "RLvs3787qwI",
+          "label": "Demonstration"
         }
       ],
       "related": [
@@ -973,17 +1006,16 @@
         "https://peiyouqin.com/notation2.html"
       ],
       "notes": "Often paired with 拂 as 滾拂 gǔn fú.",
-      "video_url": "https://www.youtube.com/watch?v=PF1yYBzTxvk",
+      "video_url": "https://www.youtube.com/watch?v=agnBkhuA53A",
       "video_kind": "youtube",
-      "video_id": "PF1yYBzTxvk",
-      "video_shared": true,
+      "video_id": "agnBkhuA53A",
+      "video_shared": false,
       "glyph_image": "assets/glyphs/peiyou/guenN.jpg",
-      "photo": "assets/photos/peiyou/guen.jpg",
       "media": [
         {
           "type": "youtube",
-          "id": "PF1yYBzTxvk",
-          "label": "Demonstration · the 8 basic strokes"
+          "id": "agnBkhuA53A",
+          "label": "Demonstration"
         }
       ],
       "related": [
@@ -1013,17 +1045,16 @@
         "https://peiyouqin.com/notation2.html"
       ],
       "notes": null,
-      "video_url": "https://www.youtube.com/watch?v=PF1yYBzTxvk",
+      "video_url": "https://www.youtube.com/watch?v=TCIvIHDToKU",
       "video_kind": "youtube",
-      "video_id": "PF1yYBzTxvk",
-      "video_shared": true,
+      "video_id": "TCIvIHDToKU",
+      "video_shared": false,
       "glyph_image": "assets/glyphs/peiyou/fuoN.jpg",
-      "photo": "assets/photos/peiyou/fuo1.jpg",
       "media": [
         {
           "type": "youtube",
-          "id": "PF1yYBzTxvk",
-          "label": "Demonstration · the 8 basic strokes"
+          "id": "TCIvIHDToKU",
+          "label": "Demonstration"
         }
       ],
       "related": [
@@ -1904,7 +1935,6 @@
       ],
       "notes": "Common in beginner pieces (e.g. 古琴吟).",
       "glyph_image": "assets/glyphs/peiyou/qiaqiN.jpg",
-      "photo": "assets/photos/peiyou/qiaqi.jpg",
       "related": [
         {
           "id": "B39",
@@ -1920,6 +1950,17 @@
           "id": "F4",
           "relation": "opposite",
           "label": "opposite"
+        }
+      ],
+      "video_id": "91NcQJiXdAc",
+      "video_kind": "youtube",
+      "video_url": "https://www.youtube.com/watch?v=91NcQJiXdAc",
+      "video_shared": false,
+      "media": [
+        {
+          "type": "youtube",
+          "id": "91NcQJiXdAc",
+          "label": "Demonstration"
         }
       ]
     },
@@ -1938,7 +1979,17 @@
       ],
       "notes": null,
       "glyph_image": "assets/glyphs/peiyou/zhuaqiN.jpg",
-      "photo": "assets/photos/peiyou/zhuaqi.jpg"
+      "video_id": "KRDxHg4hf88",
+      "video_kind": "youtube",
+      "video_url": "https://www.youtube.com/watch?v=KRDxHg4hf88",
+      "video_shared": false,
+      "media": [
+        {
+          "type": "youtube",
+          "id": "KRDxHg4hf88",
+          "label": "Demonstration"
+        }
+      ]
     },
     {
       "id": "F3",
@@ -1956,7 +2007,6 @@
       ],
       "notes": null,
       "glyph_image": "assets/glyphs/peiyou/daiqiN.jpg",
-      "photo": "assets/photos/peiyou/daiqi.jpg",
       "related": [
         {
           "id": "F1",
@@ -1972,6 +2022,17 @@
           "id": "F13",
           "relation": "component-of",
           "label": "component of"
+        }
+      ],
+      "video_id": "ZPMhPFs2Z-g",
+      "video_kind": "youtube",
+      "video_url": "https://www.youtube.com/watch?v=ZPMhPFs2Z-g",
+      "video_shared": false,
+      "media": [
+        {
+          "type": "youtube",
+          "id": "ZPMhPFs2Z-g",
+          "label": "Demonstration"
         }
       ]
     },
@@ -1991,7 +2052,6 @@
       ],
       "notes": null,
       "glyph_image": "assets/glyphs/peiyou/yanN.jpg",
-      "photo": "assets/photos/peiyou/yan.jpg",
       "related": [
         {
           "id": "B39",
@@ -2007,6 +2067,17 @@
           "id": "F1",
           "relation": "opposite",
           "label": "opposite"
+        }
+      ],
+      "video_id": "X-OL_Fa-N1k",
+      "video_kind": "youtube",
+      "video_url": "https://www.youtube.com/watch?v=X-OL_Fa-N1k",
+      "video_shared": false,
+      "media": [
+        {
+          "type": "youtube",
+          "id": "X-OL_Fa-N1k",
+          "label": "Demonstration"
         }
       ]
     },
@@ -2025,12 +2096,22 @@
       ],
       "notes": null,
       "glyph_image": "assets/glyphs/peiyou/xuyanN.jpg",
-      "photo": "assets/photos/peiyou/xuyan.jpg",
       "related": [
         {
           "id": "F4",
           "relation": "builds-on",
           "label": "builds on"
+        }
+      ],
+      "video_id": "k5iXBiF5Udc",
+      "video_kind": "youtube",
+      "video_url": "https://www.youtube.com/watch?v=k5iXBiF5Udc",
+      "video_shared": false,
+      "media": [
+        {
+          "type": "youtube",
+          "id": "k5iXBiF5Udc",
+          "label": "Demonstration"
         }
       ]
     },
@@ -2049,12 +2130,22 @@
       ],
       "notes": "Notated by the reduced glyph that reads 拙. Common in beginner pieces (e.g. 古琴吟).",
       "glyph_image": "assets/glyphs/peiyou/tuichuN.jpg",
-      "photo": "assets/photos/peiyou/tueichu.jpg",
       "related": [
         {
           "id": "F13",
           "relation": "component-of",
           "label": "component of"
+        }
+      ],
+      "video_id": "MrxWPmYDVZM",
+      "video_kind": "youtube",
+      "video_url": "https://www.youtube.com/watch?v=MrxWPmYDVZM",
+      "video_shared": false,
+      "media": [
+        {
+          "type": "youtube",
+          "id": "MrxWPmYDVZM",
+          "label": "Demonstration"
         }
       ]
     },
@@ -2073,7 +2164,6 @@
       ],
       "notes": null,
       "glyph_image": "assets/glyphs/peiyou/jingfuN.jpg",
-      "photo": "assets/photos/peiyou/jinfu.jpg",
       "related": [
         {
           "id": "F8",
@@ -2084,6 +2174,17 @@
           "id": "F9",
           "relation": "builds-on",
           "label": "builds on"
+        }
+      ],
+      "video_id": "oWgvFBkxMmg",
+      "video_kind": "youtube",
+      "video_url": "https://www.youtube.com/watch?v=oWgvFBkxMmg",
+      "video_shared": false,
+      "media": [
+        {
+          "type": "youtube",
+          "id": "oWgvFBkxMmg",
+          "label": "Demonstration"
         }
       ]
     },
@@ -2102,7 +2203,6 @@
       ],
       "notes": null,
       "glyph_image": "assets/glyphs/peiyou/tuifuN.jpg",
-      "photo": "assets/photos/peiyou/tuifu.jpg",
       "related": [
         {
           "id": "F7",
@@ -2113,6 +2213,17 @@
           "id": "F10",
           "relation": "builds-on",
           "label": "builds on"
+        }
+      ],
+      "video_id": "g8GPyDgU77A",
+      "video_kind": "youtube",
+      "video_url": "https://www.youtube.com/watch?v=g8GPyDgU77A",
+      "video_shared": false,
+      "media": [
+        {
+          "type": "youtube",
+          "id": "g8GPyDgU77A",
+          "label": "Demonstration"
         }
       ]
     },
@@ -2280,14 +2391,27 @@
       "instruction_text": "The combination of Muǒ and Tiaǒ, the index finger plucks the string first then strums.",
       "source_url": [],
       "glyph_image": "assets/glyphs/peiyou/motiaoN.jpg",
-      "photo": "assets/photos/peiyou/motiao.jpg",
+      "photo": "assets/photos/peiyou/motiaobig.jpg",
       "related": [
         {
           "id": "B1",
           "relation": "component-of",
           "label": "component of"
         }
-      ]
+      ],
+      "movement": {
+        "mode": "seq",
+        "steps": [
+          {
+            "finger": 2,
+            "dir": "down"
+          },
+          {
+            "finger": 2,
+            "dir": "up"
+          }
+        ]
+      }
     },
     {
       "id": "B24",
@@ -2299,14 +2423,27 @@
       "instruction_text": "The combination of Gou and Ti, the middle finger plucks the string first then strums.",
       "source_url": [],
       "glyph_image": "assets/glyphs/peiyou/goutiN.jpg",
-      "photo": "assets/photos/peiyou/gouti.jpg",
+      "photo": "assets/photos/peiyou/goutibig.jpg",
       "related": [
         {
           "id": "B3",
           "relation": "component-of",
           "label": "component of"
         }
-      ]
+      ],
+      "movement": {
+        "mode": "seq",
+        "steps": [
+          {
+            "finger": 3,
+            "dir": "down"
+          },
+          {
+            "finger": 3,
+            "dir": "up"
+          }
+        ]
+      }
     },
     {
       "id": "B25",
@@ -2318,7 +2455,7 @@
       "instruction_text": "The combination of Muǒ and Gou, on the same string, do Muǒ first then Gou, it creates 2 gradually continuing sounds.",
       "source_url": [],
       "glyph_image": "assets/glyphs/peiyou/mogouN.jpg",
-      "photo": "assets/photos/peiyou/mogou.jpg",
+      "photo": "assets/photos/peiyou/mogoubig.jpg",
       "related": [
         {
           "id": "B15",
@@ -2330,7 +2467,20 @@
           "relation": "faster-slower",
           "label": "slower form of"
         }
-      ]
+      ],
+      "movement": {
+        "mode": "seq",
+        "steps": [
+          {
+            "finger": 2,
+            "dir": "down"
+          },
+          {
+            "finger": 3,
+            "dir": "down"
+          }
+        ]
+      }
     },
     {
       "id": "B26",
@@ -2342,14 +2492,37 @@
       "instruction_text": "Same as Muǒ Gou but faster.",
       "source_url": [],
       "glyph_image": "assets/glyphs/peiyou/deijuanN.jpg",
-      "photo": "assets/photos/peiyou/diejuan1.jpg",
       "related": [
         {
           "id": "B25",
           "relation": "faster-slower",
           "label": "slower form of"
         }
-      ]
+      ],
+      "video_id": "tC_-0HYtyBY",
+      "video_kind": "youtube",
+      "video_url": "https://www.youtube.com/watch?v=tC_-0HYtyBY",
+      "video_shared": false,
+      "media": [
+        {
+          "type": "youtube",
+          "id": "tC_-0HYtyBY",
+          "label": "Demonstration"
+        }
+      ],
+      "movement": {
+        "mode": "seq",
+        "steps": [
+          {
+            "finger": 2,
+            "dir": "down"
+          },
+          {
+            "finger": 3,
+            "dir": "down"
+          }
+        ]
+      }
     },
     {
       "id": "B27",
@@ -2361,12 +2534,22 @@
       "instruction_text": "On the same string, use Ti Muǒ Tiaǒ to play a fast continuing 3 sounds. Use the tip of the nails, don't put them too deep into the string.",
       "source_url": [],
       "glyph_image": "assets/glyphs/peiyou/beisuoN.jpg",
-      "photo": "assets/photos/peiyou/beisuo1.jpg",
       "related": [
         {
           "id": "B13",
           "relation": "builds-on",
           "label": "builds on"
+        }
+      ],
+      "video_id": "3q83s-wcbMg",
+      "video_kind": "youtube",
+      "video_url": "https://www.youtube.com/watch?v=3q83s-wcbMg",
+      "video_shared": false,
+      "media": [
+        {
+          "type": "youtube",
+          "id": "3q83s-wcbMg",
+          "label": "Demonstration"
         }
       ]
     },
@@ -2380,12 +2563,22 @@
       "instruction_text": "On the same string, do Muǒ Gou first, a slowly and gradually continuing sound, then following with Ti Muǒ Tiaǒ, a faster continuing sound.",
       "source_url": [],
       "glyph_image": "assets/glyphs/peiyou/duansuoN.jpg",
-      "photo": "assets/photos/peiyou/duansuo1.jpg",
       "related": [
         {
           "id": "B13",
           "relation": "builds-on",
           "label": "builds on"
+        }
+      ],
+      "video_id": "73vplSbOtvE",
+      "video_kind": "youtube",
+      "video_url": "https://www.youtube.com/watch?v=73vplSbOtvE",
+      "video_shared": false,
+      "media": [
+        {
+          "type": "youtube",
+          "id": "73vplSbOtvE",
+          "label": "Demonstration"
         }
       ]
     },
@@ -2399,7 +2592,17 @@
       "instruction_text": "Rú Yi literally means \"as one.\" When there are 2 strings that can be created an Àn Yin and a Săn Yin with the same sound at one time, use the middle finger or index finger (usually use the middle finger) to strum the 2 strings together.",
       "source_url": [],
       "glyph_image": "assets/glyphs/peiyou/ruyiN.jpg",
-      "photo": "assets/photos/peiyou/ruyiv.jpg"
+      "video_id": "AvbfUiy4tLw",
+      "video_kind": "youtube",
+      "video_url": "https://www.youtube.com/watch?v=AvbfUiy4tLw",
+      "video_shared": false,
+      "media": [
+        {
+          "type": "youtube",
+          "id": "AvbfUiy4tLw",
+          "label": "Demonstration"
+        }
+      ]
     },
     {
       "id": "B30",
@@ -2411,7 +2614,30 @@
       "instruction_text": "Same as Rú Yi but play twice. Before strumming the string, position the index and middle finger above the thumb, do Ti then Tiaǒ. Some tablature will indicate a \"Shuang Tán\" follow by a \"Rú Yi,\" which reminds the player that making the two previous sound as one sound. Main Menu / 1 / 2 / 3 / Copyright ©2001-2013 Judy (Pei-You) Chang",
       "source_url": [],
       "glyph_image": "assets/glyphs/peiyou/shungtanN.jpg",
-      "photo": "assets/photos/peiyou/shuangtan.jpg"
+      "video_id": "Qn-sJks7EmQ",
+      "video_kind": "youtube",
+      "video_url": "https://www.youtube.com/watch?v=Qn-sJks7EmQ",
+      "video_shared": false,
+      "media": [
+        {
+          "type": "youtube",
+          "id": "Qn-sJks7EmQ",
+          "label": "Demonstration"
+        }
+      ],
+      "movement": {
+        "mode": "seq",
+        "steps": [
+          {
+            "finger": 2,
+            "dir": "up"
+          },
+          {
+            "finger": 3,
+            "dir": "up"
+          }
+        ]
+      }
     },
     {
       "id": "B31",
@@ -2423,7 +2649,17 @@
       "instruction_text": "Do Bo first with lighter strength then Lá later with strong strength.",
       "source_url": [],
       "glyph_image": "assets/glyphs/peiyou/baciN.jpg",
-      "photo": "assets/photos/peiyou/bola.jpg"
+      "video_id": "e2z60q6quYI",
+      "video_kind": "youtube",
+      "video_url": "https://www.youtube.com/watch?v=e2z60q6quYI",
+      "video_shared": false,
+      "media": [
+        {
+          "type": "youtube",
+          "id": "e2z60q6quYI",
+          "label": "Demonstration"
+        }
+      ]
     },
     {
       "id": "B32",
@@ -2435,7 +2671,17 @@
       "instruction_text": "After doing Lá or Bo Lá , flatten together of the index, middle and ring finger and place them on the strings to stop the sound.",
       "source_url": [],
       "glyph_image": "assets/glyphs/peiyou/fuN.jpg",
-      "photo": "assets/photos/peiyou/fu1.jpg"
+      "video_id": "efMip9OgyzQ",
+      "video_kind": "youtube",
+      "video_url": "https://www.youtube.com/watch?v=efMip9OgyzQ",
+      "video_shared": false,
+      "media": [
+        {
+          "type": "youtube",
+          "id": "efMip9OgyzQ",
+          "label": "Demonstration"
+        }
+      ]
     },
     {
       "id": "B33",
@@ -2447,14 +2693,37 @@
       "instruction_text": "Using the thumb and middle finger (Tuo, Gou) to pluck two strings(either the 1st and 6th or the 2nd and 7th) at the same time.The strength must be the same.",
       "source_url": [],
       "glyph_image": "assets/glyphs/peiyou/dazuoN.jpg",
-      "photo": "assets/photos/peiyou/dacuo.jpg",
       "related": [
         {
           "id": "B9",
           "relation": "builds-on",
           "label": "builds on"
         }
-      ]
+      ],
+      "video_id": "pcB6wWJwE1s",
+      "video_kind": "youtube",
+      "video_url": "https://www.youtube.com/watch?v=pcB6wWJwE1s",
+      "video_shared": false,
+      "media": [
+        {
+          "type": "youtube",
+          "id": "pcB6wWJwE1s",
+          "label": "Demonstration"
+        }
+      ],
+      "movement": {
+        "mode": "together",
+        "steps": [
+          {
+            "finger": 1,
+            "dir": "down"
+          },
+          {
+            "finger": 3,
+            "dir": "down"
+          }
+        ]
+      }
     },
     {
       "id": "B34",
@@ -2466,14 +2735,37 @@
       "instruction_text": "The opposite of Cuo, usually used after Cuo. Using the thumb and middle finger (Bò, Ti) or the index and middle finger (Muǒ, Ti) to strum and pluck two strings together.",
       "source_url": [],
       "glyph_image": "assets/glyphs/peiyou/fanzuoN.jpg",
-      "photo": "assets/photos/peiyou/fancuo.jpg",
       "related": [
         {
           "id": "B9",
           "relation": "opposite",
           "label": "opposite"
         }
-      ]
+      ],
+      "video_id": "0dMgHFGZUEc",
+      "video_kind": "youtube",
+      "video_url": "https://www.youtube.com/watch?v=0dMgHFGZUEc",
+      "video_shared": false,
+      "media": [
+        {
+          "type": "youtube",
+          "id": "0dMgHFGZUEc",
+          "label": "Demonstration"
+        }
+      ],
+      "movement": {
+        "mode": "together",
+        "steps": [
+          {
+            "finger": 1,
+            "dir": "up"
+          },
+          {
+            "finger": 3,
+            "dir": "up"
+          }
+        ]
+      }
     },
     {
       "id": "B35",
@@ -2485,7 +2777,17 @@
       "instruction_text": "Use Dă, Tiăo or Gou, Tiăo back and forth on 2 strings and consisting of six notes. First Dă, then Tiăo, a slight pause, then rapidly repeat the same movement twice. Fingers must be flexible to create continuous sound.",
       "source_url": [],
       "glyph_image": "assets/glyphs/peiyou/dayuanN.jpg",
-      "photo": "assets/photos/peiyou/dayuan1.jpg"
+      "video_id": "BvmGL2vaaFQ",
+      "video_kind": "youtube",
+      "video_url": "https://www.youtube.com/watch?v=BvmGL2vaaFQ",
+      "video_shared": false,
+      "media": [
+        {
+          "type": "youtube",
+          "id": "BvmGL2vaaFQ",
+          "label": "Demonstration"
+        }
+      ]
     },
     {
       "id": "B36",
@@ -2497,7 +2799,17 @@
       "instruction_text": "The index finger lightly and rapidly strums out 2 or 3 strings in succession.",
       "source_url": [],
       "glyph_image": "assets/glyphs/peiyou/liN.jpg",
-      "photo": "assets/photos/peiyou/li76.jpg"
+      "video_id": "TYQb5grrbLk",
+      "video_kind": "youtube",
+      "video_url": "https://www.youtube.com/watch?v=TYQb5grrbLk",
+      "video_shared": false,
+      "media": [
+        {
+          "type": "youtube",
+          "id": "TYQb5grrbLk",
+          "label": "Demonstration"
+        }
+      ]
     },
     {
       "id": "B37",
@@ -2509,12 +2821,22 @@
       "instruction_text": "The combination of Guěn and Fú. Started from the left inside to the right outside and back to the left inside, like a circle. Main Menu / 1 / 2 / 3 / Copyright ©2001-2018 Judy (Pei-You) Chang",
       "source_url": [],
       "glyph_image": "assets/glyphs/peiyou/guenfuN.jpg",
-      "photo": "assets/photos/peiyou/guenfu1.jpg",
       "related": [
         {
           "id": "B21",
           "relation": "builds-on",
           "label": "builds on"
+        }
+      ],
+      "video_id": "84rCZPIMjxM",
+      "video_kind": "youtube",
+      "video_url": "https://www.youtube.com/watch?v=84rCZPIMjxM",
+      "video_shared": false,
+      "media": [
+        {
+          "type": "youtube",
+          "id": "84rCZPIMjxM",
+          "label": "Demonstration"
         }
       ]
     },
@@ -2577,12 +2899,22 @@
       "instruction_text": "The left middle or ring finger presses down a string, and the right hand plucks it, the left hand stays on the same string and does not move away yet. While the right hand plucks another string, the left hand moves either up or down to the position where it has the same sound as the string that the right hand had played. Eventually making both strings sound together (one is a solid sound, the other is a soft sound).",
       "source_url": [],
       "glyph_image": "assets/glyphs/peiyou/yingheN.jpg",
-      "photo": "assets/photos/peiyou/yinghe.jpg",
       "related": [
         {
           "id": "F14",
           "relation": "compare",
           "label": "compare"
+        }
+      ],
+      "video_id": "3PMFboXB9Dg",
+      "video_kind": "youtube",
+      "video_url": "https://www.youtube.com/watch?v=3PMFboXB9Dg",
+      "video_shared": false,
+      "media": [
+        {
+          "type": "youtube",
+          "id": "3PMFboXB9Dg",
+          "label": "Demonstration"
         }
       ]
     },
@@ -2596,7 +2928,6 @@
       "instruction_text": "This technique is creating a kind of chord. The left hand plucks one string (can be the middle finger Tuīchū, or the ring finger Dàiqǐ or the thumb Zhuāqǐ), at the same time, the right hand plucks another string to make both strings sound together. Main Menu / 1 / 2 / 3 / 4 / Copyright ©2001-2013 Judy (Pei-You) Chang",
       "source_url": [],
       "glyph_image": "assets/glyphs/peiyou/tongshenN.jpg",
-      "photo": "assets/photos/peiyou/tongsheng.jpg",
       "related": [
         {
           "id": "F6",
@@ -2607,6 +2938,17 @@
           "id": "F3",
           "relation": "builds-on",
           "label": "builds on"
+        }
+      ],
+      "video_id": "m3Wwin7IwvI",
+      "video_kind": "youtube",
+      "video_url": "https://www.youtube.com/watch?v=m3Wwin7IwvI",
+      "video_shared": false,
+      "media": [
+        {
+          "type": "youtube",
+          "id": "m3Wwin7IwvI",
+          "label": "Demonstration"
         }
       ]
     },

@@ -367,6 +367,35 @@ html, body { width: 100%; max-width: 100%; overflow-x: hidden; }
 .rel-chip .rel-name { font-family: var(--cjk); }
 .rel-chip .rel-name i { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; color: var(--accent); font-style: italic; font-size: .72rem; }
 
+/* ---------- Hand-movement notation (finger + pluck/strum arrow) ---------- */
+.movement { display: flex; align-items: center; gap: .3rem; flex-wrap: wrap; }
+.mv-step {
+  display: inline-flex; align-items: center; gap: .08rem;
+  background: #211c19; border: 1px solid var(--line); border-radius: 6px;
+  padding: .08rem .4rem; font-size: .84rem;
+}
+.mv-finger { font-weight: 700; color: var(--ink); }
+.mv-arrow { font-weight: 700; }
+.mv-down { color: var(--jade); }   /* ↓ pluck — toward the body / inward */
+.mv-up { color: var(--rust); }     /* ↑ strum — away from the body / outward */
+.mv-join { color: var(--ink-faint); }
+
+/* ---------- Full-screen image viewer ---------- */
+.lightbox {
+  position: fixed; inset: 0;
+  background: rgba(0, 0, 0, .93);
+  display: none; align-items: center; justify-content: center;
+  z-index: 1000; cursor: zoom-out; padding: 2vmin;
+}
+.lightbox.open { display: flex; }
+.lightbox img { max-width: 96vw; max-height: 92vh; object-fit: contain; border-radius: 6px; }
+.lb-close {
+  position: fixed; top: .6rem; right: 1.1rem;
+  background: none; border: none; color: #fff;
+  font-size: 2.4rem; line-height: 1; cursor: pointer;
+}
+.zoomable { cursor: zoom-in; }
+
 .card-notes { font-size: .78rem; color: var(--ink-faint); font-style: italic; }
 
 .card-sources { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: auto; padding-top: .4rem; border-top: 1px solid var(--line); }

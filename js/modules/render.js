@@ -52,10 +52,36 @@ export function jumpToTechnique(id) {
   node.classList.add("flash");
 }
 
-// One delegated handler on the results container: click-to-play a video,
-// or jump to a related technique.
+// Full-screen image viewer (lightbox). Built once, reused for every image.
+function lightbox() {
+  var ov = document.getElementById("lightbox");
+  if (ov) return ov;
+  ov = document.createElement("div");
+  ov.id = "lightbox";
+  ov.className = "lightbox";
+  ov.innerHTML = '<button class="lb-close" aria-label="Close">×</button><img alt="" />';
+  document.body.appendChild(ov);
+  ov.addEventListener("click", function () { ov.classList.remove("open"); });
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape") ov.classList.remove("open");
+  });
+  return ov;
+}
+function openLightbox(src, alt) {
+  var ov = lightbox();
+  var img = ov.querySelector("img");
+  img.src = src;
+  img.alt = alt || "";
+  ov.classList.add("open");
+}
+
+// One delegated handler on the results container: open an image full-screen,
+// click-to-play a video, or jump to a related technique.
 export function bindResultsClicks() {
   el.results.addEventListener("click", function (e) {
+    var zoom = e.target.closest(".zoomable");
+    if (zoom) { openLightbox(zoom.getAttribute("src"), zoom.getAttribute("alt")); return; }
+
     var jump = e.target.closest(".rel-chip");
     if (jump) { jumpToTechnique(jump.getAttribute("data-jump")); return; }
 
