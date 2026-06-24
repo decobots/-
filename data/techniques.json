@@ -2535,7 +2535,8 @@
             "dir": "up"
           }
         ]
-      }
+      },
+      "image": "assets/glyphs/lg_motiao.svg"
     },
     {
       "id": "B24",
@@ -2567,7 +2568,8 @@
             "dir": "up"
           }
         ]
-      }
+      },
+      "image": "assets/glyphs/lg_gouti.svg"
     },
     {
       "id": "B25",
@@ -2793,7 +2795,8 @@
         }
       ],
       "etymology": "Bō-là / pō-cì (潑刺): pō (three joined fingers, down-left) then cì (reversed, up-right) — likened to a wandering fish slapping its tail.",
-      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm"
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm",
+      "image": "assets/glyphs/xl_bola.svg"
     },
     {
       "id": "B32",
@@ -2859,7 +2862,8 @@
             "dir": "down"
           }
         ]
-      }
+      },
+      "image": "assets/glyphs/xl_dacuo.svg"
     },
     {
       "id": "B34",
@@ -2903,7 +2907,8 @@
         ]
       },
       "etymology": "Reversed cuō: where cuō uses gōu+tiāo, the reverse uses mǒ+tī — one sound from two strings.",
-      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm"
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm",
+      "image": "assets/glyphs/xl_fancuo.svg"
     },
     {
       "id": "B35",
@@ -2951,7 +2956,8 @@
         }
       ],
       "etymology": "Index finger connecting tiāo across several adjacent strings; also called dù (度).",
-      "etymology_source": "https://silkqin.com/02qnpu/05tydq/ty5c.htm"
+      "etymology_source": "https://silkqin.com/02qnpu/05tydq/ty5c.htm",
+      "image": "assets/glyphs/lg_li.svg"
     },
     {
       "id": "B37",

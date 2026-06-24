@@ -122,7 +122,9 @@ export function card(t) {
 
   html += '  <div class="card-meta">';
   html += handTag(t.hand);
-  if (t.direction) html += '<span class="tag dir">' + escapeHtml(t.direction) + "</span>";
+  // The movement notation (finger + ↓/↑) already encodes inward/outward, so
+  // only show the textual direction tag when there is no movement notation.
+  if (t.direction && !t.movement) html += '<span class="tag dir">' + escapeHtml(t.direction) + "</span>";
   html += "  </div>";
 
   html += '  <div class="card-top">';
