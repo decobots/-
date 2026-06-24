@@ -230,8 +230,10 @@ html, body { width: 100%; max-width: 100%; overflow-x: hidden; }
   gap: .65rem;
 }
 .card:hover { background: var(--bg-card-hover); border-color: var(--accent-soft); }
+.card { position: relative; }
 
-.card-top { display: flex; align-items: flex-start; gap: .9rem; }
+/* leave room on the right for the absolutely-positioned tag column */
+.card-top { display: flex; align-items: flex-start; gap: .9rem; padding-right: 4.6rem; }
 
 .glyph-box {
   flex: 0 0 auto;
@@ -274,7 +276,14 @@ html, body { width: 100%; max-width: 100%; overflow-x: hidden; }
 .card-name { font-family: var(--cjk); font-size: 1.5rem; line-height: 1.1; margin: .1rem 0; }
 .card-pinyin { font-size: .95rem; color: var(--accent); font-style: italic; }
 
-.card-meta { display: flex; flex-wrap: wrap; gap: .35rem; margin-top: .1rem; }
+/* tag column pinned to the card's top-right corner */
+.card-meta {
+  position: absolute;
+  top: 1rem; right: 1.1rem;
+  display: flex; flex-direction: column; align-items: flex-end;
+  gap: .3rem; margin: 0;
+}
+.card-meta .tag { text-align: right; white-space: nowrap; }
 .tag {
   font-size: .68rem;
   padding: .12rem .45rem;

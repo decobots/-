@@ -22,11 +22,20 @@ jianzipu (减字谱). Lives in repo `decobots/-`, deployed via GitHub Pages at
 - **Bundled fonts** (`assets/fonts/`, SIL OFL, `OFL.txt`): `qinfont.woff2` (composes real
   tablature glyphs via ligatures — see in-app "Jianzipu composer"), `noto-serif-sc-subset.woff2`.
 - **Glyph art** (`assets/glyphs/`, 18 SVGs, MIT, from neuralfirings/JianZiPu).
-- **Videos**: 22 right-hand techniques play **inline** via youtube-nocookie iframe
-  (click-to-play, no redirect). 32 left-hand techniques currently link OUT to their
-  peiyouqin.com page (`video_kind:"page"`). Data came from a user-uploaded
-  `guqingesturelibrary.json`.
-- Mobile: sidebar hidden < 820px (it was a huge stack). Cache-bust on assets is `?v=4`.
+- **Videos**: **38** techniques play **inline** via youtube-nocookie iframe (click-to-play,
+  no redirect, `video_kind:"youtube"` + `video_id`). The peiyouqin extraction is DONE —
+  no technique links out for video anymore (`video_kind:"page"` is gone).
+- **Demo photos** (`assets/photos/`): A1–A5 finger-designation hand photos from peiyouqin
+  (`t.photo`, shown inline on the card). Attribution in `assets/photos/README.txt`.
+- **Poetic gesture gallery** (`data/gestures.json`): the full Taiyin Daquanji set — 33
+  woodblock prints (`assets/photos/gestures/hand01–33.jpg`, from silkqin.com / John Thompson),
+  each with its poetic title, tablature stroke, hand/finger, and (where public-domain) verse.
+- **Glyph coverage note**: the bundled Qin font is a *notation composer*; it has single
+  glyphs only for documented strokes. Currently 18 SVG + 21 `font_input`; the remaining ~41
+  fall back to plain CJK because they are compound left-hand names (長吟, 進復, 雙撞…) or
+  finger-designation chars the font lacks. The only handdrawn source for the yín/náo-variation
+  series is peiyouqin's low-res woodblock notation (not used — user chose the font route).
+- Mobile: sidebar hidden < 820px (it was a huge stack). Cache-bust on assets is `?v=5`.
 - `.nojekyll` present for GitHub Pages.
 
 ## Conventions
@@ -36,11 +45,12 @@ jianzipu (减字谱). Lives in repo `decobots/-`, deployed via GitHub Pages at
 - Work on a dev branch, PR to `main`, merge. Don't push to `main` directly.
 - After CSS/JS edits, run `node --check js/app.js` and `python3 -m http.server` to smoke-test.
 
-## The pending task (why this handoff exists)
-The user wants the **peiyouqin.com demonstration media inlined** into the page to reduce
-redirects (the 32 left-hand techniques currently link out). This was blocked because the
-build environment's **egress policy denied peiyouqin.com (403)**. The user is allowlisting
-`peiyouqin.com`. Once that's live, do the extraction.
+## The pending task (DONE — kept for history)
+The user wanted the **peiyouqin.com demonstration media inlined** to reduce redirects.
+Completed: 16 peiyouqin pages embedded YouTube clips (now inline), 5 embedded hand photos
+(downloaded), 11 pointed at a shared notation reference (dead link dropped). Also pulled the
+full 33-image silkqin gesture set and moved card tags to a top-right column. This was once
+blocked because the egress policy denied peiyouqin.com (403); the allowlist is now live.
 
 Reachability check (run first): `curl -sS -A "Mozilla/5.0" -o /dev/null -w "%{http_code}\n"
 https://peiyouqin.com/yin.html` — expect **200**, not 403. If still 403, the allowlist

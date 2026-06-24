@@ -920,7 +920,8 @@
       "video_url": "https://www.youtube.com/watch?v=oR6MjoR77PE",
       "video_kind": "youtube",
       "video_id": "oR6MjoR77PE",
-      "video_shared": false
+      "video_shared": false,
+      "font_input": "\\tan"
     },
     {
       "id": "E2",
@@ -939,7 +940,8 @@
       "video_url": "https://www.youtube.com/watch?v=FymNvR6Ld3s",
       "video_kind": "youtube",
       "video_id": "FymNvR6Ld3s",
-      "video_shared": false
+      "video_shared": false,
+      "font_input": "\\tuo"
     },
     {
       "id": "E3",
@@ -958,7 +960,8 @@
       "video_url": "https://www.youtube.com/watch?v=U9XaHcO6_r4",
       "video_kind": "youtube",
       "video_id": "U9XaHcO6_r4",
-      "video_shared": false
+      "video_shared": false,
+      "font_input": "\\zhu"
     },
     {
       "id": "E4",
