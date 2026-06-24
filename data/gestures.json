@@ -1,91 +1,310 @@
 {
   "meta": {
     "title": "Poetic Hand-Gesture Images · 手勢圖 shǒushì tú",
-    "intro": "The classical handbooks pair each finger technique with a poetic nature-image and a four-character verse introduced by \"興曰 Xìng yuē\" — the Book of Songs metaphor device. The Taiyin Daquanji set has 33 illustrations (17 right-hand, then 16 left-hand). Below, each gesture is shown with the composed jianzipu glyph from the bundled Qin font, the Chinese verse where it is in the public domain, a paraphrased theme, and a link to view the original woodblock and full translation on silkqin.com.",
+    "intro": "Classical handbooks pair each finger technique with a poetic nature-image and a four-character verse introduced by \"興曰 Xìng yuē\" (the Book of Songs metaphor device). The Ming-dynasty Taiyin Daquanji (太音大全集) set has 33 woodblock illustrations — 17 right-hand, then 16 left-hand. Each gesture below shows the original woodblock print, the poetic image it depicts, and the tablature stroke(s) it teaches.",
     "fullSetSource": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
     "historySource": "https://silkqin.com/09hist/qscb/qscb06c6.htm",
-    "imageRightsNote": "The woodblock prints are historical (likely public-domain artworks), but the photographic reproductions and English translations on silkqin.com are John Thompson's work and are not copied here — follow the source link to view them.",
-    "counts": { "rightHand": 17, "leftHand": 16, "total": 33 }
+    "imageRightsNote": "Woodblock prints reproduced from John Thompson's silkqin.com (Taiyin Daquanji, 1413). The prints are historical artworks; the photographic reproductions are Thompson's. Included here for a personal non-commercial reference page with attribution — see assets/photos/README.txt. English image-titles paraphrase Thompson's translations; follow the source link for full verses.",
+    "counts": {
+      "rightHand": 17,
+      "leftHand": 16,
+      "total": 33
+    }
   },
   "gestures": [
     {
-      "technique_id": "B3",
-      "name_hanzi": "勾",
-      "name_pinyin": "gōu",
-      "image_title": "Lone duck looks back at the flock",
+      "num": 1,
+      "hand": "right",
+      "title": "A crane dancing as a result of being startled by a breeze",
+      "finger": "Thumb",
+      "photo": "assets/photos/gestures/hand01.jpg",
+      "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
+      "stroke": "擘・托"
+    },
+    {
+      "num": 2,
+      "hand": "right",
+      "title": "A visiting wild goose grasping a rush plant",
+      "finger": "Thumb and forefinger",
+      "photo": "assets/photos/gestures/hand02.jpg",
+      "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
+      "stroke": "捻"
+    },
+    {
+      "num": 3,
+      "hand": "right",
+      "title": "Cranes call out in the shade",
+      "finger": "Forefinger",
+      "photo": "assets/photos/gestures/hand03.jpg",
+      "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
+      "stroke": "抹"
+    },
+    {
+      "num": 4,
+      "hand": "right",
+      "title": "The crane-like wild jungle fowl calling and dancing",
+      "finger": "Forefinger, middle finger and ring finger",
+      "photo": "assets/photos/gestures/hand04.jpg",
+      "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
+      "stroke": "鎖"
+    },
+    {
+      "num": 5,
+      "hand": "right",
+      "title": "A lone duck turning his head towards the flock",
+      "finger": "Middle finger",
+      "photo": "assets/photos/gestures/hand05.jpg",
+      "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
+      "stroke": "勾",
       "verse_hanzi": "孤鶩顧群",
-      "verse_pinyin": "gū wù gù qún",
-      "theme": "Longing; the solitary bird turning back toward its companions — the middle finger drawing inward.",
+      "verse_pinyin": "gū wù gù qún"
+    },
+    {
+      "num": 6,
+      "hand": "right",
+      "title": "A dragon gripping the clouds",
+      "finger": "Thumb and middle finger",
+      "photo": "assets/photos/gestures/hand06.jpg",
+      "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
+      "stroke": "撮"
+    },
+    {
+      "num": 7,
+      "hand": "right",
+      "title": "A praying mantis grabbing a cicada",
+      "finger": "Forefinger and ring finger",
+      "photo": "assets/photos/gestures/hand07.jpg",
+      "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
+      "stroke": "撮"
+    },
+    {
+      "num": 8,
+      "hand": "right",
+      "title": "A crab walking",
+      "finger": "Forefinger, middle finger and ring finger",
+      "photo": "assets/photos/gestures/hand08.jpg",
+      "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
+      "stroke": "輪"
+    },
+    {
+      "num": 9,
+      "hand": "right",
+      "title": "A shaking a chain and ringing its bells",
+      "finger": "Ring finger, middle finger and forefinger",
+      "photo": "assets/photos/gestures/hand09.jpg",
+      "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
+      "stroke": "鈴"
+    },
+    {
+      "num": 10,
+      "hand": "right",
+      "title": "Water from a spring cascading in a deep valley",
+      "finger": "Forefinger and middle finger",
+      "photo": "assets/photos/gestures/hand10.jpg",
+      "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
+      "stroke": "蠲"
+    },
+    {
+      "num": 11,
+      "hand": "right",
+      "title": "Wind sending of light clouds",
+      "finger": "Forefinger and middle finger",
+      "photo": "assets/photos/gestures/hand11.jpg",
+      "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
+      "stroke": "扶"
+    },
+    {
+      "num": 12,
+      "hand": "right",
+      "title": "The male and female phoenixes calling together",
+      "finger": "Forefinger and middle finger",
+      "photo": "assets/photos/gestures/hand12.jpg",
+      "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
+      "stroke": "摟"
+    },
+    {
+      "num": 13,
+      "hand": "right",
+      "title": "A fish shaking its tail as it swims",
+      "finger": "Forefinger and middle finger",
+      "photo": "assets/photos/gestures/hand13.jpg",
       "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm"
     },
     {
-      "technique_id": "C2",
-      "name_hanzi": "猱",
-      "name_pinyin": "náo",
-      "image_title": "The howling ape climbing the tall tree",
-      "verse_hanzi": "瞻彼號猿，升於喬木。欲上不上，其勢逐逐",
-      "verse_pinyin": "zhān bǐ háo yuán, shēng yú qiáo mù; yù shàng bù shàng, qí shì zhú zhú",
-      "theme": "Behold the howling ape climbing the tall tree; wishing to go up yet not up, its momentum pressing on — the wide, surging vibrato.",
+      "num": 14,
+      "hand": "right",
+      "title": "The shangyang bird, tapping and dancing",
+      "finger": "Ring finger",
+      "photo": "assets/photos/gestures/hand14.jpg",
       "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm"
     },
     {
-      "technique_id": "C1",
-      "name_hanzi": "吟",
-      "name_pinyin": "yín",
-      "image_title": "The autumn cicada",
-      "verse_hanzi": null,
-      "verse_pinyin": null,
-      "theme": "Likened to a cicada singing in autumn — a fine, shimmering vibrato that swells then fades.",
+      "num": 15,
+      "hand": "right",
+      "title": "A supernatural tortoise coming out of the water",
+      "finger": "Forefinger and ring finger",
+      "photo": "assets/photos/gestures/hand15.jpg",
+      "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
+      "stroke": "打・挑"
+    },
+    {
+      "num": 16,
+      "hand": "right",
+      "title": "A sea dragon intoning",
+      "finger": "Forefinger and middle finger",
+      "photo": "assets/photos/gestures/hand16.jpg",
       "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm"
     },
     {
-      "technique_id": "B2",
-      "name_hanzi": "挑",
-      "name_pinyin": "tiāo",
-      "image_title": "Right-hand gesture (see source woodblock)",
-      "verse_hanzi": null,
-      "verse_pinyin": null,
-      "theme": "Index finger flicking outward — one of the seventeen right-hand gestures.",
+      "num": 17,
+      "hand": "right",
+      "title": "A hungry raven pecking at the snow",
+      "finger": "Forefinger, middle finger and ring finger",
+      "photo": "assets/photos/gestures/hand17.jpg",
+      "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
+      "stroke": "彈"
+    },
+    {
+      "num": 18,
+      "hand": "left",
+      "title": "The supernatural phoenix grasping a letter in its mouth",
+      "finger": "Thumb",
+      "photo": "assets/photos/gestures/hand18.jpg",
+      "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
+      "stroke": "按"
+    },
+    {
+      "num": 19,
+      "hand": "left",
+      "title": "A howling gibbon climbing a tree",
+      "finger": "Thumb",
+      "photo": "assets/photos/gestures/hand19.jpg",
+      "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
+      "stroke": "猱",
+      "verse_hanzi": "號猿升木",
+      "verse_pinyin": "háo yuán shēng mù"
+    },
+    {
+      "num": 20,
+      "hand": "left",
+      "title": "An echo from an empty valley",
+      "finger": "Thumb",
+      "photo": "assets/photos/gestures/hand20.jpg",
+      "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
+      "stroke": "罨"
+    },
+    {
+      "num": 21,
+      "hand": "left",
+      "title": "A solitary bird pecking on a tree",
+      "finger": "Thumb",
+      "photo": "assets/photos/gestures/hand21.jpg",
+      "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
+      "stroke": "罨"
+    },
+    {
+      "num": 22,
+      "hand": "left",
+      "title": "A beautiful oriole in a fragrant woods",
+      "finger": "Forefinger",
+      "photo": "assets/photos/gestures/hand22.jpg",
       "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm"
     },
     {
-      "technique_id": "B1",
-      "name_hanzi": "抹",
-      "name_pinyin": "mǒ",
-      "image_title": "Right-hand gesture (see source woodblock)",
-      "verse_hanzi": null,
-      "verse_pinyin": null,
-      "theme": "Index finger drawing inward — one of the seventeen right-hand gestures.",
+      "num": 23,
+      "hand": "left",
+      "title": "A wild pheasant climbing a tree",
+      "finger": "Middle finger",
+      "photo": "assets/photos/gestures/hand23.jpg",
+      "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
+      "stroke": "推"
+    },
+    {
+      "num": 24,
+      "hand": "left",
+      "title": "A phoenix combing its feathers",
+      "finger": "Ring finger",
+      "photo": "assets/photos/gestures/hand24.jpg",
       "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm"
     },
     {
-      "technique_id": "B5",
-      "name_hanzi": "打",
-      "name_pinyin": "dǎ",
-      "image_title": "Right-hand gesture (see source woodblock)",
-      "verse_hanzi": null,
-      "verse_pinyin": null,
-      "theme": "Ring finger striking inward — one of the seventeen right-hand gestures.",
+      "num": 25,
+      "hand": "left",
+      "title": "The spotted leopard embracing its prey",
+      "finger": "Ring finger",
+      "photo": "assets/photos/gestures/hand25.jpg",
+      "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
+      "stroke": "跪"
+    },
+    {
+      "num": 26,
+      "hand": "left",
+      "title": "A pigeon crying out to predict rain",
+      "finger": "Thumb and ring finger",
+      "photo": "assets/photos/gestures/hand26.jpg",
       "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm"
     },
     {
-      "technique_id": "B9",
-      "name_hanzi": "撮",
-      "name_pinyin": "cuō",
-      "image_title": "Right-hand gesture (see source woodblock)",
-      "verse_hanzi": null,
-      "verse_pinyin": null,
-      "theme": "Two strings pinched together into one sound — one of the seventeen right-hand gestures.",
+      "num": 27,
+      "hand": "left",
+      "title": "A cicada singing in the autumn",
+      "finger": "Thumb, middle finger or ring finger",
+      "photo": "assets/photos/gestures/hand27.jpg",
+      "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
+      "stroke": "吟",
+      "verse_hanzi": "寒蟬吟秋",
+      "verse_pinyin": "hán chán yín qiū"
+    },
+    {
+      "num": 28,
+      "hand": "left",
+      "title": "Fallen leaves following the flow of water",
+      "finger": "Thumb, middle finger or ring finger",
+      "photo": "assets/photos/gestures/hand28.jpg",
+      "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
+      "stroke": "游吟"
+    },
+    {
+      "num": 29,
+      "hand": "left",
+      "title": "A raven carrying a cicada as it flies",
+      "finger": "Thumb, middle finger or ring finger",
+      "photo": "assets/photos/gestures/hand29.jpg",
+      "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
+      "stroke": "走吟"
+    },
+    {
+      "num": 30,
+      "hand": "left",
+      "title": "A white butterfly wafted onto a flower",
+      "finger": "Thumb, middle finger or ring finger",
+      "photo": "assets/photos/gestures/hand30.jpg",
+      "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
+      "stroke": "泛"
+    },
+    {
+      "num": 31,
+      "hand": "left",
+      "title": "Dragonflies flitting on water",
+      "finger": "Forefinger, thumb or ring finger",
+      "photo": "assets/photos/gestures/hand31.jpg",
       "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm"
     },
     {
-      "technique_id": "E7",
-      "name_hanzi": "逗",
-      "name_pinyin": "dòu",
-      "image_title": "Left-hand gesture (see source woodblock)",
-      "verse_hanzi": null,
-      "verse_pinyin": null,
-      "theme": "A quick up-and-back of the pressing finger, made with the pluck — one of the sixteen left-hand gestures.",
+      "num": 32,
+      "hand": "left",
+      "title": "A cicada calling as it passes a branch",
+      "finger": "Thumb, middle finger or ring finger",
+      "photo": "assets/photos/gestures/hand32.jpg",
+      "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm",
+      "stroke": "引・注"
+    },
+    {
+      "num": 33,
+      "hand": "left",
+      "title": "A swallow grabbing a flying insect",
+      "finger": "Thumb, middle finger and ring finger",
+      "photo": "assets/photos/gestures/hand33.jpg",
       "source": "https://www.silkqin.com/02qnpu/05tydq/ty3.htm"
     }
   ]
