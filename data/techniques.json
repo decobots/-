@@ -556,7 +556,7 @@
         "steps": [
           {
             "finger": 1,
-            "dir": "up"
+            "dir": "down"
           }
         ]
       },
@@ -606,7 +606,7 @@
         "steps": [
           {
             "finger": 1,
-            "dir": "down"
+            "dir": "up"
           }
         ]
       },
@@ -687,7 +687,20 @@
       "source_url": [
         "https://silkqin.com/02qnpu/05tydq/ty5c.htm"
       ],
-      "notes": "Historical; superseded by 撮."
+      "notes": "Historical; superseded by 撮.",
+      "movement": {
+        "mode": "together",
+        "steps": [
+          {
+            "finger": 2,
+            "dir": "up"
+          },
+          {
+            "finger": 3,
+            "dir": "down"
+          }
+        ]
+      }
     },
     {
       "id": "B11",
@@ -771,11 +784,11 @@
         "mode": "seq",
         "steps": [
           {
-            "finger": 3,
+            "finger": 4,
             "dir": "up"
           },
           {
-            "finger": 2,
+            "finger": 3,
             "dir": "up"
           }
         ]
@@ -851,7 +864,40 @@
         }
       ],
       "etymology": "Cháng-suǒ (長銷): seven (or nine) sounds — mǒ, tiāo, mǒ, gōu, then a bèi-suǒ added.",
-      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm"
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm",
+      "movement": {
+        "mode": "seq",
+        "steps": [
+          {
+            "finger": 2,
+            "dir": "down"
+          },
+          {
+            "finger": 2,
+            "dir": "up"
+          },
+          {
+            "finger": 2,
+            "dir": "down"
+          },
+          {
+            "finger": 3,
+            "dir": "down"
+          },
+          {
+            "finger": 3,
+            "dir": "up"
+          },
+          {
+            "finger": 2,
+            "dir": "down"
+          },
+          {
+            "finger": 2,
+            "dir": "up"
+          }
+        ]
+      }
     },
     {
       "id": "B15",
@@ -891,7 +937,20 @@
         }
       ],
       "etymology": "Three strings sounded together (one sound each) with dǎ, gōu, mǒ; used with harmonics — attested as early as the You Lan.",
-      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm"
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm",
+      "movement": {
+        "mode": "seq",
+        "steps": [
+          {
+            "finger": 2,
+            "dir": "down"
+          },
+          {
+            "finger": 3,
+            "dir": "down"
+          }
+        ]
+      }
     },
     {
       "id": "B16",
@@ -916,7 +975,20 @@
         }
       ],
       "etymology": "Two strings sounded together with gōu and mǒ; also called lōu-yuán (摟圓), used only with harmonics.",
-      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm"
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm",
+      "movement": {
+        "mode": "seq",
+        "steps": [
+          {
+            "finger": 2,
+            "dir": "down"
+          },
+          {
+            "finger": 3,
+            "dir": "down"
+          }
+        ]
+      }
     },
     {
       "id": "B17",
@@ -940,7 +1012,20 @@
         }
       ],
       "etymology": "In the You Lan, juān runs the index finger quickly inward across the strings — a rapid double inward stroke; the earliest attestation.",
-      "etymology_source": "https://silkqin.com/02qnpu/01yl/wusilan.htm"
+      "etymology_source": "https://silkqin.com/02qnpu/01yl/wusilan.htm",
+      "movement": {
+        "mode": "seq",
+        "steps": [
+          {
+            "finger": 2,
+            "dir": "down"
+          },
+          {
+            "finger": 3,
+            "dir": "down"
+          }
+        ]
+      }
     },
     {
       "id": "B18",
@@ -962,7 +1047,28 @@
           "relation": "builds-on",
           "label": "builds on"
         }
-      ]
+      ],
+      "movement": {
+        "mode": "seq",
+        "steps": [
+          {
+            "finger": 2,
+            "dir": "down"
+          },
+          {
+            "finger": 3,
+            "dir": "down"
+          },
+          {
+            "finger": 2,
+            "dir": "down"
+          },
+          {
+            "finger": 3,
+            "dir": "down"
+          }
+        ]
+      }
     },
     {
       "id": "B19",
@@ -2679,7 +2785,24 @@
         }
       ],
       "etymology": "Bèi-suǒ (背銷): three sounds on one string with tī, mǒ, tiāo in sequence; also called shào-suǒ.",
-      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm"
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm",
+      "movement": {
+        "mode": "seq",
+        "steps": [
+          {
+            "finger": 3,
+            "dir": "up"
+          },
+          {
+            "finger": 2,
+            "dir": "down"
+          },
+          {
+            "finger": 2,
+            "dir": "up"
+          }
+        ]
+      }
     },
     {
       "id": "B28",
@@ -2710,7 +2833,32 @@
         }
       ],
       "etymology": "Duǎn-suǒ (短銷): five sounds — mǒ and gōu, then a bèi-suǒ added.",
-      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm"
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm",
+      "movement": {
+        "mode": "seq",
+        "steps": [
+          {
+            "finger": 2,
+            "dir": "down"
+          },
+          {
+            "finger": 3,
+            "dir": "down"
+          },
+          {
+            "finger": 3,
+            "dir": "up"
+          },
+          {
+            "finger": 2,
+            "dir": "down"
+          },
+          {
+            "finger": 2,
+            "dir": "up"
+          }
+        ]
+      }
     },
     {
       "id": "B29",
@@ -2734,7 +2882,16 @@
         }
       ],
       "etymology": "Two strings — one pressed, one open — sounded together using tī on both, so they read “as one.”",
-      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm"
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm",
+      "movement": {
+        "mode": "seq",
+        "steps": [
+          {
+            "finger": 3,
+            "dir": "up"
+          }
+        ]
+      }
     },
     {
       "id": "B30",
@@ -2761,11 +2918,11 @@
         "mode": "seq",
         "steps": [
           {
-            "finger": 2,
+            "finger": 3,
             "dir": "up"
           },
           {
-            "finger": 3,
+            "finger": 2,
             "dir": "up"
           }
         ]
@@ -2855,7 +3012,7 @@
         "steps": [
           {
             "finger": 1,
-            "dir": "down"
+            "dir": "up"
           },
           {
             "finger": 3,
@@ -2897,8 +3054,8 @@
         "mode": "together",
         "steps": [
           {
-            "finger": 1,
-            "dir": "up"
+            "finger": 2,
+            "dir": "down"
           },
           {
             "finger": 3,
@@ -2932,7 +3089,36 @@
         }
       ],
       "etymology": "Seven sounds on two strings alternating tiāo/gōu pairs; the art lies in the fast rhythm of the central four sounds.",
-      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm"
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm",
+      "movement": {
+        "mode": "seq",
+        "steps": [
+          {
+            "finger": 4,
+            "dir": "down"
+          },
+          {
+            "finger": 2,
+            "dir": "up"
+          },
+          {
+            "finger": 4,
+            "dir": "down"
+          },
+          {
+            "finger": 2,
+            "dir": "up"
+          },
+          {
+            "finger": 4,
+            "dir": "down"
+          },
+          {
+            "finger": 2,
+            "dir": "up"
+          }
+        ]
+      }
     },
     {
       "id": "B36",
