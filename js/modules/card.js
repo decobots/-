@@ -133,14 +133,16 @@ export function card(t) {
   var html = "";
   html += '<article class="card" id="t-' + t.id + '">';
 
-  html += '  <div class="card-meta">';
-  html += handTag(t.hand);
-  // The movement notation (finger + ↓/↑) already encodes inward/outward, so
-  // only show the textual direction tag when there is no movement notation.
-  if (t.direction && !t.movement) html += '<span class="tag dir">' + escapeHtml(t.direction) + "</span>";
-  html += "  </div>";
+  // The movement notation carries an L/R hand badge, so when it is present the
+  // separate hand/direction tags would be redundant — show them only otherwise.
+  var metaHtml = "";
+  if (!t.movement) {
+    metaHtml = handTag(t.hand);
+    if (t.direction) metaHtml += '<span class="tag dir">' + escapeHtml(t.direction) + "</span>";
+  }
+  if (metaHtml) html += '  <div class="card-meta">' + metaHtml + "</div>";
 
-  html += '  <div class="card-top">';
+  html += '  <div class="card-top' + (metaHtml ? "" : " no-meta") + '">';
   var boxCls = hasTileGlyph(t) ? "is-img" : (t.font_input ? "is-jzp" : (multi ? "multi" : ""));
   html += '    <div class="glyph-box ' + boxCls + '" title="jianzipu score symbol">' + symbolHtml(t) + "</div>";
   html += '    <div class="card-head">';
