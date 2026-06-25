@@ -234,6 +234,7 @@ html, body { width: 100%; max-width: 100%; overflow-x: hidden; }
 
 /* leave room on the right for the absolutely-positioned tag column */
 .card-top { display: flex; align-items: flex-start; gap: .9rem; padding-right: 4.6rem; }
+.card-top.no-meta { padding-right: 0; }
 
 .glyph-box {
   flex: 0 0 auto;
