@@ -47,10 +47,7 @@ var ARROW = { down: "↓", up: "↑", vibrato: "∿" };
 function movementHtml(t) {
   var mv = t.movement;
   if (!mv || !mv.steps || !mv.steps.length) return "";
-  var hand = mv.hand || "R";
-  var isR = hand === "R";
-  var badge = '<span class="mv-hand mv-hand-' + hand + '" title="' +
-    (isR ? "right hand" : "left hand") + '">' + (isR ? "R" : "L") + "</span>";
+  var isR = (mv.hand || "R") === "R";
   var steps = mv.steps.map(function (s) {
     var cls = "mv-arrow " + (s.dir === "vibrato" ? "mv-vib" : "mv-" + s.dir);
     if (isR) {
@@ -68,7 +65,7 @@ function movementHtml(t) {
     ? "right hand — finger 1 thumb…4 ring; ↓ pluck (inward), ↑ strum (outward)"
     : "left hand — ↑ slide to higher pitch (rightward, toward the bridge), " +
       "↓ slide to lower pitch (leftward, toward the tail), ∿ vibrato";
-  return '<div class="movement" title="' + escapeHtml(legend) + '">' + badge + steps + "</div>";
+  return '<div class="movement" title="' + escapeHtml(legend) + '">' + steps + "</div>";
 }
 
 // Clickable chips to compare/contrast related techniques (keeps each card
@@ -133,16 +130,7 @@ export function card(t) {
   var html = "";
   html += '<article class="card" id="t-' + t.id + '">';
 
-  // The movement notation carries an L/R hand badge, so when it is present the
-  // separate hand/direction tags would be redundant — show them only otherwise.
-  var metaHtml = "";
-  if (!t.movement) {
-    metaHtml = handTag(t.hand);
-    if (t.direction) metaHtml += '<span class="tag dir">' + escapeHtml(t.direction) + "</span>";
-  }
-  if (metaHtml) html += '  <div class="card-meta">' + metaHtml + "</div>";
-
-  html += '  <div class="card-top' + (metaHtml ? "" : " no-meta") + '">';
+  html += '  <div class="card-top">';
   var boxCls = hasTileGlyph(t) ? "is-img" : (t.font_input ? "is-jzp" : (multi ? "multi" : ""));
   html += '    <div class="glyph-box ' + boxCls + '" title="jianzipu score symbol">' + symbolHtml(t) + "</div>";
   html += '    <div class="card-head">';
@@ -150,9 +138,16 @@ export function card(t) {
   html += '      <div class="card-hanzi">' + escapeHtml(t.name_hanzi) + "</div>";
   html += '      <div class="card-pinyin">' + escapeHtml(t.name_pinyin) + "</div>";
   html += "    </div>";
+
+  // Tag column, top-right: hand, then the movement notation, then direction
+  // (direction is dropped when movement is shown — the arrows already encode it).
+  html += '    <div class="card-meta">';
+  html += handTag(t.hand);
+  html += movementHtml(t);
+  if (t.direction && !t.movement) html += '<span class="tag dir">' + escapeHtml(t.direction) + "</span>";
+  html += "    </div>";
   html += "  </div>";
 
-  html += movementHtml(t);
   html += '  <p class="card-instruction">' + escapeHtml(t.instruction_text) + "</p>";
 
   if (t.photo) {
