@@ -232,9 +232,7 @@ html, body { width: 100%; max-width: 100%; overflow-x: hidden; }
 .card:hover { background: var(--bg-card-hover); border-color: var(--accent-soft); }
 .card { position: relative; }
 
-/* leave room on the right for the absolutely-positioned tag column */
-.card-top { display: flex; align-items: flex-start; gap: .9rem; padding-right: 4.6rem; }
-.card-top.no-meta { padding-right: 0; }
+.card-top { display: flex; align-items: flex-start; gap: .9rem; }
 
 .glyph-box {
   flex: 0 0 auto;
@@ -268,7 +266,7 @@ html, body { width: 100%; max-width: 100%; overflow-x: hidden; }
 }
 .glyph-box { position: relative; }
 
-.card-head { min-width: 0; }
+.card-head { flex: 1 1 auto; min-width: 0; }
 .card-id { font-size: .7rem; color: var(--ink-faint); letter-spacing: .5px; }
 .card-hanzi { font-family: var(--cjk); font-size: 1.5rem; line-height: 1.15; margin: .05rem 0; }
 .card-pinyin { font-size: .95rem; color: var(--accent); font-style: italic; }
@@ -285,14 +283,14 @@ html, body { width: 100%; max-width: 100%; overflow-x: hidden; }
 /* contain the blend so it only mixes with the tile's own cream background */
 .glyph-box.is-img, .si-chip.has-img { isolation: isolate; }
 
-/* tag column pinned to the card's top-right corner */
+/* tag column in the card's top-right corner: hand, movement, direction */
 .card-meta {
-  position: absolute;
-  top: 1rem; right: 1.1rem;
+  flex: 0 0 auto; max-width: 50%;
   display: flex; flex-direction: column; align-items: flex-end;
   gap: .3rem; margin: 0;
 }
 .card-meta .tag { text-align: right; white-space: nowrap; }
+.card-meta .movement { justify-content: flex-end; }
 .tag {
   font-size: .68rem;
   padding: .12rem .45rem;
