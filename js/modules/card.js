@@ -142,6 +142,10 @@ export function card(t) {
   // Tag column, top-right: hand, then the movement notation, then direction
   // (direction is dropped when movement is shown — the arrows already encode it).
   html += '    <div class="card-meta">';
+  if (t.book_no) {
+    html += '<span class="tag book-no" title="Index № in the Wu Family Qin Repertoire (虞山吳氏琴譜)">№ ' +
+      t.book_no + "</span>";
+  }
   html += handTag(t.hand);
   html += movementHtml(t);
   if (t.direction && !t.movement) html += '<span class="tag dir">' + escapeHtml(t.direction) + "</span>";

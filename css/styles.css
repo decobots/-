@@ -302,6 +302,7 @@ html, body { width: 100%; max-width: 100%; overflow-x: hidden; }
 .tag.hand-right { color: var(--rust); border-color: #5a3a30; }
 .tag.hand-either { color: var(--accent); border-color: var(--accent-soft); }
 .tag.dir { color: var(--ink-soft); }
+.tag.book-no { color: var(--ink-faint); border-color: var(--line); font-variant-numeric: tabular-nums; }
 .tag.reduced { color: var(--ink-soft); }
 .tag.reduced b { font-family: var(--cjk); color: var(--ink); font-weight: 600; }
 
