@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Glyph render review · 古琴减字谱</title>
+  <meta name="robots" content="noindex" />
+  <link rel="stylesheet" href="css/styles.css?v=19" />
+  <style>
+    body { padding: 1.2rem; }
+    .rv-head { max-width: 60rem; margin: 0 auto 1.2rem; }
+    .rv-head h1 { font-size: 1.3rem; }
+    .rv-head p { color: var(--ink-soft); font-size: .9rem; margin-top: .3rem; }
+    .rv-grid {
+      display: grid; gap: .8rem;
+      grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+      max-width: 78rem; margin: 0 auto;
+    }
+    .rv-cell {
+      display: flex; gap: .7rem; align-items: center;
+      background: var(--bg-card); border: 1px solid var(--line);
+      border-radius: var(--radius); padding: .7rem;
+    }
+    .rv-cell.miss { opacity: .82; }
+    .rv-cell .glyph-box { flex: 0 0 auto; }
+    .glyph-box.q { color: var(--ink-faint); font-size: 2rem; background: #1d1815; }
+    .rv-info { min-width: 0; }
+    .rv-no { font-size: .68rem; color: var(--ink-faint); letter-spacing: .5px; font-variant-numeric: tabular-nums; }
+    .rv-cn { font-family: var(--cjk); font-size: 1.15rem; line-height: 1.15; }
+    .rv-py { font-size: .82rem; color: var(--accent); font-style: italic; }
+    .rv-en { font-size: .76rem; color: var(--ink-soft); margin-top: .15rem; }
+    .rv-divider {
+      max-width: 78rem; margin: 2rem auto 1rem;
+      border-top: 1px solid var(--accent-soft); padding-top: 1rem;
+      color: var(--accent); font-size: 1rem; font-weight: 600;
+    }
+    .rv-divider small { display:block; color: var(--ink-soft); font-weight: 400; font-size: .82rem; margin-top: .2rem; }
+  </style>
+</head>
+<body>
+  <div class="rv-head">
+    <h1>Glyph render review</h1>
+    <p>Every entry in the Wu Family Qin Repertoire (虞山吳氏琴譜) index, sorted by book number, showing our rendered jianzipu glyph. Entries with no card in our set show <strong>?</strong>. Our techniques that are not in the book follow after the divider. (Temporary QA page — <code>review.html</code>.)</p>
+  </div>
+  <div id="grid" class="rv-grid"></div>
+  <div id="extraHead"></div>
+  <div id="extra" class="rv-grid"></div>
+
+  <script type="module">
+    import { symbolHtml, hasTileGlyph } from "./js/modules/symbol.js";
+
+    function esc(s){ return String(s==null?"":s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
+    function boxFor(t){
+      if(!t) return '<div class="glyph-box q" title="no glyph in our set">?</div>';
+      var multi = (t.jianzipu_glyph||"").replace(/\s/g,"").length>1 && !t.font_input && !hasTileGlyph(t);
+      var cls = hasTileGlyph(t) ? "is-img" : (t.font_input ? "is-jzp" : (multi ? "multi" : ""));
+      return '<div class="glyph-box '+cls+'">'+symbolHtml(t)+'</div>';
+    }
+    function cell(opts){
+      return '<div class="rv-cell'+(opts.miss?' miss':'')+'">'+opts.box+
+        '<div class="rv-info">'+
+          (opts.no?'<div class="rv-no">№ '+esc(opts.no)+'</div>':'')+
+          '<div class="rv-cn">'+esc(opts.cn)+'</div>'+
+          (opts.py?'<div class="rv-py">'+esc(opts.py)+'</div>':'')+
+          (opts.en?'<div class="rv-en">'+esc(opts.en)+'</div>':'')+
+        '</div></div>';
+    }
+
+    const [td, book] = await Promise.all([
+      fetch("data/techniques.json").then(r=>r.json()),
+      fetch("data/book_index.json").then(r=>r.json())
+    ]);
+    const byNo = {}; td.techniques.forEach(t=>{ if(t.book_no) byNo[t.book_no]=t; });
+
+    // 1) every book entry, sorted by number
+    book.sort((a,b)=>a.n-b.n);
+    document.getElementById("grid").innerHTML = book.map(e=>{
+      const t = byNo[e.n];
+      return cell({ box: boxFor(t), no: e.n, cn: e.hanzi, py: e.pinyin, en: e.en, miss: !t });
+    }).join("");
+
+    // 2) our techniques NOT in the book, after a divider
+    const noBook = td.techniques.filter(t=>!t.book_no);
+    if(noBook.length){
+      document.getElementById("extraHead").innerHTML =
+        '<div class="rv-divider">In our set but not in the book ('+noBook.length+')'+
+        '<small>These have no book number.</small></div>';
+      document.getElementById("extra").innerHTML = noBook.map(t=>
+        cell({ box: boxFor(t), no: t.id, cn: t.name_hanzi, py: t.name_pinyin, en: "" })
+      ).join("");
+    }
+  </script>
+</body>
+</html>
