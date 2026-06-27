@@ -105,7 +105,8 @@
       "photo": "assets/photos/A1_dazhi.jpg",
       "glyph_image": "assets/glyphs/peiyou/dazhiN.jpg",
       "etymology": "The thumb — the “chief finger” (after Mencius); the first finger of the hand.",
-      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm",
+      "book_no": 115
     },
     {
       "id": "A2",
@@ -124,7 +125,8 @@
       "photo": "assets/photos/A2_shizhi.jpg",
       "glyph_image": "assets/glyphs/peiyou/shizhiN.jpg",
       "etymology": "The index finger; per the Zuo-chuan, an allusion to Zi-gong’s twitching “eating finger” that foretold a feast.",
-      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm",
+      "book_no": 116
     },
     {
       "id": "A3",
@@ -143,7 +145,8 @@
       "photo": "assets/photos/A3_zhongzhi.jpg",
       "glyph_image": "assets/glyphs/peiyou/zhongzhiN.jpg",
       "etymology": "The third or “leading” finger of the hand.",
-      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm",
+      "book_no": 117
     },
     {
       "id": "A4",
@@ -162,7 +165,8 @@
       "photo": "assets/photos/A4_mingzhi.jpg",
       "glyph_image": "assets/glyphs/peiyou/mingzhiN.jpg",
       "etymology": "The ring finger; its name comes from Mencius’s “no-name finger” (wú-míng zhǐ), the nameless finger.",
-      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm",
+      "book_no": 118
     },
     {
       "id": "A5",
@@ -181,7 +185,8 @@
       "photo": "assets/photos/A5_gui.jpg",
       "glyph_image": "assets/glyphs/peiyou/guiN.jpg",
       "etymology": "A posture in which both joints of the ring finger bend so the last digit “kneels” down onto the string.",
-      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm",
+      "book_no": 119
     },
     {
       "id": "B1",
@@ -247,7 +252,8 @@
         "hand": "R"
       },
       "etymology": "Index finger sounding inward, using half fingernail and half flesh — strike heavy, enter light.",
-      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm"
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm",
+      "book_no": 55
     },
     {
       "id": "B2",
@@ -298,7 +304,8 @@
         "hand": "R"
       },
       "etymology": "Index finger outward; the finger hangs and falls to produce a strong, clear tone.",
-      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm"
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm",
+      "book_no": 56
     },
     {
       "id": "B3",
@@ -364,7 +371,8 @@
         "hand": "R"
       },
       "etymology": "Middle finger inward, striking straight (not brushing); the last joint must fall past and under the thumbnail.",
-      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v47/v47.htm"
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v47/v47.htm",
+      "book_no": 57
     },
     {
       "id": "B4",
@@ -415,7 +423,8 @@
         "hand": "R"
       },
       "etymology": "Middle finger outward (like tiāo); not too deep, or the tone is blocked.",
-      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm"
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm",
+      "book_no": 58
     },
     {
       "id": "B5",
@@ -466,7 +475,8 @@
         "hand": "R"
       },
       "etymology": "Ring finger inward, mostly on strings 1–2; despite literally meaning “to strike,” dǎ is not played with force.",
-      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm"
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm",
+      "book_no": 61
     },
     {
       "id": "B6",
@@ -517,7 +527,8 @@
         "hand": "R"
       },
       "etymology": "Ring finger outward (like tī, but without the thumb beneath); mostly used within gǔn and lún.",
-      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm"
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm",
+      "book_no": 62
     },
     {
       "id": "B7",
@@ -568,7 +579,8 @@
         "hand": "R"
       },
       "etymology": "Thumb inward, toward the body; rarely used. Yan Tianchi and Xu Qingshan historically reversed the senses of bò and tuō.",
-      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm"
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm",
+      "book_no": 60
     },
     {
       "id": "B8",
@@ -619,7 +631,8 @@
         "hand": "R"
       },
       "etymology": "Thumb outward, toward the bridge; etymology “to pull,” used when the reach is too far for the index or middle fingers.",
-      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm"
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm",
+      "book_no": 59
     },
     {
       "id": "B9",
@@ -681,7 +694,8 @@
         "hand": "R"
       },
       "etymology": "Literally “to pinch”: two strings sounded at once with gōu+tiāo. Earliest (You Lan, Tang): the ring finger and thumb in unison.",
-      "etymology_source": "https://silkqin.com/02qnpu/01yl/wusilan.htm"
+      "etymology_source": "https://silkqin.com/02qnpu/01yl/wusilan.htm",
+      "book_no": 94
     },
     {
       "id": "B10",
@@ -765,7 +779,8 @@
         "hand": "R"
       },
       "etymology": "Three successive sounds on a string with zhāi, tī, tiāo in sequence; the bending knuckles line up close together.",
-      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm"
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm",
+      "book_no": 74
     },
     {
       "id": "B12",
@@ -806,7 +821,8 @@
         "hand": "R"
       },
       "etymology": "Two sounds using only zhāi and tī — the lún method with the index finger left out.",
-      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v47/v47.htm"
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v47/v47.htm",
+      "book_no": 75
     },
     {
       "id": "B13",
@@ -910,7 +926,8 @@
           }
         ],
         "hand": "R"
-      }
+      },
+      "book_no": 73
     },
     {
       "id": "B15",
@@ -964,7 +981,8 @@
           }
         ],
         "hand": "R"
-      }
+      },
+      "book_no": 81
     },
     {
       "id": "B16",
@@ -1003,7 +1021,8 @@
           }
         ],
         "hand": "R"
-      }
+      },
+      "book_no": 82
     },
     {
       "id": "B17",
@@ -1085,7 +1104,8 @@
           }
         ],
         "hand": "R"
-      }
+      },
+      "book_no": 70
     },
     {
       "id": "B19",
@@ -1122,7 +1142,8 @@
         }
       ],
       "etymology": "First of the bō-là (潑刺) pair: three joined fingers sweep down-left across the strings, likened to a fish slapping its tail.",
-      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm"
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm",
+      "book_no": 84
     },
     {
       "id": "B20",
@@ -1159,7 +1180,8 @@
         }
       ],
       "etymology": "Second of the bō-là pair: three fingers brush up-right, “like the tearing of silk.”",
-      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm"
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm",
+      "book_no": 85
     },
     {
       "id": "B21",
@@ -1200,7 +1222,8 @@
         }
       ],
       "etymology": "Etymology “to roll”: continuous rolling with the ring finger doing zhāi from string 7 toward 1; also called lín (臨), often with harmonics.",
-      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm"
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm",
+      "book_no": 105
     },
     {
       "id": "B22",
@@ -1236,7 +1259,8 @@
         }
       ],
       "etymology": "Fú (沸): continuous mǒ swept across the strings — smooth and flowing, never explosive; the complement of gǔn, together 滾拂.",
-      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm"
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm",
+      "book_no": 106
     },
     {
       "id": "C1",
@@ -1309,7 +1333,8 @@
             "dir": "vibrato"
           }
         ]
-      }
+      },
+      "book_no": 122
     },
     {
       "id": "C2",
@@ -1388,7 +1413,8 @@
             "dir": "vibrato"
           }
         ]
-      }
+      },
+      "book_no": 138
     },
     {
       "id": "C3",
@@ -1440,7 +1466,8 @@
             "dir": "up"
           }
         ]
-      }
+      },
+      "book_no": 120
     },
     {
       "id": "C4",
@@ -1492,7 +1519,8 @@
             "dir": "down"
           }
         ]
-      }
+      },
+      "book_no": 121
     },
     {
       "id": "C5",
@@ -1553,7 +1581,8 @@
             "dir": "up"
           }
         ]
-      }
+      },
+      "book_no": 155
     },
     {
       "id": "C6",
@@ -1614,7 +1643,8 @@
             "dir": "down"
           }
         ]
-      }
+      },
+      "book_no": 156
     },
     {
       "id": "D1",
@@ -1641,7 +1671,8 @@
             "dir": "vibrato"
           }
         ]
-      }
+      },
+      "book_no": 123
     },
     {
       "id": "D2",
@@ -1668,7 +1699,8 @@
             "dir": "vibrato"
           }
         ]
-      }
+      },
+      "book_no": 127
     },
     {
       "id": "D3",
@@ -1694,7 +1726,8 @@
             "dir": "vibrato"
           }
         ]
-      }
+      },
+      "book_no": 124
     },
     {
       "id": "D4",
@@ -1721,7 +1754,8 @@
             "dir": "vibrato"
           }
         ]
-      }
+      },
+      "book_no": 128
     },
     {
       "id": "D5",
@@ -1748,7 +1782,8 @@
             "dir": "vibrato"
           }
         ]
-      }
+      },
+      "book_no": 136
     },
     {
       "id": "D6",
@@ -1773,7 +1808,8 @@
             "dir": "vibrato"
           }
         ]
-      }
+      },
+      "book_no": 133
     },
     {
       "id": "D7",
@@ -1798,7 +1834,8 @@
             "dir": "vibrato"
           }
         ]
-      }
+      },
+      "book_no": 139
     },
     {
       "id": "D8",
@@ -1825,7 +1862,8 @@
             "dir": "vibrato"
           }
         ]
-      }
+      },
+      "book_no": 145
     },
     {
       "id": "D9",
@@ -1852,7 +1890,8 @@
             "dir": "vibrato"
           }
         ]
-      }
+      },
+      "book_no": 143
     },
     {
       "id": "D10",
@@ -1877,7 +1916,8 @@
             "dir": "vibrato"
           }
         ]
-      }
+      },
+      "book_no": 142
     },
     {
       "id": "D11",
@@ -1903,7 +1943,8 @@
             "dir": "vibrato"
           }
         ]
-      }
+      },
+      "book_no": 147
     },
     {
       "id": "E1",
@@ -1950,7 +1991,8 @@
             "dir": "down"
           }
         ]
-      }
+      },
+      "book_no": 160
     },
     {
       "id": "E2",
@@ -2062,7 +2104,8 @@
             "dir": "down"
           }
         ]
-      }
+      },
+      "book_no": 149
     },
     {
       "id": "E4",
@@ -2115,7 +2158,8 @@
             "dir": "down"
           }
         ]
-      }
+      },
+      "book_no": 150
     },
     {
       "id": "E5",
@@ -2164,7 +2208,8 @@
             "dir": "down"
           }
         ]
-      }
+      },
+      "book_no": 174
     },
     {
       "id": "E6",
@@ -2211,7 +2256,8 @@
             "dir": "up"
           }
         ]
-      }
+      },
+      "book_no": 152
     },
     {
       "id": "E7",
@@ -2261,7 +2307,8 @@
             "dir": "down"
           }
         ]
-      }
+      },
+      "book_no": 154
     },
     {
       "id": "E8",
@@ -2313,7 +2360,8 @@
             "dir": "down"
           }
         ]
-      }
+      },
+      "book_no": 153
     },
     {
       "id": "E9",
@@ -2370,7 +2418,8 @@
             "dir": "up"
           }
         ]
-      }
+      },
+      "book_no": 161
     },
     {
       "id": "E10",
@@ -2412,7 +2461,8 @@
             "dir": "down"
           }
         ]
-      }
+      },
+      "book_no": 168
     },
     {
       "id": "F1",
@@ -2460,7 +2510,8 @@
         }
       ],
       "etymology": "The left thumb and ring finger are placed on the string, then the thumb hooks upward to sound it (a left-hand pluck).",
-      "etymology_source": "https://silkqin.com/02qnpu/01yl/wusilan.htm"
+      "etymology_source": "https://silkqin.com/02qnpu/01yl/wusilan.htm",
+      "book_no": 169
     },
     {
       "id": "F2",
@@ -2489,7 +2540,8 @@
         }
       ],
       "etymology": "“Claw-pull”: the thumb pulls off at the playing position to sound the open string.",
-      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm",
+      "book_no": 170
     },
     {
       "id": "F3",
@@ -2536,7 +2588,8 @@
         }
       ],
       "etymology": "“Lead-pull”: the ring finger takes the string and pulls off for one open-string sound.",
-      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm",
+      "book_no": 171
     },
     {
       "id": "F4",
@@ -2583,7 +2636,8 @@
         }
       ],
       "etymology": "“Cover”: a left finger presses a string to sound it without a right-hand pluck — thumb, middle or ring quickly striking the string onto the face.",
-      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm",
+      "book_no": 172
     },
     {
       "id": "F5",
@@ -2619,7 +2673,8 @@
         }
       ],
       "etymology": "“Empty cover”: a yǎn made when the string has not been plucked first — the same motion as yǎn.",
-      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm",
+      "book_no": 173
     },
     {
       "id": "F6",
@@ -2655,7 +2710,8 @@
         }
       ],
       "etymology": "“Push-out”: only the middle finger, only on string 1 — the last two digits straighten and push the string out, releasing it to sound.",
-      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm",
+      "book_no": 175
     },
     {
       "id": "F7",
@@ -2708,7 +2764,8 @@
             "dir": "down"
           }
         ]
-      }
+      },
+      "book_no": 165
     },
     {
       "id": "F8",
@@ -2761,7 +2818,8 @@
             "dir": "up"
           }
         ]
-      }
+      },
+      "book_no": 167
     },
     {
       "id": "F9",
@@ -2800,7 +2858,8 @@
             "dir": "up"
           }
         ]
-      }
+      },
+      "book_no": 162
     },
     {
       "id": "F10",
@@ -2839,7 +2898,8 @@
             "dir": "down"
           }
         ]
-      }
+      },
+      "book_no": 163
     },
     {
       "id": "F11",
@@ -2880,7 +2940,8 @@
       ],
       "notes": null,
       "etymology": "Earliest (You Lan, Tang): the left hand does not press at all — the open, “scattered” string.",
-      "etymology_source": "https://silkqin.com/02qnpu/01yl/wusilan.htm"
+      "etymology_source": "https://silkqin.com/02qnpu/01yl/wusilan.htm",
+      "book_no": 50
     },
     {
       "id": "G2",
@@ -2898,7 +2959,8 @@
       ],
       "notes": "泛起…泛止 bracket a harmonics section.",
       "etymology": "Earliest (You Lan, Tang): a left finger lightly touches at a hui for a clear harmonic; any of the four can play one.",
-      "etymology_source": "https://silkqin.com/02qnpu/01yl/wusilan.htm"
+      "etymology_source": "https://silkqin.com/02qnpu/01yl/wusilan.htm",
+      "book_no": 52
     },
     {
       "id": "G3",
@@ -2915,7 +2977,8 @@
       ],
       "notes": null,
       "etymology": "“Press”: place the finger at the playing position and press the string down evenly — the general term for left-hand stopping.",
-      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm",
+      "book_no": 51
     },
     {
       "id": "G4",
@@ -2932,7 +2995,8 @@
       ],
       "notes": null,
       "etymology": "The hui are the harmonic/marker positions; thirteen standard hui, each space divided into ten fēn and each fēn into ten lí.",
-      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm",
+      "book_no": 2
     },
     {
       "id": "G5",
@@ -2947,7 +3011,8 @@
       "source_url": [
         "https://peiyouqin.com/notation3.html"
       ],
-      "notes": null
+      "notes": null,
+      "book_no": 1
     },
     {
       "id": "B23",
@@ -2981,7 +3046,8 @@
         ],
         "hand": "R"
       },
-      "image": "assets/glyphs/lg_motiao.svg"
+      "image": "assets/glyphs/lg_motiao.svg",
+      "book_no": 63
     },
     {
       "id": "B24",
@@ -3015,7 +3081,8 @@
         ],
         "hand": "R"
       },
-      "image": "assets/glyphs/lg_gouti.svg"
+      "image": "assets/glyphs/lg_gouti.svg",
+      "book_no": 64
     },
     {
       "id": "B25",
@@ -3096,7 +3163,8 @@
           }
         ],
         "hand": "R"
-      }
+      },
+      "book_no": 67
     },
     {
       "id": "B27",
@@ -3145,7 +3213,8 @@
           }
         ],
         "hand": "R"
-      }
+      },
+      "book_no": 71
     },
     {
       "id": "B28",
@@ -3202,7 +3271,8 @@
           }
         ],
         "hand": "R"
-      }
+      },
+      "book_no": 72
     },
     {
       "id": "B29",
@@ -3236,7 +3306,8 @@
           }
         ],
         "hand": "R"
-      }
+      },
+      "book_no": 77
     },
     {
       "id": "B30",
@@ -3274,7 +3345,8 @@
         "hand": "R"
       },
       "etymology": "Double-play, also called gǔ (鼓): two sounds on one or two strings using tī then tiāo.",
-      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm"
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm",
+      "book_no": 79
     },
     {
       "id": "B31",
@@ -3299,7 +3371,8 @@
       ],
       "etymology": "Bō-là / pō-cì (潑刺): pō (three joined fingers, down-left) then cì (reversed, up-right) — likened to a wandering fish slapping its tail.",
       "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm",
-      "image": "assets/glyphs/xl_bola.svg"
+      "image": "assets/glyphs/xl_bola.svg",
+      "book_no": 86
     },
     {
       "id": "B32",
@@ -3323,7 +3396,8 @@
         }
       ],
       "etymology": "An abrupt closing sound: the palm covers the strings between hui 4 and 5, a clipped sound like tearing silk; not used near hui 1.",
-      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm"
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm",
+      "book_no": 88
     },
     {
       "id": "B33",
@@ -3367,7 +3441,8 @@
         ],
         "hand": "R"
       },
-      "image": "assets/glyphs/xl_dacuo.svg"
+      "image": "assets/glyphs/xl_dacuo.svg",
+      "book_no": 95
     },
     {
       "id": "B34",
@@ -3413,7 +3488,8 @@
       },
       "etymology": "Reversed cuō: where cuō uses gōu+tiāo, the reverse uses mǒ+tī — one sound from two strings.",
       "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm",
-      "image": "assets/glyphs/xl_fancuo.svg"
+      "image": "assets/glyphs/xl_fancuo.svg",
+      "book_no": 96
     },
     {
       "id": "B35",
@@ -3467,7 +3543,8 @@
           }
         ],
         "hand": "R"
-      }
+      },
+      "book_no": 100
     },
     {
       "id": "B36",
@@ -3492,7 +3569,8 @@
       ],
       "etymology": "Index finger connecting tiāo across several adjacent strings; also called dù (度).",
       "etymology_source": "https://silkqin.com/02qnpu/05tydq/ty5c.htm",
-      "image": "assets/glyphs/lg_li.svg"
+      "image": "assets/glyphs/lg_li.svg",
+      "book_no": 101
     },
     {
       "id": "B37",
@@ -3523,7 +3601,8 @@
         }
       ],
       "etymology": "Gǔn-fú (滾沸): gǔn circles inside-out, then fú circles out and back inside — one continuous circular figure.",
-      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm"
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm",
+      "book_no": 107
     },
     {
       "id": "B38",
@@ -3574,7 +3653,8 @@
         }
       ],
       "etymology": "Tāo-cuō-sān-shēng (搯撮三聲): eight sounds combining left-hand tāo with right-hand cuō (three tāo, two cuō), each tāo carrying an implicit hammer-on.",
-      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm"
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm",
+      "book_no": 110
     },
     {
       "id": "F12",
@@ -3605,7 +3685,8 @@
         }
       ],
       "etymology": "“Response-harmonize”: after pressing and playing, the finger moves up or down so its sound responds to an open string played by the right hand.",
-      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm",
+      "book_no": 182
     },
     {
       "id": "F13",
@@ -3641,7 +3722,8 @@
         }
       ],
       "etymology": "“Same-sound”: two strings sounded in different ways are aligned so closely they read as a single sound.",
-      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm",
+      "book_no": 180
     },
     {
       "id": "F14",
@@ -3660,7 +3742,8 @@
         }
       ],
       "etymology": "“Release-harmonize”: the ring finger pulls off for a sound, then quickly presses a second string for the right hand, the two harmonizing as one.",
-      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm"
+      "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm",
+      "book_no": 178
     },
     {
       "id": "D12",
@@ -3690,7 +3773,8 @@
             "dir": "vibrato"
           }
         ]
-      }
+      },
+      "book_no": 130
     },
     {
       "id": "D13",
@@ -3720,7 +3804,8 @@
             "dir": "vibrato"
           }
         ]
-      }
+      },
+      "book_no": 131
     },
     {
       "id": "D14",
@@ -3750,7 +3835,8 @@
             "dir": "vibrato"
           }
         ]
-      }
+      },
+      "book_no": 135
     },
     {
       "id": "D15",
@@ -3780,7 +3866,8 @@
             "dir": "vibrato"
           }
         ]
-      }
+      },
+      "book_no": 137
     },
     {
       "id": "D16",
@@ -3810,7 +3897,8 @@
             "dir": "vibrato"
           }
         ]
-      }
+      },
+      "book_no": 144
     },
     {
       "id": "F15",
@@ -3852,7 +3940,8 @@
           "relation": "builds-on",
           "label": "builds on"
         }
-      ]
+      ],
+      "book_no": 186
     }
   ]
 }
