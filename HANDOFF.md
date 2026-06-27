@@ -10,7 +10,14 @@ jianzipu (减字谱). Lives in repo `decobots/-`, deployed via GitHub Pages at
 `claude/guqin-technique-library-3hykuu` (all work merged to `main` via PRs #1–#5).
 
 ## Current state (all merged to main)
-- **90 techniques** in `data/techniques.json`, 8 categories (Sections A–G). Per-entry fields:
+- **143 techniques** in `data/techniques.json`. **IDs, grouping and order now follow the
+  Wu Family Qin Repertoire (虞山吳氏琴譜) index**: `id` is the book number (string, e.g. "55");
+  the 6 techniques not in that book keep their old letter-ids and sit in the "Not in this
+  book" group. Categories: `notation` (弦徽散按泛), `rh` (right-hand №55–114), `lh`
+  (left-hand №115–186), `extra`. Techniques are sorted by book number. `book_no` field still
+  holds the number; `hand_glyph` is the hand-drawn scan shown on every card that has one.
+- (history) earlier the set used A–G sections and B30-style ids; those were replaced.
+- Per-entry fields:
   id, name_hanzi, name_pinyin, hand, category, jianzipu_glyph, instruction_text, source_url;
   plus optional `glyph_image` (hand-drawn notation scan), `image` (SVG), `font_input` (composer
   glyph), `photo` (demo hand-photo), `media[]` (any number of embeds), `related[]` (cross-links),
