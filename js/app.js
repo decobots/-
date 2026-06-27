@@ -19,6 +19,25 @@ function bindControls() {
   });
 }
 
+// Compact mode: hide the Origin (etymology) and Poetic-gesture sections.
+function bindCompact() {
+  var btn = document.getElementById("compactToggle");
+  if (!btn) return;
+  var on = false;
+  try { on = localStorage.getItem("compact") === "1"; } catch (e) {}
+  function apply() {
+    document.body.classList.toggle("compact", on);
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+    btn.classList.toggle("is-on", on);
+  }
+  apply();
+  btn.addEventListener("click", function () {
+    on = !on;
+    try { localStorage.setItem("compact", on ? "1" : "0"); } catch (e) {}
+    apply();
+  });
+}
+
 // Floating "back to top" button: appears once the page is scrolled down.
 function bindToTop() {
   var btn = document.getElementById("toTop");
@@ -49,6 +68,7 @@ Promise.all([
   buildResources();
   bindControls();
   bindToTop();
+  bindCompact();
   bindResultsClicks();
   render();
 }).catch(function (err) {

@@ -89,23 +89,40 @@ export function bindResultsClicks() {
     if (!btn) return;
     var box = btn.closest(".video[data-yt]");
     if (!box) return;
-    var id = box.getAttribute("data-yt");
-    box.innerHTML = '<div class="video-frame"><iframe ' +
-      'src="https://www.youtube-nocookie.com/embed/' + encodeURIComponent(id) + '?autoplay=1&rel=0&playsinline=1" ' +
-      'title="Technique demonstration" frameborder="0" ' +
-      'allow="autoplay; fullscreen; encrypted-media; picture-in-picture" ' +
-      'allowfullscreen loading="lazy"></iframe></div>';
-
-    // Go fullscreen immediately (still inside the click's user-gesture). The
-    // iframe keeps autoplaying inline if fullscreen is unavailable (e.g. iOS).
-    var frame = box.querySelector("iframe");
-    var req = frame.requestFullscreen || frame.webkitRequestFullscreen ||
-      frame.webkitEnterFullscreen || frame.mozRequestFullScreen || frame.msRequestFullscreen;
-    if (req) {
-      try {
-        var ret = req.call(frame);
-        if (ret && ret.catch) ret.catch(function () {});
-      } catch (err) { /* fall back to inline playback */ }
-    }
+    openVideo(box.getAttribute("data-yt"));
   });
+}
+
+// Full-screen video overlay: fills the viewport and autoplays, and also asks for
+// native fullscreen on top (where the browser allows it). Click backdrop / × / Esc to close.
+function videoOverlay() {
+  var ov = document.getElementById("videobox");
+  if (ov) return ov;
+  ov = document.createElement("div");
+  ov.id = "videobox";
+  ov.className = "videobox";
+  ov.innerHTML = '<button class="lb-close" aria-label="Close">×</button>' +
+    '<div class="vb-frame"><iframe title="Technique demonstration" frameborder="0" ' +
+    'allow="autoplay; fullscreen; encrypted-media; picture-in-picture" allowfullscreen></iframe></div>';
+  document.body.appendChild(ov);
+  function close() {
+    ov.classList.remove("open");
+    ov.querySelector("iframe").src = ""; // stop playback
+    if (document.fullscreenElement) { try { document.exitFullscreen(); } catch (e) {} }
+  }
+  ov.addEventListener("click", function (e) {
+    if (e.target === ov || e.target.closest(".lb-close")) close();
+  });
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape") close();
+  });
+  return ov;
+}
+function openVideo(id) {
+  var ov = videoOverlay();
+  ov.querySelector("iframe").src =
+    "https://www.youtube-nocookie.com/embed/" + encodeURIComponent(id) + "?autoplay=1&rel=0&playsinline=1";
+  ov.classList.add("open");
+  var req = ov.requestFullscreen || ov.webkitRequestFullscreen || ov.msRequestFullscreen;
+  if (req) { try { var r = req.call(ov); if (r && r.catch) r.catch(function () {}); } catch (e) {} }
 }

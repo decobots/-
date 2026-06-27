@@ -424,6 +424,32 @@ html, body { width: 100%; max-width: 100%; overflow-x: hidden; }
 }
 .zoomable { cursor: zoom-in; }
 
+/* ---------- Compact mode ---------- */
+.compact-toggle {
+  flex: 0 0 auto;
+  font-size: .8rem; color: var(--ink-soft);
+  background: var(--bg-card); border: 1px solid var(--line);
+  border-radius: 8px; padding: .45rem .7rem; cursor: pointer;
+  transition: background .12s, color .12s, border-color .12s;
+}
+.compact-toggle:hover { background: var(--bg-card-hover); }
+.compact-toggle.is-on { color: var(--accent); border-color: var(--accent-soft); background: #241f1a; }
+body.compact .etymology,
+body.compact .poetic { display: none; }
+
+/* ---------- Full-screen video overlay ---------- */
+.videobox {
+  position: fixed; inset: 0;
+  background: rgba(0, 0, 0, .96);
+  display: none; align-items: center; justify-content: center;
+  z-index: 1000; padding: 2vmin;
+}
+.videobox.open { display: flex; }
+.videobox .vb-frame {
+  width: min(96vw, 160vh); aspect-ratio: 16 / 9; max-height: 92vh;
+}
+.videobox iframe { width: 100%; height: 100%; border: 0; border-radius: 6px; background: #000; }
+
 /* ---------- Back-to-top button ---------- */
 .to-top {
   position: fixed;
