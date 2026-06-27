@@ -365,6 +365,16 @@
           "id": "B24",
           "relation": "builds-on",
           "label": "builds on"
+        },
+        {
+          "id": "B64",
+          "relation": "component-of",
+          "label": "component of"
+        },
+        {
+          "id": "B65",
+          "relation": "component-of",
+          "label": "component of"
         }
       ],
       "movement": {
@@ -471,6 +481,11 @@
           "id": "B6",
           "relation": "opposite",
           "label": "opposite"
+        },
+        {
+          "id": "B42",
+          "relation": "component-of",
+          "label": "component of"
         }
       ],
       "movement": {
@@ -523,6 +538,16 @@
           "id": "B5",
           "relation": "opposite",
           "label": "opposite"
+        },
+        {
+          "id": "B42",
+          "relation": "component-of",
+          "label": "component of"
+        },
+        {
+          "id": "B49",
+          "relation": "component-of",
+          "label": "component of"
         }
       ],
       "movement": {
@@ -576,6 +601,11 @@
           "id": "B8",
           "relation": "opposite",
           "label": "opposite"
+        },
+        {
+          "id": "B41",
+          "relation": "component-of",
+          "label": "component of"
         }
       ],
       "movement": {
@@ -629,6 +659,11 @@
           "id": "B7",
           "relation": "opposite",
           "label": "opposite"
+        },
+        {
+          "id": "B41",
+          "relation": "component-of",
+          "label": "component of"
         }
       ],
       "movement": {
@@ -689,6 +724,11 @@
           "id": "B34",
           "relation": "opposite",
           "label": "opposite"
+        },
+        {
+          "id": "B62",
+          "relation": "component-of",
+          "label": "component of"
         }
       ],
       "movement": {
@@ -742,6 +782,11 @@
           "id": "B12",
           "relation": "component-of",
           "label": "component of"
+        },
+        {
+          "id": "B45",
+          "relation": "opposite",
+          "label": "opposite"
         }
       ],
       "movement": {
@@ -1171,6 +1216,16 @@
           "id": "B37",
           "relation": "component-of",
           "label": "component of"
+        },
+        {
+          "id": "B60",
+          "relation": "compare",
+          "label": "compare"
+        },
+        {
+          "id": "F24",
+          "relation": "component-of",
+          "label": "component of"
         }
       ],
       "etymology": "Etymology “to roll”: continuous rolling with the ring finger doing zhāi from string 7 toward 1; also called lín (臨), often with harmonics.",
@@ -1275,6 +1330,26 @@
           "id": "C2",
           "relation": "compare",
           "label": "compare"
+        },
+        {
+          "id": "D17",
+          "relation": "component-of",
+          "label": "component of"
+        },
+        {
+          "id": "D18",
+          "relation": "component-of",
+          "label": "component of"
+        },
+        {
+          "id": "D19",
+          "relation": "component-of",
+          "label": "component of"
+        },
+        {
+          "id": "D20",
+          "relation": "component-of",
+          "label": "component of"
         }
       ],
       "etymology": "Vibrato: after the note, the finger oscillates nimbly about 4–5 times before returning — yín gives the note a “living pulse.”",
@@ -1356,6 +1431,26 @@
           "id": "E8",
           "relation": "builds-on",
           "label": "builds on"
+        },
+        {
+          "id": "D22",
+          "relation": "component-of",
+          "label": "component of"
+        },
+        {
+          "id": "D23",
+          "relation": "component-of",
+          "label": "component of"
+        },
+        {
+          "id": "D24",
+          "relation": "component-of",
+          "label": "component of"
+        },
+        {
+          "id": "D25",
+          "relation": "component-of",
+          "label": "component of"
         }
       ],
       "etymology": "A wider, slower vibrato exceeding the position by ~2–3 fēn; larger than yín, lending the note an ancient strength.",
@@ -1410,6 +1505,16 @@
           "id": "C5",
           "relation": "compare",
           "label": "compare"
+        },
+        {
+          "id": "D17",
+          "relation": "component-of",
+          "label": "component of"
+        },
+        {
+          "id": "D22",
+          "relation": "component-of",
+          "label": "component of"
         }
       ],
       "etymology": "Ascending glissando: from just below the position, the slanted finger presses and slides up into the sounding spot.",
@@ -1464,6 +1569,21 @@
           "id": "C6",
           "relation": "compare",
           "label": "compare"
+        },
+        {
+          "id": "D18",
+          "relation": "component-of",
+          "label": "component of"
+        },
+        {
+          "id": "D24",
+          "relation": "component-of",
+          "label": "component of"
+        },
+        {
+          "id": "E14",
+          "relation": "component-of",
+          "label": "component of"
         }
       ],
       "etymology": "Descending glissando: from just above the position, the slanted finger presses and slides down into the sounding spot.",
@@ -1527,6 +1647,16 @@
           "id": "E9",
           "relation": "component-of",
           "label": "component of"
+        },
+        {
+          "id": "E12",
+          "relation": "component-of",
+          "label": "component of"
+        },
+        {
+          "id": "E13",
+          "relation": "component-of",
+          "label": "component of"
         }
       ],
       "etymology": "Any move toward the bridge (“to go up”): after playing, the finger slides up one position for a new sound.",
@@ -1588,6 +1718,11 @@
         },
         {
           "id": "E9",
+          "relation": "component-of",
+          "label": "component of"
+        },
+        {
+          "id": "E14",
           "relation": "component-of",
           "label": "component of"
         }
@@ -2061,6 +2196,11 @@
           "id": "E7",
           "relation": "compare",
           "label": "compare"
+        },
+        {
+          "id": "E11",
+          "relation": "component-of",
+          "label": "component of"
         }
       ],
       "etymology": "“Knock”: at the pressed spot, quickly move up slightly then snap back for another note, played suddenly.",
@@ -2476,6 +2616,16 @@
           "id": "F4",
           "relation": "opposite",
           "label": "opposite"
+        },
+        {
+          "id": "B62",
+          "relation": "component-of",
+          "label": "component of"
+        },
+        {
+          "id": "B63",
+          "relation": "component-of",
+          "label": "component of"
         }
       ],
       "video_id": "91NcQJiXdAc",
@@ -2523,7 +2673,14 @@
       "etymology": "“Claw-pull”: the thumb pulls off at the playing position to sound the open string.",
       "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm",
       "book_no": 170,
-      "hand_glyph": "assets/glyphs/book/170.png"
+      "hand_glyph": "assets/glyphs/book/170.png",
+      "related": [
+        {
+          "id": "F20",
+          "relation": "component-of",
+          "label": "component of"
+        }
+      ]
     },
     {
       "id": "F3",
@@ -2605,6 +2762,11 @@
           "id": "F1",
           "relation": "opposite",
           "label": "opposite"
+        },
+        {
+          "id": "B62",
+          "relation": "component-of",
+          "label": "component of"
         }
       ],
       "video_id": "X-OL_Fa-N1k",
@@ -2724,6 +2886,16 @@
           "id": "F9",
           "relation": "builds-on",
           "label": "builds on"
+        },
+        {
+          "id": "F16",
+          "relation": "compare",
+          "label": "compare"
+        },
+        {
+          "id": "F17",
+          "relation": "component-of",
+          "label": "component of"
         }
       ],
       "video_id": "oWgvFBkxMmg",
@@ -2779,6 +2951,11 @@
           "id": "F10",
           "relation": "builds-on",
           "label": "builds on"
+        },
+        {
+          "id": "F16",
+          "relation": "compare",
+          "label": "compare"
         }
       ],
       "video_id": "g8GPyDgU77A",
@@ -2834,6 +3011,11 @@
           "id": "F7",
           "relation": "component-of",
           "label": "component of"
+        },
+        {
+          "id": "F16",
+          "relation": "component-of",
+          "label": "component of"
         }
       ],
       "etymology": "“Advance”: to ascend one position with a sound after a note.",
@@ -2873,6 +3055,11 @@
         },
         {
           "id": "F8",
+          "relation": "component-of",
+          "label": "component of"
+        },
+        {
+          "id": "F16",
           "relation": "component-of",
           "label": "component of"
         }
@@ -3129,6 +3316,16 @@
           "id": "B25",
           "relation": "faster-slower",
           "label": "slower form of"
+        },
+        {
+          "id": "B43",
+          "relation": "opposite",
+          "label": "opposite"
+        },
+        {
+          "id": "B44",
+          "relation": "component-of",
+          "label": "component of"
         }
       ],
       "video_id": "tC_-0HYtyBY",
@@ -3331,7 +3528,24 @@
       "etymology": "Double-play, also called gǔ (鼓): two sounds on one or two strings using tī then tiāo.",
       "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm",
       "book_no": 79,
-      "hand_glyph": "assets/glyphs/book/79.png"
+      "hand_glyph": "assets/glyphs/book/79.png",
+      "related": [
+        {
+          "id": "B47",
+          "relation": "compare",
+          "label": "compare"
+        },
+        {
+          "id": "B46",
+          "relation": "builds-on",
+          "label": "builds on"
+        },
+        {
+          "id": "B54",
+          "relation": "component-of",
+          "label": "component of"
+        }
+      ]
     },
     {
       "id": "B31",
@@ -3358,7 +3572,24 @@
       "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm",
       "image": "assets/glyphs/xl_bola.svg",
       "book_no": 86,
-      "hand_glyph": "assets/glyphs/book/86.png"
+      "hand_glyph": "assets/glyphs/book/86.png",
+      "related": [
+        {
+          "id": "B49",
+          "relation": "component-of",
+          "label": "component of"
+        },
+        {
+          "id": "B51",
+          "relation": "component-of",
+          "label": "component of"
+        },
+        {
+          "id": "B63",
+          "relation": "component-of",
+          "label": "component of"
+        }
+      ]
     },
     {
       "id": "B32",
@@ -3384,7 +3615,19 @@
       "etymology": "An abrupt closing sound: the palm covers the strings between hui 4 and 5, a clipped sound like tearing silk; not used near hui 1.",
       "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm",
       "book_no": 88,
-      "hand_glyph": "assets/glyphs/book/88.png"
+      "hand_glyph": "assets/glyphs/book/88.png",
+      "related": [
+        {
+          "id": "B50",
+          "relation": "same-as",
+          "label": "same as"
+        },
+        {
+          "id": "B51",
+          "relation": "component-of",
+          "label": "component of"
+        }
+      ]
     },
     {
       "id": "B33",
@@ -3561,7 +3804,24 @@
       "etymology_source": "https://silkqin.com/02qnpu/05tydq/ty5c.htm",
       "image": "assets/glyphs/lg_li.svg",
       "book_no": 101,
-      "hand_glyph": "assets/glyphs/book/101.png"
+      "hand_glyph": "assets/glyphs/book/101.png",
+      "related": [
+        {
+          "id": "B58",
+          "relation": "component-of",
+          "label": "component of"
+        },
+        {
+          "id": "B59",
+          "relation": "component-of",
+          "label": "component of"
+        },
+        {
+          "id": "B60",
+          "relation": "compare",
+          "label": "compare"
+        }
+      ]
     },
     {
       "id": "B37",
@@ -3578,6 +3838,11 @@
           "id": "B21",
           "relation": "builds-on",
           "label": "builds on"
+        },
+        {
+          "id": "B61",
+          "relation": "component-of",
+          "label": "component of"
         }
       ],
       "video_id": "84rCZPIMjxM",
@@ -3642,6 +3907,11 @@
           "id": "F1",
           "relation": "component-of",
           "label": "component of"
+        },
+        {
+          "id": "B63",
+          "relation": "compare",
+          "label": "compare"
         }
       ],
       "etymology": "Tāo-cuō-sān-shēng (搯撮三聲): eight sounds combining left-hand tāo with right-hand cuō (three tāo, two cuō), each tāo carrying an implicit hammer-on.",
@@ -3702,6 +3972,21 @@
           "id": "F3",
           "relation": "builds-on",
           "label": "builds on"
+        },
+        {
+          "id": "F19",
+          "relation": "compare",
+          "label": "compare"
+        },
+        {
+          "id": "F20",
+          "relation": "compare",
+          "label": "compare"
+        },
+        {
+          "id": "F21",
+          "relation": "same-as",
+          "label": "same as"
         }
       ],
       "video_id": "m3Wwin7IwvI",
@@ -3759,6 +4044,11 @@
           "id": "C1",
           "relation": "builds-on",
           "label": "builds on"
+        },
+        {
+          "id": "D21",
+          "relation": "component-of",
+          "label": "component of"
         }
       ],
       "movement": {
@@ -3791,6 +4081,11 @@
           "id": "C1",
           "relation": "builds-on",
           "label": "builds on"
+        },
+        {
+          "id": "D21",
+          "relation": "component-of",
+          "label": "component of"
         }
       ],
       "movement": {
@@ -3940,6 +4235,11 @@
           "id": "B2",
           "relation": "builds-on",
           "label": "builds on"
+        },
+        {
+          "id": "F24",
+          "relation": "compare",
+          "label": "compare"
         }
       ],
       "book_no": 186,
@@ -3956,7 +4256,19 @@
       "book_no": 65,
       "hand_glyph": "assets/glyphs/book/65.png",
       "source_url": [],
-      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources.",
+      "related": [
+        {
+          "id": "B8",
+          "relation": "builds-on",
+          "label": "builds on"
+        },
+        {
+          "id": "B7",
+          "relation": "builds-on",
+          "label": "builds on"
+        }
+      ]
     },
     {
       "id": "B42",
@@ -3969,7 +4281,19 @@
       "book_no": 66,
       "hand_glyph": "assets/glyphs/book/66.png",
       "source_url": [],
-      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources.",
+      "related": [
+        {
+          "id": "B5",
+          "relation": "builds-on",
+          "label": "builds on"
+        },
+        {
+          "id": "B6",
+          "relation": "builds-on",
+          "label": "builds on"
+        }
+      ]
     },
     {
       "id": "B43",
@@ -3982,7 +4306,14 @@
       "book_no": 68,
       "hand_glyph": "assets/glyphs/book/68.png",
       "source_url": [],
-      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources.",
+      "related": [
+        {
+          "id": "B26",
+          "relation": "opposite",
+          "label": "opposite"
+        }
+      ]
     },
     {
       "id": "B44",
@@ -3995,7 +4326,14 @@
       "book_no": 69,
       "hand_glyph": "assets/glyphs/book/69.png",
       "source_url": [],
-      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources.",
+      "related": [
+        {
+          "id": "B26",
+          "relation": "builds-on",
+          "label": "builds on"
+        }
+      ]
     },
     {
       "id": "B45",
@@ -4008,7 +4346,14 @@
       "book_no": 76,
       "hand_glyph": "assets/glyphs/book/76.png",
       "source_url": [],
-      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources.",
+      "related": [
+        {
+          "id": "B11",
+          "relation": "opposite",
+          "label": "opposite"
+        }
+      ]
     },
     {
       "id": "B46",
@@ -4021,7 +4366,19 @@
       "book_no": 78,
       "hand_glyph": "assets/glyphs/book/78.png",
       "source_url": [],
-      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources.",
+      "related": [
+        {
+          "id": "B47",
+          "relation": "component-of",
+          "label": "component of"
+        },
+        {
+          "id": "B30",
+          "relation": "component-of",
+          "label": "component of"
+        }
+      ]
     },
     {
       "id": "B47",
@@ -4034,7 +4391,19 @@
       "book_no": 80,
       "hand_glyph": "assets/glyphs/book/80.png",
       "source_url": [],
-      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources.",
+      "related": [
+        {
+          "id": "B46",
+          "relation": "builds-on",
+          "label": "builds on"
+        },
+        {
+          "id": "B30",
+          "relation": "compare",
+          "label": "compare"
+        }
+      ]
     },
     {
       "id": "B48",
@@ -4060,7 +4429,19 @@
       "book_no": 87,
       "hand_glyph": "assets/glyphs/book/87.png",
       "source_url": [],
-      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources.",
+      "related": [
+        {
+          "id": "B6",
+          "relation": "builds-on",
+          "label": "builds on"
+        },
+        {
+          "id": "B31",
+          "relation": "builds-on",
+          "label": "builds on"
+        }
+      ]
     },
     {
       "id": "B50",
@@ -4073,7 +4454,14 @@
       "book_no": 89,
       "hand_glyph": "assets/glyphs/book/89.png",
       "source_url": [],
-      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources.",
+      "related": [
+        {
+          "id": "B32",
+          "relation": "same-as",
+          "label": "same as"
+        }
+      ]
     },
     {
       "id": "B51",
@@ -4086,7 +4474,24 @@
       "book_no": 90,
       "hand_glyph": "assets/glyphs/book/90.png",
       "source_url": [],
-      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources.",
+      "related": [
+        {
+          "id": "B31",
+          "relation": "builds-on",
+          "label": "builds on"
+        },
+        {
+          "id": "B32",
+          "relation": "builds-on",
+          "label": "builds on"
+        },
+        {
+          "id": "B52",
+          "relation": "same-as",
+          "label": "same as"
+        }
+      ]
     },
     {
       "id": "B52",
@@ -4099,7 +4504,14 @@
       "book_no": 91,
       "hand_glyph": "assets/glyphs/book/91.png",
       "source_url": [],
-      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources.",
+      "related": [
+        {
+          "id": "B51",
+          "relation": "same-as",
+          "label": "same as"
+        }
+      ]
     },
     {
       "id": "B53",
@@ -4125,7 +4537,14 @@
       "book_no": 93,
       "hand_glyph": "assets/glyphs/book/93.png",
       "source_url": [],
-      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources.",
+      "related": [
+        {
+          "id": "B30",
+          "relation": "builds-on",
+          "label": "builds on"
+        }
+      ]
     },
     {
       "id": "B55",
@@ -4151,7 +4570,14 @@
       "book_no": 98,
       "hand_glyph": "assets/glyphs/book/98.png",
       "source_url": [],
-      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources.",
+      "related": [
+        {
+          "id": "B57",
+          "relation": "compare",
+          "label": "compare"
+        }
+      ]
     },
     {
       "id": "B57",
@@ -4164,7 +4590,14 @@
       "book_no": 99,
       "hand_glyph": "assets/glyphs/book/99.png",
       "source_url": [],
-      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources.",
+      "related": [
+        {
+          "id": "B56",
+          "relation": "compare",
+          "label": "compare"
+        }
+      ]
     },
     {
       "id": "B58",
@@ -4177,7 +4610,14 @@
       "book_no": 102,
       "hand_glyph": "assets/glyphs/book/102.png",
       "source_url": [],
-      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources.",
+      "related": [
+        {
+          "id": "B36",
+          "relation": "builds-on",
+          "label": "builds on"
+        }
+      ]
     },
     {
       "id": "B59",
@@ -4190,7 +4630,14 @@
       "book_no": 103,
       "hand_glyph": "assets/glyphs/book/103.png",
       "source_url": [],
-      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources.",
+      "related": [
+        {
+          "id": "B36",
+          "relation": "builds-on",
+          "label": "builds on"
+        }
+      ]
     },
     {
       "id": "B60",
@@ -4203,7 +4650,19 @@
       "book_no": 104,
       "hand_glyph": "assets/glyphs/book/104.png",
       "source_url": [],
-      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources.",
+      "related": [
+        {
+          "id": "B36",
+          "relation": "compare",
+          "label": "compare"
+        },
+        {
+          "id": "B21",
+          "relation": "compare",
+          "label": "compare"
+        }
+      ]
     },
     {
       "id": "B61",
@@ -4216,7 +4675,14 @@
       "book_no": 108,
       "hand_glyph": "assets/glyphs/book/108.png",
       "source_url": [],
-      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources.",
+      "related": [
+        {
+          "id": "B37",
+          "relation": "builds-on",
+          "label": "builds on"
+        }
+      ]
     },
     {
       "id": "B62",
@@ -4229,7 +4695,24 @@
       "book_no": 109,
       "hand_glyph": "assets/glyphs/book/109.png",
       "source_url": [],
-      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources.",
+      "related": [
+        {
+          "id": "B9",
+          "relation": "builds-on",
+          "label": "builds on"
+        },
+        {
+          "id": "F4",
+          "relation": "builds-on",
+          "label": "builds on"
+        },
+        {
+          "id": "F1",
+          "relation": "builds-on",
+          "label": "builds on"
+        }
+      ]
     },
     {
       "id": "B63",
@@ -4242,7 +4725,24 @@
       "book_no": 111,
       "hand_glyph": "assets/glyphs/book/111.png",
       "source_url": [],
-      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources.",
+      "related": [
+        {
+          "id": "B31",
+          "relation": "builds-on",
+          "label": "builds on"
+        },
+        {
+          "id": "F1",
+          "relation": "builds-on",
+          "label": "builds on"
+        },
+        {
+          "id": "B39",
+          "relation": "compare",
+          "label": "compare"
+        }
+      ]
     },
     {
       "id": "B64",
@@ -4255,7 +4755,19 @@
       "book_no": 112,
       "hand_glyph": "assets/glyphs/book/112.png",
       "source_url": [],
-      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources.",
+      "related": [
+        {
+          "id": "B3",
+          "relation": "builds-on",
+          "label": "builds on"
+        },
+        {
+          "id": "B65",
+          "relation": "compare",
+          "label": "compare"
+        }
+      ]
     },
     {
       "id": "B65",
@@ -4268,7 +4780,19 @@
       "book_no": 113,
       "hand_glyph": "assets/glyphs/book/113.png",
       "source_url": [],
-      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources.",
+      "related": [
+        {
+          "id": "B64",
+          "relation": "compare",
+          "label": "compare"
+        },
+        {
+          "id": "B3",
+          "relation": "builds-on",
+          "label": "builds on"
+        }
+      ]
     },
     {
       "id": "B66",
@@ -4294,7 +4818,19 @@
       "book_no": 125,
       "hand_glyph": "assets/glyphs/book/125.png",
       "source_url": [],
-      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources.",
+      "related": [
+        {
+          "id": "C3",
+          "relation": "builds-on",
+          "label": "builds on"
+        },
+        {
+          "id": "C1",
+          "relation": "builds-on",
+          "label": "builds on"
+        }
+      ]
     },
     {
       "id": "D18",
@@ -4307,7 +4843,19 @@
       "book_no": 126,
       "hand_glyph": "assets/glyphs/book/126.png",
       "source_url": [],
-      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources.",
+      "related": [
+        {
+          "id": "C4",
+          "relation": "builds-on",
+          "label": "builds on"
+        },
+        {
+          "id": "C1",
+          "relation": "builds-on",
+          "label": "builds on"
+        }
+      ]
     },
     {
       "id": "D19",
@@ -4320,7 +4868,14 @@
       "book_no": 129,
       "hand_glyph": "assets/glyphs/book/129.png",
       "source_url": [],
-      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources.",
+      "related": [
+        {
+          "id": "C1",
+          "relation": "builds-on",
+          "label": "builds on"
+        }
+      ]
     },
     {
       "id": "D20",
@@ -4333,7 +4888,14 @@
       "book_no": 132,
       "hand_glyph": "assets/glyphs/book/132.png",
       "source_url": [],
-      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources.",
+      "related": [
+        {
+          "id": "C1",
+          "relation": "builds-on",
+          "label": "builds on"
+        }
+      ]
     },
     {
       "id": "D21",
@@ -4346,7 +4908,19 @@
       "book_no": 134,
       "hand_glyph": "assets/glyphs/book/134.png",
       "source_url": [],
-      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources.",
+      "related": [
+        {
+          "id": "D13",
+          "relation": "builds-on",
+          "label": "builds on"
+        },
+        {
+          "id": "D12",
+          "relation": "builds-on",
+          "label": "builds on"
+        }
+      ]
     },
     {
       "id": "D22",
@@ -4359,7 +4933,19 @@
       "book_no": 140,
       "hand_glyph": "assets/glyphs/book/140.png",
       "source_url": [],
-      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources.",
+      "related": [
+        {
+          "id": "C3",
+          "relation": "builds-on",
+          "label": "builds on"
+        },
+        {
+          "id": "C2",
+          "relation": "builds-on",
+          "label": "builds on"
+        }
+      ]
     },
     {
       "id": "D23",
@@ -4372,7 +4958,14 @@
       "book_no": 141,
       "hand_glyph": "assets/glyphs/book/141.png",
       "source_url": [],
-      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources.",
+      "related": [
+        {
+          "id": "C2",
+          "relation": "builds-on",
+          "label": "builds on"
+        }
+      ]
     },
     {
       "id": "D24",
@@ -4385,7 +4978,19 @@
       "book_no": 146,
       "hand_glyph": "assets/glyphs/book/146.png",
       "source_url": [],
-      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources.",
+      "related": [
+        {
+          "id": "C4",
+          "relation": "builds-on",
+          "label": "builds on"
+        },
+        {
+          "id": "C2",
+          "relation": "builds-on",
+          "label": "builds on"
+        }
+      ]
     },
     {
       "id": "D25",
@@ -4398,7 +5003,14 @@
       "book_no": 148,
       "hand_glyph": "assets/glyphs/book/148.png",
       "source_url": [],
-      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources.",
+      "related": [
+        {
+          "id": "C2",
+          "relation": "builds-on",
+          "label": "builds on"
+        }
+      ]
     },
     {
       "id": "E11",
@@ -4411,7 +5023,14 @@
       "book_no": 151,
       "hand_glyph": "assets/glyphs/book/151.png",
       "source_url": [],
-      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources.",
+      "related": [
+        {
+          "id": "E3",
+          "relation": "builds-on",
+          "label": "builds on"
+        }
+      ]
     },
     {
       "id": "E12",
@@ -4424,7 +5043,19 @@
       "book_no": 157,
       "hand_glyph": "assets/glyphs/book/157.png",
       "source_url": [],
-      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources.",
+      "related": [
+        {
+          "id": "C5",
+          "relation": "builds-on",
+          "label": "builds on"
+        },
+        {
+          "id": "E13",
+          "relation": "compare",
+          "label": "compare"
+        }
+      ]
     },
     {
       "id": "E13",
@@ -4437,7 +5068,19 @@
       "book_no": 158,
       "hand_glyph": "assets/glyphs/book/158.png",
       "source_url": [],
-      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources.",
+      "related": [
+        {
+          "id": "C5",
+          "relation": "builds-on",
+          "label": "builds on"
+        },
+        {
+          "id": "E12",
+          "relation": "compare",
+          "label": "compare"
+        }
+      ]
     },
     {
       "id": "E14",
@@ -4450,7 +5093,19 @@
       "book_no": 159,
       "hand_glyph": "assets/glyphs/book/159.png",
       "source_url": [],
-      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources.",
+      "related": [
+        {
+          "id": "C4",
+          "relation": "builds-on",
+          "label": "builds on"
+        },
+        {
+          "id": "C6",
+          "relation": "builds-on",
+          "label": "builds on"
+        }
+      ]
     },
     {
       "id": "F16",
@@ -4463,7 +5118,29 @@
       "book_no": 164,
       "hand_glyph": "assets/glyphs/book/164.png",
       "source_url": [],
-      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources.",
+      "related": [
+        {
+          "id": "F9",
+          "relation": "builds-on",
+          "label": "builds on"
+        },
+        {
+          "id": "F10",
+          "relation": "builds-on",
+          "label": "builds on"
+        },
+        {
+          "id": "F7",
+          "relation": "compare",
+          "label": "compare"
+        },
+        {
+          "id": "F8",
+          "relation": "compare",
+          "label": "compare"
+        }
+      ]
     },
     {
       "id": "F17",
@@ -4476,7 +5153,14 @@
       "book_no": 166,
       "hand_glyph": "assets/glyphs/book/166.png",
       "source_url": [],
-      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources.",
+      "related": [
+        {
+          "id": "F7",
+          "relation": "builds-on",
+          "label": "builds on"
+        }
+      ]
     },
     {
       "id": "F18",
@@ -4502,7 +5186,14 @@
       "book_no": 177,
       "hand_glyph": "assets/glyphs/book/177.png",
       "source_url": [],
-      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources.",
+      "related": [
+        {
+          "id": "F13",
+          "relation": "compare",
+          "label": "compare"
+        }
+      ]
     },
     {
       "id": "F20",
@@ -4515,7 +5206,19 @@
       "book_no": 179,
       "hand_glyph": "assets/glyphs/book/179.png",
       "source_url": [],
-      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources.",
+      "related": [
+        {
+          "id": "F2",
+          "relation": "builds-on",
+          "label": "builds on"
+        },
+        {
+          "id": "F13",
+          "relation": "compare",
+          "label": "compare"
+        }
+      ]
     },
     {
       "id": "F21",
@@ -4528,7 +5231,14 @@
       "book_no": 181,
       "hand_glyph": "assets/glyphs/book/181.png",
       "source_url": [],
-      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources.",
+      "related": [
+        {
+          "id": "F13",
+          "relation": "same-as",
+          "label": "same as"
+        }
+      ]
     },
     {
       "id": "F22",
@@ -4567,7 +5277,19 @@
       "book_no": 185,
       "hand_glyph": "assets/glyphs/book/185.png",
       "source_url": [],
-      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources.",
+      "related": [
+        {
+          "id": "B21",
+          "relation": "builds-on",
+          "label": "builds on"
+        },
+        {
+          "id": "B40",
+          "relation": "compare",
+          "label": "compare"
+        }
+      ]
     }
   ]
 }
