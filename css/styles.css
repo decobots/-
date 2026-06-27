@@ -280,6 +280,8 @@ html, body { width: 100%; max-width: 100%; overflow-x: hidden; }
   filter: invert(1);
   mix-blend-mode: multiply;
 }
+/* hand-drawn ink glyphs are already black-on-white: multiply onto the cream tile */
+.glyph-ink { padding: 3px; mix-blend-mode: multiply; }
 /* contain the blend so it only mixes with the tile's own cream background */
 .glyph-box.is-img, .si-chip.has-img { isolation: isolate; }
 
