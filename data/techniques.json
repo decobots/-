@@ -34,7 +34,7 @@
       "hand": "right",
       "description": "Pinches, wheels, locks, sweeps and rolls built from the eight basic strokes across one or more strings.",
       "indexSource": "https://peiyouqin.com/notation2.html",
-      "count": 32
+      "count": 30
     },
     {
       "id": "left-basic",
@@ -698,35 +698,6 @@
       "book_no": 94
     },
     {
-      "id": "B10",
-      "name_hanzi": "齱 / 齪",
-      "name_pinyin": "chuò",
-      "hand": "right",
-      "category": "right-stroke-compound",
-      "jianzipu_glyph": "齱",
-      "instruction_text": "Older term for a simultaneous two-string sound, now replaced by 撮 cuō.",
-      "poetic_image": null,
-      "poetic_verse": null,
-      "source_url": [
-        "https://silkqin.com/02qnpu/05tydq/ty5c.htm"
-      ],
-      "notes": "Historical; superseded by 撮.",
-      "movement": {
-        "mode": "together",
-        "steps": [
-          {
-            "finger": 2,
-            "dir": "up"
-          },
-          {
-            "finger": 3,
-            "dir": "down"
-          }
-        ],
-        "hand": "R"
-      }
-    },
-    {
       "id": "B11",
       "name_hanzi": "輪",
       "name_pinyin": "lún",
@@ -825,40 +796,6 @@
       "book_no": 75
     },
     {
-      "id": "B13",
-      "name_hanzi": "鎖",
-      "name_pinyin": "suǒ",
-      "hand": "right",
-      "category": "right-stroke-compound",
-      "jianzipu_glyph": "鎖",
-      "instruction_text": "\"Lock\" — a rapid repeated cluster of strokes on one string.",
-      "poetic_image": null,
-      "poetic_verse": null,
-      "source_url": [
-        "https://peiyouqin.com/notation2.html"
-      ],
-      "notes": null,
-      "related": [
-        {
-          "id": "B14",
-          "relation": "component-of",
-          "label": "component of"
-        },
-        {
-          "id": "B28",
-          "relation": "component-of",
-          "label": "component of"
-        },
-        {
-          "id": "B27",
-          "relation": "component-of",
-          "label": "component of"
-        }
-      ],
-      "etymology": "Earliest (You Lan, Tang): the suǒ appears as 三鎖, the index finger rapidly making three connected sounds.",
-      "etymology_source": "https://silkqin.com/02qnpu/01yl/wusilan.htm"
-    },
-    {
       "id": "B14",
       "name_hanzi": "長鎖",
       "name_pinyin": "cháng suǒ",
@@ -884,13 +821,7 @@
           "label": "Demonstration"
         }
       ],
-      "related": [
-        {
-          "id": "B13",
-          "relation": "builds-on",
-          "label": "builds on"
-        }
-      ],
+      "related": [],
       "etymology": "Cháng-suǒ (長銷): seven (or nine) sounds — mǒ, tiāo, mǒ, gōu, then a bèi-suǒ added.",
       "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm",
       "movement": {
@@ -3176,13 +3107,7 @@
       "instruction_text": "On the same string, use Ti Muǒ Tiaǒ to play a fast continuing 3 sounds. Use the tip of the nails, don't put them too deep into the string.",
       "source_url": [],
       "glyph_image": "assets/glyphs/peiyou/beisuoN.jpg",
-      "related": [
-        {
-          "id": "B13",
-          "relation": "builds-on",
-          "label": "builds on"
-        }
-      ],
+      "related": [],
       "video_id": "3q83s-wcbMg",
       "video_kind": "youtube",
       "video_url": "https://www.youtube.com/watch?v=3q83s-wcbMg",
@@ -3226,13 +3151,7 @@
       "instruction_text": "On the same string, do Muǒ Gou first, a slowly and gradually continuing sound, then following with Ti Muǒ Tiaǒ, a faster continuing sound.",
       "source_url": [],
       "glyph_image": "assets/glyphs/peiyou/duansuoN.jpg",
-      "related": [
-        {
-          "id": "B13",
-          "relation": "builds-on",
-          "label": "builds on"
-        }
-      ],
+      "related": [],
       "video_id": "73vplSbOtvE",
       "video_kind": "youtube",
       "video_url": "https://www.youtube.com/watch?v=73vplSbOtvE",
