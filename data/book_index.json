@@ -1,0 +1,1118 @@
+[
+ {
+  "n": 1,
+  "hanzi": "弦",
+  "pinyin": "xián",
+  "en": "Strings"
+ },
+ {
+  "n": 2,
+  "hanzi": "徽",
+  "pinyin": "huī",
+  "en": "Harmonic markers"
+ },
+ {
+  "n": 3,
+  "hanzi": "指",
+  "pinyin": "zhǐ",
+  "en": "Fingers"
+ },
+ {
+  "n": 4,
+  "hanzi": "曲終",
+  "pinyin": "qǔ zhōng",
+  "en": "End of the piece"
+ },
+ {
+  "n": 5,
+  "hanzi": "一弦",
+  "pinyin": "yī xián",
+  "en": "String #1"
+ },
+ {
+  "n": 6,
+  "hanzi": "二弦",
+  "pinyin": "èr xián",
+  "en": "String #2"
+ },
+ {
+  "n": 7,
+  "hanzi": "三弦",
+  "pinyin": "sān xián",
+  "en": "String #3"
+ },
+ {
+  "n": 8,
+  "hanzi": "四弦",
+  "pinyin": "sì xián",
+  "en": "String #4"
+ },
+ {
+  "n": 9,
+  "hanzi": "五弦",
+  "pinyin": "wǔ xián",
+  "en": "String #5"
+ },
+ {
+  "n": 10,
+  "hanzi": "六弦",
+  "pinyin": "liù xián",
+  "en": "String #6"
+ },
+ {
+  "n": 11,
+  "hanzi": "七弦",
+  "pinyin": "qī xián",
+  "en": "String #7"
+ },
+ {
+  "n": 12,
+  "hanzi": "一徽",
+  "pinyin": "yī huī",
+  "en": "Marker #1"
+ },
+ {
+  "n": 13,
+  "hanzi": "二徽",
+  "pinyin": "èr huī",
+  "en": "Marker #2"
+ },
+ {
+  "n": 14,
+  "hanzi": "三徽",
+  "pinyin": "sān huī",
+  "en": "Marker #3"
+ },
+ {
+  "n": 15,
+  "hanzi": "四徽",
+  "pinyin": "sì huī",
+  "en": "Marker #4"
+ },
+ {
+  "n": 16,
+  "hanzi": "五徽",
+  "pinyin": "wǔ huī",
+  "en": "Marker #5"
+ },
+ {
+  "n": 17,
+  "hanzi": "六徽",
+  "pinyin": "liù huī",
+  "en": "Marker #6"
+ },
+ {
+  "n": 18,
+  "hanzi": "七徽",
+  "pinyin": "qī huī",
+  "en": "Marker #7"
+ },
+ {
+  "n": 19,
+  "hanzi": "八徽",
+  "pinyin": "bā huī",
+  "en": "Marker #8"
+ },
+ {
+  "n": 20,
+  "hanzi": "九徽",
+  "pinyin": "jiǔ huī",
+  "en": "Marker #9"
+ },
+ {
+  "n": 21,
+  "hanzi": "十徽",
+  "pinyin": "shí huī",
+  "en": "Marker #10"
+ },
+ {
+  "n": 22,
+  "hanzi": "十一徽",
+  "pinyin": "shí yī huī",
+  "en": "Marker #11"
+ },
+ {
+  "n": 23,
+  "hanzi": "十二徽",
+  "pinyin": "shí èr huī",
+  "en": "Marker #12"
+ },
+ {
+  "n": 24,
+  "hanzi": "十三徽",
+  "pinyin": "shí sān huī",
+  "en": "Marker #13"
+ },
+ {
+  "n": 25,
+  "hanzi": "徽外",
+  "pinyin": "huī wài",
+  "en": "Outside of markers"
+ },
+ {
+  "n": 26,
+  "hanzi": "半",
+  "pinyin": "bàn",
+  "en": "Half"
+ },
+ {
+  "n": 27,
+  "hanzi": "分",
+  "pinyin": "fēn",
+  "en": "A portion / fraction of"
+ },
+ {
+  "n": 28,
+  "hanzi": "跌宕",
+  "pinyin": "diē dàng",
+  "en": "Free section, cadenza"
+ },
+ {
+  "n": 29,
+  "hanzi": "少息",
+  "pinyin": "shào xī",
+  "en": "Short breath / rest"
+ },
+ {
+  "n": 30,
+  "hanzi": "大息",
+  "pinyin": "dà xī",
+  "en": "Longer breath / rest"
+ },
+ {
+  "n": 31,
+  "hanzi": "頓",
+  "pinyin": "dùn",
+  "en": "Short pause"
+ },
+ {
+  "n": 32,
+  "hanzi": "急",
+  "pinyin": "jí",
+  "en": "Fast — allegro"
+ },
+ {
+  "n": 33,
+  "hanzi": "活",
+  "pinyin": "huó",
+  "en": "Lively with energy"
+ },
+ {
+  "n": 34,
+  "hanzi": "緩",
+  "pinyin": "huǎn",
+  "en": "Slow moderate — andante"
+ },
+ {
+  "n": 35,
+  "hanzi": "緊",
+  "pinyin": "jǐn",
+  "en": "Speed up — accelerando"
+ },
+ {
+  "n": 36,
+  "hanzi": "入慢",
+  "pinyin": "rù màn",
+  "en": "Slow down — ritardando"
+ },
+ {
+  "n": 37,
+  "hanzi": "輕",
+  "pinyin": "qīng",
+  "en": "Light — piano"
+ },
+ {
+  "n": 38,
+  "hanzi": "重",
+  "pinyin": "zhòng",
+  "en": "Heavy — forte"
+ },
+ {
+  "n": 39,
+  "hanzi": "入拍",
+  "pinyin": "rù pāi",
+  "en": "Rhythm regulated after this sign"
+ },
+ {
+  "n": 40,
+  "hanzi": "就",
+  "pinyin": "jiù",
+  "en": "LH stays on marker after RH plays"
+ },
+ {
+  "n": 41,
+  "hanzi": "至",
+  "pinyin": "zhì",
+  "en": "To a note, one string to the other"
+ },
+ {
+  "n": 42,
+  "hanzi": "硬",
+  "pinyin": "yìng",
+  "en": "Rigid sliding — glissando"
+ },
+ {
+  "n": 43,
+  "hanzi": "次",
+  "pinyin": "cì",
+  "en": "Next note, second continuous pluck"
+ },
+ {
+  "n": 44,
+  "hanzi": "軟",
+  "pinyin": "ruǎn",
+  "en": "Soft / subdued — pianissimo"
+ },
+ {
+  "n": 45,
+  "hanzi": "從頭再作",
+  "pinyin": "cóng tóu zài zuò",
+  "en": "Repeat from the beginning"
+ },
+ {
+  "n": 46,
+  "hanzi": "從◌再作",
+  "pinyin": "cóng … zài zuò",
+  "en": "Repeat section beginning with …"
+ },
+ {
+  "n": 47,
+  "hanzi": "再二作",
+  "pinyin": "zài èr zuò",
+  "en": "Repeat twice"
+ },
+ {
+  "n": 48,
+  "hanzi": "再三作",
+  "pinyin": "zài sān zuò",
+  "en": "Repeat three times"
+ },
+ {
+  "n": 49,
+  "hanzi": "再作",
+  "pinyin": "zài zuò",
+  "en": "Repeat"
+ },
+ {
+  "n": 50,
+  "hanzi": "散",
+  "pinyin": "sǎn",
+  "en": "Open strings"
+ },
+ {
+  "n": 51,
+  "hanzi": "按",
+  "pinyin": "àn",
+  "en": "Pressed notes"
+ },
+ {
+  "n": 52,
+  "hanzi": "泛",
+  "pinyin": "fàn",
+  "en": "Harmonics"
+ },
+ {
+  "n": 53,
+  "hanzi": "泛起",
+  "pinyin": "fàn qǐ",
+  "en": "Begin harmonics"
+ },
+ {
+  "n": 54,
+  "hanzi": "泛止",
+  "pinyin": "fàn zhǐ",
+  "en": "Stop harmonics"
+ },
+ {
+  "n": 55,
+  "hanzi": "抹",
+  "pinyin": "mǒ",
+  "en": "RH index pluck in"
+ },
+ {
+  "n": 56,
+  "hanzi": "挑",
+  "pinyin": "tiāo",
+  "en": "RH index pluck away"
+ },
+ {
+  "n": 57,
+  "hanzi": "勾",
+  "pinyin": "gōu",
+  "en": "RH middle pluck in"
+ },
+ {
+  "n": 58,
+  "hanzi": "剔",
+  "pinyin": "tī",
+  "en": "RH middle pluck away"
+ },
+ {
+  "n": 59,
+  "hanzi": "托",
+  "pinyin": "tuō",
+  "en": "RH thumb pluck away"
+ },
+ {
+  "n": 60,
+  "hanzi": "劈",
+  "pinyin": "pī",
+  "en": "RH thumb pluck in"
+ },
+ {
+  "n": 61,
+  "hanzi": "打",
+  "pinyin": "dǎ",
+  "en": "RH ring pluck in"
+ },
+ {
+  "n": 62,
+  "hanzi": "摘",
+  "pinyin": "zhāi",
+  "en": "RH ring pluck away"
+ },
+ {
+  "n": 63,
+  "hanzi": "抹挑",
+  "pinyin": "mǒ tiāo",
+  "en": "RH index in then away"
+ },
+ {
+  "n": 64,
+  "hanzi": "勾剔",
+  "pinyin": "gōu tī",
+  "en": "RH middle in then away"
+ },
+ {
+  "n": 65,
+  "hanzi": "托劈",
+  "pinyin": "tuō pī",
+  "en": "RH thumb away then in"
+ },
+ {
+  "n": 66,
+  "hanzi": "打摘",
+  "pinyin": "dǎ zhāi",
+  "en": "RH ring in then away"
+ },
+ {
+  "n": 67,
+  "hanzi": "疊涓",
+  "pinyin": "dié juān",
+  "en": "RH mǒ-gōu rapidly"
+ },
+ {
+  "n": 68,
+  "hanzi": "反涓",
+  "pinyin": "fǎn juān",
+  "en": "Opposite of dié juān"
+ },
+ {
+  "n": 69,
+  "hanzi": "半涓",
+  "pinyin": "bàn juān",
+  "en": "dié juān, 2nd note lighter"
+ },
+ {
+  "n": 70,
+  "hanzi": "連涓",
+  "pinyin": "lián juān",
+  "en": "RH middle gōu-tī quickly"
+ },
+ {
+  "n": 71,
+  "hanzi": "背鎖",
+  "pinyin": "bèi suǒ",
+  "en": "tī mǒ tiāo"
+ },
+ {
+  "n": 72,
+  "hanzi": "短鎖",
+  "pinyin": "duǎn suǒ",
+  "en": "mǒ gōu tī mǒ tiāo"
+ },
+ {
+  "n": 73,
+  "hanzi": "長鎖",
+  "pinyin": "cháng suǒ",
+  "en": "mǒ tiāo mǒ gōu tī mǒ tiāo"
+ },
+ {
+  "n": 74,
+  "hanzi": "輪",
+  "pinyin": "lún",
+  "en": "Ring-middle-index roll out"
+ },
+ {
+  "n": 75,
+  "hanzi": "半輪",
+  "pinyin": "bàn lún",
+  "en": "Ring and middle roll out"
+ },
+ {
+  "n": 76,
+  "hanzi": "倒輪",
+  "pinyin": "dào lún",
+  "en": "Index-middle-ring roll in"
+ },
+ {
+  "n": 77,
+  "hanzi": "如一",
+  "pinyin": "rú yī",
+  "en": "tī/tiāo two strings as one chord"
+ },
+ {
+  "n": 78,
+  "hanzi": "彈",
+  "pinyin": "tán",
+  "en": "tiāo two strings as one"
+ },
+ {
+  "n": 79,
+  "hanzi": "雙彈",
+  "pinyin": "shuāng tán",
+  "en": "Two snapped strokes out"
+ },
+ {
+  "n": 80,
+  "hanzi": "三彈",
+  "pinyin": "sān tán",
+  "en": "Three snapped strokes out"
+ },
+ {
+  "n": 81,
+  "hanzi": "全扶",
+  "pinyin": "quán fú",
+  "en": "mǒ-gōu two strings sequentially"
+ },
+ {
+  "n": 82,
+  "hanzi": "半扶",
+  "pinyin": "bàn fú",
+  "en": "mǒ then middle mutes first"
+ },
+ {
+  "n": 83,
+  "hanzi": "圓摟",
+  "pinyin": "yuán lóu",
+  "en": "Index+middle pluck two together"
+ },
+ {
+  "n": 84,
+  "hanzi": "撥",
+  "pinyin": "bō",
+  "en": "Three fingers sweep in"
+ },
+ {
+  "n": 85,
+  "hanzi": "剌",
+  "pinyin": "là",
+  "en": "Three fingers sweep out"
+ },
+ {
+  "n": 86,
+  "hanzi": "撥剌",
+  "pinyin": "bō là",
+  "en": "Use bō là sequentially"
+ },
+ {
+  "n": 87,
+  "hanzi": "摘撥剌",
+  "pinyin": "zhāi bō là",
+  "en": "Ring plucks first, then bō là"
+ },
+ {
+  "n": 88,
+  "hanzi": "伏",
+  "pinyin": "fú",
+  "en": "Fingers rest on strings to stop"
+ },
+ {
+  "n": 89,
+  "hanzi": "無聲",
+  "pinyin": "wúshēng",
+  "en": "Same as fú"
+ },
+ {
+  "n": 90,
+  "hanzi": "拍殺",
+  "pinyin": "pāi shā",
+  "en": "After bō là then fú"
+ },
+ {
+  "n": 91,
+  "hanzi": "截剌",
+  "pinyin": "jié là",
+  "en": "Same as pāi shā"
+ },
+ {
+  "n": 92,
+  "hanzi": "挫",
+  "pinyin": "cuò",
+  "en": "Middle then index quickly"
+ },
+ {
+  "n": 93,
+  "hanzi": "鼓",
+  "pinyin": "gǔ",
+  "en": "Play shuāng tán strongly"
+ },
+ {
+  "n": 94,
+  "hanzi": "撮",
+  "pinyin": "cuō",
+  "en": "tiāo+gōu together (chord)"
+ },
+ {
+  "n": 95,
+  "hanzi": "大撮",
+  "pinyin": "dà cuō",
+  "en": "tuō+gōu together (chord)"
+ },
+ {
+  "n": 96,
+  "hanzi": "反撮",
+  "pinyin": "fǎn cuō",
+  "en": "tī+mǒ or tī+pī together"
+ },
+ {
+  "n": 97,
+  "hanzi": "掃",
+  "pinyin": "sǎo",
+  "en": "Strike two pressed + one open"
+ },
+ {
+  "n": 98,
+  "hanzi": "仰托",
+  "pinyin": "yǎng tuō",
+  "en": "Thumb pulls string up (slap)"
+ },
+ {
+  "n": 99,
+  "hanzi": "念",
+  "pinyin": "niàn",
+  "en": "Thumb+index pull string up (slap)"
+ },
+ {
+  "n": 100,
+  "hanzi": "打圓",
+  "pinyin": "dǎ yuán",
+  "en": "tiāo-gōu alternating pattern"
+ },
+ {
+  "n": 101,
+  "hanzi": "歷",
+  "pinyin": "lì",
+  "en": "Continuous tiāo over strings"
+ },
+ {
+  "n": 102,
+  "hanzi": "渡",
+  "pinyin": "dù",
+  "en": "Like lì but slower"
+ },
+ {
+  "n": 103,
+  "hanzi": "臨",
+  "pinyin": "lín",
+  "en": "lì 7th→2nd string (harmonics)"
+ },
+ {
+  "n": 104,
+  "hanzi": "雷",
+  "pinyin": "léi",
+  "en": "lì or gǔn slowly, staccato"
+ },
+ {
+  "n": 105,
+  "hanzi": "滾",
+  "pinyin": "gǔn",
+  "en": "Ring zhāi 7→1, continuous run"
+ },
+ {
+  "n": 106,
+  "hanzi": "拂",
+  "pinyin": "fú",
+  "en": "Index mǒ 1→7, continuous run"
+ },
+ {
+  "n": 107,
+  "hanzi": "滾拂",
+  "pinyin": "gǔn fú",
+  "en": "Combination of gǔn + fú"
+ },
+ {
+  "n": 108,
+  "hanzi": "轉圜",
+  "pinyin": "zhuàn yuán",
+  "en": "Play gǔn fú continuously"
+ },
+ {
+  "n": 109,
+  "hanzi": "插撮",
+  "pinyin": "qiā cuō",
+  "en": "Ring on marker, thumb strike, cuō"
+ },
+ {
+  "n": 110,
+  "hanzi": "插撮三聲",
+  "pinyin": "qiā cuō sān shēng",
+  "en": "qiā qǐ, fǎn chā qǐ, cuō"
+ },
+ {
+  "n": 111,
+  "hanzi": "插撥剌三聲",
+  "pinyin": "qiā bō là sān shēng",
+  "en": "qiā qǐ, fǎn chā qǐ, bō là"
+ },
+ {
+  "n": 112,
+  "hanzi": "小間勾",
+  "pinyin": "xiǎo jiān gōu",
+  "en": "Two sounds every other string"
+ },
+ {
+  "n": 113,
+  "hanzi": "大間勾",
+  "pinyin": "dà jiān gōu",
+  "en": "Two sounds every third string"
+ },
+ {
+  "n": 114,
+  "hanzi": "牽",
+  "pinyin": "qiān",
+  "en": "Pull/pluck adjacent strings in"
+ },
+ {
+  "n": 115,
+  "hanzi": "大指",
+  "pinyin": "dà zhǐ",
+  "en": "Thumb"
+ },
+ {
+  "n": 116,
+  "hanzi": "食指",
+  "pinyin": "shí zhǐ",
+  "en": "Index finger"
+ },
+ {
+  "n": 117,
+  "hanzi": "中指",
+  "pinyin": "zhōng zhǐ",
+  "en": "Middle finger"
+ },
+ {
+  "n": 118,
+  "hanzi": "名指",
+  "pinyin": "míng zhǐ",
+  "en": "Ring finger"
+ },
+ {
+  "n": 119,
+  "hanzi": "跪指",
+  "pinyin": "guì zhǐ",
+  "en": "Kneeling finger"
+ },
+ {
+  "n": 120,
+  "hanzi": "綽",
+  "pinyin": "chuò",
+  "en": "Up glissando into note"
+ },
+ {
+  "n": 121,
+  "hanzi": "注",
+  "pinyin": "zhù",
+  "en": "Down glissando into note"
+ },
+ {
+  "n": 122,
+  "hanzi": "吟",
+  "pinyin": "yín",
+  "en": "Small vibrato"
+ },
+ {
+  "n": 123,
+  "hanzi": "長吟",
+  "pinyin": "cháng yín",
+  "en": "Long vibrato"
+ },
+ {
+  "n": 124,
+  "hanzi": "定吟",
+  "pinyin": "dìng yín",
+  "en": "Vibrato on note played"
+ },
+ {
+  "n": 125,
+  "hanzi": "綽吟",
+  "pinyin": "chuò yín",
+  "en": "Up glissando with vibrato"
+ },
+ {
+  "n": 126,
+  "hanzi": "注吟",
+  "pinyin": "zhù yín",
+  "en": "Down glissando with vibrato"
+ },
+ {
+  "n": 127,
+  "hanzi": "細吟",
+  "pinyin": "xì yín",
+  "en": "Small fast vibrato"
+ },
+ {
+  "n": 128,
+  "hanzi": "游吟",
+  "pinyin": "yóu yín",
+  "en": "Vibrato, a few wandering tones"
+ },
+ {
+  "n": 129,
+  "hanzi": "蕩吟",
+  "pinyin": "dàng yín",
+  "en": "Slow stressed vibrato"
+ },
+ {
+  "n": 130,
+  "hanzi": "急吟",
+  "pinyin": "jí yín",
+  "en": "Rapid quick vibrato"
+ },
+ {
+  "n": 131,
+  "hanzi": "緩吟",
+  "pinyin": "huǎn yín",
+  "en": "Slow vibrato"
+ },
+ {
+  "n": 132,
+  "hanzi": "少吟",
+  "pinyin": "shào yín",
+  "en": "Vibrato, less finger movement"
+ },
+ {
+  "n": 133,
+  "hanzi": "略吟",
+  "pinyin": "lüè yín",
+  "en": "A little vibrato within a note"
+ },
+ {
+  "n": 134,
+  "hanzi": "緩急吟",
+  "pinyin": "huǎn jí yín",
+  "en": "1st vibrato slower than 2nd"
+ },
+ {
+  "n": 135,
+  "hanzi": "雙吟",
+  "pinyin": "shuāng yín",
+  "en": "Vibrato after every two notes"
+ },
+ {
+  "n": 136,
+  "hanzi": "落指吟",
+  "pinyin": "luò zhǐ yín",
+  "en": "Vibrato from note start to end"
+ },
+ {
+  "n": 137,
+  "hanzi": "飛吟",
+  "pinyin": "fēi yín",
+  "en": "Vibrato up/down motions"
+ },
+ {
+  "n": 138,
+  "hanzi": "猱",
+  "pinyin": "náo",
+  "en": "Large heavy vibrato"
+ },
+ {
+  "n": 139,
+  "hanzi": "長猱",
+  "pinyin": "cháng náo",
+  "en": "Long heavy vibrato"
+ },
+ {
+  "n": 140,
+  "hanzi": "綽猱",
+  "pinyin": "chuò náo",
+  "en": "Up glissando with heavy vibrato"
+ },
+ {
+  "n": 141,
+  "hanzi": "蕩猱",
+  "pinyin": "dàng náo",
+  "en": "Slow stressed heavy vibrato"
+ },
+ {
+  "n": 142,
+  "hanzi": "略猱",
+  "pinyin": "lüè náo",
+  "en": "Heavy vibrato within a note"
+ },
+ {
+  "n": 143,
+  "hanzi": "落指猱",
+  "pinyin": "luò zhǐ náo",
+  "en": "Heavy vibrato, note start to end"
+ },
+ {
+  "n": 144,
+  "hanzi": "緩猱",
+  "pinyin": "huǎn náo",
+  "en": "Slow heavy vibrato"
+ },
+ {
+  "n": 145,
+  "hanzi": "急猱",
+  "pinyin": "jí náo",
+  "en": "Rapid quick heavy vibrato"
+ },
+ {
+  "n": 146,
+  "hanzi": "注猱",
+  "pinyin": "zhù náo",
+  "en": "Down glissando, heavy vibrato"
+ },
+ {
+  "n": 147,
+  "hanzi": "撞猱",
+  "pinyin": "zhuàng náo",
+  "en": "náo followed by shuāng zhuàng"
+ },
+ {
+  "n": 148,
+  "hanzi": "迎猱",
+  "pinyin": "yíng náo",
+  "en": "Articulated subdued bigger vibrato"
+ },
+ {
+  "n": 149,
+  "hanzi": "撞",
+  "pinyin": "zhuàng",
+  "en": "Quick up-and-back grace note"
+ },
+ {
+  "n": 150,
+  "hanzi": "雙撞",
+  "pinyin": "shuāng zhuàng",
+  "en": "Doubled grace notes"
+ },
+ {
+  "n": 151,
+  "hanzi": "小撞",
+  "pinyin": "xiǎo zhuàng",
+  "en": "Small-range zhuàng, high register"
+ },
+ {
+  "n": 152,
+  "hanzi": "反撞",
+  "pinyin": "fǎn zhuàng",
+  "en": "Down grace note, opposite of zhuàng"
+ },
+ {
+  "n": 153,
+  "hanzi": "喚",
+  "pinyin": "huàn",
+  "en": "Like zhuàng but faster"
+ },
+ {
+  "n": 154,
+  "hanzi": "逗",
+  "pinyin": "dòu",
+  "en": "Same as huàn (with the pluck)"
+ },
+ {
+  "n": 155,
+  "hanzi": "上",
+  "pinyin": "shàng",
+  "en": "Slide right to marker"
+ },
+ {
+  "n": 156,
+  "hanzi": "下",
+  "pinyin": "xià",
+  "en": "Slide left to marker"
+ },
+ {
+  "n": 157,
+  "hanzi": "虛上",
+  "pinyin": "xū shàng",
+  "en": "Slide right and lift off"
+ },
+ {
+  "n": 158,
+  "hanzi": "仵上",
+  "pinyin": "wǔ shàng",
+  "en": "Slide up 3–4 places, lift off"
+ },
+ {
+  "n": 159,
+  "hanzi": "注下",
+  "pinyin": "zhù xià",
+  "en": "Down glissando with yín/náo"
+ },
+ {
+  "n": 160,
+  "hanzi": "躺",
+  "pinyin": "tǎng",
+  "en": "Glide down slowly point to point"
+ },
+ {
+  "n": 161,
+  "hanzi": "往來",
+  "pinyin": "wǎng lái",
+  "en": "Finger moves back and forth"
+ },
+ {
+  "n": 162,
+  "hanzi": "進",
+  "pinyin": "jìn",
+  "en": "Like shàng"
+ },
+ {
+  "n": 163,
+  "hanzi": "退",
+  "pinyin": "tuì",
+  "en": "Like xià"
+ },
+ {
+  "n": 164,
+  "hanzi": "復",
+  "pinyin": "fù",
+  "en": "Return after jìn or tuì"
+ },
+ {
+  "n": 165,
+  "hanzi": "進復",
+  "pinyin": "jìn fù",
+  "en": "Move up to a point then return"
+ },
+ {
+  "n": 166,
+  "hanzi": "懶進復",
+  "pinyin": "lǎn jìn fù",
+  "en": "jìn fù in a subdued manner"
+ },
+ {
+  "n": 167,
+  "hanzi": "退復",
+  "pinyin": "tuì fù",
+  "en": "Opposite of jìn fù"
+ },
+ {
+  "n": 168,
+  "hanzi": "分開",
+  "pinyin": "fēn kāi",
+  "en": "LH slides forward, returns as RH plucks"
+ },
+ {
+  "n": 169,
+  "hanzi": "掐起",
+  "pinyin": "qiā qǐ",
+  "en": "LH thumb lifts to pluck string"
+ },
+ {
+  "n": 170,
+  "hanzi": "抓起",
+  "pinyin": "zhuā qǐ",
+  "en": "LH thumb lift string up"
+ },
+ {
+  "n": 171,
+  "hanzi": "帶起",
+  "pinyin": "dài qǐ",
+  "en": "LH ring lift string up"
+ },
+ {
+  "n": 172,
+  "hanzi": "罨",
+  "pinyin": "yǎn",
+  "en": "LH thumb strikes faceboard"
+ },
+ {
+  "n": 173,
+  "hanzi": "虛罨",
+  "pinyin": "xū yǎn",
+  "en": "LH finger strikes open string"
+ },
+ {
+  "n": 174,
+  "hanzi": "虛撞",
+  "pinyin": "xū zhuàng",
+  "en": "zhuàng after non-plucked sound"
+ },
+ {
+  "n": 175,
+  "hanzi": "推出",
+  "pinyin": "tuī chū",
+  "en": "LH middle push and release out"
+ },
+ {
+  "n": 176,
+  "hanzi": "放",
+  "pinyin": "fàng",
+  "en": "LH release without leaving board"
+ },
+ {
+  "n": 177,
+  "hanzi": "合",
+  "pinyin": "hé",
+  "en": "Two sounds as a chord"
+ },
+ {
+  "n": 178,
+  "hanzi": "放合",
+  "pinyin": "fàng hé",
+  "en": "LH release+press as RH plays 2nd"
+ },
+ {
+  "n": 179,
+  "hanzi": "抓合",
+  "pinyin": "zhuā hé",
+  "en": "LH thumb lift as ring plays next"
+ },
+ {
+  "n": 180,
+  "hanzi": "同聲",
+  "pinyin": "tóng shēng",
+  "en": "dài qǐ/zhuā qǐ as RH plays — chord"
+ },
+ {
+  "n": 181,
+  "hanzi": "帶合",
+  "pinyin": "dài hé",
+  "en": "Same as tóng shēng"
+ },
+ {
+  "n": 182,
+  "hanzi": "應合",
+  "pinyin": "yìng hé",
+  "en": "LH moving, RH plucks matching string"
+ },
+ {
+  "n": 183,
+  "hanzi": "潛",
+  "pinyin": "hǔ",
+  "en": "Pressed note, wait, slide forward"
+ },
+ {
+  "n": 184,
+  "hanzi": "不動",
+  "pinyin": "bú dòng",
+  "en": "LH stays for RH to play later"
+ },
+ {
+  "n": 185,
+  "hanzi": "鈴",
+  "pinyin": "líng",
+  "en": "LH holds strings, RH gǔn"
+ },
+ {
+  "n": 186,
+  "hanzi": "索鈴",
+  "pinyin": "suǒ líng",
+  "en": "RH index continuous tiāo down scale"
+ }
+]
