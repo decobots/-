@@ -134,7 +134,8 @@ export function card(t) {
   var boxCls = hasTileGlyph(t) ? "is-img" : (t.font_input ? "is-jzp" : (multi ? "multi" : ""));
   html += '    <div class="glyph-box ' + boxCls + '" title="jianzipu score symbol">' + symbolHtml(t) + "</div>";
   html += '    <div class="card-head">';
-  html += '      <div class="card-id">' + escapeHtml(t.id) + "</div>";
+  var idLabel = /^\d+$/.test(t.id) ? "№ " + t.id : t.id;
+  html += '      <div class="card-id">' + escapeHtml(idLabel) + "</div>";
   html += '      <div class="card-hanzi">' + escapeHtml(t.name_hanzi) + "</div>";
   html += '      <div class="card-pinyin">' + escapeHtml(t.name_pinyin) + "</div>";
   html += "    </div>";
@@ -142,10 +143,6 @@ export function card(t) {
   // Tag column, top-right: hand, then the movement notation, then direction
   // (direction is dropped when movement is shown — the arrows already encode it).
   html += '    <div class="card-meta">';
-  if (t.book_no) {
-    html += '<span class="tag book-no" title="Index № in the Wu Family Qin Repertoire (虞山吳氏琴譜)">№ ' +
-      t.book_no + "</span>";
-  }
   html += handTag(t.hand);
   html += movementHtml(t);
   if (t.direction && !t.movement) html += '<span class="tag dir">' + escapeHtml(t.direction) + "</span>";
