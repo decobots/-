@@ -19,6 +19,18 @@ function bindControls() {
   });
 }
 
+// Floating "back to top" button: appears once the page is scrolled down.
+function bindToTop() {
+  var btn = document.getElementById("toTop");
+  if (!btn) return;
+  function update() { btn.hidden = window.scrollY < 400; }
+  window.addEventListener("scroll", update, { passive: true });
+  btn.addEventListener("click", function () {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+  update();
+}
+
 Promise.all([
   load("data/techniques.json"),
   load("data/resources.json"),
@@ -36,6 +48,7 @@ Promise.all([
   buildComposer();
   buildResources();
   bindControls();
+  bindToTop();
   bindResultsClicks();
   render();
 }).catch(function (err) {
