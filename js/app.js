@@ -6,6 +6,7 @@ import { render, bindResultsClicks } from "./modules/render.js";
 import { buildNav } from "./modules/nav.js";
 import { buildSymbolIndex } from "./modules/symbolindex.js";
 import { buildComposer } from "./modules/composer.js";
+import { buildSets } from "./modules/sets.js";
 import { buildResources } from "./modules/resources.js";
 import { escapeHtml } from "./modules/util.js";
 
@@ -15,7 +16,11 @@ function bindControls() {
   var debounce;
   el.search.addEventListener("input", function () {
     clearTimeout(debounce);
-    debounce = setTimeout(function () { state.query = el.search.value; render(); }, 120);
+    debounce = setTimeout(function () {
+      state.query = el.search.value;
+      if (state.set) { state.set = null; document.dispatchEvent(new Event("setschange")); }
+      render();
+    }, 120);
   });
 }
 
@@ -65,6 +70,7 @@ Promise.all([
   buildNav();
   buildSymbolIndex();
   buildComposer();
+  buildSets();
   buildResources();
   bindControls();
   bindToTop();

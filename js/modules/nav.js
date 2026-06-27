@@ -23,6 +23,7 @@ export function buildNav() {
     var btn = e.target.closest(".nav-item[data-cat]");
     if (!btn) return;
     state.cat = btn.getAttribute("data-cat");
+    if (state.set) { state.set = null; document.dispatchEvent(new Event("setschange")); }
     render();
     window.scrollTo({ top: 0, behavior: "smooth" });
   });

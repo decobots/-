@@ -2,7 +2,7 @@
  * (click-to-play videos + jump-to-related-card). */
 import { escapeHtml, normalize } from "./util.js";
 import { state, store, el, catById } from "./store.js";
-import { categoryBlock } from "./card.js";
+import { categoryBlock, card } from "./card.js";
 
 function matches(t) {
   if (state.cat !== "all" && t.category !== state.cat) return false;
@@ -18,6 +18,7 @@ function matches(t) {
 }
 
 export function render() {
+  if (state.set) { renderSet(); return; }
   var visible = store.data.techniques.filter(matches);
 
   var html = "";
@@ -36,8 +37,29 @@ export function render() {
   });
 }
 
+// A song set: only the listed book numbers, in the listed order (flat).
+function renderSet() {
+  var nums = state.set.nums;
+  var items = nums.map(function (n) { return store.byId[String(n)]; });
+  var found = items.filter(Boolean);
+  var missing = nums.filter(function (n) { return !store.byId[String(n)]; });
+  var html = '<section class="cat-block"><div class="cat-head">';
+  html += '<h2><span class="cat-badge">SET</span>' + escapeHtml(state.set.name || "Set") +
+    ' <span class="cat-sub">' + found.length + " technique" + (found.length === 1 ? "" : "s") +
+    " · in sequence</span></h2>";
+  if (missing.length) html += '<p class="cat-desc">Not in the set data: №' + missing.join(", №") + "</p>";
+  html += "</div>";
+  html += '<div class="grid">' + found.map(card).join("") + "</div></section>";
+  el.results.innerHTML = html;
+  el.empty.hidden = found.length !== 0;
+  Array.prototype.forEach.call(el.sidebar.querySelectorAll(".nav-item[data-cat]"), function (b) {
+    b.classList.remove("is-active");
+  });
+}
+
 // Bring a technique into view and flash it (clearing any active filter first).
 export function jumpToTechnique(id) {
+  if (state.set) { state.set = null; document.dispatchEvent(new Event("setschange")); }
   if (state.cat !== "all" || state.query) {
     state.cat = "all";
     state.query = "";

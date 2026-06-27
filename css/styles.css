@@ -424,6 +424,25 @@ html, body { width: 100%; max-width: 100%; overflow-x: hidden; }
 }
 .zoomable { cursor: zoom-in; }
 
+/* ---------- Technique sets ---------- */
+.sets-panel { margin: .6rem 0; padding: .7rem; background: var(--bg-card); border: 1px solid var(--line); border-radius: var(--radius); display: flex; flex-direction: column; gap: .4rem; }
+.sets-head { font-size: .82rem; font-weight: 600; color: var(--ink); }
+.sets-head span { font-weight: 400; color: var(--ink-faint); font-size: .74rem; }
+.sets-input { width: 100%; box-sizing: border-box; font-size: .82rem; padding: .35rem .5rem; background: #1d1815; color: var(--ink); border: 1px solid var(--line); border-radius: 7px; }
+.sets-btns { display: flex; gap: .4rem; }
+.sets-btn { flex: 1; font-size: .8rem; padding: .35rem .5rem; border-radius: 7px; border: 1px solid var(--line); background: #211c19; color: var(--ink); cursor: pointer; }
+.sets-btn.primary { color: var(--accent); border-color: var(--accent-soft); }
+.sets-btn:hover { background: var(--bg-card-hover); }
+.sets-btn.reset { flex: none; color: var(--rust); border-color: #5a3a30; }
+.sets-saved { display: flex; flex-wrap: wrap; gap: .35rem; margin-top: .1rem; }
+.set-chip { display: inline-flex; align-items: stretch; border: 1px solid var(--line); border-radius: 999px; overflow: hidden; }
+.set-chip.is-on { border-color: var(--accent); }
+.set-apply { font-size: .78rem; padding: .2rem .55rem; background: #211c19; color: var(--ink); border: 0; cursor: pointer; }
+.set-chip.is-on .set-apply { color: var(--accent); }
+.set-apply small { color: var(--ink-faint); }
+.set-del { border: 0; border-left: 1px solid var(--line); background: #211c19; color: var(--ink-faint); padding: 0 .4rem; cursor: pointer; }
+.set-del:hover { color: var(--rust); }
+
 /* ---------- Compact mode ---------- */
 .compact-toggle {
   flex: 0 0 auto;
