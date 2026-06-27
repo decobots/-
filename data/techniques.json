@@ -34,7 +34,7 @@
       "hand": "right",
       "description": "Pinches, wheels, locks, sweeps and rolls built from the eight basic strokes across one or more strings.",
       "indexSource": "https://peiyouqin.com/notation2.html",
-      "count": 30
+      "count": 56
     },
     {
       "id": "left-basic",
@@ -54,7 +54,7 @@
       "hand": "left",
       "description": "Variations of the two basic vibratos: longer, finer, calmer, faster, immediate, or accented.",
       "indexSource": "https://peiyouqin.com/notation3b.html",
-      "count": 16
+      "count": 25
     },
     {
       "id": "slide-strike",
@@ -64,7 +64,7 @@
       "hand": "left",
       "description": "Slow slides, springy strikes-against, and back-and-forth ornaments performed by the left hand.",
       "indexSource": "https://peiyouqin.com/notation3c.html",
-      "count": 10
+      "count": 14
     },
     {
       "id": "left-pluck",
@@ -74,7 +74,7 @@
       "hand": "left",
       "description": "Pull-offs, hammer-ons, pushes and advance/return slides where the left hand itself produces the note with no right-hand pluck.",
       "indexSource": "https://silkqin.com/02qnpu/05tydq/ty5d.htm",
-      "count": 15
+      "count": 24
     },
     {
       "id": "tone-position",
@@ -106,7 +106,8 @@
       "glyph_image": "assets/glyphs/peiyou/dazhiN.jpg",
       "etymology": "The thumb — the “chief finger” (after Mencius); the first finger of the hand.",
       "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm",
-      "book_no": 115
+      "book_no": 115,
+      "hand_glyph": "assets/glyphs/book/115.png"
     },
     {
       "id": "A2",
@@ -126,7 +127,8 @@
       "glyph_image": "assets/glyphs/peiyou/shizhiN.jpg",
       "etymology": "The index finger; per the Zuo-chuan, an allusion to Zi-gong’s twitching “eating finger” that foretold a feast.",
       "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm",
-      "book_no": 116
+      "book_no": 116,
+      "hand_glyph": "assets/glyphs/book/116.png"
     },
     {
       "id": "A3",
@@ -146,7 +148,8 @@
       "glyph_image": "assets/glyphs/peiyou/zhongzhiN.jpg",
       "etymology": "The third or “leading” finger of the hand.",
       "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm",
-      "book_no": 117
+      "book_no": 117,
+      "hand_glyph": "assets/glyphs/book/117.png"
     },
     {
       "id": "A4",
@@ -166,7 +169,8 @@
       "glyph_image": "assets/glyphs/peiyou/mingzhiN.jpg",
       "etymology": "The ring finger; its name comes from Mencius’s “no-name finger” (wú-míng zhǐ), the nameless finger.",
       "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm",
-      "book_no": 118
+      "book_no": 118,
+      "hand_glyph": "assets/glyphs/book/118.png"
     },
     {
       "id": "A5",
@@ -186,7 +190,8 @@
       "glyph_image": "assets/glyphs/peiyou/guiN.jpg",
       "etymology": "A posture in which both joints of the ring finger bend so the last digit “kneels” down onto the string.",
       "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm",
-      "book_no": 119
+      "book_no": 119,
+      "hand_glyph": "assets/glyphs/book/119.png"
     },
     {
       "id": "B1",
@@ -253,7 +258,8 @@
       },
       "etymology": "Index finger sounding inward, using half fingernail and half flesh — strike heavy, enter light.",
       "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm",
-      "book_no": 55
+      "book_no": 55,
+      "hand_glyph": "assets/glyphs/book/55.png"
     },
     {
       "id": "B2",
@@ -305,7 +311,8 @@
       },
       "etymology": "Index finger outward; the finger hangs and falls to produce a strong, clear tone.",
       "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm",
-      "book_no": 56
+      "book_no": 56,
+      "hand_glyph": "assets/glyphs/book/56.png"
     },
     {
       "id": "B3",
@@ -372,7 +379,8 @@
       },
       "etymology": "Middle finger inward, striking straight (not brushing); the last joint must fall past and under the thumbnail.",
       "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v47/v47.htm",
-      "book_no": 57
+      "book_no": 57,
+      "hand_glyph": "assets/glyphs/book/57.png"
     },
     {
       "id": "B4",
@@ -424,7 +432,8 @@
       },
       "etymology": "Middle finger outward (like tiāo); not too deep, or the tone is blocked.",
       "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm",
-      "book_no": 58
+      "book_no": 58,
+      "hand_glyph": "assets/glyphs/book/58.png"
     },
     {
       "id": "B5",
@@ -528,7 +537,8 @@
       },
       "etymology": "Ring finger outward (like tī, but without the thumb beneath); mostly used within gǔn and lún.",
       "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm",
-      "book_no": 62
+      "book_no": 62,
+      "hand_glyph": "assets/glyphs/book/62.png"
     },
     {
       "id": "B7",
@@ -580,7 +590,8 @@
       },
       "etymology": "Thumb inward, toward the body; rarely used. Yan Tianchi and Xu Qingshan historically reversed the senses of bò and tuō.",
       "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm",
-      "book_no": 60
+      "book_no": 60,
+      "hand_glyph": "assets/glyphs/book/60.png"
     },
     {
       "id": "B8",
@@ -632,7 +643,8 @@
       },
       "etymology": "Thumb outward, toward the bridge; etymology “to pull,” used when the reach is too far for the index or middle fingers.",
       "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm",
-      "book_no": 59
+      "book_no": 59,
+      "hand_glyph": "assets/glyphs/book/59.png"
     },
     {
       "id": "B9",
@@ -695,7 +707,8 @@
       },
       "etymology": "Literally “to pinch”: two strings sounded at once with gōu+tiāo. Earliest (You Lan, Tang): the ring finger and thumb in unison.",
       "etymology_source": "https://silkqin.com/02qnpu/01yl/wusilan.htm",
-      "book_no": 94
+      "book_no": 94,
+      "hand_glyph": "assets/glyphs/book/94.png"
     },
     {
       "id": "B11",
@@ -751,7 +764,8 @@
       },
       "etymology": "Three successive sounds on a string with zhāi, tī, tiāo in sequence; the bending knuckles line up close together.",
       "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm",
-      "book_no": 74
+      "book_no": 74,
+      "hand_glyph": "assets/glyphs/book/74.png"
     },
     {
       "id": "B12",
@@ -793,7 +807,8 @@
       },
       "etymology": "Two sounds using only zhāi and tī — the lún method with the index finger left out.",
       "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v47/v47.htm",
-      "book_no": 75
+      "book_no": 75,
+      "hand_glyph": "assets/glyphs/book/75.png"
     },
     {
       "id": "B14",
@@ -858,7 +873,8 @@
         ],
         "hand": "R"
       },
-      "book_no": 73
+      "book_no": 73,
+      "hand_glyph": "assets/glyphs/book/73.png"
     },
     {
       "id": "B15",
@@ -913,7 +929,8 @@
         ],
         "hand": "R"
       },
-      "book_no": 81
+      "book_no": 81,
+      "hand_glyph": "assets/glyphs/book/81.png"
     },
     {
       "id": "B16",
@@ -953,7 +970,8 @@
         ],
         "hand": "R"
       },
-      "book_no": 82
+      "book_no": 82,
+      "hand_glyph": "assets/glyphs/book/82.png"
     },
     {
       "id": "B17",
@@ -1036,7 +1054,8 @@
         ],
         "hand": "R"
       },
-      "book_no": 70
+      "book_no": 70,
+      "hand_glyph": "assets/glyphs/book/70.png"
     },
     {
       "id": "B19",
@@ -1074,7 +1093,8 @@
       ],
       "etymology": "First of the bō-là (潑刺) pair: three joined fingers sweep down-left across the strings, likened to a fish slapping its tail.",
       "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm",
-      "book_no": 84
+      "book_no": 84,
+      "hand_glyph": "assets/glyphs/book/84.png"
     },
     {
       "id": "B20",
@@ -1112,7 +1132,8 @@
       ],
       "etymology": "Second of the bō-là pair: three fingers brush up-right, “like the tearing of silk.”",
       "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm",
-      "book_no": 85
+      "book_no": 85,
+      "hand_glyph": "assets/glyphs/book/85.png"
     },
     {
       "id": "B21",
@@ -1154,7 +1175,8 @@
       ],
       "etymology": "Etymology “to roll”: continuous rolling with the ring finger doing zhāi from string 7 toward 1; also called lín (臨), often with harmonics.",
       "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm",
-      "book_no": 105
+      "book_no": 105,
+      "hand_glyph": "assets/glyphs/book/105.png"
     },
     {
       "id": "B22",
@@ -1191,7 +1213,8 @@
       ],
       "etymology": "Fú (沸): continuous mǒ swept across the strings — smooth and flowing, never explosive; the complement of gǔn, together 滾拂.",
       "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm",
-      "book_no": 106
+      "book_no": 106,
+      "hand_glyph": "assets/glyphs/book/106.png"
     },
     {
       "id": "C1",
@@ -1265,7 +1288,8 @@
           }
         ]
       },
-      "book_no": 122
+      "book_no": 122,
+      "hand_glyph": "assets/glyphs/book/122.png"
     },
     {
       "id": "C2",
@@ -1345,7 +1369,8 @@
           }
         ]
       },
-      "book_no": 138
+      "book_no": 138,
+      "hand_glyph": "assets/glyphs/book/138.png"
     },
     {
       "id": "C3",
@@ -1398,7 +1423,8 @@
           }
         ]
       },
-      "book_no": 120
+      "book_no": 120,
+      "hand_glyph": "assets/glyphs/book/120.png"
     },
     {
       "id": "C4",
@@ -1451,7 +1477,8 @@
           }
         ]
       },
-      "book_no": 121
+      "book_no": 121,
+      "hand_glyph": "assets/glyphs/book/121.png"
     },
     {
       "id": "C5",
@@ -1513,7 +1540,8 @@
           }
         ]
       },
-      "book_no": 155
+      "book_no": 155,
+      "hand_glyph": "assets/glyphs/book/155.png"
     },
     {
       "id": "C6",
@@ -1575,7 +1603,8 @@
           }
         ]
       },
-      "book_no": 156
+      "book_no": 156,
+      "hand_glyph": "assets/glyphs/book/156.png"
     },
     {
       "id": "D1",
@@ -1603,7 +1632,8 @@
           }
         ]
       },
-      "book_no": 123
+      "book_no": 123,
+      "hand_glyph": "assets/glyphs/book/123.png"
     },
     {
       "id": "D2",
@@ -1631,7 +1661,8 @@
           }
         ]
       },
-      "book_no": 127
+      "book_no": 127,
+      "hand_glyph": "assets/glyphs/book/127.png"
     },
     {
       "id": "D3",
@@ -1658,7 +1689,8 @@
           }
         ]
       },
-      "book_no": 124
+      "book_no": 124,
+      "hand_glyph": "assets/glyphs/book/124.png"
     },
     {
       "id": "D4",
@@ -1686,7 +1718,8 @@
           }
         ]
       },
-      "book_no": 128
+      "book_no": 128,
+      "hand_glyph": "assets/glyphs/book/128.png"
     },
     {
       "id": "D5",
@@ -1714,7 +1747,8 @@
           }
         ]
       },
-      "book_no": 136
+      "book_no": 136,
+      "hand_glyph": "assets/glyphs/book/136.png"
     },
     {
       "id": "D6",
@@ -1740,7 +1774,8 @@
           }
         ]
       },
-      "book_no": 133
+      "book_no": 133,
+      "hand_glyph": "assets/glyphs/book/133.png"
     },
     {
       "id": "D7",
@@ -1766,7 +1801,8 @@
           }
         ]
       },
-      "book_no": 139
+      "book_no": 139,
+      "hand_glyph": "assets/glyphs/book/139.png"
     },
     {
       "id": "D8",
@@ -1794,7 +1830,8 @@
           }
         ]
       },
-      "book_no": 145
+      "book_no": 145,
+      "hand_glyph": "assets/glyphs/book/145.png"
     },
     {
       "id": "D9",
@@ -1822,7 +1859,8 @@
           }
         ]
       },
-      "book_no": 143
+      "book_no": 143,
+      "hand_glyph": "assets/glyphs/book/143.png"
     },
     {
       "id": "D10",
@@ -1848,7 +1886,8 @@
           }
         ]
       },
-      "book_no": 142
+      "book_no": 142,
+      "hand_glyph": "assets/glyphs/book/142.png"
     },
     {
       "id": "D11",
@@ -1875,7 +1914,8 @@
           }
         ]
       },
-      "book_no": 147
+      "book_no": 147,
+      "hand_glyph": "assets/glyphs/book/147.png"
     },
     {
       "id": "E1",
@@ -1923,7 +1963,8 @@
           }
         ]
       },
-      "book_no": 160
+      "book_no": 160,
+      "hand_glyph": "assets/glyphs/book/160.png"
     },
     {
       "id": "E2",
@@ -2036,7 +2077,8 @@
           }
         ]
       },
-      "book_no": 149
+      "book_no": 149,
+      "hand_glyph": "assets/glyphs/book/149.png"
     },
     {
       "id": "E4",
@@ -2090,7 +2132,8 @@
           }
         ]
       },
-      "book_no": 150
+      "book_no": 150,
+      "hand_glyph": "assets/glyphs/book/150.png"
     },
     {
       "id": "E5",
@@ -2140,7 +2183,8 @@
           }
         ]
       },
-      "book_no": 174
+      "book_no": 174,
+      "hand_glyph": "assets/glyphs/book/174.png"
     },
     {
       "id": "E6",
@@ -2188,7 +2232,8 @@
           }
         ]
       },
-      "book_no": 152
+      "book_no": 152,
+      "hand_glyph": "assets/glyphs/book/152.png"
     },
     {
       "id": "E7",
@@ -2239,7 +2284,8 @@
           }
         ]
       },
-      "book_no": 154
+      "book_no": 154,
+      "hand_glyph": "assets/glyphs/book/154.png"
     },
     {
       "id": "E8",
@@ -2292,7 +2338,8 @@
           }
         ]
       },
-      "book_no": 153
+      "book_no": 153,
+      "hand_glyph": "assets/glyphs/book/153.png"
     },
     {
       "id": "E9",
@@ -2350,7 +2397,8 @@
           }
         ]
       },
-      "book_no": 161
+      "book_no": 161,
+      "hand_glyph": "assets/glyphs/book/161.png"
     },
     {
       "id": "E10",
@@ -2393,7 +2441,8 @@
           }
         ]
       },
-      "book_no": 168
+      "book_no": 168,
+      "hand_glyph": "assets/glyphs/book/168.png"
     },
     {
       "id": "F1",
@@ -2442,7 +2491,8 @@
       ],
       "etymology": "The left thumb and ring finger are placed on the string, then the thumb hooks upward to sound it (a left-hand pluck).",
       "etymology_source": "https://silkqin.com/02qnpu/01yl/wusilan.htm",
-      "book_no": 169
+      "book_no": 169,
+      "hand_glyph": "assets/glyphs/book/169.png"
     },
     {
       "id": "F2",
@@ -2472,7 +2522,8 @@
       ],
       "etymology": "“Claw-pull”: the thumb pulls off at the playing position to sound the open string.",
       "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm",
-      "book_no": 170
+      "book_no": 170,
+      "hand_glyph": "assets/glyphs/book/170.png"
     },
     {
       "id": "F3",
@@ -2520,7 +2571,8 @@
       ],
       "etymology": "“Lead-pull”: the ring finger takes the string and pulls off for one open-string sound.",
       "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm",
-      "book_no": 171
+      "book_no": 171,
+      "hand_glyph": "assets/glyphs/book/171.png"
     },
     {
       "id": "F4",
@@ -2568,7 +2620,8 @@
       ],
       "etymology": "“Cover”: a left finger presses a string to sound it without a right-hand pluck — thumb, middle or ring quickly striking the string onto the face.",
       "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm",
-      "book_no": 172
+      "book_no": 172,
+      "hand_glyph": "assets/glyphs/book/172.png"
     },
     {
       "id": "F5",
@@ -2605,7 +2658,8 @@
       ],
       "etymology": "“Empty cover”: a yǎn made when the string has not been plucked first — the same motion as yǎn.",
       "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm",
-      "book_no": 173
+      "book_no": 173,
+      "hand_glyph": "assets/glyphs/book/173.png"
     },
     {
       "id": "F6",
@@ -2642,7 +2696,8 @@
       ],
       "etymology": "“Push-out”: only the middle finger, only on string 1 — the last two digits straighten and push the string out, releasing it to sound.",
       "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm",
-      "book_no": 175
+      "book_no": 175,
+      "hand_glyph": "assets/glyphs/book/175.png"
     },
     {
       "id": "F7",
@@ -2696,7 +2751,8 @@
           }
         ]
       },
-      "book_no": 165
+      "book_no": 165,
+      "hand_glyph": "assets/glyphs/book/165.png"
     },
     {
       "id": "F8",
@@ -2750,7 +2806,8 @@
           }
         ]
       },
-      "book_no": 167
+      "book_no": 167,
+      "hand_glyph": "assets/glyphs/book/167.png"
     },
     {
       "id": "F9",
@@ -2790,7 +2847,8 @@
           }
         ]
       },
-      "book_no": 162
+      "book_no": 162,
+      "hand_glyph": "assets/glyphs/book/162.png"
     },
     {
       "id": "F10",
@@ -2830,7 +2888,8 @@
           }
         ]
       },
-      "book_no": 163
+      "book_no": 163,
+      "hand_glyph": "assets/glyphs/book/163.png"
     },
     {
       "id": "F11",
@@ -2978,7 +3037,8 @@
         "hand": "R"
       },
       "image": "assets/glyphs/lg_motiao.svg",
-      "book_no": 63
+      "book_no": 63,
+      "hand_glyph": "assets/glyphs/book/63.png"
     },
     {
       "id": "B24",
@@ -3013,7 +3073,8 @@
         "hand": "R"
       },
       "image": "assets/glyphs/lg_gouti.svg",
-      "book_no": 64
+      "book_no": 64,
+      "hand_glyph": "assets/glyphs/book/64.png"
     },
     {
       "id": "B25",
@@ -3095,7 +3156,8 @@
         ],
         "hand": "R"
       },
-      "book_no": 67
+      "book_no": 67,
+      "hand_glyph": "assets/glyphs/book/67.png"
     },
     {
       "id": "B27",
@@ -3139,7 +3201,8 @@
         ],
         "hand": "R"
       },
-      "book_no": 71
+      "book_no": 71,
+      "hand_glyph": "assets/glyphs/book/71.png"
     },
     {
       "id": "B28",
@@ -3191,7 +3254,8 @@
         ],
         "hand": "R"
       },
-      "book_no": 72
+      "book_no": 72,
+      "hand_glyph": "assets/glyphs/book/72.png"
     },
     {
       "id": "B29",
@@ -3226,7 +3290,8 @@
         ],
         "hand": "R"
       },
-      "book_no": 77
+      "book_no": 77,
+      "hand_glyph": "assets/glyphs/book/77.png"
     },
     {
       "id": "B30",
@@ -3265,7 +3330,8 @@
       },
       "etymology": "Double-play, also called gǔ (鼓): two sounds on one or two strings using tī then tiāo.",
       "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm",
-      "book_no": 79
+      "book_no": 79,
+      "hand_glyph": "assets/glyphs/book/79.png"
     },
     {
       "id": "B31",
@@ -3291,7 +3357,8 @@
       "etymology": "Bō-là / pō-cì (潑刺): pō (three joined fingers, down-left) then cì (reversed, up-right) — likened to a wandering fish slapping its tail.",
       "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm",
       "image": "assets/glyphs/xl_bola.svg",
-      "book_no": 86
+      "book_no": 86,
+      "hand_glyph": "assets/glyphs/book/86.png"
     },
     {
       "id": "B32",
@@ -3316,7 +3383,8 @@
       ],
       "etymology": "An abrupt closing sound: the palm covers the strings between hui 4 and 5, a clipped sound like tearing silk; not used near hui 1.",
       "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm",
-      "book_no": 88
+      "book_no": 88,
+      "hand_glyph": "assets/glyphs/book/88.png"
     },
     {
       "id": "B33",
@@ -3361,7 +3429,8 @@
         "hand": "R"
       },
       "image": "assets/glyphs/xl_dacuo.svg",
-      "book_no": 95
+      "book_no": 95,
+      "hand_glyph": "assets/glyphs/book/95.png"
     },
     {
       "id": "B34",
@@ -3408,7 +3477,8 @@
       "etymology": "Reversed cuō: where cuō uses gōu+tiāo, the reverse uses mǒ+tī — one sound from two strings.",
       "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm",
       "image": "assets/glyphs/xl_fancuo.svg",
-      "book_no": 96
+      "book_no": 96,
+      "hand_glyph": "assets/glyphs/book/96.png"
     },
     {
       "id": "B35",
@@ -3463,7 +3533,8 @@
         ],
         "hand": "R"
       },
-      "book_no": 100
+      "book_no": 100,
+      "hand_glyph": "assets/glyphs/book/100.png"
     },
     {
       "id": "B36",
@@ -3489,7 +3560,8 @@
       "etymology": "Index finger connecting tiāo across several adjacent strings; also called dù (度).",
       "etymology_source": "https://silkqin.com/02qnpu/05tydq/ty5c.htm",
       "image": "assets/glyphs/lg_li.svg",
-      "book_no": 101
+      "book_no": 101,
+      "hand_glyph": "assets/glyphs/book/101.png"
     },
     {
       "id": "B37",
@@ -3521,7 +3593,8 @@
       ],
       "etymology": "Gǔn-fú (滾沸): gǔn circles inside-out, then fú circles out and back inside — one continuous circular figure.",
       "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm",
-      "book_no": 107
+      "book_no": 107,
+      "hand_glyph": "assets/glyphs/book/107.png"
     },
     {
       "id": "B38",
@@ -3573,7 +3646,8 @@
       ],
       "etymology": "Tāo-cuō-sān-shēng (搯撮三聲): eight sounds combining left-hand tāo with right-hand cuō (three tāo, two cuō), each tāo carrying an implicit hammer-on.",
       "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v44/v44.htm",
-      "book_no": 110
+      "book_no": 110,
+      "hand_glyph": "assets/glyphs/book/110.png"
     },
     {
       "id": "F12",
@@ -3605,7 +3679,8 @@
       ],
       "etymology": "“Response-harmonize”: after pressing and playing, the finger moves up or down so its sound responds to an open string played by the right hand.",
       "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm",
-      "book_no": 182
+      "book_no": 182,
+      "hand_glyph": "assets/glyphs/book/182.png"
     },
     {
       "id": "F13",
@@ -3642,7 +3717,8 @@
       ],
       "etymology": "“Same-sound”: two strings sounded in different ways are aligned so closely they read as a single sound.",
       "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm",
-      "book_no": 180
+      "book_no": 180,
+      "hand_glyph": "assets/glyphs/book/180.png"
     },
     {
       "id": "F14",
@@ -3662,7 +3738,8 @@
       ],
       "etymology": "“Release-harmonize”: the ring finger pulls off for a sound, then quickly presses a second string for the right hand, the two harmonizing as one.",
       "etymology_source": "https://web.cecs.pdx.edu/~jrb/chin/v46/v46.htm",
-      "book_no": 178
+      "book_no": 178,
+      "hand_glyph": "assets/glyphs/book/178.png"
     },
     {
       "id": "D12",
@@ -3693,7 +3770,8 @@
           }
         ]
       },
-      "book_no": 130
+      "book_no": 130,
+      "hand_glyph": "assets/glyphs/book/130.png"
     },
     {
       "id": "D13",
@@ -3724,7 +3802,8 @@
           }
         ]
       },
-      "book_no": 131
+      "book_no": 131,
+      "hand_glyph": "assets/glyphs/book/131.png"
     },
     {
       "id": "D14",
@@ -3755,7 +3834,8 @@
           }
         ]
       },
-      "book_no": 135
+      "book_no": 135,
+      "hand_glyph": "assets/glyphs/book/135.png"
     },
     {
       "id": "D15",
@@ -3786,7 +3866,8 @@
           }
         ]
       },
-      "book_no": 137
+      "book_no": 137,
+      "hand_glyph": "assets/glyphs/book/137.png"
     },
     {
       "id": "D16",
@@ -3817,7 +3898,8 @@
           }
         ]
       },
-      "book_no": 144
+      "book_no": 144,
+      "hand_glyph": "assets/glyphs/book/144.png"
     },
     {
       "id": "F15",
@@ -3860,7 +3942,632 @@
           "label": "builds on"
         }
       ],
-      "book_no": 186
+      "book_no": 186,
+      "hand_glyph": "assets/glyphs/book/186.png"
+    },
+    {
+      "id": "B41",
+      "category": "right-stroke-compound",
+      "hand": "right",
+      "name_hanzi": "托劈",
+      "name_pinyin": "tuō pī",
+      "jianzipu_glyph": "托劈",
+      "instruction_text": "RH thumb away then in",
+      "book_no": 65,
+      "hand_glyph": "assets/glyphs/book/65.png",
+      "source_url": [],
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+    },
+    {
+      "id": "B42",
+      "category": "right-stroke-compound",
+      "hand": "right",
+      "name_hanzi": "打摘",
+      "name_pinyin": "dǎ zhāi",
+      "jianzipu_glyph": "打摘",
+      "instruction_text": "RH ring in then away",
+      "book_no": 66,
+      "hand_glyph": "assets/glyphs/book/66.png",
+      "source_url": [],
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+    },
+    {
+      "id": "B43",
+      "category": "right-stroke-compound",
+      "hand": "right",
+      "name_hanzi": "反涓",
+      "name_pinyin": "fǎn juān",
+      "jianzipu_glyph": "反涓",
+      "instruction_text": "Opposite of dié juān",
+      "book_no": 68,
+      "hand_glyph": "assets/glyphs/book/68.png",
+      "source_url": [],
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+    },
+    {
+      "id": "B44",
+      "category": "right-stroke-compound",
+      "hand": "right",
+      "name_hanzi": "半涓",
+      "name_pinyin": "bàn juān",
+      "jianzipu_glyph": "半涓",
+      "instruction_text": "dié juān, 2nd note lighter",
+      "book_no": 69,
+      "hand_glyph": "assets/glyphs/book/69.png",
+      "source_url": [],
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+    },
+    {
+      "id": "B45",
+      "category": "right-stroke-compound",
+      "hand": "right",
+      "name_hanzi": "倒輪",
+      "name_pinyin": "dào lún",
+      "jianzipu_glyph": "倒輪",
+      "instruction_text": "Index-middle-ring roll in",
+      "book_no": 76,
+      "hand_glyph": "assets/glyphs/book/76.png",
+      "source_url": [],
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+    },
+    {
+      "id": "B46",
+      "category": "right-stroke-compound",
+      "hand": "right",
+      "name_hanzi": "彈",
+      "name_pinyin": "tán",
+      "jianzipu_glyph": "彈",
+      "instruction_text": "tiāo two strings as one",
+      "book_no": 78,
+      "hand_glyph": "assets/glyphs/book/78.png",
+      "source_url": [],
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+    },
+    {
+      "id": "B47",
+      "category": "right-stroke-compound",
+      "hand": "right",
+      "name_hanzi": "三彈",
+      "name_pinyin": "sān tán",
+      "jianzipu_glyph": "三彈",
+      "instruction_text": "Three snapped strokes out",
+      "book_no": 80,
+      "hand_glyph": "assets/glyphs/book/80.png",
+      "source_url": [],
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+    },
+    {
+      "id": "B48",
+      "category": "right-stroke-compound",
+      "hand": "right",
+      "name_hanzi": "圓摟",
+      "name_pinyin": "yuán lóu",
+      "jianzipu_glyph": "圓摟",
+      "instruction_text": "Index+middle pluck two together",
+      "book_no": 83,
+      "hand_glyph": "assets/glyphs/book/83.png",
+      "source_url": [],
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+    },
+    {
+      "id": "B49",
+      "category": "right-stroke-compound",
+      "hand": "right",
+      "name_hanzi": "摘撥剌",
+      "name_pinyin": "zhāi bō là",
+      "jianzipu_glyph": "摘撥剌",
+      "instruction_text": "Ring plucks first, then bō là",
+      "book_no": 87,
+      "hand_glyph": "assets/glyphs/book/87.png",
+      "source_url": [],
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+    },
+    {
+      "id": "B50",
+      "category": "right-stroke-compound",
+      "hand": "right",
+      "name_hanzi": "無聲",
+      "name_pinyin": "wúshēng",
+      "jianzipu_glyph": "無聲",
+      "instruction_text": "Same as fú",
+      "book_no": 89,
+      "hand_glyph": "assets/glyphs/book/89.png",
+      "source_url": [],
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+    },
+    {
+      "id": "B51",
+      "category": "right-stroke-compound",
+      "hand": "right",
+      "name_hanzi": "拍殺",
+      "name_pinyin": "pāi shā",
+      "jianzipu_glyph": "拍殺",
+      "instruction_text": "After bō là then fú",
+      "book_no": 90,
+      "hand_glyph": "assets/glyphs/book/90.png",
+      "source_url": [],
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+    },
+    {
+      "id": "B52",
+      "category": "right-stroke-compound",
+      "hand": "right",
+      "name_hanzi": "截剌",
+      "name_pinyin": "jié là",
+      "jianzipu_glyph": "截剌",
+      "instruction_text": "Same as pāi shā",
+      "book_no": 91,
+      "hand_glyph": "assets/glyphs/book/91.png",
+      "source_url": [],
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+    },
+    {
+      "id": "B53",
+      "category": "right-stroke-compound",
+      "hand": "right",
+      "name_hanzi": "挫",
+      "name_pinyin": "cuò",
+      "jianzipu_glyph": "挫",
+      "instruction_text": "Middle then index quickly",
+      "book_no": 92,
+      "hand_glyph": "assets/glyphs/book/92.png",
+      "source_url": [],
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+    },
+    {
+      "id": "B54",
+      "category": "right-stroke-compound",
+      "hand": "right",
+      "name_hanzi": "鼓",
+      "name_pinyin": "gǔ",
+      "jianzipu_glyph": "鼓",
+      "instruction_text": "Play shuāng tán strongly",
+      "book_no": 93,
+      "hand_glyph": "assets/glyphs/book/93.png",
+      "source_url": [],
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+    },
+    {
+      "id": "B55",
+      "category": "right-stroke-compound",
+      "hand": "right",
+      "name_hanzi": "掃",
+      "name_pinyin": "sǎo",
+      "jianzipu_glyph": "掃",
+      "instruction_text": "Strike two pressed + one open",
+      "book_no": 97,
+      "hand_glyph": "assets/glyphs/book/97.png",
+      "source_url": [],
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+    },
+    {
+      "id": "B56",
+      "category": "right-stroke-compound",
+      "hand": "right",
+      "name_hanzi": "仰托",
+      "name_pinyin": "yǎng tuō",
+      "jianzipu_glyph": "仰托",
+      "instruction_text": "Thumb pulls string up (slap)",
+      "book_no": 98,
+      "hand_glyph": "assets/glyphs/book/98.png",
+      "source_url": [],
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+    },
+    {
+      "id": "B57",
+      "category": "right-stroke-compound",
+      "hand": "right",
+      "name_hanzi": "念",
+      "name_pinyin": "niàn",
+      "jianzipu_glyph": "念",
+      "instruction_text": "Thumb+index pull string up (slap)",
+      "book_no": 99,
+      "hand_glyph": "assets/glyphs/book/99.png",
+      "source_url": [],
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+    },
+    {
+      "id": "B58",
+      "category": "right-stroke-compound",
+      "hand": "right",
+      "name_hanzi": "渡",
+      "name_pinyin": "dù",
+      "jianzipu_glyph": "渡",
+      "instruction_text": "Like lì but slower",
+      "book_no": 102,
+      "hand_glyph": "assets/glyphs/book/102.png",
+      "source_url": [],
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+    },
+    {
+      "id": "B59",
+      "category": "right-stroke-compound",
+      "hand": "right",
+      "name_hanzi": "臨",
+      "name_pinyin": "lín",
+      "jianzipu_glyph": "臨",
+      "instruction_text": "lì 7th→2nd string (harmonics)",
+      "book_no": 103,
+      "hand_glyph": "assets/glyphs/book/103.png",
+      "source_url": [],
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+    },
+    {
+      "id": "B60",
+      "category": "right-stroke-compound",
+      "hand": "right",
+      "name_hanzi": "雷",
+      "name_pinyin": "léi",
+      "jianzipu_glyph": "雷",
+      "instruction_text": "lì or gǔn slowly, staccato",
+      "book_no": 104,
+      "hand_glyph": "assets/glyphs/book/104.png",
+      "source_url": [],
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+    },
+    {
+      "id": "B61",
+      "category": "right-stroke-compound",
+      "hand": "right",
+      "name_hanzi": "轉圜",
+      "name_pinyin": "zhuàn yuán",
+      "jianzipu_glyph": "轉圜",
+      "instruction_text": "Play gǔn fú continuously",
+      "book_no": 108,
+      "hand_glyph": "assets/glyphs/book/108.png",
+      "source_url": [],
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+    },
+    {
+      "id": "B62",
+      "category": "right-stroke-compound",
+      "hand": "right",
+      "name_hanzi": "插撮",
+      "name_pinyin": "qiā cuō",
+      "jianzipu_glyph": "插撮",
+      "instruction_text": "Ring on marker, thumb strike, cuō",
+      "book_no": 109,
+      "hand_glyph": "assets/glyphs/book/109.png",
+      "source_url": [],
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+    },
+    {
+      "id": "B63",
+      "category": "right-stroke-compound",
+      "hand": "right",
+      "name_hanzi": "插撥剌三聲",
+      "name_pinyin": "qiā bō là sān shēng",
+      "jianzipu_glyph": "插撥剌三聲",
+      "instruction_text": "qiā qǐ, fǎn chā qǐ, bō là",
+      "book_no": 111,
+      "hand_glyph": "assets/glyphs/book/111.png",
+      "source_url": [],
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+    },
+    {
+      "id": "B64",
+      "category": "right-stroke-compound",
+      "hand": "right",
+      "name_hanzi": "小間勾",
+      "name_pinyin": "xiǎo jiān gōu",
+      "jianzipu_glyph": "小間勾",
+      "instruction_text": "Two sounds every other string",
+      "book_no": 112,
+      "hand_glyph": "assets/glyphs/book/112.png",
+      "source_url": [],
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+    },
+    {
+      "id": "B65",
+      "category": "right-stroke-compound",
+      "hand": "right",
+      "name_hanzi": "大間勾",
+      "name_pinyin": "dà jiān gōu",
+      "jianzipu_glyph": "大間勾",
+      "instruction_text": "Two sounds every third string",
+      "book_no": 113,
+      "hand_glyph": "assets/glyphs/book/113.png",
+      "source_url": [],
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+    },
+    {
+      "id": "B66",
+      "category": "right-stroke-compound",
+      "hand": "right",
+      "name_hanzi": "牽",
+      "name_pinyin": "qiān",
+      "jianzipu_glyph": "牽",
+      "instruction_text": "Pull/pluck adjacent strings in",
+      "book_no": 114,
+      "hand_glyph": "assets/glyphs/book/114.png",
+      "source_url": [],
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+    },
+    {
+      "id": "D17",
+      "category": "vibrato-variation",
+      "hand": "left",
+      "name_hanzi": "綽吟",
+      "name_pinyin": "chuò yín",
+      "jianzipu_glyph": "綽吟",
+      "instruction_text": "Up glissando with vibrato",
+      "book_no": 125,
+      "hand_glyph": "assets/glyphs/book/125.png",
+      "source_url": [],
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+    },
+    {
+      "id": "D18",
+      "category": "vibrato-variation",
+      "hand": "left",
+      "name_hanzi": "注吟",
+      "name_pinyin": "zhù yín",
+      "jianzipu_glyph": "注吟",
+      "instruction_text": "Down glissando with vibrato",
+      "book_no": 126,
+      "hand_glyph": "assets/glyphs/book/126.png",
+      "source_url": [],
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+    },
+    {
+      "id": "D19",
+      "category": "vibrato-variation",
+      "hand": "left",
+      "name_hanzi": "蕩吟",
+      "name_pinyin": "dàng yín",
+      "jianzipu_glyph": "蕩吟",
+      "instruction_text": "Slow stressed vibrato",
+      "book_no": 129,
+      "hand_glyph": "assets/glyphs/book/129.png",
+      "source_url": [],
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+    },
+    {
+      "id": "D20",
+      "category": "vibrato-variation",
+      "hand": "left",
+      "name_hanzi": "少吟",
+      "name_pinyin": "shào yín",
+      "jianzipu_glyph": "少吟",
+      "instruction_text": "Vibrato, less finger movement",
+      "book_no": 132,
+      "hand_glyph": "assets/glyphs/book/132.png",
+      "source_url": [],
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+    },
+    {
+      "id": "D21",
+      "category": "vibrato-variation",
+      "hand": "left",
+      "name_hanzi": "緩急吟",
+      "name_pinyin": "huǎn jí yín",
+      "jianzipu_glyph": "緩急吟",
+      "instruction_text": "1st vibrato slower than 2nd",
+      "book_no": 134,
+      "hand_glyph": "assets/glyphs/book/134.png",
+      "source_url": [],
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+    },
+    {
+      "id": "D22",
+      "category": "vibrato-variation",
+      "hand": "left",
+      "name_hanzi": "綽猱",
+      "name_pinyin": "chuò náo",
+      "jianzipu_glyph": "綽猱",
+      "instruction_text": "Up glissando with heavy vibrato",
+      "book_no": 140,
+      "hand_glyph": "assets/glyphs/book/140.png",
+      "source_url": [],
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+    },
+    {
+      "id": "D23",
+      "category": "vibrato-variation",
+      "hand": "left",
+      "name_hanzi": "蕩猱",
+      "name_pinyin": "dàng náo",
+      "jianzipu_glyph": "蕩猱",
+      "instruction_text": "Slow stressed heavy vibrato",
+      "book_no": 141,
+      "hand_glyph": "assets/glyphs/book/141.png",
+      "source_url": [],
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+    },
+    {
+      "id": "D24",
+      "category": "vibrato-variation",
+      "hand": "left",
+      "name_hanzi": "注猱",
+      "name_pinyin": "zhù náo",
+      "jianzipu_glyph": "注猱",
+      "instruction_text": "Down glissando, heavy vibrato",
+      "book_no": 146,
+      "hand_glyph": "assets/glyphs/book/146.png",
+      "source_url": [],
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+    },
+    {
+      "id": "D25",
+      "category": "vibrato-variation",
+      "hand": "left",
+      "name_hanzi": "迎猱",
+      "name_pinyin": "yíng náo",
+      "jianzipu_glyph": "迎猱",
+      "instruction_text": "Articulated subdued bigger vibrato",
+      "book_no": 148,
+      "hand_glyph": "assets/glyphs/book/148.png",
+      "source_url": [],
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+    },
+    {
+      "id": "E11",
+      "category": "slide-strike",
+      "hand": "left",
+      "name_hanzi": "小撞",
+      "name_pinyin": "xiǎo zhuàng",
+      "jianzipu_glyph": "小撞",
+      "instruction_text": "Small-range zhuàng, high register",
+      "book_no": 151,
+      "hand_glyph": "assets/glyphs/book/151.png",
+      "source_url": [],
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+    },
+    {
+      "id": "E12",
+      "category": "slide-strike",
+      "hand": "left",
+      "name_hanzi": "虛上",
+      "name_pinyin": "xū shàng",
+      "jianzipu_glyph": "虛上",
+      "instruction_text": "Slide right and lift off",
+      "book_no": 157,
+      "hand_glyph": "assets/glyphs/book/157.png",
+      "source_url": [],
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+    },
+    {
+      "id": "E13",
+      "category": "slide-strike",
+      "hand": "left",
+      "name_hanzi": "仵上",
+      "name_pinyin": "wǔ shàng",
+      "jianzipu_glyph": "仵上",
+      "instruction_text": "Slide up 3–4 places, lift off",
+      "book_no": 158,
+      "hand_glyph": "assets/glyphs/book/158.png",
+      "source_url": [],
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+    },
+    {
+      "id": "E14",
+      "category": "slide-strike",
+      "hand": "left",
+      "name_hanzi": "注下",
+      "name_pinyin": "zhù xià",
+      "jianzipu_glyph": "注下",
+      "instruction_text": "Down glissando with yín/náo",
+      "book_no": 159,
+      "hand_glyph": "assets/glyphs/book/159.png",
+      "source_url": [],
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+    },
+    {
+      "id": "F16",
+      "category": "left-pluck",
+      "hand": "left",
+      "name_hanzi": "復",
+      "name_pinyin": "fù",
+      "jianzipu_glyph": "復",
+      "instruction_text": "Return after jìn or tuì",
+      "book_no": 164,
+      "hand_glyph": "assets/glyphs/book/164.png",
+      "source_url": [],
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+    },
+    {
+      "id": "F17",
+      "category": "left-pluck",
+      "hand": "left",
+      "name_hanzi": "懶進復",
+      "name_pinyin": "lǎn jìn fù",
+      "jianzipu_glyph": "懶進復",
+      "instruction_text": "jìn fù in a subdued manner",
+      "book_no": 166,
+      "hand_glyph": "assets/glyphs/book/166.png",
+      "source_url": [],
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+    },
+    {
+      "id": "F18",
+      "category": "left-pluck",
+      "hand": "left",
+      "name_hanzi": "放",
+      "name_pinyin": "fàng",
+      "jianzipu_glyph": "放",
+      "instruction_text": "LH release without leaving board",
+      "book_no": 176,
+      "hand_glyph": "assets/glyphs/book/176.png",
+      "source_url": [],
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+    },
+    {
+      "id": "F19",
+      "category": "left-pluck",
+      "hand": "left",
+      "name_hanzi": "合",
+      "name_pinyin": "hé",
+      "jianzipu_glyph": "合",
+      "instruction_text": "Two sounds as a chord",
+      "book_no": 177,
+      "hand_glyph": "assets/glyphs/book/177.png",
+      "source_url": [],
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+    },
+    {
+      "id": "F20",
+      "category": "left-pluck",
+      "hand": "left",
+      "name_hanzi": "抓合",
+      "name_pinyin": "zhuā hé",
+      "jianzipu_glyph": "抓合",
+      "instruction_text": "LH thumb lift as ring plays next",
+      "book_no": 179,
+      "hand_glyph": "assets/glyphs/book/179.png",
+      "source_url": [],
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+    },
+    {
+      "id": "F21",
+      "category": "left-pluck",
+      "hand": "left",
+      "name_hanzi": "帶合",
+      "name_pinyin": "dài hé",
+      "jianzipu_glyph": "帶合",
+      "instruction_text": "Same as tóng shēng",
+      "book_no": 181,
+      "hand_glyph": "assets/glyphs/book/181.png",
+      "source_url": [],
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+    },
+    {
+      "id": "F22",
+      "category": "left-pluck",
+      "hand": "left",
+      "name_hanzi": "潛",
+      "name_pinyin": "hǔ",
+      "jianzipu_glyph": "潛",
+      "instruction_text": "Pressed note, wait, slide forward",
+      "book_no": 183,
+      "hand_glyph": "assets/glyphs/book/183.png",
+      "source_url": [],
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+    },
+    {
+      "id": "F23",
+      "category": "left-pluck",
+      "hand": "left",
+      "name_hanzi": "不動",
+      "name_pinyin": "bú dòng",
+      "jianzipu_glyph": "不動",
+      "instruction_text": "LH stays for RH to play later",
+      "book_no": 184,
+      "hand_glyph": "assets/glyphs/book/184.png",
+      "source_url": [],
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
+    },
+    {
+      "id": "F24",
+      "category": "left-pluck",
+      "hand": "left",
+      "name_hanzi": "鈴",
+      "name_pinyin": "líng",
+      "jianzipu_glyph": "鈴",
+      "instruction_text": "LH holds strings, RH gǔn",
+      "book_no": 185,
+      "hand_glyph": "assets/glyphs/book/185.png",
+      "source_url": [],
+      "notes": "From the Wu Family Qin Repertoire (虞山吳氏琴譜) index; not in the primary peiyouqin/silkqin sources."
     }
   ]
 }
