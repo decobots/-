@@ -1,6 +1,6 @@
 /* Shared app state + loaded data. Mutated once at boot, read everywhere. */
 
-export const state = { cat: "all", query: "" };
+export const state = { cat: "all", query: "", set: null }; // set: {name, nums:[int]} or null
 
 export const store = {
   data: null,        // techniques.json

@@ -6,6 +6,7 @@ import { render, bindResultsClicks } from "./modules/render.js";
 import { buildNav } from "./modules/nav.js";
 import { buildSymbolIndex } from "./modules/symbolindex.js";
 import { buildComposer } from "./modules/composer.js";
+import { buildSets } from "./modules/sets.js";
 import { buildResources } from "./modules/resources.js";
 import { escapeHtml } from "./modules/util.js";
 
@@ -15,7 +16,30 @@ function bindControls() {
   var debounce;
   el.search.addEventListener("input", function () {
     clearTimeout(debounce);
-    debounce = setTimeout(function () { state.query = el.search.value; render(); }, 120);
+    debounce = setTimeout(function () {
+      state.query = el.search.value;
+      if (state.set) { state.set = null; document.dispatchEvent(new Event("setschange")); }
+      render();
+    }, 120);
+  });
+}
+
+// Compact mode: hide the Origin (etymology) and Poetic-gesture sections.
+function bindCompact() {
+  var btn = document.getElementById("compactToggle");
+  if (!btn) return;
+  var on = false;
+  try { on = localStorage.getItem("compact") === "1"; } catch (e) {}
+  function apply() {
+    document.body.classList.toggle("compact", on);
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+    btn.classList.toggle("is-on", on);
+  }
+  apply();
+  btn.addEventListener("click", function () {
+    on = !on;
+    try { localStorage.setItem("compact", on ? "1" : "0"); } catch (e) {}
+    apply();
   });
 }
 
@@ -46,9 +70,11 @@ Promise.all([
   buildNav();
   buildSymbolIndex();
   buildComposer();
+  buildSets();
   buildResources();
   bindControls();
   bindToTop();
+  bindCompact();
   bindResultsClicks();
   render();
 }).catch(function (err) {
